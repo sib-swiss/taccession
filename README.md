@@ -18,9 +18,9 @@ master_hostname=$(cat /scratch/cluster/monthly/$USER/master_hostname)
 
 Optimising Spark algorithm
 
-Currently the algorithm takes 6min for 70'000 files in a cluster with 60 cores.
+Currently the algorithm takes 5.1 min for 70'000 files in a cluster with 15nodes x4cores.
 
-The algorithm is divided in 2 stages. Only 2 executors are used, don't know why...
+The algorithm is divided in 2 stages. Only 2 executors are used, don't yet if this is normal...
 
 
 
