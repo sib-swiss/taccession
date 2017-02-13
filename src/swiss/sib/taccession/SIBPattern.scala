@@ -47,6 +47,7 @@ object SIBPattern {
     import sqlContext.implicits._
 
     //Read file and create RDD
+    //Tip 1: don't use wholeTextFiles. Looks like the driver reads all the files before passing the job to the workers.
     val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt")
 
     /*
