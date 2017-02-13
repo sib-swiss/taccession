@@ -19,16 +19,17 @@ object SIBPattern {
     val boolean = testPattern.findFirstIn(s).isDefined
     return boolean
   }
-  
-  def testPattern (testPattern : scala.util.matching.Regex) = {
-  }
-  
+    
   case class TokenMatch(word: String, 
                         publication: String, 
                         line : Integer, 
                         offset: Integer, 
                         length: Integer)
   
+  /**
+   * Search for a list of tokens an retrieve a result with 
+   * word, publication, line number, offset and word length                      
+   */
   def searchTokens(publication: String, content: String) : List[(String, String, Integer, Integer, Integer)]  = {
   
     val regexToExtractFilname = "^file:/(.+/)*(.+)$".r;    
