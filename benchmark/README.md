@@ -39,5 +39,7 @@ $SPARK_HOME/bin/spark-shell --master local[4] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master local[16] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
 
+$SPARK_HOME/bin/spark-shell --master spark:$localhost:7070 -i taccession.scala
+
 $SPARK_HOME/bin/spark-shell --master spark:$cluster_master_200:7070 -i taccession.scala
 ```
