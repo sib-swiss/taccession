@@ -13,3 +13,8 @@ $SPARK_HOME/bin/spark-shell --master spark:$cluster_master_200:7070 -i taccessio
 
 See spreadsheet for results: [Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_7flxM5si8DfLZTMH8ruwFiU5ONX5He062SGxgsla8/edit?usp=sharing)
 
+```shell 
+[Stage 0:=======>                                             (297 + 32) / 2001]
+
+Means we are at Stage 0. There are a total of 2001 tasks to be done. We have done 297 so far. And we are currently doing 32 (this last number should correspond to the number of cores we have).
+```
