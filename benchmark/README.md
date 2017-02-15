@@ -1,6 +1,6 @@
 #Spark investigation / benchmark
 
-This benchmark was run against a sample of 71517 publications taken from [PubMed](ftp://ftp.ncbi.nlm.nih.gov/pub/pmc). The publication names can be found in file_names.txt file.
+This benchmark was run against a sample of 71517 publications (approx 20GB) taken from [PubMed](ftp://ftp.ncbi.nlm.nih.gov/pub/pmc). The publication names can be found in file_names.txt file.
 
 See spreadsheet for detailed results: [Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_7flxM5si8DfLZTMH8ruwFiU5ONX5He062SGxgsla8/edit?usp=sharing)
 
@@ -12,6 +12,9 @@ This result is 11 times faster than running in local mode with 4 cores, where we
 Still, when processing in local mode, we see that each file is processed in 38 ms. 
 In cluster mode each file takes in average 188ms, therefore we surely add a non-negligeable network overhead.
 
+## Distributed files vs local files
+All the tests were run with files on DFS .
+We have tested the overhead of having files in the network in T12, which reduced from 6.8min to 5.6min the processing time.
 
 ## DAG
 
