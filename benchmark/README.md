@@ -4,6 +4,10 @@ This benchmark was run against a sample of 71517 publications (approx 20GB) take
 
 See spreadsheet for detailed results: [Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_7flxM5si8DfLZTMH8ruwFiU5ONX5He062SGxgsla8/edit?usp=sharing)
 
+## Dependencies
+Java 8 (update 112)
+Spark 2.1.0
+
 ## Results
 The best result we achieved with 200 cores was 61 seconds (1.02381 minutes) to process this task.
 This corresponds to process 1164 files / second.
