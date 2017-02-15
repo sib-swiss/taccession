@@ -1,4 +1,6 @@
-#This benchmark was run against a sample of 71K publications taken from PubMed (ftp://ftp.ncbi.nlm.nih.gov/pub/pmc)
+#Spark benchmark
+
+This benchmark was run against a sample of 71K publications taken from PubMed (ftp://ftp.ncbi.nlm.nih.gov/pub/pmc)
 
 See spreadsheet for detailed results: [Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_7flxM5si8DfLZTMH8ruwFiU5ONX5He062SGxgsla8/edit?usp=sharing)
 
