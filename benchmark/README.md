@@ -22,6 +22,9 @@ We have tested the overhead of having files in the network in T12, which reduced
 
 ## DAG
 
+![standalone 64 cores](standalone-64cores.png "Standalone 64 Cores")
+
+
 ## Glossary
 
 ```shell 
