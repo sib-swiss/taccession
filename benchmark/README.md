@@ -11,6 +11,11 @@ $SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master spark:$cluster_master_200:7070 -i taccession.scala
 ```
 
+The best result we achieved with 200 cores was 61 seconds (1.02381 minutes) which corresponds to process 1164 files / second.
+This is 11 times faster than running in local mode with 4 cores, where we reach 11 minutes for the same task. 
+Still, when processing in local mode, we see that each file is processed in 38 ms. 
+In cluster mode each file takes in average 188ms, therefore we surely add a non-negligeable network overhead.
+
 See spreadsheet for results: [Spreadsheet](https://docs.google.com/spreadsheets/d/1Z_7flxM5si8DfLZTMH8ruwFiU5ONX5He062SGxgsla8/edit?usp=sharing)
 
 ```shell 
