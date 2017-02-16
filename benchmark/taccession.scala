@@ -2,20 +2,26 @@
 val start = System.currentTimeMillis();
 
 //Defines the directory where the publications are stored
-val PUBLI_DIR = "/scratch/cluster/monthly/dteixeir/publis/";
+val PUBLI_DIR = "/scratch/local/monthly/dteixeir/publis/";
 
 //Creates a map with several regular expressions
 val patterns = Map(
     "uniprot" -> "[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}".r,
     "string" -> "^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])|([0-9][A-Za-z0-9]{3})$".r,
-    "swisslipid" -> "^SLM:d+$".r,
+    "swisslipid" -> "(?i)SLM:\\d+".r,
     "bgee" -> "^(ENS|FBgn)w+$".r,
     "bgee-organ" -> "^(XAO|ZFA|EHDAA|EMAPA|EV|MA):d+$".r,
     "bgee-stage" -> "^(FBvd|XtroDO|HsapDO|MmusDO):d+$".r,
     "bgee-family" -> "^(ENSFM|ENSGTV:)d+$".r,
-    "nextprot" -> "^NX_w+".r,
-    "mail" -> "isb-sib.chw+$".r //val cellosaurusCVCL = "^wCVCL+$".r
-    //Cellosorus / CALOHA ? SwissRegulon
+    "nextprot" -> "NX_\\w+".r,
+    "mail" -> "[A-Za-z0-9_.+-]*@(?i)(isb-sib\\.ch|sib\\.swiss)".r,
+    "cellosaurus" -> "(?i)CVCL_\\w{4,6}+".r,
+    "hgvs-frameshift" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)([A-Z])([a-z]{2})?fs(?:\\*|Ter)(\\d+)$".r,
+    "hgvs-single-modification" -> "^(\\w+)-([A-Z])([a-z]{2})?(\\d+)$".r,
+    "hgvs-duplication" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?dup$".r,
+    "hgvs-deletion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?del$".r,
+    "hgvs-deletion-insertion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?delins((?:[A-Z\\*]([a-z]{2})?)+)$".r,
+    "hgvs-insertion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)_([A-Z])([a-z]{2})?(\\d+)ins((?:[A-Z\\*]([a-z]{2})?)+)$".r
 )
 
 //Creates a domain class for manipulation and exporting the result.
@@ -58,13 +64,13 @@ val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt", minPartitions)
 //Reads all files
 val df = allFiles.flatMap(searchTokens(_)).toDF()
 
+//Loads result in cache
+df.persist()
+
 val result = df.filter($"entity" !== "string").filter($"entity" !== "uniprot").groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc)
+result.take(10).foreach(println)
 
-val start2 = System.currentTimeMillis();
-
-//Gets the first 10 results
-result.take(10)
+df.filter($"entity".like("hgvs%")).take(10).foreach(println)
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
-println("Finished in " + (System.currentTimeMillis() - start2) / (60 * 1000.0)  + " min")
 
