@@ -80,7 +80,7 @@ df.groupBy($"entity", $"entity").agg(count("*") as "numOccurances").orderBy($"nu
 df.groupBy($"entity", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
 
 //Print for each scenario
-patterns.keys().foreach{ k ->
+patterns.keys.foreach{ k =>
   println("Show top journals for " + k)
   df.filter($"entity" === k).groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
   
