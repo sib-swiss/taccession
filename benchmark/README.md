@@ -38,7 +38,7 @@ The job was lanched as follows:
 
 ```shell
 module add Development/java_jdk/1.8.0_112;
-$SPARK_HOME=/scratch/local/monthly/$USER/spark-hadoop
+SPARK_HOME=/scratch/local/monthly/$USER/spark-hadoop
 
 $SPARK_HOME/bin/spark-shell --master local[4] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master local[16] -i taccession.scala
