@@ -26,11 +26,14 @@ val patterns = Map(
 
 //Creates a domain class for manipulation and exporting the result.
 //A word found in a publication for a certain entity (defined in patterns) at a line in a offset and with a length.
-case class TokenMatch(word: String, publication: String, entity: String, line: Integer, offset: Integer, length: Integer)
+case class TokenMatch(word: String, journal: String, publication: String, entity: String, line: Integer, offset: Integer, length: Integer)
 
 //Function that opens a file, search for the patterns and returns a list of TokenMatch with the results
 def searchTokens(fileName: String): List[TokenMatch] = {
 
+    val journalPattern = "(.+\\/)*(.+)\\/\\S{1,}\\.txt".r
+    val journal = journalPattern.findAllMatchIn(fileName).next().group(2)
+    
     val file = scala.io.Source.fromFile(PUBLI_DIR + fileName);
 
     val result = file.getLines().zipWithIndex.flatMap {
@@ -41,7 +44,7 @@ def searchTokens(fileName: String): List[TokenMatch] = {
             patterns.map {
               case (key, pattern) => {
                 if (pattern.findFirstIn(word).isDefined) {
-                  TokenMatch(word, fileName, key, new Integer(lineNumber + 1), new Integer(offset), new Integer(word.length))
+                  TokenMatch(word, journal, fileName, key, new Integer(lineNumber + 1), new Integer(offset), new Integer(word.length))
                 } else null
               }
             }
@@ -73,4 +76,3 @@ result.take(10).foreach(println)
 df.filter($"entity".like("hgvs%")).take(10).foreach(println)
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
-
