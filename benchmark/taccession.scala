@@ -71,8 +71,25 @@ val df = allFiles.flatMap(searchTokens(_)).toDF()
 df.persist()
 
 val result = df.filter($"entity" !== "string").filter($"entity" !== "uniprot").groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc)
-result.take(10).foreach(println)
 
-df.filter($"entity".like("hgvs%")).take(10).foreach(println)
+
+// Print result by journals
+df.groupBy($"entity", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+
+// Print result by journals (distinct words)
+df.groupBy($"entity", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+
+//Print for each scenario
+patterns.keys().foreach{ k ->
+  println("Show top journals for " + k)
+  df.filter($"entity" === k).groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+  
+  println("Show top words for " + k)
+  df.filter($"entity" === k).groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+
+  println("Show sample for " + k)
+  df.filter($"entity" === k ).take(10).foreach(println)
+
+}
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
