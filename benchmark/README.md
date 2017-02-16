@@ -37,7 +37,9 @@ Means we are at Stage 0. There are a total of 2001 tasks to be done. We have don
 The job was lanched as follows:
 
 ```shell
-SPARK_HOME=
+module add Development/java_jdk/1.8.0_112;
+$SPARK_HOME=/scratch/local/monthly/$USER/spark-hadoop
+
 $SPARK_HOME/bin/spark-shell --master local[4] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master local[16] -i taccession.scala
 $SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
