@@ -54,22 +54,24 @@ df.cache()
 
 println("Dataframe created in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
 
+def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t" + l))}
+
 //Print stats per keywords
 patterns.keys.foreach{ k =>
 
   val entity = df.filter($"entity" === k);
   
   println("\nShow top journals for " + k + " :")
-  entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
-
+  printSample(entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
+  
   println("\nCount distinct words per journal " + k + " :")
-  entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
+  printSample(entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc))
   
   println("\nShow top words for " + k + " :")
-  entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
+  printSample(entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
 
   println("\nShow sample for " + k + " :")
-  entity.take(10).foreach(l => println("\t" + l))
+  printSample(entity)
 
 }
 
