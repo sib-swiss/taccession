@@ -1,7 +1,7 @@
 //Starts the time
 val start = System.currentTimeMillis();
 
-val patterns = scala.io.Source.fromFile("patterns.txt").getLines().filter(l => !l.startsWith("#")).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
+val patterns = scala.io.Source.fromFile("patterns.properties").getLines().filter(l => !l.startsWith("#")).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
 
 //Defines the directory where the publications are stored
 val PUBLI_DIR = "/scratch/local/monthly/dteixeir/publis/";
