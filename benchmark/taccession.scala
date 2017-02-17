@@ -1,5 +1,6 @@
 //Starts the time
 val start = System.currentTimeMillis();
+val fw = new java.io.FileWriter("results.tsv", true)
 
 val unsortedPatterns = scala.io.Source.fromFile("patterns.properties").getLines().filter(l => (!l.startsWith("#") && !l.isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
 val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
@@ -54,7 +55,7 @@ val df = allFiles.flatMap(searchTokens(_)).toDF()
 df.cache()
 
 //Function to define a way to print dataframe results
-def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + l.mkString("\t")))}
+def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => val content = "\t\t" + l.mkString("\t"); println(content); fw.write(content))}
 
 //Print stats per keywords
 patterns.keys.foreach{ k =>
