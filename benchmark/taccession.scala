@@ -81,14 +81,15 @@ df.groupBy($"entity", $"entity").agg(countDistinct("word") as "numOccurances").o
 
 //Print for each scenario
 patterns.keys.foreach{ k =>
-  println("Show top journals for " + k)
+
+  println("\nShow top journals for " + k + " :")
   df.filter($"entity" === k).groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
   
-  println("Show top words for " + k)
+  println("\nShow top words for " + k + " :")
   df.filter($"entity" === k).groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
 
-  println("Show sample for " + k)
-  df.filter($"entity" === k ).take(10).foreach(println)
+  println("\nShow sample for " + k + " :")
+  df.filter($"entity" === k ).take(10).foreach(_ => println(_))
 
 }
 
