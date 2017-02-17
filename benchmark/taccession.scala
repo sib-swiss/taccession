@@ -1,28 +1,10 @@
 //Starts the time
 val start = System.currentTimeMillis();
 
+val patterns = scala.io.Source.fromFile("patterns.txt").getLines().map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
+
 //Defines the directory where the publications are stored
 val PUBLI_DIR = "/scratch/local/monthly/dteixeir/publis/";
-
-//Creates a map with several regular expressions
-val patterns = Map(
-    "uniprot" -> "[OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}".r,
-    "string" -> "^([A-N,R-Z][0-9][A-Z][A-Z, 0-9][A-Z, 0-9][0-9])|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])|([0-9][A-Za-z0-9]{3})$".r,
-    "swisslipid" -> "(?i)SLM:\\d+".r,
-    "bgee" -> "^(ENS|FBgn)w+$".r,
-    "bgee-organ" -> "^(XAO|ZFA|EHDAA|EMAPA|EV|MA):d+$".r,
-    "bgee-stage" -> "^(FBvd|XtroDO|HsapDO|MmusDO):d+$".r,
-    "bgee-family" -> "^(ENSFM|ENSGTV:)d+$".r,
-    "nextprot" -> "NX_\\w+".r,
-    "mail" -> "[A-Za-z0-9_.+-]*@(?i)(isb-sib\\.ch|sib\\.swiss)".r,
-    "cellosaurus" -> "(?i)CVCL_\\w{4,6}+".r,
-    "hgvs-frameshift" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)([A-Z])([a-z]{2})?fs(?:\\*|Ter)(\\d+)$".r,
-    "hgvs-single-modification" -> "^(\\w+)-([A-Z])([a-z]{2})?(\\d+)$".r,
-    "hgvs-duplication" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?dup$".r,
-    "hgvs-deletion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?del$".r,
-    "hgvs-deletion-insertion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)(?:_([A-Z])([a-z]{2})?(\\d+))?delins((?:[A-Z\\*]([a-z]{2})?)+)$".r,
-    "hgvs-insertion" -> "^p\\.([A-Z])([a-z]{2})?(\\d+)_([A-Z])([a-z]{2})?(\\d+)ins((?:[A-Z\\*]([a-z]{2})?)+)$".r
-)
 
 //Creates a domain class for manipulation and exporting the result.
 //A word found in a publication for a certain entity (defined in patterns) at a line in a offset and with a length.
