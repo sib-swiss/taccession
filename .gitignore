@@ -7,3 +7,5 @@ spark-warehouse
 project/project
 project/target
 target/
+*.log
+metastore_db
