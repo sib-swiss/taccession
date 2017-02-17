@@ -63,23 +63,23 @@ def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(20).foreach(l =
 //Print stats per keywords
 patterns.foreach{ case (key: String, value: scala.util.matching.Regex) => {
 
-    val entity = df.filter($"entity" === k)
+    val entity = df.filter($"entity" === key)
     val cnt = entity.count()
     
-    prt("Found " + cnt + " matches for " + k + " patterns :" + value)
+    prt("Found " + cnt + " matches for " + key + " patterns :" + value)
      
     if(cnt > 0) {
   
-        prt("\n\tShow top 20 journals for " + k + " : (journal, pattern, count)")
+        prt("\n\tShow top 20 journals for " + key + " : (journal, pattern, count)")
         printSample(entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
         
-        prt("\n\tShow top 20 journal where distinct words are counted " + k + " : (journal, pattern, distinct words count)")
+        prt("\n\tShow top 20 journal where distinct words are counted " + key + " : (journal, pattern, distinct words count)")
         printSample(entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc))
         
-        prt("\n\tShow top 20 words for " + k + " : (word, pattern, count)")
+        prt("\n\tShow top 20 words for " + key + " : (word, pattern, count)")
         printSample(entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
       
-        prt("\n\tShow sample for " + k + " : (word, journal, publication, pattern, count, line, offset, length)")
+        prt("\n\tShow sample for " + key + " : (word, journal, publication, pattern, count, line, offset, length)")
         printSample(entity)
   
     }
