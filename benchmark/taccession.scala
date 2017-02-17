@@ -53,7 +53,7 @@ val df = allFiles.flatMap(searchTokens(_)).toDF()
 df.cache()
 
 //Function to define a way to print dataframe results
-def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + r.mkString("\t")))}
+def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + l.mkString("\t")))}
 
 //Print stats per keywords
 patterns.keys.foreach{ k =>
