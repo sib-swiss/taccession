@@ -1,17 +1,20 @@
 #Taccession (Under active development)
 
-Mining SIB accessions in the literature. 
+Text Mining of SIB accessions in the literature. 
 
-#Installation
+## Installation
 * Java 8
-* [Spark](http://spark.apache.org/downloads.html) [spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
+* [Spark](http://spark.apache.org/downloads.html). In this version this bundle was used:[spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
 
-#Run
+## Publications
+* Make sure you have the 70K publications under /scracth/local...
+
+## Run
 ```shell
 $SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
 ```
 
-#Run on a cluster (tried with 200 cores so far)
+## Run on a cluster
 $SPARK_HOME/bin/spark-shell --master spark://$master_hostname:7070 -i taccession.scala
 
 #Results
