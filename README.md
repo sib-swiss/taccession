@@ -1,5 +1,7 @@
 # Taccession 
-This project is under active development.
+
+**Note:** This project is under **active development**.
+
 Text Mining of SIB accessions in the literature. 
 
 ## Installation
