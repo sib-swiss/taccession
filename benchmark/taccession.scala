@@ -40,38 +40,36 @@ def searchTokens(fileName: String): List[TokenMatch] = {
    return result
 }
 
-//Change this value to have different results
+//This parameter can be tune (a benchmark as showed 200 is a good fit)
 val minPartitions = 200;
 
-//Reads a file containing alls files to be parsed
+//Reads paths 
 val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt", minPartitions)
 
-//Reads all files
+//Reads all files (this is distributed among all workers)
 val df = allFiles.flatMap(searchTokens(_)).toDF()
 
 //Loads result in cache
-df.persist()
+df.cache()
 
-val result = df.filter($"entity" !== "string").filter($"entity" !== "uniprot").groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc)
+println("Dataframe created in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
 
-
-// Print result by journals
-df.groupBy($"entity", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
-
-// Print result by journals (distinct words)
-df.groupBy($"entity", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
-
-//Print for each scenario
+//Print stats per keywords
 patterns.keys.foreach{ k =>
 
+  val entity = df.filter($"entity" === k);
+  
   println("\nShow top journals for " + k + " :")
-  df.filter($"entity" === k).groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+  entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
+
+  println("\nCount distinct words per journal " + k + " :")
+  entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
   
   println("\nShow top words for " + k + " :")
-  df.filter($"entity" === k).groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(println)
+  entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc).take(10).foreach(l => println("\t" + l))
 
   println("\nShow sample for " + k + " :")
-  df.filter($"entity" === k ).take(10).foreach(_ => println(_))
+  entity.take(10).foreach(l => println("\t" + l))
 
 }
 
