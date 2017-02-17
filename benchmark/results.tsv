@@ -1,28 +1,29 @@
-Found 34 matches for bgee-keyword :
+Found 34 matches for bgee-keyword patterns :(?i)bgee
 
-	Show top journals for bgee-keyword :
+	Show top 20 journals for bgee-keyword : (journal, pattern, count)
 		Database_(Oxford)	bgee-keyword	22
 		Nucleic_Acids_Res	bgee-keyword	11
 		Environ_Health_Perspect	bgee-keyword	1
 
-	Count distinct words per journal bgee-keyword :
+	Show top 20 journal where distinct words are counted bgee-keyword : (journal, pattern, distinct words count)
 		Database_(Oxford)	bgee-keyword	8
 		Nucleic_Acids_Res	bgee-keyword	5
 		Environ_Health_Perspect	bgee-keyword	1
 
-	Show top words for bgee-keyword :
+	Show top 20 words for bgee-keyword : (word, pattern, count)
 		Bgee	bgee-keyword	17
 		Bgee,	bgee-keyword	5
 		Bgee.	bgee-keyword	3
 		(Bgee	bgee-keyword	2
-		http://bgee.unil.ch/)	bgee-keyword	1
 		Bgee:	bgee-keyword	1
-		http://bgee.unil.ch/bgee/bgee?page=download.	bgee-keyword	1
+		http://bgee.unil.ch/	bgee-keyword	1
+		http://bgee.unil.ch/)	bgee-keyword	1
 		bGEE	bgee-keyword	1
-		(http://bgee.unil.ch/).	bgee-keyword	1
 		http://bgee.unil.ch/?page=documentation#AffyQC).	bgee-keyword	1
+		http://bgee.unil.ch/bgee/bgee?page=download.	bgee-keyword	1
+		(http://bgee.unil.ch/).	bgee-keyword	1
 
-	Show sample for bgee-keyword :
+	Show sample for bgee-keyword : (word, journal, publication, pattern, count, line, offset, length)
 		Bgee,	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	32	8	5
 		http://bgee.unil.ch/)	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	32	21	21
 		Bgee	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	32	23	4
@@ -33,40 +34,50 @@ Found 34 matches for bgee-keyword :
 		Bgee	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	53	85	4
 		Bgee.	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	58	72	5
 		Bgee.	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	59	59	5
+		Bgee	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2012_Jul_28_40(13)_5890-5900.txt	bgee-keyword	86	36	4
+		bGEE	Environ_Health_Perspect	sample70k/Environ_Health_Perspect/Environ_Health_Perspect_2002_Oct_110(10)_A607-A617.txt	bgee-keyword	912	1	4
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	7	68	4
+		http://bgee.unil.ch/	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	10	0	20
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	13	0	4
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	13	43	4
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	13	58	4
+		http://bgee.unil.ch/?page=documentation#AffyQC).	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	15	78	48
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	17	97	4
+		Bgee	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Mar_13_2013_bat010.txt	bgee-keyword	19	0	4
 
  * * * * * * * * * * * * * * 
 
 
-Found 0 matches for bgee-ontology-cio :
+Found 0 matches for bgee-ontology-cio patterns :CIO:\d+
 
  * * * * * * * * * * * * * * 
 
 
-Found 0 matches for bgee-ontology-hom :
+Found 0 matches for bgee-ontology-hom patterns :HOM:\d+
 
  * * * * * * * * * * * * * * 
 
 
-Found 1 matches for cellosaurus :
+Found 1 matches for cellosaurus patterns :(?i)CVCL_\w{1,}+
 
-	Show top journals for cellosaurus :
+	Show top 20 journals for cellosaurus : (journal, pattern, count)
 		eLife	cellosaurus	1
 
-	Count distinct words per journal cellosaurus :
+	Show top 20 journal where distinct words are counted cellosaurus : (journal, pattern, distinct words count)
 		eLife	cellosaurus	1
 
-	Show top words for cellosaurus :
+	Show top 20 words for cellosaurus : (word, pattern, count)
 		(RRID:CVCL_4511)(07062902,	cellosaurus	1
 
-	Show sample for cellosaurus :
+	Show sample for cellosaurus : (word, journal, publication, pattern, count, line, offset, length)
 		(RRID:CVCL_4511)(07062902,	eLife	sample70k/eLife/eLife_5_e16118.txt	cellosaurus	439	2	26
 
  * * * * * * * * * * * * * * 
 
 
-Found 601 matches for expasy-keyword :
+Found 601 matches for expasy-keyword patterns :(?i)expasy
 
-	Show top journals for expasy-keyword :
+	Show top 20 journals for expasy-keyword : (journal, pattern, count)
 		PLoS_One	expasy-keyword	165
 		J_Venom_Anim_Toxins_Incl_Trop_Dis	expasy-keyword	55
 		Front_Plant_Sci	expasy-keyword	25
@@ -77,32 +88,62 @@ Found 601 matches for expasy-keyword :
 		Nucleic_Acids_Res	expasy-keyword	14
 		BMC_Bioinformatics	expasy-keyword	13
 		Drug_Target_Insights	expasy-keyword	13
+		Int_J_Mol_Sci	expasy-keyword	13
+		BMC_Biotechnol	expasy-keyword	12
+		Parasit_Vectors	expasy-keyword	8
+		PLoS_Pathog	expasy-keyword	7
+		PLoS_Comput_Biol	expasy-keyword	7
+		J_Biomed_Biotechnol	expasy-keyword	7
+		Braz_J_Microbiol	expasy-keyword	6
+		Viruses	expasy-keyword	6
+		Front_Microbiol	expasy-keyword	5
+		Biomed_Res_Int	expasy-keyword	5
 
-	Count distinct words per journal expasy-keyword :
+	Show top 20 journal where distinct words are counted expasy-keyword : (journal, pattern, distinct words count)
 		PLoS_One	expasy-keyword	87
 		Front_Plant_Sci	expasy-keyword	19
 		Sci_Rep	expasy-keyword	16
 		BMC_Genomics	expasy-keyword	15
 		Bioinformation	expasy-keyword	14
-		BMC_Plant_Biol	expasy-keyword	11
 		Nucleic_Acids_Res	expasy-keyword	11
+		BMC_Plant_Biol	expasy-keyword	11
 		BMC_Bioinformatics	expasy-keyword	9
 		Int_J_Mol_Sci	expasy-keyword	7
 		Parasit_Vectors	expasy-keyword	7
+		PLoS_Pathog	expasy-keyword	7
+		Drug_Target_Insights	expasy-keyword	6
+		PLoS_Comput_Biol	expasy-keyword	5
+		BMC_Biotechnol	expasy-keyword	5
+		J_Biomed_Biotechnol	expasy-keyword	5
+		J_Exp_Bot	expasy-keyword	5
+		Biomed_Res_Int	expasy-keyword	4
+		Emerg_Infect_Dis	expasy-keyword	4
+		Braz_J_Microbiol	expasy-keyword	4
+		J_Venom_Anim_Toxins_Incl_Trop_Dis	expasy-keyword	4
 
-	Show top words for expasy-keyword :
+	Show top 20 words for expasy-keyword : (word, pattern, count)
 		ExPASy	expasy-keyword	198
 		Expasy	expasy-keyword	32
 		ExPASy:	expasy-keyword	19
 		(http://web.expasy.org/compute_pi/).	expasy-keyword	9
 		(http://web.expasy.org/protparam/).	expasy-keyword	9
-		(http://www.expasy.org).	expasy-keyword	7
 		(http://swissmodel.expasy.org/)	expasy-keyword	7
+		(http://www.expasy.org).	expasy-keyword	7
 		(ExPASy	expasy-keyword	6
-		EXPASY	expasy-keyword	6
 		ExPASy,	expasy-keyword	6
+		EXPASY	expasy-keyword	6
+		http://www.expasy.org/.	expasy-keyword	5
+		ExPASy.	expasy-keyword	5
+		(http://expasy.org/tools/).	expasy-keyword	5
+		(http://swissmodel.expasy.org/).	expasy-keyword	4
+		ExPASY	expasy-keyword	4
+		(http://www.expasy.org/spdbv/)	expasy-keyword	4
+		(http://web.expasy.org)	expasy-keyword	4
+		(ExPASy)	expasy-keyword	4
+		ExPaSy	expasy-keyword	4
+		(http://swissmodel.expasy.org/),	expasy-keyword	3
 
-	Show sample for expasy-keyword :
+	Show sample for expasy-keyword : (word, journal, publication, pattern, count, line, offset, length)
 		ExPASy,	Viruses	sample70k/Viruses/Viruses_2015_Mar_23_7(3)_1454-1473.txt	expasy-keyword	41	50	7
 		ExPASy	Viruses	sample70k/Viruses/Viruses_2015_Mar_23_7(3)_1454-1473.txt	expasy-keyword	203	1	6
 		http://www.expasy.ch/tools/protparam.html	Viruses	sample70k/Viruses/Viruses_2015_Mar_23_7(3)_1454-1473.txt	expasy-keyword	203	5	41
@@ -113,226 +154,38 @@ Found 601 matches for expasy-keyword :
 		(http://www.expasy.ch/tools/protparam.html).	Virol_J	sample70k/Virol_J/Virol_J_2014_Mar_21_11_53.txt	expasy-keyword	89	35	44
 		ExPASy	Vet_Res	sample70k/Vet_Res/Vet_Res_2011_Feb_7_42(1)_28.txt	expasy-keyword	21	253	6
 		http://www.expasy.org	Vet_Res	sample70k/Vet_Res/Vet_Res_2011_Feb_7_42(1)_28.txt	expasy-keyword	222	0	21
+		(http://www.expasy.org/tools/protparam.html)	Tumour_Biol	sample70k/Tumour_Biol/Tumour_Biol_2016_Mar_30_37(9)_11775-11787.txt	expasy-keyword	71	17	44
+		UniProt/ExPASy	Theor_Biol_Med_Model	sample70k/Theor_Biol_Med_Model/Theor_Biol_Med_Model_2014_Jun_6_11_27.txt	expasy-keyword	192	15	14
+		http://expasy.org/tools/[41],	Theor_Biol_Med_Model	sample70k/Theor_Biol_Med_Model/Theor_Biol_Med_Model_2014_Jun_6_11_27.txt	expasy-keyword	192	19	29
+		ExPAsy	Scientifica_(Cairo)	sample70k/Scientifica_(Cairo)/Scientifica_(Cairo)_2016_May_16_2016_3675283.txt	expasy-keyword	34	46	6
+		(http://www.expasy.org/proteomics)	Scientifica_(Cairo)	sample70k/Scientifica_(Cairo)/Scientifica_(Cairo)_2016_May_16_2016_3675283.txt	expasy-keyword	34	49	34
+		(http://www.expasy.org/proteomics).	Scientifica_(Cairo)	sample70k/Scientifica_(Cairo)/Scientifica_(Cairo)_2016_May_16_2016_3675283.txt	expasy-keyword	53	59	35
+		(http://www.expasy.org/proteomics).	Scientifica_(Cairo)	sample70k/Scientifica_(Cairo)/Scientifica_(Cairo)_2016_May_16_2016_3675283.txt	expasy-keyword	63	131	35
+		(http://www.expasy.org/proteomics)	Scientifica_(Cairo)	sample70k/Scientifica_(Cairo)/Scientifica_(Cairo)_2016_May_16_2016_3675283.txt	expasy-keyword	98	0	34
+		(http://expasy.org/prosite/)43	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2011_Jul_1_1_29.txt	expasy-keyword	97	23	30
+		www.expasy.org.	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Jul_10_3_2173.txt	expasy-keyword	179	74	15
 
  * * * * * * * * * * * * * * 
 
 
-Found 183 matches for hgvs-deletion :
+Found 5 matches for nextprot-accession patterns :NX_\w+
 
-	Show top journals for hgvs-deletion :
-		PLoS_One	hgvs-deletion	34
-		Eur_J_Hum_Genet	hgvs-deletion	25
-		Orphanet_J_Rare_Dis	hgvs-deletion	20
-		Mol_Genet_Genomic_Med	hgvs-deletion	20
-		Mol_Vis	hgvs-deletion	14
-		Sci_Rep	hgvs-deletion	13
-		BMC_Res_Notes	hgvs-deletion	8
-		Hum_Mutat	hgvs-deletion	4
-		Am_J_Ophthalmol	hgvs-deletion	4
-		Acta_Neuropathol_Commun	hgvs-deletion	4
-
-	Count distinct words per journal hgvs-deletion :
-		PLoS_One	hgvs-deletion	17
-		Mol_Genet_Genomic_Med	hgvs-deletion	17
-		Orphanet_J_Rare_Dis	hgvs-deletion	10
-		Sci_Rep	hgvs-deletion	10
-		Mol_Vis	hgvs-deletion	8
-		Eur_J_Hum_Genet	hgvs-deletion	8
-		Acta_Neuropathol_Commun	hgvs-deletion	4
-		Brain	hgvs-deletion	4
-		Metabolism	hgvs-deletion	3
-		Nature	hgvs-deletion	3
-
-	Show top words for hgvs-deletion :
-		p.Phe508del	hgvs-deletion	20
-		p.P43_G61del	hgvs-deletion	6
-		p.Thr330del	hgvs-deletion	5
-		p.Val2985_Thr3001del	hgvs-deletion	4
-		p.Phe508del/p.Leu1077Pro	hgvs-deletion	4
-		p.G378_G380delGGG	hgvs-deletion	4
-		p.Asn73del	hgvs-deletion	4
-		p.D32_Q34del	hgvs-deletion	4
-		CCM1:p.N607_K675del	hgvs-deletion	3
-		p.Phe508del)	hgvs-deletion	3
-
-	Show sample for hgvs-deletion :
-		(p.E50_Q93del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	7	145	14
-		(p.S748del)]	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	7	179	12
-		(p.S748del)],	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	21	72	13
-		(p.E50_Q93del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	23	48	14
-		(p.E50_Q93del	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	23	72	13
-		p.S748del,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	23	74	10
-		(p.E50_Q93del),	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	45	99	15
-		p.S748del	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	45	127	9
-		(p.E50_Q93del),	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	64	33	15
-		(p.S748del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	hgvs-deletion	92	61	11
-
- * * * * * * * * * * * * * * 
-
-
-Found 3 matches for hgvs-deletion-insertion :
-
-	Show top journals for hgvs-deletion-insertion :
-		Front_Endocrinol_(Lausanne)	hgvs-deletion-insertion	1
-		Orphanet_J_Rare_Dis	hgvs-deletion-insertion	1
-		Metabolism	hgvs-deletion-insertion	1
-
-	Count distinct words per journal hgvs-deletion-insertion :
-		Orphanet_J_Rare_Dis	hgvs-deletion-insertion	1
-		Metabolism	hgvs-deletion-insertion	1
-		Front_Endocrinol_(Lausanne)	hgvs-deletion-insertion	1
-
-	Show top words for hgvs-deletion-insertion :
-		p.Leu64_Pro105delinsSer	hgvs-deletion-insertion	1
-		p.H24_Y25delinsQI	hgvs-deletion-insertion	1
-		(p.Gln552_Ser553delinsHisPhe).	hgvs-deletion-insertion	1
-
-	Show sample for hgvs-deletion-insertion :
-		(p.Gln552_Ser553delinsHisPhe).	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2016_Aug_22_11(1)_118.txt	hgvs-deletion-insertion	310	46	30
-		p.Leu64_Pro105delinsSer	Metabolism	sample70k/Metabolism/Metabolism_2016_Mar_65(3)_48-53.txt	hgvs-deletion-insertion	169	1	23
-		p.H24_Y25delinsQI	Front_Endocrinol_(Lausanne)	sample70k/Front_Endocrinol_(Lausanne)/Front_Endocrinol_(Lausanne)_2015_Aug_5_6_113.txt	hgvs-deletion-insertion	201	61	17
-
- * * * * * * * * * * * * * * 
-
-
-Found 11 matches for hgvs-duplication :
-
-	Show top journals for hgvs-duplication :
-		Mol_Vis	hgvs-duplication	7
-		PLoS_One	hgvs-duplication	2
-		BMC_Med_Genet	hgvs-duplication	1
-		Medicine_(Baltimore)	hgvs-duplication	1
-
-	Count distinct words per journal hgvs-duplication :
-		Mol_Vis	hgvs-duplication	3
-		PLoS_One	hgvs-duplication	2
-		BMC_Med_Genet	hgvs-duplication	1
-		Medicine_(Baltimore)	hgvs-duplication	1
-
-	Show top words for hgvs-duplication :
-		(p.Ala224_Ala234dup10),	hgvs-duplication	4
-		(p.Ala224_Ala234dup10)	hgvs-duplication	2
-		p.P1441_P1443dup,	hgvs-duplication	1
-		p.Gly380dup	hgvs-duplication	1
-		(p.Glu128_Asn130dup),	hgvs-duplication	1
-		(p.Ala224_Ala234dup10).	hgvs-duplication	1
-		p.Gly456dup)	hgvs-duplication	1
-
-	Show sample for hgvs-duplication :
-		p.Gly380dup	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	hgvs-duplication	73	52	11
-		p.Gly456dup)	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	hgvs-duplication	73	55	12
-		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	12	11	23
-		(p.Ala224_Ala234dup10)	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	12	19	22
-		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	53	19	23
-		(p.Ala224_Ala234dup10).	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	55	20	23
-		(p.Ala224_Ala234dup10)	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	57	4	22
-		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	57	93	23
-		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	hgvs-duplication	82	6	23
-		p.P1441_P1443dup,	Medicine_(Baltimore)	sample70k/Medicine_(Baltimore)/Medicine_(Baltimore)_2015_Jul_13_94(27)_e1073.txt	hgvs-duplication	47	24	17
-
- * * * * * * * * * * * * * * 
-
-
-Found 226 matches for hgvs-frameshift :
-
-	Show top journals for hgvs-frameshift :
-		Eur_J_Hum_Genet	hgvs-frameshift	26
-		Mol_Genet_Genomic_Med	hgvs-frameshift	23
-		Orphanet_J_Rare_Dis	hgvs-frameshift	20
-		J_Hum_Genet	hgvs-frameshift	15
-		Hum_Genome_Var	hgvs-frameshift	13
-		Mol_Cells	hgvs-frameshift	12
-		Mol_Vis	hgvs-frameshift	12
-		Hum_Mutat	hgvs-frameshift	10
-		Nat_Genet	hgvs-frameshift	10
-		Genet_Med	hgvs-frameshift	8
-
-	Count distinct words per journal hgvs-frameshift :
-		Eur_J_Hum_Genet	hgvs-frameshift	26
-		Mol_Genet_Genomic_Med	hgvs-frameshift	23
-		J_Hum_Genet	hgvs-frameshift	14
-		Mol_Cells	hgvs-frameshift	11
-		Hum_Genome_Var	hgvs-frameshift	10
-		Orphanet_J_Rare_Dis	hgvs-frameshift	10
-		Nat_Genet	hgvs-frameshift	8
-		Mol_Vis	hgvs-frameshift	8
-		Sci_Rep	hgvs-frameshift	7
-		Ann_Dermatol	hgvs-frameshift	5
-
-	Show top words for hgvs-frameshift :
-		p.Arg50Alafs*103	hgvs-frameshift	9
-		p.Arg398Serfs*9	hgvs-frameshift	7
-		p.A2410Gfs*4	hgvs-frameshift	4
-		p.Arg632Glnfs*20)	hgvs-frameshift	4
-		p.K267Rfs*9	hgvs-frameshift	3
-		p.N323Mfs*21	hgvs-frameshift	3
-		p.Met187Ilefs*19	hgvs-frameshift	3
-		(p.Arg50Alafs*103)	hgvs-frameshift	3
-		p.G115Kfs*8	hgvs-frameshift	2
-		(p.Phe51Leufs*144)	hgvs-frameshift	2
-
-	Show sample for hgvs-frameshift :
-		(p.Phe51Leufs*144)	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	hgvs-frameshift	4	256	18
-		(p.Phe51Leufs*144).	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	hgvs-frameshift	12	262	19
-		(p.Phe51Leufs*144)	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	hgvs-frameshift	21	64	18
-		p.D904Qfs*17,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	hgvs-frameshift	48	16	13
-		p.S754Afs*6,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	hgvs-frameshift	48	17	12
-		p.T657Afs*5,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	hgvs-frameshift	48	18	12
-		p.His418Leufs*54	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Mar_18_6_23213.txt	hgvs-frameshift	109	7	16
-		p.Arg342Glufs*2)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	hgvs-frameshift	21	43	16
-		(p.Phe328Hisfs*7	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	hgvs-frameshift	47	85	16
-		p.Arg342Glufs*2	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	hgvs-frameshift	47	90	15
-
- * * * * * * * * * * * * * * 
-
-
-Found 11 matches for hgvs-insertion :
-
-	Show top journals for hgvs-insertion :
-		PLoS_One	hgvs-insertion	11
-
-	Count distinct words per journal hgvs-insertion :
-		PLoS_One	hgvs-insertion	4
-
-	Show top words for hgvs-insertion :
-		p.A25_A26insAA	hgvs-insertion	5
-		(p.A25_A26insAA)	hgvs-insertion	2
-		p.Glu233_Lys240insA]	hgvs-insertion	2
-		p.A25_A26insAA,	hgvs-insertion	2
-
-	Show sample for hgvs-insertion :
-		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	11	90	14
-		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	81	4	14
-		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	98	165	14
-		p.A25_A26insAA,	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	101	31	15
-		p.A25_A26insAA,	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	101	89	15
-		(p.A25_A26insAA)	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	104	25	16
-		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	107	3	14
-		(p.A25_A26insAA)	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	127	22	16
-		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	hgvs-insertion	132	2	14
-		p.Glu233_Lys240insA]	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Mar_18_11(3)_e0151429.txt	hgvs-insertion	62	4	20
-
- * * * * * * * * * * * * * * 
-
-
-Found 5 matches for nextprot-accession :
-
-	Show top journals for nextprot-accession :
+	Show top 20 journals for nextprot-accession : (journal, pattern, count)
 		Health_Qual_Life_Outcomes	nextprot-accession	4
 		Biomark_Insights	nextprot-accession	1
 
-	Count distinct words per journal nextprot-accession :
+	Show top 20 journal where distinct words are counted nextprot-accession : (journal, pattern, distinct words count)
 		Health_Qual_Life_Outcomes	nextprot-accession	4
 		Biomark_Insights	nextprot-accession	1
 
-	Show top words for nextprot-accession :
-		GHQ_ANX_SLEEP_short	nextprot-accession	1
-		GHQ_ANX_SLEEP_short:	nextprot-accession	1
-		HADs_ANX_short:	nextprot-accession	1
-		|P23565|AINX_RAT	nextprot-accession	1
+	Show top 20 words for nextprot-accession : (word, pattern, count)
 		HADs_ANX_short	nextprot-accession	1
+		HADs_ANX_short:	nextprot-accession	1
+		GHQ_ANX_SLEEP_short	nextprot-accession	1
+		|P23565|AINX_RAT	nextprot-accession	1
+		GHQ_ANX_SLEEP_short:	nextprot-accession	1
 
-	Show sample for nextprot-accession :
+	Show sample for nextprot-accession : (word, journal, publication, pattern, count, line, offset, length)
 		HADs_ANX_short	Health_Qual_Life_Outcomes	sample70k/Health_Qual_Life_Outcomes/Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt	nextprot-accession	81	0	14
 		GHQ_ANX_SLEEP_short	Health_Qual_Life_Outcomes	sample70k/Health_Qual_Life_Outcomes/Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt	nextprot-accession	83	0	19
 		HADs_ANX_short:	Health_Qual_Life_Outcomes	sample70k/Health_Qual_Life_Outcomes/Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt	nextprot-accession	98	8	15
@@ -342,45 +195,75 @@ Found 5 matches for nextprot-accession :
  * * * * * * * * * * * * * * 
 
 
-Found 36 matches for nextprot-caloha-ontology :
+Found 36 matches for nextprot-caloha-ontology patterns :TS-\d{4}
 
-	Show top journals for nextprot-caloha-ontology :
+	Show top 20 journals for nextprot-caloha-ontology : (journal, pattern, count)
 		PLoS_One	nextprot-caloha-ontology	8
-		Subst_Abuse_Treat_Prev_Policy	nextprot-caloha-ontology	2
-		Oncotarget	nextprot-caloha-ontology	2
 		Nutrients	nextprot-caloha-ontology	2
 		BMC_Public_Health	nextprot-caloha-ontology	2
+		Oncotarget	nextprot-caloha-ontology	2
+		Subst_Abuse_Treat_Prev_Policy	nextprot-caloha-ontology	2
 		Int_J_Environ_Res_Public_Health	nextprot-caloha-ontology	2
-		Bull_World_Health_Organ	nextprot-caloha-ontology	1
-		Pak_J_Med_Sci	nextprot-caloha-ontology	1
-		Nat_Commun	nextprot-caloha-ontology	1
-		PLoS_Genet	nextprot-caloha-ontology	1
-
-	Count distinct words per journal nextprot-caloha-ontology :
-		PLoS_One	nextprot-caloha-ontology	7
-		Subst_Abuse_Treat_Prev_Policy	nextprot-caloha-ontology	2
-		Nutrients	nextprot-caloha-ontology	2
-		BMC_Public_Health	nextprot-caloha-ontology	2
-		Oncotarget	nextprot-caloha-ontology	2
-		Hepat_Med	nextprot-caloha-ontology	1
-		Sensors_(Basel)	nextprot-caloha-ontology	1
-		Bull_World_Health_Organ	nextprot-caloha-ontology	1
 		Nat_Commun	nextprot-caloha-ontology	1
 		Mol_Vis	nextprot-caloha-ontology	1
+		Bull_World_Health_Organ	nextprot-caloha-ontology	1
+		Sensors_(Basel)	nextprot-caloha-ontology	1
+		Front_Bioeng_Biotechnol	nextprot-caloha-ontology	1
+		Genes_Cancer	nextprot-caloha-ontology	1
+		Front_Neurosci	nextprot-caloha-ontology	1
+		BMC_Genomics	nextprot-caloha-ontology	1
+		Pak_J_Med_Sci	nextprot-caloha-ontology	1
+		PLoS_Genet	nextprot-caloha-ontology	1
+		Diabetes_Care	nextprot-caloha-ontology	1
+		Cancer_Epidemiol	nextprot-caloha-ontology	1
+		Dis_Markers	nextprot-caloha-ontology	1
+		Hepat_Med	nextprot-caloha-ontology	1
 
-	Show top words for nextprot-caloha-ontology :
+	Show top 20 journal where distinct words are counted nextprot-caloha-ontology : (journal, pattern, distinct words count)
+		PLoS_One	nextprot-caloha-ontology	7
+		BMC_Public_Health	nextprot-caloha-ontology	2
+		Subst_Abuse_Treat_Prev_Policy	nextprot-caloha-ontology	2
+		Nutrients	nextprot-caloha-ontology	2
+		Oncotarget	nextprot-caloha-ontology	2
+		Sensors_(Basel)	nextprot-caloha-ontology	1
+		Nat_Commun	nextprot-caloha-ontology	1
+		Nature	nextprot-caloha-ontology	1
+		Mol_Vis	nextprot-caloha-ontology	1
+		Bull_World_Health_Organ	nextprot-caloha-ontology	1
+		Genes_Cancer	nextprot-caloha-ontology	1
+		Pak_J_Med_Sci	nextprot-caloha-ontology	1
+		Hepat_Med	nextprot-caloha-ontology	1
+		Gut	nextprot-caloha-ontology	1
+		PLoS_Genet	nextprot-caloha-ontology	1
+		Front_Bioeng_Biotechnol	nextprot-caloha-ontology	1
+		Front_Neurosci	nextprot-caloha-ontology	1
+		Dis_Markers	nextprot-caloha-ontology	1
+		Int_J_Environ_Res_Public_Health	nextprot-caloha-ontology	1
+		Int_J_Mol_Sci	nextprot-caloha-ontology	1
+
+	Show top 20 words for nextprot-caloha-ontology : (word, pattern, count)
 		(CTS-0197).	nextprot-caloha-ontology	2
 		TS-34137,	nextprot-caloha-ontology	2
-		CTS-5725,	nextprot-caloha-ontology	1
-		PIE-12-CTS-1507	nextprot-caloha-ontology	1
-		VTS-1000	nextprot-caloha-ontology	1
-		http://www.mof.gov.cy/mof/cystat/statistics.nsf/All/39FF8C6C587B26A6C22579EC002D5471/$file/HEALTH_HOSPITAL_STATS-2011-270114.pdf?OpenElement[cited	nextprot-caloha-ontology	1
-		CTS-4977	nextprot-caloha-ontology	1
-		CTS-6505	nextprot-caloha-ontology	1
+		AndalucíaP06-CTS-02341Campoy	nextprot-caloha-ontology	1
 		(CTS-03687),	nextprot-caloha-ontology	1
+		ANR-13-PRTS-0006-04)	nextprot-caloha-ontology	1
+		CTS-8221,	nextprot-caloha-ontology	1
+		InvestigaciónCTS-0197This	nextprot-caloha-ontology	1
+		CTS-5725,	nextprot-caloha-ontology	1
+		TS-40889/2002,	nextprot-caloha-ontology	1
+		PIE-08-CTS-3759,	nextprot-caloha-ontology	1
 		CTS-1848)	nextprot-caloha-ontology	1
+		CTS-6505	nextprot-caloha-ontology	1
+		http://www.mof.gov.cy/mof/cystat/statistics.nsf/All/39FF8C6C587B26A6C22579EC002D5471/$file/HEALTH_HOSPITAL_STATS-2011-270114.pdf?OpenElement[cited	nextprot-caloha-ontology	1
+		VTS-1000	nextprot-caloha-ontology	1
+		PIE-12-CTS-1507	nextprot-caloha-ontology	1
+		(CTS-6844	nextprot-caloha-ontology	1
+		post-editinghttp://www.mt-archive.info/MTS-2009-Guerberof.pdf	nextprot-caloha-ontology	1
+		(P06-CTS-02341);	nextprot-caloha-ontology	1
+		ANR-13-PRTS-0010).	nextprot-caloha-ontology	1
+		P10-CTS-6060	nextprot-caloha-ontology	1
 
-	Show sample for nextprot-caloha-ontology :
+	Show sample for nextprot-caloha-ontology : (word, journal, publication, pattern, count, line, offset, length)
 		TS-40889/2002,	Subst_Abuse_Treat_Prev_Policy	sample70k/Subst_Abuse_Treat_Prev_Policy/Subst_Abuse_Treat_Prev_Policy_2012_Jan_16_7_3.txt	nextprot-caloha-ontology	112	9	14
 		TS-049785/2004,	Subst_Abuse_Treat_Prev_Policy	sample70k/Subst_Abuse_Treat_Prev_Policy/Subst_Abuse_Treat_Prev_Policy_2012_Jan_16_7_3.txt	nextprot-caloha-ontology	112	11	15
 		IEC-TS-60034-27-2.	Sensors_(Basel)	sample70k/Sensors_(Basel)/Sensors_(Basel)_2015_Oct_13_15(10)_25898-25918.txt	nextprot-caloha-ontology	242	1	18
@@ -391,30 +274,40 @@ Found 36 matches for nextprot-caloha-ontology :
 		InvestigaciónCTS-0197This	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Aug_22_11(8)_e0161305.txt	nextprot-caloha-ontology	37	34	25
 		(CTS-0197).	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Aug_22_11(8)_e0161305.txt	nextprot-caloha-ontology	37	57	11
 		(CTS-0197).	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Aug_22_11(8)_e0161305.txt	nextprot-caloha-ontology	267	24	11
+		CTS-6770;	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Mar_29_11(3)_e0152550.txt	nextprot-caloha-ontology	9	10	9
+		CTS-4977	PLoS_Genet	sample70k/PLoS_Genet/PLoS_Genet_2011_Jul_14_7(7)_e1002178.txt	nextprot-caloha-ontology	305	27	8
+		PTS-2013-133	Pak_J_Med_Sci	sample70k/Pak_J_Med_Sci/Pak_J_Med_Sci_2015_Nov-Dec_31(6)_1537-1541.txt	nextprot-caloha-ontology	116	11	12
+		(CTS-6844	Oncotarget	sample70k/Oncotarget/Oncotarget_2015_Oct_20_6(38)_40557-40574.txt	nextprot-caloha-ontology	174	96	9
+		CTS-1848)	Oncotarget	sample70k/Oncotarget/Oncotarget_2015_Oct_20_6(38)_40557-40574.txt	nextprot-caloha-ontology	174	98	9
+		PIE-08-CTS-3759,	Nutrients	sample70k/Nutrients/Nutrients_2014_Jan_17_6(1)_371-381.txt	nextprot-caloha-ontology	56	17	16
+		PIE-12-CTS-1507	Nutrients	sample70k/Nutrients/Nutrients_2014_Jan_17_6(1)_371-381.txt	nextprot-caloha-ontology	56	19	15
+		CTS-0608889	Nature	sample70k/Nature/Nature_2010_May_13_465(7295)_202-205.txt	nextprot-caloha-ontology	62	42	11
+		(cat#TS-5001-1C;	Nat_Commun	sample70k/Nat_Commun/Nat_Commun_2016_Apr_12_7_11273.txt	nextprot-caloha-ontology	134	84	16
+		(CTS-03687),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_7_19_2187-2195.txt	nextprot-caloha-ontology	94	48	12
 
  * * * * * * * * * * * * * * 
 
 
-Found 0 matches for nextprot-icepo-ontology :
+Found 0 matches for nextprot-icepo-ontology patterns :ICEPO:\d{7}
 
  * * * * * * * * * * * * * * 
 
 
-Found 23 matches for nextprot-keyword :
+Found 23 matches for nextprot-keyword patterns :(?i)nextprot
 
-	Show top journals for nextprot-keyword :
+	Show top 20 journals for nextprot-keyword : (journal, pattern, count)
 		Int_J_Anal_Chem	nextprot-keyword	9
 		Sci_Rep	nextprot-keyword	8
 		Data_Brief	nextprot-keyword	3
 		Nucleic_Acids_Res	nextprot-keyword	3
 
-	Count distinct words per journal nextprot-keyword :
+	Show top 20 journal where distinct words are counted nextprot-keyword : (journal, pattern, distinct words count)
 		Int_J_Anal_Chem	nextprot-keyword	3
 		Sci_Rep	nextprot-keyword	2
 		Nucleic_Acids_Res	nextprot-keyword	2
 		Data_Brief	nextprot-keyword	2
 
-	Show top words for nextprot-keyword :
+	Show top 20 words for nextprot-keyword : (word, pattern, count)
 		neXtProt	nextprot-keyword	8
 		nextProt;	nextprot-keyword	5
 		nextProt	nextprot-keyword	3
@@ -424,7 +317,7 @@ Found 23 matches for nextprot-keyword :
 		neXtProt,	nextprot-keyword	1
 		NeXtProt:	nextprot-keyword	1
 
-	Show sample for nextprot-keyword :
+	Show sample for nextprot-keyword : (word, journal, publication, pattern, count, line, offset, length)
 		nextProt	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2015_Jul_8_5_10900.txt	nextprot-keyword	153	7	8
 		nextProt	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2015_Jul_8_5_10900.txt	nextprot-keyword	163	7	8
 		nextProt;	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2015_Jul_8_5_10900.txt	nextprot-keyword	164	7	9
@@ -435,37 +328,50 @@ Found 23 matches for nextprot-keyword :
 		nextProt	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2015_Jul_8_5_10900.txt	nextprot-keyword	189	7	8
 		neXtProt	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2014_Jan_1_42(Database_issue)_D358-D363.txt	nextprot-keyword	17	277	8
 		neXtProt:	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2014_Jan_1_42(Database_issue)_D358-D363.txt	nextprot-keyword	66	21	9
+		neXtProt:	Nucleic_Acids_Res	sample70k/Nucleic_Acids_Res/Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D447-D452.txt	nextprot-keyword	75	21	9
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	7	110	8
+		neXtProt,	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	21	5	9
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	21	19	8
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	33	1	8
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	35	51	8
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	35	71	8
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	35	80	8
+		neXtProt	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	56	51	8
+		NeXtProt:	Int_J_Anal_Chem	sample70k/Int_J_Anal_Chem/Int_J_Anal_Chem_2016_May_19_2016_7436849.txt	nextprot-keyword	87	7	9
 
  * * * * * * * * * * * * * * 
 
 
-Found 13 matches for sib-emails :
+Found 13 matches for sib-emails patterns :[A-Za-z0-9_.+-]*@(?i)(isb-sib\.ch|sib\.swiss)
 
-	Show top journals for sib-emails :
+	Show top 20 journals for sib-emails : (journal, pattern, count)
 		BMC_Bioinformatics	sib-emails	9
 		BMC_Genomics	sib-emails	2
 		Ecancermedicalscience	sib-emails	1
 		Database_(Oxford)	sib-emails	1
 
-	Count distinct words per journal sib-emails :
+	Show top 20 journal where distinct words are counted sib-emails : (journal, pattern, distinct words count)
 		BMC_Bioinformatics	sib-emails	9
 		BMC_Genomics	sib-emails	2
 		Database_(Oxford)	sib-emails	1
 		Ecancermedicalscience	sib-emails	1
 
-	Show top words for sib-emails :
+	Show top 20 words for sib-emails : (word, pattern, count)
 		Heinz.Stockinger@isb-sib.ch	sib-emails	1
 		Brian.J.Stevenson@sib.swiss	sib-emails	1
 		2marco.pagni@isb-sib.ch1	sib-emails	1
 		1alan.bridge@isb-sib.chGobeill	sib-emails	1
-		1lydie.bougueleret@isb-sib.chXenarios	sib-emails	1
 		Jacques.Beckmann@sib.swiss	sib-emails	1
 		1peter.sperisen@isb-sib.chPagni	sib-emails	1
+		simona.rossi@isb-sib.ch2014	sib-emails	1
 		145Ioannis.Xenarios@isb-sib.ch1	sib-emails	1
 		Panu.Artimo@isb-sib.ch	sib-emails	1
+		1lydie.bougueleret@isb-sib.chXenarios	sib-emails	1
 		pascale.gaudet@isb-sib.ch2013	sib-emails	1
+		1anne-lise.veuthey@isb-sib.chBridge	sib-emails	1
+		Vassilios.Ioannidis@isb-sib.ch	sib-emails	1
 
-	Show sample for sib-emails :
+	Show sample for sib-emails : (word, journal, publication, pattern, count, line, offset, length)
 		simona.rossi@isb-sib.ch2014	Ecancermedicalscience	sample70k/Ecancermedicalscience/Ecancermedicalscience_2014_Feb_11_8_399.txt	sib-emails	3	125	27
 		pascale.gaudet@isb-sib.ch2013	Database_(Oxford)	sample70k/Database_(Oxford)/Database_(Oxford)_2013_Dec_6_2013_bat077.txt	sib-emails	3	117	29
 		Brian.J.Stevenson@sib.swiss	BMC_Genomics	sample70k/BMC_Genomics/BMC_Genomics_2016_Sep_7_17(1)_717.txt	sib-emails	3	30	27
@@ -476,13 +382,16 @@ Found 13 matches for sib-emails :
 		1alan.bridge@isb-sib.chGobeill	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2013_Mar_22_14_104.txt	sib-emails	3	21	30
 		1lydie.bougueleret@isb-sib.chXenarios	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2013_Mar_22_14_104.txt	sib-emails	3	30	37
 		145Ioannis.Xenarios@isb-sib.ch1	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2013_Mar_22_14_104.txt	sib-emails	3	32	31
+		Panu.Artimo@isb-sib.ch	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2015_Nov_23_16_394.txt	sib-emails	3	29	22
+		Vassilios.Ioannidis@isb-sib.ch	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2015_Nov_23_16_394.txt	sib-emails	3	32	30
+		Heinz.Stockinger@isb-sib.ch	BMC_Bioinformatics	sample70k/BMC_Bioinformatics/BMC_Bioinformatics_2015_Nov_23_16_394.txt	sib-emails	3	35	27
 
  * * * * * * * * * * * * * * 
 
 
-Found 703 matches for string-keyword :
+Found 703 matches for string-keyword patterns :STRING
 
-	Show top journals for string-keyword :
+	Show top 20 journals for string-keyword : (journal, pattern, count)
 		PLoS_One	string-keyword	199
 		BMC_Genomics	string-keyword	70
 		Nucleic_Acids_Res	string-keyword	67
@@ -490,23 +399,43 @@ Found 703 matches for string-keyword :
 		Biomed_Res_Int	string-keyword	35
 		BMC_Bioinformatics	string-keyword	23
 		Oncotarget	string-keyword	17
+		PLoS_Pathog	string-keyword	12
 		Int_J_Mol_Sci	string-keyword	12
 		BMC_Syst_Biol	string-keyword	12
-		PLoS_Pathog	string-keyword	12
+		Stem_Cells_Int	string-keyword	11
+		J_Biol_Chem	string-keyword	11
+		Bioinformation	string-keyword	10
+		Proteome_Sci	string-keyword	10
+		BMC_Res_Notes	string-keyword	9
+		BMC_Plant_Biol	string-keyword	9
+		Exp_Ther_Med	string-keyword	8
+		J_Cell_Mol_Med	string-keyword	8
+		Mol_Syst_Biol	string-keyword	7
+		Biol_Direct	string-keyword	7
 
-	Count distinct words per journal string-keyword :
+	Show top 20 journal where distinct words are counted string-keyword : (journal, pattern, distinct words count)
 		Nucleic_Acids_Res	string-keyword	12
 		BMC_Genomics	string-keyword	9
 		PLoS_One	string-keyword	9
+		BMC_Res_Notes	string-keyword	5
 		Biomed_Res_Int	string-keyword	5
 		Int_J_Mol_Sci	string-keyword	5
-		BMC_Res_Notes	string-keyword	5
-		BMC_Syst_Biol	string-keyword	4
+		BMC_Bioinformatics	string-keyword	4
 		J_Cell_Mol_Med	string-keyword	4
 		J_Biol_Chem	string-keyword	4
-		BMC_Bioinformatics	string-keyword	4
+		Oncotarget	string-keyword	4
+		BMC_Syst_Biol	string-keyword	4
+		Sci_Rep	string-keyword	3
+		PLoS_Pathog	string-keyword	3
+		Front_Neurol	string-keyword	3
+		Exp_Ther_Med	string-keyword	3
+		J_Biomed_Semantics	string-keyword	3
+		Gut_Pathog	string-keyword	3
+		Genomics_Inform	string-keyword	3
+		Stem_Cells_Int	string-keyword	3
+		Microarrays_(Basel)	string-keyword	3
 
-	Show top words for string-keyword :
+	Show top 20 words for string-keyword : (word, pattern, count)
 		STRING	string-keyword	542
 		STRING:	string-keyword	30
 		STRING,	string-keyword	22
@@ -515,10 +444,20 @@ Found 703 matches for string-keyword :
 		(STRING	string-keyword	10
 		STRINGv8.2	string-keyword	9
 		STRINGe	string-keyword	6
-		(STRING,	string-keyword	3
+		(STRING),	string-keyword	3
+		STRING9.1.	string-keyword	3
 		STRING).	string-keyword	3
+		(STRINGv8.2,	string-keyword	3
+		(STRING,	string-keyword	3
+		(STRING;	string-keyword	2
+		STRINGSearch	string-keyword	2
+		STRING9.1	string-keyword	2
+		STRING-generated	string-keyword	1
+		STRING33),	string-keyword	1
+		(http://string-db.org/)(STRING),	string-keyword	1
+		http://togows.dbcls.jp/search/DATABASE/QUERY_STRING/OFFSET,LIMIT	string-keyword	1
 
-	Show sample for string-keyword :
+	Show sample for string-keyword : (word, journal, publication, pattern, count, line, offset, length)
 		STRING	Virol_J	sample70k/Virol_J/Virol_J_2015_Aug_4_12_115.txt	string-keyword	99	12	6
 		(STRING;	Virol_J	sample70k/Virol_J/Virol_J_2015_Aug_4_12_115.txt	string-keyword	143	139	8
 		STRING9.1.	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	64	10	10
@@ -529,18 +468,28 @@ Found 703 matches for string-keyword :
 		STRING9.1.	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	244	2	10
 		STRINGe	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	263	5	7
 		STRINGe	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	303	4	7
+		STRINGe	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	309	3	7
+		STRINGe	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	315	3	7
+		STRING9.1.	Stem_Cells_Int	sample70k/Stem_Cells_Int/Stem_Cells_Int_2016_Dec_29_2016_2809192.txt	string-keyword	353	2	10
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	34	46	6
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	34	61	6
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	81	27	6
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	81	54	6
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	113	104	6
+		STRING.	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	113	117	7
+		STRING	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2013_Apr_8_3_1613.txt	string-keyword	113	145	6
 
  * * * * * * * * * * * * * * 
 
 
-Found 0 matches for swisslipid :
+Found 0 matches for swisslipid patterns :(?i)SLM:\d+
 
  * * * * * * * * * * * * * * 
 
 
-Found 20009 matches for uniprot :
+Found 20009 matches for uniprot patterns :^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$
 
-	Show top journals for uniprot :
+	Show top 20 journals for uniprot : (journal, pattern, count)
 		PLoS_One	uniprot	2251
 		Database_(Oxford)	uniprot	562
 		BMC_Genomics	uniprot	499
@@ -551,8 +500,18 @@ Found 20009 matches for uniprot :
 		Environ_Health_Perspect	uniprot	252
 		Acta_Crystallogr_Sect_E_Struct_Rep_Online	uniprot	227
 		Front_Plant_Sci	uniprot	225
+		Int_J_Mol_Sci	uniprot	205
+		Neuropsychiatr_Dis_Treat	uniprot	184
+		Genome_Biol	uniprot	172
+		Cell_Mol_Life_Sci	uniprot	158
+		Sports_Health	uniprot	153
+		BMC_Proc	uniprot	146
+		PLoS_Pathog	uniprot	143
+		Biochemistry	uniprot	142
+		Nucleic_Acids_Res	uniprot	141
+		BMC_Syst_Biol	uniprot	133
 
-	Count distinct words per journal uniprot :
+	Show top 20 journal where distinct words are counted uniprot : (journal, pattern, distinct words count)
 		PLoS_One	uniprot	1511
 		Database_(Oxford)	uniprot	561
 		BMC_Genomics	uniprot	440
@@ -563,8 +522,18 @@ Found 20009 matches for uniprot :
 		Neuropsychiatr_Dis_Treat	uniprot	183
 		Acta_Crystallogr_Sect_E_Struct_Rep_Online	uniprot	168
 		Genome_Biol	uniprot	154
+		Sports_Health	uniprot	153
+		BMC_Proc	uniprot	142
+		Biochemistry	uniprot	138
+		Cell_Mol_Life_Sci	uniprot	133
+		Drug_Des_Devel_Ther	uniprot	124
+		Yonsei_Med_J	uniprot	117
+		Front_Plant_Sci	uniprot	112
+		J_Proteome_Res	uniprot	108
+		J_Proteomics	uniprot	107
+		Clin_Ophthalmol	uniprot	106
 
-	Show top words for uniprot :
+	Show top 20 words for uniprot : (word, pattern, count)
 		B6C3F1	uniprot	278
 		C9ORF72	uniprot	191
 		K2HPO4,	uniprot	142
@@ -574,9 +543,19 @@ Found 20009 matches for uniprot :
 		U2AF65	uniprot	59
 		HSP90AA1	uniprot	56
 		B6D2F1	uniprot	55
+		VNP20009	uniprot	54
 		CGP12177	uniprot	54
+		P21212	uniprot	53
+		H3CP256	uniprot	49
+		T1N0M0	uniprot	49
+		T2N0M0	uniprot	44
+		CYP76AD1	uniprot	41
+		AP20187	uniprot	40
+		CGP55845	uniprot	37
+		T2CD21int	uniprot	35
+		CGP74588	uniprot	34
 
-	Show sample for uniprot :
+	Show sample for uniprot : (word, journal, publication, pattern, count, line, offset, length)
 		1+3,4,4,1–1+3,4,4,2	Zookeys	sample70k/Zookeys/Zookeys_2010_Jun_30_(50)_29-77.txt	uniprot	188	71	19
 		doi:10.1071/ZO01039	Zookeys	sample70k/Zookeys/Zookeys_2011_May_20_(100)_353-370.txt	uniprot	155	37	19
 		6,11,12	Zookeys	sample70k/Zookeys/Zookeys_2011_Oct_13_(136)_23-29.txt	uniprot	45	50	7
@@ -587,8 +566,427 @@ Found 20009 matches for uniprot :
 		-17,50800	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	22	9
 		-17,50750	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	102	9
 		-17,50717	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	174	9
+		48,72400	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	176	8
+		-17,52183	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	225	9
+		48,72067	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	1762	227	8
+		18,50,56	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	6158	116	8
+		18,51,02	Zookeys	sample70k/Zookeys/Zookeys_2015_Dec_7_(542)_1-379.txt	uniprot	6868	340	8
+		WYP05198	Zookeys	sample70k/Zookeys/Zookeys_2016_Jan_18_(554)_119-137.txt	uniprot	193	6	8
+		WYP06011	Zookeys	sample70k/Zookeys/Zookeys_2016_Jan_18_(554)_119-137.txt	uniprot	212	6	8
+		receptor-2,12,13	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2006_Apr_30_47(2)_287-290.txt	uniprot	50	84	16
+		cerebellum.2,7,8,12,14	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2006_Dec_31_47(6)_873-876.txt	uniprot	26	128	22
+		60%.2,3,7,8	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2006_Jun_30_47(3)_393-398.txt	uniprot	32	14	11
 
  * * * * * * * * * * * * * * 
 
 
-Finished in 8.170333333333334 min
+Found 183 matches for variant-hgvs-deletion patterns :(p|c)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?del
+
+	Show top 20 journals for variant-hgvs-deletion : (journal, pattern, count)
+		PLoS_One	variant-hgvs-deletion	34
+		Eur_J_Hum_Genet	variant-hgvs-deletion	25
+		Mol_Genet_Genomic_Med	variant-hgvs-deletion	20
+		Orphanet_J_Rare_Dis	variant-hgvs-deletion	20
+		Mol_Vis	variant-hgvs-deletion	14
+		Sci_Rep	variant-hgvs-deletion	13
+		BMC_Res_Notes	variant-hgvs-deletion	8
+		J_Am_Coll_Cardiol	variant-hgvs-deletion	4
+		Am_J_Ophthalmol	variant-hgvs-deletion	4
+		Hum_Mutat	variant-hgvs-deletion	4
+		Brain	variant-hgvs-deletion	4
+		Cilia	variant-hgvs-deletion	4
+		Acta_Neuropathol_Commun	variant-hgvs-deletion	4
+		Metabolism	variant-hgvs-deletion	3
+		Nature	variant-hgvs-deletion	3
+		J_Med_Genet	variant-hgvs-deletion	2
+		Front_Oncol	variant-hgvs-deletion	2
+		Genet_Med	variant-hgvs-deletion	2
+		Nat_Genet	variant-hgvs-deletion	2
+		Indian_J_Hum_Genet	variant-hgvs-deletion	2
+
+	Show top 20 journal where distinct words are counted variant-hgvs-deletion : (journal, pattern, distinct words count)
+		Mol_Genet_Genomic_Med	variant-hgvs-deletion	17
+		PLoS_One	variant-hgvs-deletion	17
+		Orphanet_J_Rare_Dis	variant-hgvs-deletion	10
+		Sci_Rep	variant-hgvs-deletion	10
+		Eur_J_Hum_Genet	variant-hgvs-deletion	8
+		Mol_Vis	variant-hgvs-deletion	8
+		Acta_Neuropathol_Commun	variant-hgvs-deletion	4
+		Brain	variant-hgvs-deletion	4
+		BMC_Res_Notes	variant-hgvs-deletion	3
+		Nature	variant-hgvs-deletion	3
+		Metabolism	variant-hgvs-deletion	3
+		Genet_Med	variant-hgvs-deletion	2
+		Cilia	variant-hgvs-deletion	2
+		J_Am_Coll_Cardiol	variant-hgvs-deletion	2
+		Hum_Mutat	variant-hgvs-deletion	2
+		Indian_J_Hum_Genet	variant-hgvs-deletion	2
+		Mol_Imaging_Biol	variant-hgvs-deletion	1
+		Clin_Pract	variant-hgvs-deletion	1
+		J_Invest_Dermatol	variant-hgvs-deletion	1
+		J_Med_Genet	variant-hgvs-deletion	1
+
+	Show top 20 words for variant-hgvs-deletion : (word, pattern, count)
+		p.Phe508del	variant-hgvs-deletion	20
+		p.P43_G61del	variant-hgvs-deletion	6
+		p.Thr330del	variant-hgvs-deletion	5
+		p.Phe508del/p.Leu1077Pro	variant-hgvs-deletion	4
+		p.Val2985_Thr3001del	variant-hgvs-deletion	4
+		p.G378_G380delGGG	variant-hgvs-deletion	4
+		p.Asn73del	variant-hgvs-deletion	4
+		p.D32_Q34del	variant-hgvs-deletion	4
+		p.Asp608del	variant-hgvs-deletion	3
+		p.Ser192_Gly193delAGCGGC)	variant-hgvs-deletion	3
+		p.W409_G453del,	variant-hgvs-deletion	3
+		p.Ala31_Ala33del)	variant-hgvs-deletion	3
+		p.E229del	variant-hgvs-deletion	3
+		non-p.Phe508del	variant-hgvs-deletion	3
+		p.Phe508del)	variant-hgvs-deletion	3
+		p.Glu216_Lys251del	variant-hgvs-deletion	3
+		CCM1:p.N607_K675del	variant-hgvs-deletion	3
+		p.Ser161delAGC	variant-hgvs-deletion	2
+		p.K618del	variant-hgvs-deletion	2
+		(p.Ile109del).	variant-hgvs-deletion	2
+
+	Show sample for variant-hgvs-deletion : (word, journal, publication, pattern, count, line, offset, length)
+		(p.E50_Q93del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	7	145	14
+		(p.S748del)]	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	7	179	12
+		(p.S748del)],	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	21	72	13
+		(p.E50_Q93del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	23	48	14
+		(p.E50_Q93del	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	23	72	13
+		p.S748del,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	23	74	10
+		(p.E50_Q93del),	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	45	99	15
+		p.S748del	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	45	127	9
+		(p.E50_Q93del),	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	64	33	15
+		(p.S748del)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	92	61	11
+		p.Glu50_Gln93del;	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	109	2	17
+		p.Glu50_Gln93del;	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	109	6	17
+		p.Ser748del	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jul_20_6_30072.txt	variant-hgvs-deletion	109	16	11
+		p.Val2985_Thr3001del,p.Val2985GlyfsX4	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	72	26	37
+		p.Val2985_Thr3001del	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	141	4	20
+		(p.Val2985_Thr3001del)	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	142	32	22
+		p.Val2985_Thr3001del	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	144	6	20
+		p.Val2985_Thr3001del.	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	146	6	21
+		p.Val2985_Thr3001del	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	149	6	20
+		p.Val2985_Thr3001del	PLoS_One	sample70k/PLoS_One/PLoS_One_2013_Feb_22_8(2)_e57173.txt	variant-hgvs-deletion	149	87	20
+
+ * * * * * * * * * * * * * * 
+
+
+Found 3 matches for variant-hgvs-deletion-insertion patterns :(p|c)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?delins((?:[A-Z\*]([a-z]{2})?)+)
+
+	Show top 20 journals for variant-hgvs-deletion-insertion : (journal, pattern, count)
+		Orphanet_J_Rare_Dis	variant-hgvs-deletion-insertion	1
+		Front_Endocrinol_(Lausanne)	variant-hgvs-deletion-insertion	1
+		Metabolism	variant-hgvs-deletion-insertion	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-deletion-insertion : (journal, pattern, distinct words count)
+		Metabolism	variant-hgvs-deletion-insertion	1
+		Orphanet_J_Rare_Dis	variant-hgvs-deletion-insertion	1
+		Front_Endocrinol_(Lausanne)	variant-hgvs-deletion-insertion	1
+
+	Show top 20 words for variant-hgvs-deletion-insertion : (word, pattern, count)
+		p.Leu64_Pro105delinsSer	variant-hgvs-deletion-insertion	1
+		(p.Gln552_Ser553delinsHisPhe).	variant-hgvs-deletion-insertion	1
+		p.H24_Y25delinsQI	variant-hgvs-deletion-insertion	1
+
+	Show sample for variant-hgvs-deletion-insertion : (word, journal, publication, pattern, count, line, offset, length)
+		(p.Gln552_Ser553delinsHisPhe).	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2016_Aug_22_11(1)_118.txt	variant-hgvs-deletion-insertion	310	46	30
+		p.Leu64_Pro105delinsSer	Metabolism	sample70k/Metabolism/Metabolism_2016_Mar_65(3)_48-53.txt	variant-hgvs-deletion-insertion	169	1	23
+		p.H24_Y25delinsQI	Front_Endocrinol_(Lausanne)	sample70k/Front_Endocrinol_(Lausanne)/Front_Endocrinol_(Lausanne)_2015_Aug_5_6_113.txt	variant-hgvs-deletion-insertion	201	61	17
+
+ * * * * * * * * * * * * * * 
+
+
+Found 11 matches for variant-hgvs-duplication patterns :(p|c)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?dup
+
+	Show top 20 journals for variant-hgvs-duplication : (journal, pattern, count)
+		Mol_Vis	variant-hgvs-duplication	7
+		PLoS_One	variant-hgvs-duplication	2
+		BMC_Med_Genet	variant-hgvs-duplication	1
+		Medicine_(Baltimore)	variant-hgvs-duplication	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-duplication : (journal, pattern, distinct words count)
+		Mol_Vis	variant-hgvs-duplication	3
+		PLoS_One	variant-hgvs-duplication	2
+		BMC_Med_Genet	variant-hgvs-duplication	1
+		Medicine_(Baltimore)	variant-hgvs-duplication	1
+
+	Show top 20 words for variant-hgvs-duplication : (word, pattern, count)
+		(p.Ala224_Ala234dup10),	variant-hgvs-duplication	4
+		(p.Ala224_Ala234dup10)	variant-hgvs-duplication	2
+		(p.Glu128_Asn130dup),	variant-hgvs-duplication	1
+		p.P1441_P1443dup,	variant-hgvs-duplication	1
+		p.Gly456dup)	variant-hgvs-duplication	1
+		(p.Ala224_Ala234dup10).	variant-hgvs-duplication	1
+		p.Gly380dup	variant-hgvs-duplication	1
+
+	Show sample for variant-hgvs-duplication : (word, journal, publication, pattern, count, line, offset, length)
+		p.Gly380dup	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	variant-hgvs-duplication	73	52	11
+		p.Gly456dup)	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	variant-hgvs-duplication	73	55	12
+		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	12	11	23
+		(p.Ala224_Ala234dup10)	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	12	19	22
+		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	53	19	23
+		(p.Ala224_Ala234dup10).	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	55	20	23
+		(p.Ala224_Ala234dup10)	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	57	4	22
+		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	57	93	23
+		(p.Ala224_Ala234dup10),	Mol_Vis	sample70k/Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-duplication	82	6	23
+		p.P1441_P1443dup,	Medicine_(Baltimore)	sample70k/Medicine_(Baltimore)/Medicine_(Baltimore)_2015_Jul_13_94(27)_e1073.txt	variant-hgvs-duplication	47	24	17
+		(p.Glu128_Asn130dup),	BMC_Med_Genet	sample70k/BMC_Med_Genet/BMC_Med_Genet_2014_Jul_1_15_74.txt	variant-hgvs-duplication	89	87	21
+
+ * * * * * * * * * * * * * * 
+
+
+Found 226 matches for variant-hgvs-frameshift patterns :(p|c)\.([A-Z])([a-z]{2})?(\d+)([A-Z])([a-z]{2})?fs(?:\*|Ter)(\d+)
+
+	Show top 20 journals for variant-hgvs-frameshift : (journal, pattern, count)
+		Eur_J_Hum_Genet	variant-hgvs-frameshift	26
+		Mol_Genet_Genomic_Med	variant-hgvs-frameshift	23
+		Orphanet_J_Rare_Dis	variant-hgvs-frameshift	20
+		J_Hum_Genet	variant-hgvs-frameshift	15
+		Hum_Genome_Var	variant-hgvs-frameshift	13
+		Mol_Cells	variant-hgvs-frameshift	12
+		Mol_Vis	variant-hgvs-frameshift	12
+		Nat_Genet	variant-hgvs-frameshift	10
+		Hum_Mutat	variant-hgvs-frameshift	10
+		Genet_Med	variant-hgvs-frameshift	8
+		Oncotarget	variant-hgvs-frameshift	7
+		Acta_Neuropathol_Commun	variant-hgvs-frameshift	7
+		Sci_Rep	variant-hgvs-frameshift	7
+		Hum_Mol_Genet	variant-hgvs-frameshift	5
+		Ann_Lab_Med	variant-hgvs-frameshift	5
+		BMC_Med_Genet	variant-hgvs-frameshift	5
+		Ann_Dermatol	variant-hgvs-frameshift	5
+		PLoS_One	variant-hgvs-frameshift	5
+		Metabolism	variant-hgvs-frameshift	4
+		Arq_Bras_Cardiol	variant-hgvs-frameshift	4
+
+	Show top 20 journal where distinct words are counted variant-hgvs-frameshift : (journal, pattern, distinct words count)
+		Eur_J_Hum_Genet	variant-hgvs-frameshift	26
+		Mol_Genet_Genomic_Med	variant-hgvs-frameshift	23
+		J_Hum_Genet	variant-hgvs-frameshift	14
+		Mol_Cells	variant-hgvs-frameshift	11
+		Orphanet_J_Rare_Dis	variant-hgvs-frameshift	10
+		Hum_Genome_Var	variant-hgvs-frameshift	10
+		Mol_Vis	variant-hgvs-frameshift	8
+		Nat_Genet	variant-hgvs-frameshift	8
+		Sci_Rep	variant-hgvs-frameshift	7
+		Ann_Dermatol	variant-hgvs-frameshift	5
+		Acta_Neuropathol_Commun	variant-hgvs-frameshift	5
+		PLoS_One	variant-hgvs-frameshift	5
+		Hum_Mol_Genet	variant-hgvs-frameshift	5
+		Genet_Med	variant-hgvs-frameshift	5
+		Metabolism	variant-hgvs-frameshift	4
+		Hum_Mutat	variant-hgvs-frameshift	4
+		BMC_Med_Genet	variant-hgvs-frameshift	4
+		Cell_Rep	variant-hgvs-frameshift	3
+		Oncotarget	variant-hgvs-frameshift	3
+		Arq_Bras_Cardiol	variant-hgvs-frameshift	3
+
+	Show top 20 words for variant-hgvs-frameshift : (word, pattern, count)
+		p.Arg50Alafs*103	variant-hgvs-frameshift	9
+		p.Arg398Serfs*9	variant-hgvs-frameshift	7
+		p.Arg632Glnfs*20)	variant-hgvs-frameshift	4
+		p.A2410Gfs*4	variant-hgvs-frameshift	4
+		(p.Arg50Alafs*103)	variant-hgvs-frameshift	3
+		p.N323Mfs*21	variant-hgvs-frameshift	3
+		p.Met187Ilefs*19	variant-hgvs-frameshift	3
+		p.K267Rfs*9	variant-hgvs-frameshift	3
+		p.S1653Kfs*2	variant-hgvs-frameshift	2
+		p.Cys509Serfs*14	variant-hgvs-frameshift	2
+		(p.Phe51Leufs*144)	variant-hgvs-frameshift	2
+		p.Ser173Phefs*25;	variant-hgvs-frameshift	2
+		p.G115Kfs*8	variant-hgvs-frameshift	2
+		(p.Gln778Serfs*4	variant-hgvs-frameshift	2
+		p.G2663Afs*40	variant-hgvs-frameshift	2
+		p.Asn235Metfs*11	variant-hgvs-frameshift	2
+		p.Ser3525Alafs*29	variant-hgvs-frameshift	2
+		p.Gln186Hisfs*6	variant-hgvs-frameshift	2
+		p.Arg7807Serfs*16	variant-hgvs-frameshift	2
+		p.Ile892Phefs*4	variant-hgvs-frameshift	2
+
+	Show sample for variant-hgvs-frameshift : (word, journal, publication, pattern, count, line, offset, length)
+		(p.Phe51Leufs*144)	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	variant-hgvs-frameshift	4	256	18
+		(p.Phe51Leufs*144).	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	variant-hgvs-frameshift	12	262	19
+		(p.Phe51Leufs*144)	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2015_Jan_1_56(1)_300-303.txt	variant-hgvs-frameshift	21	64	18
+		p.D904Qfs*17,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	variant-hgvs-frameshift	48	16	13
+		p.S754Afs*6,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	variant-hgvs-frameshift	48	17	12
+		p.T657Afs*5,	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Jan_20_6_19432.txt	variant-hgvs-frameshift	48	18	12
+		p.His418Leufs*54	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_Mar_18_6_23213.txt	variant-hgvs-frameshift	109	7	16
+		p.Arg342Glufs*2)	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	variant-hgvs-frameshift	21	43	16
+		(p.Phe328Hisfs*7	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	variant-hgvs-frameshift	47	85	16
+		p.Arg342Glufs*2	Sci_Rep	sample70k/Sci_Rep/Sci_Rep_2016_May_18_6_26191.txt	variant-hgvs-frameshift	47	90	15
+		(p.Val63Glufs*78)	PLoS_One	sample70k/PLoS_One/PLoS_One_2012_Jan_3_7(1)_e29205.txt	variant-hgvs-frameshift	40	131	17
+		p.Phe162Tyrfs*4)	PLoS_One	sample70k/PLoS_One/PLoS_One_2015_Jul_21_10(7)_e0133624.txt	variant-hgvs-frameshift	97	41	16
+		p.Phe162Tyrfs*4	PLoS_One	sample70k/PLoS_One/PLoS_One_2015_Jul_21_10(7)_e0133624.txt	variant-hgvs-frameshift	105	8	15
+		(p.N120Lfs*5)	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_May_16_11(5)_e0155421.txt	variant-hgvs-frameshift	119	94	13
+		(p.N120Lfs*5).	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_May_16_11(5)_e0155421.txt	variant-hgvs-frameshift	127	6	14
+		p.Val2300Glyfs*75.	PLoS_Genet	sample70k/PLoS_Genet/PLoS_Genet_2012_Nov_8_8(11)_e1002945.txt	variant-hgvs-frameshift	275	118	18
+		p.D27Afs*18	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2012_Jun_18_7_42.txt	variant-hgvs-frameshift	70	5	11
+		p.W393Yfs*5	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2012_Jun_18_7_42.txt	variant-hgvs-frameshift	74	4	11
+		p.V537Vfs*2	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2012_Jun_18_7_42.txt	variant-hgvs-frameshift	76	5	11
+		(p.D27Afs*18).	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2012_Jun_18_7_42.txt	variant-hgvs-frameshift	87	56	14
+
+ * * * * * * * * * * * * * * 
+
+
+Found 11 matches for variant-hgvs-insertion patterns :(p|c)\.([A-Z])([a-z]{2})?(\d+)_([A-Z])([a-z]{2})?(\d+)ins((?:[A-Z\*]([a-z]{2})?)+)
+
+	Show top 20 journals for variant-hgvs-insertion : (journal, pattern, count)
+		PLoS_One	variant-hgvs-insertion	11
+
+	Show top 20 journal where distinct words are counted variant-hgvs-insertion : (journal, pattern, distinct words count)
+		PLoS_One	variant-hgvs-insertion	4
+
+	Show top 20 words for variant-hgvs-insertion : (word, pattern, count)
+		p.A25_A26insAA	variant-hgvs-insertion	5
+		(p.A25_A26insAA)	variant-hgvs-insertion	2
+		p.Glu233_Lys240insA]	variant-hgvs-insertion	2
+		p.A25_A26insAA,	variant-hgvs-insertion	2
+
+	Show sample for variant-hgvs-insertion : (word, journal, publication, pattern, count, line, offset, length)
+		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	11	90	14
+		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	81	4	14
+		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	98	165	14
+		p.A25_A26insAA,	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	101	31	15
+		p.A25_A26insAA,	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	101	89	15
+		(p.A25_A26insAA)	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	104	25	16
+		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	107	3	14
+		(p.A25_A26insAA)	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	127	22	16
+		p.A25_A26insAA	PLoS_One	sample70k/PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-insertion	132	2	14
+		p.Glu233_Lys240insA]	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Mar_18_11(3)_e0151429.txt	variant-hgvs-insertion	62	4	20
+		p.Glu233_Lys240insA]	PLoS_One	sample70k/PLoS_One/PLoS_One_2016_Mar_18_11(3)_e0151429.txt	variant-hgvs-insertion	62	7	20
+
+ * * * * * * * * * * * * * * 
+
+
+Found 1 matches for variant-mutalyer-example-1 patterns :\w{1,}\.(\d{1,}):\w\.(\d{1,5})_(\d{1,5})\w{1,}
+
+	Show top 20 journals for variant-mutalyer-example-1 : (journal, pattern, count)
+		Orphanet_J_Rare_Dis	variant-mutalyer-example-1	1
+
+	Show top 20 journal where distinct words are counted variant-mutalyer-example-1 : (journal, pattern, distinct words count)
+		Orphanet_J_Rare_Dis	variant-mutalyer-example-1	1
+
+	Show top 20 words for variant-mutalyer-example-1 : (word, pattern, count)
+		[NM_006517.4:c.990_991insGCTGC;	variant-mutalyer-example-1	1
+
+	Show sample for variant-mutalyer-example-1 : (word, journal, publication, pattern, count, line, offset, length)
+		[NM_006517.4:c.990_991insGCTGC;	Orphanet_J_Rare_Dis	sample70k/Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2014_Apr_11_9_49.txt	variant-mutalyer-example-1	101	22	31
+
+ * * * * * * * * * * * * * * 
+
+
+Found 2 matches for variant-mutalyer-example-2 patterns :\w{1,}\.(\d{1,})\(\w{1,10}\):\w\.(\d{1,5})\w(>|<)\w
+
+	Show top 20 journals for variant-mutalyer-example-2 : (journal, pattern, count)
+		Eur_J_Hum_Genet	variant-mutalyer-example-2	2
+
+	Show top 20 journal where distinct words are counted variant-mutalyer-example-2 : (journal, pattern, distinct words count)
+		Eur_J_Hum_Genet	variant-mutalyer-example-2	2
+
+	Show top 20 words for variant-mutalyer-example-2 : (word, pattern, count)
+		NM_022437.2(ABCG8):c.161A>G	variant-mutalyer-example-2	1
+		(NM_022437.2(ABCG8):c.55G>C	variant-mutalyer-example-2	1
+
+	Show sample for variant-mutalyer-example-2 : (word, journal, publication, pattern, count, line, offset, length)
+		(NM_022437.2(ABCG8):c.55G>C	Eur_J_Hum_Genet	sample70k/Eur_J_Hum_Genet/Eur_J_Hum_Genet_2016_Jan_29_24(1)_106-112.txt	variant-mutalyer-example-2	92	120	27
+		NM_022437.2(ABCG8):c.161A>G	Eur_J_Hum_Genet	sample70k/Eur_J_Hum_Genet/Eur_J_Hum_Genet_2016_Jan_29_24(1)_106-112.txt	variant-mutalyer-example-2	92	160	27
+
+ * * * * * * * * * * * * * * 
+
+
+Found 1857 matches for variant-mutalyzer-example-3 patterns :\w{1,}:\w\.\d{1,}\w{1,}
+
+	Show top 20 journals for variant-mutalyzer-example-3 : (journal, pattern, count)
+		PLoS_One	variant-mutalyzer-example-3	289
+		Pharm_Pract_(Granada)	variant-mutalyzer-example-3	219
+		Sci_Rep	variant-mutalyzer-example-3	94
+		BMC_Public_Health	variant-mutalyzer-example-3	84
+		Front_Plant_Sci	variant-mutalyzer-example-3	64
+		BMC_Vet_Res	variant-mutalyzer-example-3	55
+		J_Cell_Biol	variant-mutalyzer-example-3	35
+		Mol_Genet_Genomic_Med	variant-mutalyzer-example-3	33
+		Malar_J	variant-mutalyzer-example-3	32
+		Front_Genet	variant-mutalyzer-example-3	30
+		BMC_Bioinformatics	variant-mutalyzer-example-3	29
+		J_Gen_Physiol	variant-mutalyzer-example-3	29
+		Drug_Des_Devel_Ther	variant-mutalyzer-example-3	28
+		BMC_Microbiol	variant-mutalyzer-example-3	24
+		Springerplus	variant-mutalyzer-example-3	24
+		J_Am_Chem_Soc	variant-mutalyzer-example-3	24
+		Eur_J_Hum_Genet	variant-mutalyzer-example-3	23
+		J_Exp_Med	variant-mutalyzer-example-3	21
+		Chonnam_Med_J	variant-mutalyzer-example-3	19
+		Leuk_Lymphoma	variant-mutalyzer-example-3	18
+
+	Show top 20 journal where distinct words are counted variant-mutalyzer-example-3 : (journal, pattern, distinct words count)
+		PLoS_One	variant-mutalyzer-example-3	254
+		Pharm_Pract_(Granada)	variant-mutalyzer-example-3	212
+		BMC_Public_Health	variant-mutalyzer-example-3	83
+		Sci_Rep	variant-mutalyzer-example-3	64
+		Front_Plant_Sci	variant-mutalyzer-example-3	41
+		Malar_J	variant-mutalyzer-example-3	32
+		Front_Genet	variant-mutalyzer-example-3	30
+		BMC_Bioinformatics	variant-mutalyzer-example-3	29
+		J_Cell_Biol	variant-mutalyzer-example-3	29
+		J_Gen_Physiol	variant-mutalyzer-example-3	28
+		BMC_Microbiol	variant-mutalyzer-example-3	24
+		J_Am_Chem_Soc	variant-mutalyzer-example-3	23
+		Mol_Genet_Genomic_Med	variant-mutalyzer-example-3	23
+		Eur_J_Hum_Genet	variant-mutalyzer-example-3	23
+		J_Exp_Med	variant-mutalyzer-example-3	19
+		Immun_Ageing	variant-mutalyzer-example-3	18
+		Eur_J_Health_Econ	variant-mutalyzer-example-3	18
+		BMC_Complement_Altern_Med	variant-mutalyzer-example-3	18
+		Chonnam_Med_J	variant-mutalyzer-example-3	16
+		Zookeys	variant-mutalyzer-example-3	16
+
+	Show top 20 words for variant-mutalyzer-example-3 : (word, pattern, count)
+		KCNJ10:c.627C > G	variant-mutalyzer-example-3	17
+		KCNJ10:g.22141027insC	variant-mutalyzer-example-3	14
+		1.00:1.00	variant-mutalyzer-example-3	14
+		CAPN1:c.344G > A	variant-mutalyzer-example-3	12
+		MxMg2Al4+xSi5−xO18:0.03Eu2+	variant-mutalyzer-example-3	10
+		KxMg2Al4+xSi5−xO18:0.03Eu2+	variant-mutalyzer-example-3	7
+		1:0.75	variant-mutalyzer-example-3	7
+		Mg2Al4Si5O18:0.03Eu2+,	variant-mutalyzer-example-3	6
+		(G3DSA:3.40.50.GENE3D);	variant-mutalyzer-example-3	6
+		μM:1.25	variant-mutalyzer-example-3	6
+		RbxMg2Al4+xSi5−xO18:0.03Eu2+	variant-mutalyzer-example-3	6
+		1:0.36	variant-mutalyzer-example-3	5
+		1:0.25,	variant-mutalyzer-example-3	5
+		1:0.25	variant-mutalyzer-example-3	5
+		p:0.000	variant-mutalyzer-example-3	5
+		1:0.75.	variant-mutalyzer-example-3	4
+		CCM1:c.2025+1G>A	variant-mutalyzer-example-3	4
+		1:0.0025	variant-mutalyzer-example-3	4
+		50:1.25,	variant-mutalyzer-example-3	4
+		G3DSA:2.60.120.330	variant-mutalyzer-example-3	4
+
+	Show sample for variant-mutalyzer-example-3 : (word, journal, publication, pattern, count, line, offset, length)
+		Width/PropL:0.46–0.50.	Zookeys	sample70k/Zookeys/Zookeys_2011_Mar_11_(85)_17-26.txt	variant-mutalyzer-example-3	73	149	22
+		doi:0.1023/A:10166186109491	Zookeys	sample70k/Zookeys/Zookeys_2011_May_20_(100)_353-370.txt	variant-mutalyzer-example-3	150	28	27
+		1.08:0.82:0.33:0.37:0.25:0.25:1.67:1.22:1.12:3.33.	Zookeys	sample70k/Zookeys/Zookeys_2012_Dec_27_(255)_67-71.txt	variant-mutalyzer-example-3	59	145	50
+		1:1.05.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	9	7
+		1:0.96:0.77.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	17	12
+		1:1.07:0.91.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	20	12
+		1:1.87.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	52	7
+		1:0.61.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	71	7
+		1:1.70:1.81:1.75:1.04;	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	103	101	22
+		1:0.63:0.77.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	105	39	12
+		1:0.89.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	126	7	7
+		1:0.90:0.85.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	126	16	12
+		1:1.21:1.00.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	126	19	12
+		1:1.89.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	126	34	7
+		1:0.76.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	126	49	7
+		1:0.62:0.72.	Zookeys	sample70k/Zookeys/Zookeys_2013_May_28_(305)_21-32.txt	variant-mutalyzer-example-3	128	10	12
+		1:1.32.	Yonsei_Med_J	sample70k/Yonsei_Med_J/Yonsei_Med_J_2014_Mar_1_55(2)_499-507.txt	variant-mutalyzer-example-3	31	64	7
+		1:1.640	World_J_Surg_Oncol	sample70k/World_J_Surg_Oncol/World_J_Surg_Oncol_2015_Dec_8_13_332.txt	variant-mutalyzer-example-3	193	3	7
+		1:2.719	World_J_Surg_Oncol	sample70k/World_J_Surg_Oncol/World_J_Surg_Oncol_2015_Dec_8_13_332.txt	variant-mutalyzer-example-3	195	3	7
+		NG_007938.1:g.12083G>A,	Transpl_Int	sample70k/Transpl_Int/Transpl_Int_2013_Dec_15_26(12)_1198-1207.txt	variant-mutalyzer-example-3	39	22	23
+
+ * * * * * * * * * * * * * * 
+
+
+Finished in 9.18025 min
