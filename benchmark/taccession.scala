@@ -52,9 +52,8 @@ val df = allFiles.flatMap(searchTokens(_)).toDF()
 //Loads result in cache
 df.cache()
 
-println("Dataframe created in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
-
-def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + l))}
+//Function to define a way to print dataframe results
+def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + r.mkString("\t")))}
 
 //Print stats per keywords
 patterns.keys.foreach{ k =>
@@ -86,3 +85,5 @@ patterns.keys.foreach{ k =>
 }
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
+
+exit
