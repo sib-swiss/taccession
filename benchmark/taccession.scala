@@ -1,7 +1,7 @@
 //Starts the time
 val start = System.currentTimeMillis();
 
-val patterns = scala.io.Source.fromFile("patterns.txt").getLines().map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
+val patterns = scala.io.Source.fromFile("patterns.txt").getLines().filter(l => !l.startsWith("#")).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
 
 //Defines the directory where the publications are stored
 val PUBLI_DIR = "/scratch/local/monthly/dteixeir/publis/";
@@ -20,7 +20,7 @@ def searchTokens(fileName: String): List[TokenMatch] = {
 
     val result = file.getLines().zipWithIndex.flatMap {
       case (lineContent, lineNumber) => {
-        lineContent.split(" ").zipWithIndex.flatMap {
+        lineContent.split("\\s+").zipWithIndex.flatMap {
           case (word, offset) => {
             //Check for all patterns
             patterns.map {
@@ -47,31 +47,41 @@ val minPartitions = 200;
 val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt", minPartitions)
 
 //Reads all files (this is distributed among all workers)
-val df = allFiles.flatMap(searchTokens(_)).toDF()
+val df = allFiles.take(100).flatMap(searchTokens(_)).toDF()
 
 //Loads result in cache
 df.cache()
 
 println("Dataframe created in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
 
-def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t" + l))}
+def printSample(_df: org.apache.spark.sql.DataFrame) = {_df.take(10).foreach(l => println("\t\t" + l))}
 
 //Print stats per keywords
 patterns.keys.foreach{ k =>
 
-  val entity = df.filter($"entity" === k);
+  val entity = df.filter($"entity" === k)
+  val cnt = entity.count()
   
-  println("\nShow top journals for " + k + " :")
-  printSample(entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
-  
-  println("\nCount distinct words per journal " + k + " :")
-  printSample(entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc))
-  
-  println("\nShow top words for " + k + " :")
-  printSample(entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
+  println("Found " + cnt + " matches for " + k + " :")
+   
+  if(cnt > 0) {
 
-  println("\nShow sample for " + k + " :")
-  printSample(entity)
+      println("\n\tShow top journals for " + k + " :")
+      printSample(entity.groupBy($"journal", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
+      
+      println("\n\tCount distinct words per journal " + k + " :")
+      printSample(entity.groupBy($"journal", $"entity").agg(countDistinct("word") as "numOccurances").orderBy($"numOccurances" desc))
+      
+      println("\n\tShow top words for " + k + " :")
+      printSample(entity.groupBy($"word", $"entity").agg(count("*") as "numOccurances").orderBy($"numOccurances" desc))
+    
+      println("\n\tShow sample for " + k + " :")
+      printSample(entity)
+
+  }
+  
+  println("\n * * * * * * * * * * * * * * \n\n")
+
 
 }
 
