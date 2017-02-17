@@ -1,5 +1,5 @@
-#Taccession (Under active development)
-
+# Taccession 
+This project is under active development.
 Text Mining of SIB accessions in the literature. 
 
 ## Installation
@@ -15,7 +15,9 @@ $SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
 ```
 
 ## Run on a cluster
+```shell
 $SPARK_HOME/bin/spark-shell --master spark://$master_hostname:7070 -i taccession.scala
+```
 
-#Results
+## Results
 Report is generated in console and in results.tsv
