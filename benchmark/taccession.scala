@@ -47,7 +47,7 @@ val minPartitions = 200;
 val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt", minPartitions)
 
 //Reads all files (this is distributed among all workers)
-val df = allFiles.take(100).flatMap(searchTokens(_)).toDF()
+val df = allFiles.flatMap(searchTokens(_)).toDF()
 
 //Loads result in cache
 df.cache()
