@@ -1,0 +1,1499 @@
+Found 18 matches for arraymap patterns :(?i)arraymap
+
+	Show top 20 journals for arraymap : (journal, pattern, count)
+		BMC_Genomics	arraymap	15
+		Bioinformatics	arraymap	2
+		BMC_Bioinformatics	arraymap	1
+
+	Show top 20 journal where distinct words are counted arraymap : (journal, pattern, distinct words count)
+		BMC_Genomics	arraymap	5
+		Bioinformatics	arraymap	1
+		BMC_Bioinformatics	arraymap	1
+
+	Show top 20 words for arraymap : (word, pattern, count)
+		arrayMap	arraymap	12
+		arrayMap:	arraymap	3
+		ArrayMap	arraymap	1
+		(http://www.arraymap.org).	arraymap	1
+		arraymap.org	arraymap	1
+
+	Show sample for arraymap : (word, journal, publication, pattern, count, line, offset, length)
+		arrayMap	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Sep_1_31(17)_2874-2876.txt	arraymap	13	31	8
+		arrayMap	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Sep_1_31(17)_2874-2876.txt	arraymap	52	5	8
+		arrayMap:	BMC_Bioinformatics	./BMC_Bioinformatics/PMC5217618.txt	arraymap	158	7	9
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	229	21	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	229	43	8
+		arraymap.org	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	229	165	12
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	422	34	8
+		arrayMap:	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	454	7	9
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2016_Oct_12_17_799.txt	arraymap	455	11	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	64	45	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	64	109	8
+		(http://www.arraymap.org).	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	64	111	26
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	66	33	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	152	45	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	152	165	8
+		arrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	157	20	8
+		arrayMap:	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2014_Jan_29_15_82.txt	arraymap	262	6	9
+		ArrayMap	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2008_Mar_20_9_133.txt	arraymap	65	11	8
+
+ * * * * * * * * * * * * * * 
+
+
+Found 68 matches for bgee-keyword patterns :(?i)bgee
+
+	Show top 20 journals for bgee-keyword : (journal, pattern, count)
+		Bioinformatics	bgee-keyword	46
+		BMC_Genomics	bgee-keyword	12
+		Brief_Bioinform	bgee-keyword	3
+		BMC_Ophthalmol	bgee-keyword	2
+		Acta_Crystallogr_F_Struct_Biol_Commun	bgee-keyword	1
+		Anemia	bgee-keyword	1
+		BMC_Palliat_Care	bgee-keyword	1
+		Alzheimers_Dement_(Amst)	bgee-keyword	1
+		BMC_Infect_Dis	bgee-keyword	1
+
+	Show top 20 journal where distinct words are counted bgee-keyword : (journal, pattern, distinct words count)
+		Bioinformatics	bgee-keyword	13
+		BMC_Genomics	bgee-keyword	5
+		Brief_Bioinform	bgee-keyword	3
+		BMC_Ophthalmol	bgee-keyword	2
+		BMC_Palliat_Care	bgee-keyword	1
+		Acta_Crystallogr_F_Struct_Biol_Commun	bgee-keyword	1
+		BMC_Infect_Dis	bgee-keyword	1
+		Anemia	bgee-keyword	1
+		Alzheimers_Dement_(Amst)	bgee-keyword	1
+
+	Show top 20 words for bgee-keyword : (word, pattern, count)
+		Bgee	bgee-keyword	31
+		Bgee:	bgee-keyword	9
+		Bgee.	bgee-keyword	4
+		Bgee,	bgee-keyword	3
+		Bgee)	bgee-keyword	3
+		http://bgee.unil.ch/bgee/bgee?page=documentation#sectionHomologyRelationships).	bgee-keyword	1
+		(http://tinyurl.com/bgee10-hoxa5).	bgee-keyword	1
+		http://bgee.unil.ch/	bgee-keyword	1
+		http://bgee.unil.ch/bgee/bgee?page=documentation	bgee-keyword	1
+		2bgee@cvs.rochester.eduGeng	bgee-keyword	1
+		bgee@isb-sib.ch;	bgee-keyword	1
+		bgee@msm.eduAcademic	bgee-keyword	1
+		Bgee;	bgee-keyword	1
+		ftp://lausanne.isb-sib.ch/pub/databases/Bgee/general/IQRray.R.	bgee-keyword	1
+		(http://bgee.unil.ch/),	bgee-keyword	1
+		bGee	bgee-keyword	1
+		Bgee).	bgee-keyword	1
+		(BGEES)	bgee-keyword	1
+		bGEE:generalized	bgee-keyword	1
+		http://bgee.unil.ch/bgee/bgee	bgee-keyword	1
+
+	Show sample for bgee-keyword : (word, journal, publication, pattern, count, line, offset, length)
+		VapBGeerds	Acta_Crystallogr_F_Struct_Biol_Commun	./Acta_Crystallogr_F_Struct_Biol_Commun/Acta_Crystallogr_F_Struct_Biol_Commun_2014_Jun_18_70(Pt_7)_866-871.txt	bgee-keyword	3	41	10
+		Bgee,	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_15_12(5)_436-441.txt	bgee-keyword	21	83	5
+		Bgee)	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_15_12(5)_436-441.txt	bgee-keyword	23	151	5
+		Bgee:	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_15_12(5)_436-441.txt	bgee-keyword	96	7	5
+		bGee	Alzheimers_Dement_(Amst)	./Alzheimers_Dement_(Amst)/Alzheimers_Dement_(Amst)_2016_Apr_7_4_18-27.txt	bgee-keyword	3	35	4
+		bgee@msm.eduAcademic	Anemia	./Anemia/Anemia_2012_May_23_2012_156598.txt	bgee-keyword	21	86	20
+		2bgee@cvs.rochester.eduGeng	BMC_Ophthalmol	./BMC_Ophthalmol/BMC_Ophthalmol_2009_Aug_23_9_9.txt	bgee-keyword	3	30	27
+		(BGEES)	BMC_Ophthalmol	./BMC_Ophthalmol/BMC_Ophthalmol_2014_Jun_27_14_86.txt	bgee-keyword	127	23	7
+		bGEE:generalized	BMC_Palliat_Care	./BMC_Palliat_Care/BMC_Palliat_Care_2016_Mar_11_15_32.txt	bgee-keyword	147	8	16
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	7	20	4
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	9	8	4
+		(http://bgee.unil.ch/),	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	9	11	23
+		bgee@isb-sib.ch;	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	12	0	16
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	29	30	4
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	31	3	4
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	33	4	4
+		Bgee)	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	72	112	5
+		Bgee,	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	72	128	5
+		Bgee)	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	77	12	5
+		Bgee	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-keyword	81	38	4
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for bgee-ontology-cio patterns :CIO:\d+
+
+ * * * * * * * * * * * * * * 
+
+
+Found 1 matches for bgee-ontology-hom patterns :HOM:\d+
+
+	Show top 20 journals for bgee-ontology-hom : (journal, pattern, count)
+		Bioinformatics	bgee-ontology-hom	1
+
+	Show top 20 journal where distinct words are counted bgee-ontology-hom : (journal, pattern, distinct words count)
+		Bioinformatics	bgee-ontology-hom	1
+
+	Show top 20 words for bgee-ontology-hom : (word, pattern, count)
+		(HOM:0000007,	bgee-ontology-hom	1
+
+	Show sample for bgee-ontology-hom : (word, journal, publication, pattern, count, line, offset, length)
+		(HOM:0000007,	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	bgee-ontology-hom	29	67	13
+
+ * * * * * * * * * * * * * * 
+
+
+Found 319 matches for cameo patterns :(?i)cameo
+
+	Show top 20 journals for cameo : (journal, pattern, count)
+		AMB_Express	cameo	47
+		3_Biotech	cameo	31
+		BMC_Psychiatry	cameo	21
+		Braz_J_Microbiol	cameo	18
+		Appl_Microbiol_Biotechnol	cameo	16
+		Bioscience	cameo	16
+		Bioinformatics	cameo	15
+		BMC_Genomics	cameo	13
+		BMC_Health_Serv_Res	cameo	13
+		BMC_Microbiol	cameo	12
+		Asia_Pac_J_Oncol_Nurs	cameo	10
+		Biomed_Res_Int	cameo	9
+		BMJ_Open	cameo	8
+		Ann_Rheum_Dis	cameo	6
+		Biotechnol_Res_Int	cameo	6
+		Acta_Psychiatr_Scand	cameo	5
+		Asian_J_Androl	cameo	5
+		BMC_Public_Health	cameo	5
+		BMC_Biotechnol	cameo	5
+		Breast_Cancer_Res	cameo	4
+
+	Show top 20 journal where distinct words are counted cameo : (journal, pattern, distinct words count)
+		Bioinformatics	cameo	8
+		BMC_Health_Serv_Res	cameo	6
+		BMC_Genomics	cameo	6
+		AMB_Express	cameo	6
+		BMC_Psychiatry	cameo	5
+		Braz_J_Microbiol	cameo	5
+		Asia_Pac_J_Oncol_Nurs	cameo	4
+		BMJ_Open	cameo	4
+		BMC_Public_Health	cameo	4
+		BMC_Complement_Altern_Med	cameo	3
+		Breast_Cancer_Res	cameo	3
+		Bioscience	cameo	3
+		Ann_Rheum_Dis	cameo	3
+		BMC_Biol	cameo	2
+		Acta_Psychiatr_Scand	cameo	2
+		Asian-Australas_J_Anim_Sci	cameo	2
+		BMC_Cancer	cameo	2
+		ACS_Cent_Sci	cameo	2
+		Acta_Crystallogr_D_Biol_Crystallogr	cameo	2
+		Biomed_Res_Int	cameo	2
+
+	Show top 20 words for cameo : (word, pattern, count)
+		Cameotra	cameo	138
+		CAMEO	cameo	40
+		Cameo	cameo	14
+		CAMEOS	cameo	14
+		(Cameotra	cameo	8
+		Cameotra,	cameo	8
+		(CAMEO)	cameo	7
+		CAMEO,	cameo	6
+		'Cameor'	cameo	6
+		Castan-Cameo	cameo	6
+		Cameo2	cameo	5
+		 CAMEO	cameo	4
+		CAMEO.	cameo	4
+		CAMEOL	cameo	3
+		cameos	cameo	2
+		cameo	cameo	2
+		(CAMEOL)	cameo	2
+		Castan-Cameoa	cameo	2
+		niki_6cameo@yahoo.co.jp	cameo	2
+		1Cameotra	cameo	2
+
+	Show sample for cameo : (word, journal, publication, pattern, count, line, offset, length)
+		CAMEO	Acta_Psychiatr_Scand	./Acta_Psychiatr_Scand/Acta_Psychiatr_Scand_2015_Oct_31_132(4)_283-292.txt	cameo	132	8	5
+		CAMEO.	Acta_Psychiatr_Scand	./Acta_Psychiatr_Scand/Acta_Psychiatr_Scand_2015_Oct_31_132(4)_283-292.txt	cameo	149	24	6
+		CAMEO	Acta_Psychiatr_Scand	./Acta_Psychiatr_Scand/Acta_Psychiatr_Scand_2015_Oct_31_132(4)_283-292.txt	cameo	149	29	5
+		CAMEO	Acta_Psychiatr_Scand	./Acta_Psychiatr_Scand/Acta_Psychiatr_Scand_2015_Oct_31_132(4)_283-292.txt	cameo	199	12	5
+		CAMEO	Acta_Psychiatr_Scand	./Acta_Psychiatr_Scand/Acta_Psychiatr_Scand_2015_Oct_31_132(4)_283-292.txt	cameo	365	155	5
+		Cameo	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Apr_7_Sep-Oct_17(5)_693-698.txt	cameo	117	5	5
+		Cameo	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Jun_26_Sep-Oct_17(5)_711-715.txt	cameo	55	1	5
+		Cameo	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Jun_26_Sep-Oct_17(5)_711-715.txt	cameo	56	5	5
+		Cameo	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Jun_26_Sep-Oct_17(5)_711-715.txt	cameo	58	3	5
+		Cameo	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Jun_26_Sep-Oct_17(5)_711-715.txt	cameo	73	1	5
+		(CAMEO)	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	30	9	7
+		CAMEO,	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	141	0	6
+		CAMEO	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	145	109	5
+		CAMEO	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	149	1	5
+		CAMEO	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	149	105	5
+		CAMEO	Ann_Rheum_Dis	./Ann_Rheum_Dis/Ann_Rheum_Dis_2014_Dec_26_73(12)_2144-2151.txt	cameo	156	11	5
+		Cameotra	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2015_Jul_25_8_104.txt	cameo	211	5	8
+		Cameotra	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2012_May_6_5_29.txt	cameo	272	2	8
+		Cameotra	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2012_May_6_5_29.txt	cameo	280	4	8
+		CAMEO,8	ACS_Cent_Sci	./ACS_Cent_Sci/ACS_Cent_Sci_2016_Oct_26_2(10)_725-732.txt	cameo	46	6	7
+
+ * * * * * * * * * * * * * * 
+
+
+Found 4 matches for cellosaurus patterns :(?i)CVCL_\w{1,}+
+
+	Show top 20 journals for cellosaurus : (journal, pattern, count)
+		BMC_Genomics	cellosaurus	2
+		Bioinformatics	cellosaurus	1
+		BMC_Biol	cellosaurus	1
+
+	Show top 20 journal where distinct words are counted cellosaurus : (journal, pattern, distinct words count)
+		BMC_Genomics	cellosaurus	2
+		BMC_Biol	cellosaurus	1
+		Bioinformatics	cellosaurus	1
+
+	Show top 20 words for cellosaurus : (word, pattern, count)
+		CVCL_2050),	cellosaurus	1
+		http://web.expasy.org/cellosaurus/CVCL_9830).	cellosaurus	1
+		RRID:CVCL_L708,	cellosaurus	1
+		,http://web.expasy.org/cellosaurus/CVCL_8155,	cellosaurus	1
+
+	Show sample for cellosaurus : (word, journal, publication, pattern, count, line, offset, length)
+		RRID:CVCL_L708,	BMC_Biol	./BMC_Biol/PMC5267430.txt	cellosaurus	120	113	15
+		CVCL_2050),	Bioinformatics	./Bioinformatics/Bioinformatics_2016_Jan_15_32(2)_276-282.txt	cellosaurus	56	25	11
+		,http://web.expasy.org/cellosaurus/CVCL_8155,	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2015_Nov_30_16_1019.txt	cellosaurus	11	11	45
+		http://web.expasy.org/cellosaurus/CVCL_9830).	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2015_Nov_30_16_1019.txt	cellosaurus	13	12	45
+
+ * * * * * * * * * * * * * * 
+
+
+Found 650 matches for embnet patterns :(?i)embnet
+
+	Show top 20 journals for embnet : (journal, pattern, count)
+		BMC_Bioinformatics	embnet	256
+		BMC_Genomics	embnet	131
+		BMC_Plant_Biol	embnet	56
+		BMC_Evol_Biol	embnet	42
+		BMC_Microbiol	embnet	20
+		Biomed_Res_Int	embnet	10
+		Brief_Bioinform	embnet	9
+		Bioinformatics	embnet	7
+		BMC_Genet	embnet	6
+		BMC_Biotechnol	embnet	5
+		BMC_Struct_Biol	embnet	5
+		Biotechnol_Biofuels	embnet	5
+		Biochim_Biophys_Acta	embnet	5
+		BMC_Res_Notes	embnet	5
+		Bioinform_Biol_Insights	embnet	4
+		BMC_Biol	embnet	4
+		Bioinformation	embnet	4
+		BMC_Mol_Biol	embnet	4
+		Appl_Environ_Microbiol	embnet	4
+		Biodivers_Data_J	embnet	4
+
+	Show top 20 journal where distinct words are counted embnet : (journal, pattern, distinct words count)
+		BMC_Genomics	embnet	41
+		BMC_Plant_Biol	embnet	31
+		BMC_Bioinformatics	embnet	31
+		BMC_Evol_Biol	embnet	22
+		BMC_Microbiol	embnet	13
+		Biomed_Res_Int	embnet	8
+		Brief_Bioinform	embnet	7
+		BMC_Genet	embnet	6
+		BMC_Biotechnol	embnet	5
+		BMC_Struct_Biol	embnet	5
+		BMC_Biochem	embnet	4
+		Biotechnol_Biofuels	embnet	4
+		BMC_Res_Notes	embnet	4
+		BMC_Mol_Biol	embnet	4
+		Biochim_Biophys_Acta	embnet	3
+		BMC_Infect_Dis	embnet	3
+		BMC_Biol	embnet	3
+		Appl_Environ_Microbiol	embnet	3
+		BMC_Dev_Biol	embnet	3
+		Bioinformatics	embnet	3
+
+	Show top 20 words for embnet : (word, pattern, count)
+		EMBnet	embnet	195
+		(EMBnet)	embnet	79
+		EMBnetnews	embnet	38
+		(http://www.ch.embnet.org/software/BOX_form.html).	embnet	26
+		EMBnet.journal	embnet	25
+		EMBnetjournal	embnet	25
+		EMBnet.	embnet	18
+		(http://www.ch.embnet.org/software/TMPRED_form.html).	embnet	11
+		http://www.ch.embnet.org/software/BOX_form.html.	embnet	11
+		http://www.ch.embnet.org/software/BOX_form.html	embnet	8
+		http://www.ch.embnet.org/software/TMPRED_form.html	embnet	8
+		(http://www.ch.embnet.org/software/BOX_form.html)	embnet	7
+		EMBNET	embnet	7
+		(http://www.ch.embnet.org/software/TMPRED_form.html)	embnet	7
+		Embnet	embnet	7
+		EMBnet.news	embnet	6
+		EMBnet,	embnet	6
+		EMBNet	embnet	6
+		EMBnet:	embnet	5
+		EMBnet.Journal	embnet	5
+
+	Show sample for embnet : (word, journal, publication, pattern, count, line, offset, length)
+		http://www.ch.embnet.org/software/BOX_form.html.	Adv_Hematol	./Adv_Hematol/Adv_Hematol_2012_Sep_24_2012_214209.txt	embnet	33	27	48
+		EMBnet.journal.	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2016_Feb_27_9_48.txt	embnet	322	11	15
+		EMBnetjournal	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2013_Aug_6_6_113.txt	embnet	236	10	13
+		EMBnet	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2016_Jul_26_9_156.txt	embnet	322	11	6
+		EMBnet	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2015_Nov_25_8_188.txt	embnet	291	11	6
+		http://www.ch.embnet.org/software/ClustalW.html	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2014_Jul_1_7_100.txt	embnet	219	5	47
+		EMBnet	BMC_Biol	./BMC_Biol/BMC_Biol_2006_Aug_2_4_24.txt	embnet	3	26	6
+		(http://www.ch.embnet.org/software/COILS_form.html)	BMC_Biol	./BMC_Biol/BMC_Biol_2011_Feb_28_9_17.txt	embnet	154	32	51
+		EMBnet	BMC_Biol	./BMC_Biol/BMC_Biol_2016_Aug_1_14_62.txt	embnet	294	11	6
+		EMBnet.	BMC_Biol	./BMC_Biol/BMC_Biol_2014_Oct_1_12_78.txt	embnet	277	11	7
+		(http://www.ch.embnet.org/software/COILS_form.html)	Arch_Virol	./Arch_Virol/Arch_Virol_2012_Nov_22_157(11)_2133-2141.txt	embnet	67	166	51
+		EMBnet	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Apr_18_14_101.txt	embnet	292	10	6
+		(http://www.ch.embnet.org/software/BOX_form.html).	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2011_Oct_24_11_144.txt	embnet	29	63	50
+		(http://www.ch.embnet.org/software/BOX_form.html).	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2011_Oct_24_11_144.txt	embnet	134	50	50
+		http://www.ch.embnet.org/	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2010_Oct_27_10_233.txt	embnet	311	1	25
+		(http://www.ch.embnet.org/software/BOX_form.html).	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Nov_18_14_291.txt	embnet	149	37	50
+		(http://www.ch.embnet.org/software/BOX_form.html).	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Nov_18_14_291.txt	embnet	158	23	50
+		(http://www.ch.embnet.org/software/BOX_form.html)	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Nov_18_14_291.txt	embnet	229	27	49
+		http://www.ch.embnet.org/software/COILS_form.html[34]),	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2012_Feb_14_12_21.txt	embnet	23	114	55
+		http://www.ch.embnet.org/software/TMPRED_form.html	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2010_Sep_27_10_212.txt	embnet	54	0	50
+
+ * * * * * * * * * * * * * * 
+
+
+Found 7775 matches for epd patterns :(?i)epd
+
+	Show top 20 journals for epd : (journal, pattern, count)
+		BMC_Pregnancy_Childbirth	epd	1097
+		BMC_Psychiatry	epd	714
+		BMC_Public_Health	epd	426
+		BMC_Genomics	epd	405
+		Biochemistry	epd	390
+		Arch_Womens_Ment_Health	epd	308
+		BMJ_Open	epd	272
+		BMC_Evol_Biol	epd	217
+		BMC_Med_Res_Methodol	epd	210
+		BMC_Bioinformatics	epd	207
+		BMC_Res_Notes	epd	170
+		BMC_Genet	epd	146
+		BMC_Microbiol	epd	131
+		BMC_Pediatr	epd	118
+		BMJ	epd	117
+		BMC_Med_Genet	epd	115
+		Biomed_Res_Int	epd	97
+		BMB_Rep	epd	95
+		BMC_Infect_Dis	epd	95
+		Basic_Res_Cardiol	epd	88
+
+	Show top 20 journal where distinct words are counted epd : (journal, pattern, distinct words count)
+		BMC_Genomics	epd	145
+		BMC_Bioinformatics	epd	91
+		BMC_Pregnancy_Childbirth	epd	83
+		BMC_Public_Health	epd	59
+		Biomed_Res_Int	epd	52
+		Biochemistry	epd	50
+		BMC_Microbiol	epd	49
+		BMC_Psychiatry	epd	48
+		BMJ_Open	epd	44
+		BMC_Evol_Biol	epd	43
+		Arch_Womens_Ment_Health	epd	42
+		BMC_Syst_Biol	epd	41
+		BMC_Genet	epd	40
+		BMC_Res_Notes	epd	36
+		Br_J_Cancer	epd	35
+		BMC_Med_Res_Methodol	epd	33
+		BMC_Cancer	epd	29
+		Bioinorg_Chem_Appl	epd	28
+		BMC_Health_Serv_Res	epd	27
+		BMC_Dev_Biol	epd	25
+
+	Show top 20 words for epd : (word, pattern, count)
+		EPDS	epd	2176
+		(EPDS)	epd	376
+		YEPD	epd	334
+		EPD	epd	304
+		RepD	epd	198
+		EPDS,	epd	192
+		Epd	epd	130
+		EPDS.	epd	114
+		PEPD	epd	111
+		DEPDC5	epd	81
+		DEPDC1	epd	74
+		(EPDS	epd	63
+		stepdown	epd	62
+		epd	epd	61
+		MePD	epd	61
+		(EPD)	epd	57
+		DEPDC1B	epd	49
+		sheepdog	epd	47
+		SaengsigdevrepDevelopment	epd	43
+		(EPDS),	epd	43
+
+	Show sample for epd : (word, journal, publication, pattern, count, line, offset, length)
+		Gepdiremen	Antioxidants_(Basel)	./Antioxidants_(Basel)/Antioxidants_(Basel)_2012_Oct_26_1(1)_33-43.txt	epd	145	5	10
+		UV-INV-EPDI16-384590.	Antioxidants_(Basel)	./Antioxidants_(Basel)/PMC5187546.txt	epd	50	21	21
+		ArticlePDE/ODE	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2015_Oct_14_8_10.txt	epd	3	7	14
+		(EPDS)	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2014_Nov_12_14_140.txt	epd	37	102	6
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2014_Nov_12_14_140.txt	epd	38	7	4
+		EPDSEdinburgh	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2014_Nov_12_14_140.txt	epd	288	0	13
+		(EPDS)	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2012_Jun_18_12_15.txt	epd	22	62	6
+		(EPDS)	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2012_Jun_18_12_15.txt	epd	133	85	6
+		(EPDS)	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2015_Dec_16_15_119.txt	epd	140	98	6
+		EPDS.	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2007_Sep_11_7_13.txt	epd	266	6	5
+		(EPDS)	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	56	8	6
+		(EPDS).	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	66	16	7
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	148	4	4
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	148	47	4
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	156	0	4
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	161	0	4
+		EPDSEdinburgh	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2016_Oct_25_16_69.txt	epd	273	0	13
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2015_Nov_25_15_109.txt	epd	32	219	4
+		EPDS	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2015_Nov_25_15_109.txt	epd	208	12	4
+		Epdemiology	BMC_Womens_Health	./BMC_Womens_Health/BMC_Womens_Health_2013_Dec_27_13_53.txt	epd	207	42	11
+
+ * * * * * * * * * * * * * * 
+
+
+Found 2779 matches for expasy-keyword patterns :(?i)expasy
+
+	Show top 20 journals for expasy-keyword : (journal, pattern, count)
+		BMC_Genomics	expasy-keyword	502
+		Bioinformation	expasy-keyword	336
+		BMC_Plant_Biol	expasy-keyword	229
+		BMC_Bioinformatics	expasy-keyword	171
+		BMC_Evol_Biol	expasy-keyword	131
+		BMC_Microbiol	expasy-keyword	128
+		Biomed_Res_Int	expasy-keyword	111
+		BMC_Biotechnol	expasy-keyword	87
+		BMC_Res_Notes	expasy-keyword	70
+		Biotechnol_Biofuels	expasy-keyword	53
+		Biochemistry	expasy-keyword	51
+		3_Biotech	expasy-keyword	47
+		BMC_Biochem	expasy-keyword	42
+		BMC_Syst_Biol	expasy-keyword	38
+		BMC_Mol_Biol	expasy-keyword	37
+		Bioinform_Biol_Insights	expasy-keyword	33
+		Appl_Microbiol_Biotechnol	expasy-keyword	30
+		Bioinformatics	expasy-keyword	27
+		Arthritis_Res_Ther	expasy-keyword	26
+		BMC_Cancer	expasy-keyword	26
+
+	Show top 20 journal where distinct words are counted expasy-keyword : (journal, pattern, distinct words count)
+		BMC_Genomics	expasy-keyword	187
+		Bioinformation	expasy-keyword	149
+		BMC_Plant_Biol	expasy-keyword	114
+		BMC_Microbiol	expasy-keyword	65
+		BMC_Bioinformatics	expasy-keyword	64
+		Biomed_Res_Int	expasy-keyword	61
+		BMC_Evol_Biol	expasy-keyword	60
+		BMC_Res_Notes	expasy-keyword	45
+		BMC_Biotechnol	expasy-keyword	36
+		Biotechnol_Biofuels	expasy-keyword	31
+		Bioinformatics	expasy-keyword	24
+		3_Biotech	expasy-keyword	24
+		BMC_Biochem	expasy-keyword	24
+		BMC_Mol_Biol	expasy-keyword	22
+		Bioinform_Biol_Insights	expasy-keyword	22
+		BMC_Syst_Biol	expasy-keyword	18
+		BMC_Cancer	expasy-keyword	17
+		Biochemistry	expasy-keyword	16
+		Adv_Bioinformatics	expasy-keyword	15
+		BMC_Genet	expasy-keyword	15
+
+	Show top 20 words for expasy-keyword : (word, pattern, count)
+		ExPASy	expasy-keyword	772
+		Expasy	expasy-keyword	192
+		ExPASy:	expasy-keyword	108
+		(http://swissmodel.expasy.org/)	expasy-keyword	48
+		EXPASY	expasy-keyword	47
+		ExPaSy	expasy-keyword	34
+		ExPasy	expasy-keyword	30
+		(http://web.expasy.org/compute_pi/).	expasy-keyword	29
+		ExPASY	expasy-keyword	28
+		expasy	expasy-keyword	25
+		(http://web.expasy.org/protparam/).	expasy-keyword	23
+		(ExPASy)	expasy-keyword	21
+		Expasy's	expasy-keyword	19
+		ExPASy,	expasy-keyword	19
+		http://web.expasy.org/protparam/	expasy-keyword	17
+		(http://swissmodel.expasy.org)	expasy-keyword	15
+		(http://web.expasy.org/protparam/)	expasy-keyword	15
+		(http://www.expasy.ch/sprot),	expasy-keyword	13
+		Expasy,	expasy-keyword	13
+		(http://prosite.expasy.org/)	expasy-keyword	13
+
+	Show sample for expasy-keyword : (word, journal, publication, pattern, count, line, offset, length)
+		(http://swissmodel.expasy.org)	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	expasy-keyword	36	10	30
+		ExPASy	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2013_Aug_26_35(8)_1283-1289.txt	expasy-keyword	22	114	6
+		(http://au.expasy.org/prosite/).	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2013_Aug_26_35(8)_1283-1289.txt	expasy-keyword	22	115	32
+		(http://www.expasy.org/).	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Jan_30_34(1)_167-174.txt	expasy-keyword	21	70	25
+		(http://web.expasy.org/compute_pi/).	Antioxidants_(Basel)	./Antioxidants_(Basel)/PMC5187533.txt	expasy-keyword	30	45	36
+		(http://www.expasy.ch/prosite/).	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2014_Mar_7_Jul-Aug_16(4)_647-649.txt	expasy-keyword	15	187	32
+		ExPASy	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Aug_7_Sep-Oct_17(5)_716-719.txt	expasy-keyword	25	72	6
+		(http://www.expasy.org/tools/protparam.html)	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_May_18_Sep-Oct_17(5)_708-710.txt	expasy-keyword	18	19	44
+		(http://swissmodel.expasy.org/)	Autoimmune_Dis	./Autoimmune_Dis/PMC5220385.txt	expasy-keyword	40	5	31
+		(http://swissmodel.expasy.org).	ACS_Catal	./ACS_Catal/ACS_Catal_2013_Mar_1_3(3)_370-379.txt	expasy-keyword	187	2	31
+		(http://prosite.expasy.org)	Biores_Open_Access	./Biores_Open_Access/Biores_Open_Access_2013_Dec_1_2(6)_440-447.txt	expasy-keyword	119	150	27
+		ExPASy	ACS_Appl_Mater_Interfaces	./ACS_Appl_Mater_Interfaces/ACS_Appl_Mater_Interfaces_2014_Sep_10_6(17)_15412-15419.txt	expasy-keyword	331	3	6
+		ExPASy:	ACS_Appl_Mater_Interfaces	./ACS_Appl_Mater_Interfaces/ACS_Appl_Mater_Interfaces_2014_Sep_10_6(17)_15412-15419.txt	expasy-keyword	778	0	7
+		ExPASy	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2013_Oct_9_3(1)_14-20.txt	expasy-keyword	21	285	6
+		(web.expasy.org/compute_pi/).	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2013_Oct_9_3(1)_14-20.txt	expasy-keyword	21	287	29
+		(http://tw.expasy.org/Swiss-Prot/TrEMBL)	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2013_Oct_9_3(1)_14-20.txt	expasy-keyword	37	49	40
+		Expasy	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2013_Oct_9_3(1)_14-20.txt	expasy-keyword	37	76	6
+		http://web.expasy.org/cgi-bin/pathways/show_thumbnails.pl)	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2014_May_10_3(3)_43-47.txt	expasy-keyword	26	14	58
+		(http://expasy.org/)	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2012_Oct_3_1_37-43.txt	expasy-keyword	19	59	20
+		(ExPASy;	Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun	./Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun/Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun_2012_Oct_30_68(Pt_11)_1402-1405.txt	expasy-keyword	36	165	8
+
+ * * * * * * * * * * * * * * 
+
+
+Found 106 matches for ismara patterns :(?i)ismara
+
+	Show top 20 journals for ismara : (journal, pattern, count)
+		Autism_Res_Treat	ismara	23
+		BMC_Musculoskelet_Disord	ismara	10
+		Biomed_Res_Int	ismara	8
+		BMC_Infect_Dis	ismara	4
+		BMC_Pediatr	ismara	4
+		Autism_Res	ismara	4
+		Arthritis_Res_Ther	ismara	3
+		BMC_Psychiatry	ismara	3
+		Biomed_Eng_Online	ismara	3
+		Beilstein_J_Org_Chem	ismara	3
+		Autism	ismara	2
+		BMC_Urol	ismara	2
+		BMC_Anesthesiol	ismara	2
+		ACS_Cent_Sci	ismara	2
+		BMC_Syst_Biol	ismara	2
+		BMC_Public_Health	ismara	2
+		BMC_Vet_Res	ismara	2
+		BMC_Med_Genet	ismara	1
+		BMC_Microbiol	ismara	1
+		Arq_Bras_Cardiol	ismara	1
+
+	Show top 20 journal where distinct words are counted ismara : (journal, pattern, distinct words count)
+		Autism_Res_Treat	ismara	4
+		Biomed_Res_Int	ismara	2
+		BMC_Infect_Dis	ismara	2
+		Autism	ismara	2
+		BMC_Musculoskelet_Disord	ismara	2
+		BMC_Vet_Res	ismara	2
+		Autism_Res	ismara	2
+		Braz_J_Phys_Ther	ismara	1
+		Biosci_Rep	ismara	1
+		BMC_Health_Serv_Res	ismara	1
+		BMC_Med_Genet	ismara	1
+		Asian_J_Endosc_Surg	ismara	1
+		BMC_Complement_Altern_Med	ismara	1
+		Anc_Sci_Life	ismara	1
+		Appl_Plant_Sci	ismara	1
+		BMC_Urol	ismara	1
+		Br_J_Cancer	ismara	1
+		Beilstein_J_Org_Chem	ismara	1
+		BMC_Cancer	ismara	1
+		BMC_Pediatr	ismara	1
+
+	Show top 20 words for ismara : (word, pattern, count)
+		Vismara	ismara	88
+		Vismara,	ismara	2
+		8Vismara	ismara	1
+		(śīghravismaraṇa).	ismara	1
+		VISMARA,	ismara	1
+		metabolismArabidopsis	ismara	1
+		ISMARA	ismara	1
+		Lismara	ismara	1
+		Vismara:	ismara	1
+		*Vismara	ismara	1
+		Mohismara	ismara	1
+		Ismara,	ismara	1
+		[Vismara,	ismara	1
+		laurie.vismara@ucdmc.ucdavis.eduAcademic	ismara	1
+		1p.capodaglio@auxologico.itVismara	ismara	1
+		ismara.unibas.ch	ismara	1
+		lismarajf@oi.com.br	ismara	1
+		Vismara.	ismara	1
+
+	Show sample for ismara : (word, journal, publication, pattern, count, line, offset, length)
+		Vismara,	Autism	./Autism/Autism_2015_Aug_19(6)_673-683.txt	ismara	21	20	8
+		Vismara	Autism	./Autism/Autism_2015_Aug_19(6)_673-683.txt	ismara	323	2	7
+		Vismara	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Mar_1_7_18.txt	ismara	108	20	7
+		Vismara	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Mar_1_7_18.txt	ismara	277	0	7
+		Vismara	BMC_Anesthesiol	./BMC_Anesthesiol/BMC_Anesthesiol_2014_May_12_14_32.txt	ismara	62	4	7
+		Vismara	BMC_Anesthesiol	./BMC_Anesthesiol/BMC_Anesthesiol_2014_May_12_14_32.txt	ismara	66	10	7
+		Vismara	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2015_May_30_8_80.txt	ismara	234	3	7
+		Vismara	ACS_Cent_Sci	./ACS_Cent_Sci/ACS_Cent_Sci_2015_Nov_25_1(8)_456-462.txt	ismara	463	4	7
+		Vismara	ACS_Cent_Sci	./ACS_Cent_Sci/ACS_Cent_Sci_2015_Nov_25_1(8)_456-462.txt	ismara	465	14	7
+		Vismara	BMC_Biol	./BMC_Biol/BMC_Biol_2012_Mar_5_10_17.txt	ismara	110	8	7
+		Vismara	Asian_J_Endosc_Surg	./Asian_J_Endosc_Surg/Asian_J_Endosc_Surg_2016_Feb_21_9(1)_37-43.txt	ismara	372	0	7
+		metabolismArabidopsis	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Jul_4_14_180.txt	ismara	12	2	21
+		Vismara	Biomed_Eng_Online	./Biomed_Eng_Online/Biomed_Eng_Online_2013_Sep_5_12_87.txt	ismara	166	0	7
+		Vismara	Biomed_Eng_Online	./Biomed_Eng_Online/Biomed_Eng_Online_2012_Apr_16_11_20.txt	ismara	108	6	7
+		Vismara	Biomed_Eng_Online	./Biomed_Eng_Online/Biomed_Eng_Online_2014_Mar_7_13_13.txt	ismara	1346	1	7
+		Vismara	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2005_Oct_28_5_139.txt	ismara	205	4	7
+		(śīghravismaraṇa).	Anc_Sci_Life	./Anc_Sci_Life/Anc_Sci_Life_2016_Apr-Jun_35(4)_201-206.txt	ismara	92	148	18
+		Vismara	BMC_Health_Serv_Res	./BMC_Health_Serv_Res/BMC_Health_Serv_Res_2011_Mar_22_11_60.txt	ismara	354	2	7
+		Vismara	BMC_Psychiatry	./BMC_Psychiatry/PMC5251245.txt	ismara	254	3	7
+		Vismara	BMC_Psychiatry	./BMC_Psychiatry/BMC_Psychiatry_2015_Dec_21_15_316.txt	ismara	273	3	7
+
+ * * * * * * * * * * * * * * 
+
+
+Found 10 matches for nextprot-accession patterns :NX_\w+
+
+	Show top 20 journals for nextprot-accession : (journal, pattern, count)
+		BMC_Ophthalmol	nextprot-accession	3
+		BMC_Evol_Biol	nextprot-accession	2
+		BMC_Mol_Biol	nextprot-accession	1
+		BMC_Genomics	nextprot-accession	1
+		Br_J_Cancer	nextprot-accession	1
+		BMC_Bioinformatics	nextprot-accession	1
+		Biomark_Insights	nextprot-accession	1
+
+	Show top 20 journal where distinct words are counted nextprot-accession : (journal, pattern, distinct words count)
+		BMC_Evol_Biol	nextprot-accession	2
+		BMC_Ophthalmol	nextprot-accession	1
+		Biomark_Insights	nextprot-accession	1
+		BMC_Mol_Biol	nextprot-accession	1
+		BMC_Genomics	nextprot-accession	1
+		BMC_Bioinformatics	nextprot-accession	1
+		Br_J_Cancer	nextprot-accession	1
+
+	Show top 20 words for nextprot-accession : (word, pattern, count)
+		AINX_HUMAN	nextprot-accession	3
+		ANX_2_249	nextprot-accession	2
+		HNX_FRa	nextprot-accession	1
+		CeNX_100	nextprot-accession	1
+		2ANX_A	nextprot-accession	1
+		|P23565|AINX_RAT	nextprot-accession	1
+		CNX_CRT	nextprot-accession	1
+
+	Show sample for nextprot-accession : (word, journal, publication, pattern, count, line, offset, length)
+		AINX_HUMAN	BMC_Ophthalmol	./BMC_Ophthalmol/BMC_Ophthalmol_2013_Sep_25_13_48.txt	nextprot-accession	63	2	10
+		AINX_HUMAN	BMC_Ophthalmol	./BMC_Ophthalmol/BMC_Ophthalmol_2013_Sep_25_13_48.txt	nextprot-accession	68	1	10
+		AINX_HUMAN	BMC_Ophthalmol	./BMC_Ophthalmol/BMC_Ophthalmol_2013_Sep_25_13_48.txt	nextprot-accession	71	1	10
+		CeNX_100	BMC_Mol_Biol	./BMC_Mol_Biol/BMC_Mol_Biol_2008_Aug_5_9_71.txt	nextprot-accession	48	125	8
+		HNX_FRa	Br_J_Cancer	./Br_J_Cancer/Br_J_Cancer_1986_Jul_54(1)_53-59.txt	nextprot-accession	401	1	7
+		2ANX_A	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2016_Sep_5_17(1)_353.txt	nextprot-accession	239	0	6
+		|P23565|AINX_RAT	Biomark_Insights	./Biomark_Insights/Biomark_Insights_2009_Oct_28_4_135-164.txt	nextprot-accession	461	1	16
+		ANX_2_249	BMC_Evol_Biol	./BMC_Evol_Biol/BMC_Evol_Biol_2014_Jun_20_14_138.txt	nextprot-accession	53	0	9
+		CNX_CRT	BMC_Evol_Biol	./BMC_Evol_Biol/BMC_Evol_Biol_2012_Jun_25_12_98.txt	nextprot-accession	63	0	7
+		ANX_2_249	BMC_Genomics	./BMC_Genomics/BMC_Genomics_2015_Aug_13_16(1)_600.txt	nextprot-accession	47	0	9
+
+ * * * * * * * * * * * * * * 
+
+
+Found 129 matches for nextprot-caloha-ontology patterns :TS-\d{4}
+
+	Show top 20 journals for nextprot-caloha-ontology : (journal, pattern, count)
+		Biomed_Res_Int	nextprot-caloha-ontology	17
+		BMC_Genomics	nextprot-caloha-ontology	7
+		Arthritis_Res_Ther	nextprot-caloha-ontology	7
+		BMJ_Open	nextprot-caloha-ontology	4
+		Breed_Sci	nextprot-caloha-ontology	4
+		BMC_Public_Health	nextprot-caloha-ontology	4
+		BMC_Musculoskelet_Disord	nextprot-caloha-ontology	4
+		Anal_Chem	nextprot-caloha-ontology	3
+		Acta_Pharmacol_Sin	nextprot-caloha-ontology	3
+		BMC_Med_Genet	nextprot-caloha-ontology	3
+		BMC_Fam_Pract	nextprot-caloha-ontology	3
+		Acta_Neuropathol	nextprot-caloha-ontology	3
+		BMC_Cancer	nextprot-caloha-ontology	3
+		Antimicrob_Resist_Infect_Control	nextprot-caloha-ontology	2
+		BMC_Bioinformatics	nextprot-caloha-ontology	2
+		BMC_Neurol	nextprot-caloha-ontology	2
+		BMC_Vet_Res	nextprot-caloha-ontology	2
+		Alzheimers_Res_Ther	nextprot-caloha-ontology	2
+		BMC_Biophys	nextprot-caloha-ontology	2
+		Biol_Open	nextprot-caloha-ontology	2
+
+	Show top 20 journal where distinct words are counted nextprot-caloha-ontology : (journal, pattern, distinct words count)
+		Biomed_Res_Int	nextprot-caloha-ontology	9
+		Arthritis_Res_Ther	nextprot-caloha-ontology	5
+		BMC_Genomics	nextprot-caloha-ontology	5
+		BMC_Public_Health	nextprot-caloha-ontology	4
+		BMJ_Open	nextprot-caloha-ontology	4
+		BMC_Fam_Pract	nextprot-caloha-ontology	3
+		Breed_Sci	nextprot-caloha-ontology	3
+		BMC_Med_Genet	nextprot-caloha-ontology	3
+		Acta_Neuropathol	nextprot-caloha-ontology	3
+		Acta_Pharmacol_Sin	nextprot-caloha-ontology	3
+		BMC_Musculoskelet_Disord	nextprot-caloha-ontology	3
+		BMC_Cancer	nextprot-caloha-ontology	3
+		BMC_Vet_Res	nextprot-caloha-ontology	2
+		Biophys_Physicobiol	nextprot-caloha-ontology	2
+		Anal_Chem	nextprot-caloha-ontology	2
+		Biol_Open	nextprot-caloha-ontology	2
+		BMC_Neurol	nextprot-caloha-ontology	2
+		BMC_Bioinformatics	nextprot-caloha-ontology	2
+		Aging_(Albany_NY)	nextprot-caloha-ontology	2
+		Biochemistry	nextprot-caloha-ontology	2
+
+	Show top 20 words for nextprot-caloha-ontology : (word, pattern, count)
+		CTS-21166	nextprot-caloha-ontology	5
+		TS-5000z	nextprot-caloha-ontology	5
+		FTS-7000	nextprot-caloha-ontology	4
+		CTS-4977	nextprot-caloha-ontology	3
+		TS-5000z,	nextprot-caloha-ontology	3
+		(CTS-0120978)	nextprot-caloha-ontology	2
+		P11-CTS-07187	nextprot-caloha-ontology	2
+		AtSTS-1015–REL-4	nextprot-caloha-ontology	2
+		TS-1000	nextprot-caloha-ontology	2
+		(TS-1363,	nextprot-caloha-ontology	2
+		TS-5000z.	nextprot-caloha-ontology	2
+		10.1081/SMTS-120021736	nextprot-caloha-ontology	2
+		FTS-6000	nextprot-caloha-ontology	2
+		(TS-5000z)	nextprot-caloha-ontology	2
+		(CTS-5360/09)	nextprot-caloha-ontology	2
+		CTS-1507	nextprot-caloha-ontology	2
+		http://www.mof.gov.cy/mof/cystat/statistics.nsf/All/39FF8C6C587B26A6C22579EC002D5471/$file/HEALTH_HOSPITAL_STATS-2011-270114.pdf?OpenElement[cited	nextprot-caloha-ontology	1
+		FTS-3500GX	nextprot-caloha-ontology	1
+		p08-CTS-04369.	nextprot-caloha-ontology	1
+		P09-CTS-4564	nextprot-caloha-ontology	1
+
+	Show sample for nextprot-caloha-ontology : (word, journal, publication, pattern, count, line, offset, length)
+		(NCCCTS-13681),	Ann_Surg_Treat_Res	./Ann_Surg_Treat_Res/Ann_Surg_Treat_Res_2016_Oct_30_91(4)_187-194.txt	nextprot-caloha-ontology	25	51	15
+		10.1081/SMTS-120021736	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2011_Mar_2_4_3.txt	nextprot-caloha-ontology	179	23	22
+		10.1081/SMTS-120021736	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2011_Apr_13_4_7.txt	nextprot-caloha-ontology	282	23	22
+		(ITS-3000	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2011_May_31_4_14.txt	nextprot-caloha-ontology	96	17	9
+		(KTS-2322,	Acta_Histochem_Cytochem	./Acta_Histochem_Cytochem/Acta_Histochem_Cytochem_2011_Jun_29_44(3)_119-131.txt	nextprot-caloha-ontology	23	98	10
+		BRATS-2012	BMC_Med_Imaging	./BMC_Med_Imaging/BMC_Med_Imaging_2015_Oct_30_15_50.txt	nextprot-caloha-ontology	251	32	10
+		UniversityGSAU-STS-1223issue-copyright-statement©	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2016_Aug_31_16(1)_188.txt	nextprot-caloha-ontology	17	56	49
+		(GSAU-STS-1223).	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2016_Aug_31_16(1)_188.txt	nextprot-caloha-ontology	273	65	16
+		http://www.mt-archive.info/MTS-2011-Naskar.pdf.	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2012_Nov_14_5_635.txt	nextprot-caloha-ontology	217	19	47
+		(CTS-6844)	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2014_Sep_7_14_656.txt	nextprot-caloha-ontology	240	70	10
+		(P06-CTS-1385).	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2010_May_20_10_217.txt	nextprot-caloha-ontology	172	25	15
+		(CTS-6844),	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2014_Apr_23_14_281.txt	nextprot-caloha-ontology	217	26	11
+		(MATS-1000FST,	Biophys_J	./Biophys_J/Biophys_J_2008_Jul_15_95(2)_761-770.txt	nextprot-caloha-ontology	49	59	14
+		P10-CTS-5862,	BMC_Health_Serv_Res	./BMC_Health_Serv_Res/BMC_Health_Serv_Res_2011_Oct_7_11_257.txt	nextprot-caloha-ontology	281	13	13
+		(CTS-0120978)	Anal_Chem	./Anal_Chem/PMC4750475.txt	nextprot-caloha-ontology	336	4	13
+		ATS-9350)	Anal_Chem	./Anal_Chem/Anal_Chem_2014_Aug_19_86(16)_8448-8456.txt	nextprot-caloha-ontology	154	14	9
+		(CTS-0120978)	Anal_Chem	./Anal_Chem/Anal_Chem_2014_Apr_15_86(8)_3869-3875.txt	nextprot-caloha-ontology	460	6	13
+		P09-CTS-4697	Biol_Open	./Biol_Open/Biol_Open_2013_Dec_17_3(1)_108-115.txt	nextprot-caloha-ontology	104	18	12
+		P09-CTS-4697.	Biol_Open	./Biol_Open/Biol_Open_2013_Dec_17_3(1)_108-115.txt	nextprot-caloha-ontology	104	58	13
+		CTS-4977	Arthritis_Res_Ther	./Arthritis_Res_Ther/Arthritis_Res_Ther_2012_Jun_25_14(3)_R154.txt	nextprot-caloha-ontology	137	20	8
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for nextprot-icepo-ontology patterns :ICEPO:\d{7}
+
+ * * * * * * * * * * * * * * 
+
+
+Found 31 matches for nextprot-keyword patterns :(?i)nextprot
+
+	Show top 20 journals for nextprot-keyword : (journal, pattern, count)
+		BMC_Syst_Biol	nextprot-keyword	10
+		BMC_Bioinformatics	nextprot-keyword	8
+		BMC_Med_Genomics	nextprot-keyword	2
+		Biochimie	nextprot-keyword	2
+		Biochem_Res_Int	nextprot-keyword	2
+		Biomark_Insights	nextprot-keyword	2
+		Bioinformatics	nextprot-keyword	2
+		BMC_Cancer	nextprot-keyword	1
+		BMC_Res_Notes	nextprot-keyword	1
+		Biomed_Res_Int	nextprot-keyword	1
+
+	Show top 20 journal where distinct words are counted nextprot-keyword : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	nextprot-keyword	4
+		BMC_Syst_Biol	nextprot-keyword	2
+		Biomark_Insights	nextprot-keyword	2
+		Biochem_Res_Int	nextprot-keyword	2
+		Biomed_Res_Int	nextprot-keyword	1
+		BMC_Cancer	nextprot-keyword	1
+		Biochimie	nextprot-keyword	1
+		BMC_Med_Genomics	nextprot-keyword	1
+		BMC_Res_Notes	nextprot-keyword	1
+		Bioinformatics	nextprot-keyword	1
+
+	Show top 20 words for nextprot-keyword : (word, pattern, count)
+		neXtProt	nextprot-keyword	21
+		neXtProt:	nextprot-keyword	5
+		neXtProt.	nextprot-keyword	1
+		(https://www.nextprot.org/),	nextprot-keyword	1
+		neXtProt48	nextprot-keyword	1
+		neXtprot	nextprot-keyword	1
+		NextProt	nextprot-keyword	1
+
+	Show sample for nextprot-keyword : (word, journal, publication, pattern, count, line, offset, length)
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	8	43	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	19	114	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	21	19	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	25	62	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	31	14	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	54	11	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	92	74	8
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	95	44	8
+		neXtProt:	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	128	21	9
+		neXtProt	BMC_Syst_Biol	./BMC_Syst_Biol/PMC5259966.txt	nextprot-keyword	154	13	8
+		neXtprot	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2015_Feb_19_8_46.txt	nextprot-keyword	84	0	8
+		neXtProt:	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2014_Nov_4_14_809.txt	nextprot-keyword	230	25	9
+		neXtProt	BMC_Med_Genomics	./BMC_Med_Genomics/BMC_Med_Genomics_2015_Dec_21_8_83.txt	nextprot-keyword	59	81	8
+		neXtProt	BMC_Med_Genomics	./BMC_Med_Genomics/BMC_Med_Genomics_2015_Dec_21_8_83.txt	nextprot-keyword	473	14	8
+		neXtProt	Biochimie	./Biochimie/Biochimie_2016_Mar_122_5-30.txt	nextprot-keyword	40	141	8
+		neXtProt	Biochimie	./Biochimie/Biochimie_2016_Mar_122_5-30.txt	nextprot-keyword	254	28	8
+		neXtProt	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Jun_1_31(11)_1875-1877.txt	nextprot-keyword	18	36	8
+		neXtProt	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Jun_1_31(11)_1875-1877.txt	nextprot-keyword	140	5	8
+		neXtProt	Biomed_Res_Int	./Biomed_Res_Int/Biomed_Res_Int_2015_May_18_2015_343501.txt	nextprot-keyword	111	155	8
+		neXtProt.	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S2.txt	nextprot-keyword	116	30	9
+
+ * * * * * * * * * * * * * * 
+
+
+Found 232 matches for orthodb patterns :(?i)orthodb
+
+	Show top 20 journals for orthodb : (journal, pattern, count)
+		BMC_Genomics	orthodb	108
+		BMC_Bioinformatics	orthodb	34
+		BMC_Evol_Biol	orthodb	28
+		Brief_Bioinform	orthodb	19
+		Biomed_Res_Int	orthodb	11
+		Bioinformatics	orthodb	9
+		Bioessays	orthodb	8
+		BMC_Plant_Biol	orthodb	5
+		BMC_Biol	orthodb	4
+		Biodivers_Data_J	orthodb	3
+		Appl_Environ_Microbiol	orthodb	2
+		BMC_Dev_Biol	orthodb	1
+
+	Show top 20 journal where distinct words are counted orthodb : (journal, pattern, distinct words count)
+		BMC_Genomics	orthodb	21
+		BMC_Evol_Biol	orthodb	12
+		BMC_Bioinformatics	orthodb	6
+		BMC_Plant_Biol	orthodb	5
+		Biomed_Res_Int	orthodb	4
+		Bioinformatics	orthodb	4
+		Brief_Bioinform	orthodb	4
+		Biodivers_Data_J	orthodb	3
+		BMC_Biol	orthodb	3
+		Bioessays	orthodb	3
+		Appl_Environ_Microbiol	orthodb	2
+		BMC_Dev_Biol	orthodb	1
+
+	Show top 20 words for orthodb : (word, pattern, count)
+		OrthoDB	orthodb	117
+		OrthoDB:	orthodb	48
+		OrthoDB,	orthodb	14
+		(OrthoDB	orthodb	4
+		orthoDB	orthodb	4
+		OrthoDB.	orthodb	4
+		OrthoDB7	orthodb	3
+		(OrthoDB,	orthodb	3
+		OrthoDb	orthodb	2
+		orthoDB,	orthodb	2
+		OrthoDB6	orthodb	2
+		OrthoDB;	orthodb	2
+		http://cegg.unige.ch/orthodb6)	orthodb	1
+		(http://cefg.uestc.edu.cn/ceg/home.html),OrthoDB	orthodb	1
+		[http://orthodb.org/orthodb7]	orthodb	1
+		http://cegg.unige.ch/orthodb[66].	orthodb	1
+		OrthoDB4,	orthodb	1
+		(http://cegg.unige.ch/orthodb4/)	orthodb	1
+		(http://cegg.unige.ch/orthodb6)	orthodb	1
+		(orthoDB)	orthodb	1
+
+	Show sample for orthodb : (word, journal, publication, pattern, count, line, offset, length)
+		OrthoDB:	BMC_Biol	./BMC_Biol/BMC_Biol_2015_Oct_1_13_81.txt	orthodb	294	11	8
+		OrthoDB	BMC_Biol	./BMC_Biol/BMC_Biol_2014_Apr_14_12_27.txt	orthodb	104	16	7
+		OrthoDB	BMC_Biol	./BMC_Biol/BMC_Biol_2014_Apr_14_12_27.txt	orthodb	185	0	7
+		[http://orthodb.org/orthodb7]	BMC_Biol	./BMC_Biol/BMC_Biol_2014_Apr_14_12_27.txt	orthodb	185	1	29
+		(http://cefg.uestc.edu.cn/ceg/home.html),OrthoDB	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2015_Jun_26_15_161.txt	orthodb	23	21	48
+		(http://orthodb.org/),	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2015_Jun_26_15_161.txt	orthodb	23	23	22
+		OrthoDB,	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2015_Jun_26_15_161.txt	orthodb	23	68	8
+		OrthoDB	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2015_Jun_26_15_161.txt	orthodb	23	200	7
+		OrthoDB:	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2015_Jun_26_15_161.txt	orthodb	143	11	8
+		OrthoDB,	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2014_Nov_5_15(6)_1004-1013.txt	orthodb	112	80	8
+		OrthoDB,	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	11	125	8
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	23	83	7
+		(http://cegg.unige.ch/orthodb)	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	23	84	30
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	23	216	7
+		OrthoDB,	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	23	259	8
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	32	0	7
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	43	295	7
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	46	22	7
+		OrthoDB	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	75	36	7
+		OrthoDB,	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	orthodb	75	110	8
+
+ * * * * * * * * * * * * * * 
+
+
+Found 3299 matches for prosite patterns :(?i)prosite
+
+	Show top 20 journals for prosite : (journal, pattern, count)
+		BMC_Bioinformatics	prosite	1266
+		BMC_Genomics	prosite	639
+		Bioinformation	prosite	171
+		BMC_Evol_Biol	prosite	153
+		BMC_Struct_Biol	prosite	149
+		Algorithms_Mol_Biol	prosite	122
+		BMC_Plant_Biol	prosite	106
+		BMC_Microbiol	prosite	92
+		BMC_Res_Notes	prosite	67
+		Bioinformatics	prosite	62
+		Biomed_Res_Int	prosite	58
+		Bioinform_Biol_Insights	prosite	37
+		BMC_Syst_Biol	prosite	28
+		BMC_Biochem	prosite	19
+		Biochim_Biophys_Acta	prosite	17
+		Biol_Direct	prosite	17
+		BioData_Min	prosite	17
+		BMC_Mol_Biol	prosite	15
+		BMC_Neurosci	prosite	15
+		BMC_Biotechnol	prosite	14
+
+	Show top 20 journal where distinct words are counted prosite : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	prosite	85
+		BMC_Genomics	prosite	74
+		BMC_Evol_Biol	prosite	38
+		BMC_Plant_Biol	prosite	35
+		Bioinformation	prosite	32
+		BMC_Microbiol	prosite	28
+		BMC_Res_Notes	prosite	21
+		Algorithms_Mol_Biol	prosite	18
+		Bioinform_Biol_Insights	prosite	17
+		BMC_Struct_Biol	prosite	17
+		Biomed_Res_Int	prosite	11
+		BMC_Biochem	prosite	10
+		Bioinformatics	prosite	9
+		Biol_Direct	prosite	8
+		BMC_Cell_Biol	prosite	8
+		BMC_Syst_Biol	prosite	8
+		Biochim_Biophys_Acta	prosite	7
+		BioData_Min	prosite	7
+		BMC_Immunol	prosite	7
+		BMC_Neurosci	prosite	7
+
+	Show top 20 words for prosite : (word, pattern, count)
+		PROSITE	prosite	1709
+		Prosite	prosite	437
+		ScanProsite	prosite	158
+		PROSITE,	prosite	124
+		prosite	prosite	78
+		(PROSITE	prosite	67
+		PROSITE:	prosite	67
+		ScanProsite:	prosite	66
+		PROSITE.	prosite	47
+		Prosite,	prosite	24
+		Prosite.	prosite	20
+		(Prosite	prosite	19
+		ProSite	prosite	17
+		RNAProSite	prosite	14
+		(http://prosite.expasy.org/)	prosite	13
+		Prosite-styled	prosite	13
+		PROSITE-GO	prosite	11
+		Scanprosite	prosite	10
+		Prosite:	prosite	8
+		ScanProsite,	prosite	8
+
+	Show sample for prosite : (word, journal, publication, pattern, count, line, offset, length)
+		Prosite	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2013_Aug_26_35(8)_1283-1289.txt	prosite	22	111	7
+		(http://au.expasy.org/prosite/).	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2013_Aug_26_35(8)_1283-1289.txt	prosite	22	115	32
+		PROSITE	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2014_Mar_7_Jul-Aug_16(4)_647-649.txt	prosite	15	185	7
+		(http://www.expasy.ch/prosite/).	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2014_Mar_7_Jul-Aug_16(4)_647-649.txt	prosite	15	187	32
+		PROSITE	Biores_Open_Access	./Biores_Open_Access/Biores_Open_Access_2013_Dec_1_2(6)_440-447.txt	prosite	119	148	7
+		(http://prosite.expasy.org)	Biores_Open_Access	./Biores_Open_Access/Biores_Open_Access_2013_Dec_1_2(6)_440-447.txt	prosite	119	150	27
+		PROSITE	Biores_Open_Access	./Biores_Open_Access/Biores_Open_Access_2013_Dec_1_2(6)_440-447.txt	prosite	121	42	7
+		ScanProsite	Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun	./Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun/Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun_2013_Aug_19_69(Pt_9)_1001-1003.txt	prosite	13	175	11
+		PROSITE	Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun	./Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun/Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun_2006_Jun_10_62(Pt_7)_672-675.txt	prosite	16	58	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	49	69	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	49	75	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	49	88	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	49	246	7
+		PROSITE,	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	56	19	8
+		Prosite	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	98	5	7
+		Prosite).	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	109	157	9
+		PROSITE:	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2010_Apr_20_4_46.txt	prosite	186	2	8
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2009_Feb_20_3_23.txt	prosite	63	104	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2009_Feb_20_3_23.txt	prosite	262	23	7
+		PROSITE	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2016_Jan_11_10(Suppl_1)_3.txt	prosite	38	117	7
+
+ * * * * * * * * * * * * * * 
+
+
+Found 96 matches for sib-emails patterns :[A-Za-z0-9_.+-]*@(?i)(isb-sib\.ch|sib\.swiss)
+
+	Show top 20 journals for sib-emails : (journal, pattern, count)
+		BMC_Bioinformatics	sib-emails	46
+		BMC_Genomics	sib-emails	20
+		Bioinformatics	sib-emails	9
+		BMC_Microbiol	sib-emails	5
+		Breast_Cancer_Res	sib-emails	5
+		BMC_Cancer	sib-emails	3
+		BMC_Syst_Biol	sib-emails	2
+		Brief_Bioinform	sib-emails	2
+		BMC_Res_Notes	sib-emails	2
+		BMC_Biol	sib-emails	1
+		BMC_Med_Genomics	sib-emails	1
+
+	Show top 20 journal where distinct words are counted sib-emails : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	sib-emails	46
+		BMC_Genomics	sib-emails	20
+		Bioinformatics	sib-emails	9
+		BMC_Microbiol	sib-emails	5
+		Breast_Cancer_Res	sib-emails	5
+		BMC_Cancer	sib-emails	3
+		BMC_Res_Notes	sib-emails	2
+		Brief_Bioinform	sib-emails	2
+		BMC_Syst_Biol	sib-emails	2
+		BMC_Med_Genomics	sib-emails	1
+		BMC_Biol	sib-emails	1
+
+	Show top 20 words for sib-emails : (word, pattern, count)
+		ioannis.xenarios@isb-sib.ch	sib-emails	3
+		2vlad.popovici@isb-sib.chDelorenzi	sib-emails	2
+		910frederique.lisacek@isb-sib.chRomano	sib-emails	1
+		1pratyaksha.wirapati@isb-sib.ch1	sib-emails	1
+		patrick.masson@isb-sib.ch	sib-emails	1
+		1anais.mottaz@isb-sib.chYip	sib-emails	1
+		michel.schneider@isb-sib.ch	sib-emails	1
+		2Philipp.Bucher@isb-sib.chMermod	sib-emails	1
+		Heinz.Stockinger@isb-sib.ch	sib-emails	1
+		2Philipp.Bucher@isb-sib.chCittaro	sib-emails	1
+		1vlad.popovici@isb-sib.chChen	sib-emails	1
+		Brian.J.Stevenson@sib.swiss	sib-emails	1
+		3456christoph.schmid@isb-sib.chAmbrosini	sib-emails	1
+		1Amos.Bairoch@isb-sib.chCohen-Boulakia	sib-emails	1
+		nicolas.guex@isb-sib.ch	sib-emails	1
+		2Frederique.Lisacek@isb-sib.chSanchez	sib-emails	1
+		pftools@isb-sib.ch	sib-emails	1
+		4pierre-alain.binz@isb-sib.chSanchez	sib-emails	1
+		antonio.rausell@isb-sib.ch	sib-emails	1
+		1Nicole.Redaschi@isb-sib.chSuzek	sib-emails	1
+
+	Show sample for sib-emails : (word, journal, publication, pattern, count, line, offset, length)
+		9Julien.Dorier@isb-sib.chPage	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Dec_10_7_135.txt	sib-emails	3	56	29
+		9ioannis.xenarios@isb-sib.chde	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Dec_10_7_135.txt	sib-emails	3	66	30
+		4ioannis.xenarios@isb-sib.chWojcik	BMC_Biol	./BMC_Biol/BMC_Biol_2007_Oct_9_5_44.txt	sib-emails	3	35	34
+		isaac.crespo@isb-sib.ch	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2016_Mar_15_9_168.txt	sib-emails	3	22	23
+		ioannis.xenarios@isb-sib.ch	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2016_Mar_15_9_168.txt	sib-emails	3	28	27
+		pascale.gaudet@isb-sib.ch9	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_27_12(5)_449-462.txt	sib-emails	11	20	26
+		brigitte.boeckmann@isb-sib.ch9	Brief_Bioinform	./Brief_Bioinform/Brief_Bioinform_2011_Sep_7_12(5)_423-435.txt	sib-emails	11	28	30
+		2vlad.popovici@isb-sib.chDelorenzi	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2010_Feb_9_10_37.txt	sib-emails	3	24	34
+		2Mauro.Delorenzi@isb-sib.chWirapati	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2010_Feb_9_10_37.txt	sib-emails	3	26	35
+		2pratyaksha.wirapati@isb-sib.chBaltzer	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2010_Feb_9_10_37.txt	sib-emails	3	28	38
+		2vlad.popovici@isb-sib.chDelorenzi	BMC_Med_Genomics	./BMC_Med_Genomics/BMC_Med_Genomics_2008_Apr_19_1_9.txt	sib-emails	3	19	34
+		anais.mottaz@isb-sib.ch;	Bioinformatics	./Bioinformatics/Bioinformatics_2010_Mar_15_26(6)_851-852.txt	sib-emails	9	1	24
+		lina.yip@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2010_Mar_15_26(6)_851-852.txt	sib-emails	9	2	19
+		bgee@isb-sib.ch;	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Apr_1_28(7)_1017-1020.txt	sib-emails	12	0	16
+		pftools@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2013_May_1_29(9)_1215-1217.txt	sib-emails	10	0	18
+		nicolas.guex@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2013_May_15_29(10)_1268-1274.txt	sib-emails	12	2	23
+		alexander.roth@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2012_Sep_15_28(18)_i340-i348.txt	sib-emails	10	0	25
+		ioannis.xenarios@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2013_Jul_1_29(13)_i80-i88.txt	sib-emails	8	2	27
+		alan.bridge@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Sep_1_31(17)_2860-2866.txt	sib-emails	14	0	22
+		antonio.rausell@isb-sib.ch	Bioinformatics	./Bioinformatics/Bioinformatics_2015_Oct_15_31(20)_3380-3382.txt	sib-emails	11	0	26
+
+ * * * * * * * * * * * * * * 
+
+
+Found 4203 matches for string-keyword patterns :STRING
+
+	Show top 20 journals for string-keyword : (journal, pattern, count)
+		BMC_Bioinformatics	string-keyword	959
+		BMC_Genomics	string-keyword	898
+		BMC_Syst_Biol	string-keyword	486
+		Biomed_Res_Int	string-keyword	332
+		Bioinformatics	string-keyword	249
+		Biol_Direct	string-keyword	123
+		Bioinformation	string-keyword	112
+		BMC_Med_Genomics	string-keyword	87
+		BMC_Microbiol	string-keyword	74
+		BMC_Res_Notes	string-keyword	74
+		Br_J_Cancer	string-keyword	55
+		BMC_Med_Genet	string-keyword	54
+		BMC_Cancer	string-keyword	50
+		BMC_Plant_Biol	string-keyword	36
+		Algorithms_Mol_Biol	string-keyword	34
+		Bioinform_Biol_Insights	string-keyword	33
+		BioData_Min	string-keyword	32
+		BMC_Evol_Biol	string-keyword	32
+		BMC_Genet	string-keyword	31
+		Aging_Cell	string-keyword	24
+
+	Show top 20 journal where distinct words are counted string-keyword : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	string-keyword	42
+		BMC_Syst_Biol	string-keyword	32
+		BMC_Genomics	string-keyword	30
+		Biomed_Res_Int	string-keyword	15
+		Bioinformatics	string-keyword	14
+		BMC_Med_Genomics	string-keyword	10
+		BMC_Res_Notes	string-keyword	10
+		Br_J_Cancer	string-keyword	9
+		Bioinformation	string-keyword	8
+		BMC_Med_Genet	string-keyword	7
+		BMC_Microbiol	string-keyword	7
+		Algorithms_Mol_Biol	string-keyword	6
+		BMC_Musculoskelet_Disord	string-keyword	6
+		Biol_Res	string-keyword	6
+		BMC_Cancer	string-keyword	6
+		Asian_J_Androl	string-keyword	6
+		Arthritis_Res_Ther	string-keyword	6
+		Biol_Direct	string-keyword	5
+		BMC_Infect_Dis	string-keyword	5
+		BioData_Min	string-keyword	4
+
+	Show top 20 words for string-keyword : (word, pattern, count)
+		STRING	string-keyword	3323
+		STRING:	string-keyword	175
+		STRING,	string-keyword	165
+		STRING.	string-keyword	150
+		(STRING)	string-keyword	56
+		(STRING	string-keyword	45
+		STRINGER,	string-keyword	17
+		STRING)	string-keyword	14
+		STRINGFELLOW,	string-keyword	14
+		STRINGSearch	string-keyword	14
+		STRING-based	string-keyword	14
+		(STRING,	string-keyword	11
+		STRING;	string-keyword	8
+		STRINGER	string-keyword	8
+		STRING).	string-keyword	7
+		STRING-IE	string-keyword	7
+		STRING10	string-keyword	7
+		STRING’s	string-keyword	6
+		VALIDATION_STRINGENCY=SILENT	string-keyword	5
+		STRINGdb	string-keyword	5
+
+	Show sample for string-keyword : (word, journal, publication, pattern, count, line, offset, length)
+		STRING.60	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	53	90	9
+		STRING,	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	63	17	7
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	150	62	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	170	15	6
+		STRING-generated	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	170	33	16
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Jul_19_Sep-Oct_18(5)_662-672.txt	string-keyword	262	12	6
+		(STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	33	167	7
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	68	58	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	72	2	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	72	16	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	86	114	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	114	0	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2015_Feb_10_May-Jun_17(3)_403-414.txt	string-keyword	159	11	6
+		(STRING).	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Dec_29_Mar-Apr_18(2)_282-291.txt	string-keyword	77	58	9
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Dec_29_Mar-Apr_18(2)_282-291.txt	string-keyword	118	39	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Dec_29_Mar-Apr_18(2)_282-291.txt	string-keyword	120	7	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Dec_29_Mar-Apr_18(2)_282-291.txt	string-keyword	172	5	6
+		STRING	Asian_J_Androl	./Asian_J_Androl/Asian_J_Androl_2016_Dec_29_Mar-Apr_18(2)_282-291.txt	string-keyword	172	22	6
+		STRING	Ann_Clin_Transl_Neurol	./Ann_Clin_Transl_Neurol/Ann_Clin_Transl_Neurol_2015_May_12_2(5)_575-580.txt	string-keyword	58	50	6
+		(STRING).37	Ann_Clin_Transl_Neurol	./Ann_Clin_Transl_Neurol/Ann_Clin_Transl_Neurol_2014_Aug_22_1(8)_605-617.txt	string-keyword	193	38	11
+
+ * * * * * * * * * * * * * * 
+
+
+Found 6 matches for sugar-bind patterns :(?i)sugarbind
+
+	Show top 20 journals for sugar-bind : (journal, pattern, count)
+		BMC_Bioinformatics	sugar-bind	5
+		Adv_Bioinformatics	sugar-bind	1
+
+	Show top 20 journal where distinct words are counted sugar-bind : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	sugar-bind	2
+		Adv_Bioinformatics	sugar-bind	1
+
+	Show top 20 words for sugar-bind : (word, pattern, count)
+		SugarBind	sugar-bind	4
+		[libs-Description:sugarbinding*]	sugar-bind	1
+		(SugarBindDB):	sugar-bind	1
+
+	Show sample for sugar-bind : (word, journal, publication, pattern, count, line, offset, length)
+		[libs-Description:sugarbinding*]	Adv_Bioinformatics	./Adv_Bioinformatics/Adv_Bioinformatics_2010_Sep_27_2010_289301.txt	sugar-bind	145	17	32
+		SugarBind	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S9.txt	sugar-bind	155	194	9
+		SugarBind	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S9.txt	sugar-bind	190	33	9
+		SugarBind	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S9.txt	sugar-bind	197	2	9
+		SugarBind	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S9.txt	sugar-bind	255	16	9
+		(SugarBindDB):	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2014_Jan_10_15(Suppl_1)_S9.txt	sugar-bind	255	18	14
+
+ * * * * * * * * * * * * * * 
+
+
+Found 1597 matches for swiss-model patterns :(?i)swiss?.model
+
+	Show top 20 journals for swiss-model : (journal, pattern, count)
+		Bioinformation	swiss-model	122
+		BMC_Bioinformatics	swiss-model	122
+		BMC_Plant_Biol	swiss-model	121
+		BMC_Evol_Biol	swiss-model	116
+		Biomed_Res_Int	swiss-model	90
+		BMC_Genomics	swiss-model	83
+		BMC_Struct_Biol	swiss-model	77
+		BMC_Biotechnol	swiss-model	67
+		BMC_Microbiol	swiss-model	65
+		BMC_Biochem	swiss-model	61
+		BMC_Res_Notes	swiss-model	43
+		Bioinform_Biol_Insights	swiss-model	43
+		Biochemistry	swiss-model	41
+		Biotechnol_Biofuels	swiss-model	33
+		Biol_Direct	swiss-model	28
+		Bioinformatics	swiss-model	28
+		3_Biotech	swiss-model	25
+		Biosci_Rep	swiss-model	22
+		BMC_Cell_Biol	swiss-model	20
+		BMC_Med_Genet	swiss-model	19
+
+	Show top 20 journal where distinct words are counted swiss-model : (journal, pattern, distinct words count)
+		Bioinformation	swiss-model	35
+		BMC_Plant_Biol	swiss-model	26
+		BMC_Evol_Biol	swiss-model	22
+		BMC_Biochem	swiss-model	19
+		Biomed_Res_Int	swiss-model	18
+		BMC_Bioinformatics	swiss-model	17
+		BMC_Biotechnol	swiss-model	17
+		BMC_Genomics	swiss-model	17
+		Biochemistry	swiss-model	13
+		BMC_Res_Notes	swiss-model	13
+		BMC_Microbiol	swiss-model	12
+		BMC_Struct_Biol	swiss-model	11
+		Biotechnol_Biofuels	swiss-model	11
+		Biosci_Rep	swiss-model	11
+		Bioinform_Biol_Insights	swiss-model	11
+		Bioinformatics	swiss-model	10
+		BMC_Cell_Biol	swiss-model	9
+		Acta_Pharm_Sin_B	swiss-model	9
+		3_Biotech	swiss-model	9
+		BMC_Med_Genet	swiss-model	8
+
+	Show top 20 words for swiss-model : (word, pattern, count)
+		SWISS-MODEL	swiss-model	861
+		SWISS-MODEL:	swiss-model	146
+		Swiss-Model	swiss-model	105
+		SwissModel	swiss-model	57
+		(http://swissmodel.expasy.org/)	swiss-model	48
+		Swiss-model	swiss-model	34
+		SWISSMODEL	swiss-model	31
+		SWISS-MODEL.	swiss-model	28
+		SWISS-MODEL,	swiss-model	16
+		(http://swissmodel.expasy.org)	swiss-model	15
+		(http://swissmodel.expasy.org/).	swiss-model	11
+		http://swissmodel.expasy.org/	swiss-model	10
+		SWISS‐MODEL	swiss-model	9
+		swiss-model	swiss-model	9
+		(http://swissmodel.expasy.org).	swiss-model	8
+		Swiss-Model,	swiss-model	8
+		Swissmodel	swiss-model	8
+		Swiss-Model:	swiss-model	8
+		SWISS-Model	swiss-model	5
+		Swiss-Model.	swiss-model	5
+
+	Show sample for swiss-model : (word, journal, publication, pattern, count, line, offset, length)
+		Swiss-model	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	swiss-model	36	9	11
+		(http://swissmodel.expasy.org)	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	swiss-model	36	10	30
+		SWISS-MODEL	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	swiss-model	78	11	11
+		SWISS-MODEL	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	swiss-model	79	5	11
+		Swiss-Model	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Jan_30_34(1)_167-174.txt	swiss-model	21	69	11
+		SWISS-MODEL	Antioxidants_(Basel)	./Antioxidants_(Basel)/PMC5187533.txt	swiss-model	30	80	11
+		SWISS-MODEL	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2016_Nov_4_9_7.txt	swiss-model	52	44	11
+		SWISS-MODEL:	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2016_Nov_4_9_7.txt	swiss-model	258	9	12
+		SWISS-MODEL	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2016_Nov_4_9_7.txt	swiss-model	259	10	11
+		SWISS-MODEL	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2012_Feb_7_5_3.txt	swiss-model	195	4	11
+		Swiss-Model	Autoimmune_Dis	./Autoimmune_Dis/PMC5220385.txt	swiss-model	40	4	11
+		(http://swissmodel.expasy.org/)	Autoimmune_Dis	./Autoimmune_Dis/PMC5220385.txt	swiss-model	40	5	31
+		Swiss-Model	Autoimmune_Dis	./Autoimmune_Dis/PMC5220385.txt	swiss-model	56	2	11
+		Swiss-Model	Autoimmune_Dis	./Autoimmune_Dis/PMC5220385.txt	swiss-model	83	12	11
+		Swiss-MODEL-generated	ACS_Catal	./ACS_Catal/ACS_Catal_2013_Mar_1_3(3)_370-379.txt	swiss-model	186	11	21
+		(http://swissmodel.expasy.org).	ACS_Catal	./ACS_Catal/ACS_Catal_2013_Mar_1_3(3)_370-379.txt	swiss-model	187	2	31
+		SWISS-MODEL	Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun	./Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun/Acta_Crystallogr_Sect_F_Struct_Biol_Cryst_Commun_2011_Jun_30_67(Pt_7)_762-767.txt	swiss-model	76	61	11
+		SWISS-MODEL	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Mar_20_7_24.txt	swiss-model	494	4	11
+		SWISSMODEL	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2007_Jan_31_1_10.txt	swiss-model	160	42	10
+		SWISS-MODEL	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2007_Jan_31_1_10.txt	swiss-model	374	4	11
+
+ * * * * * * * * * * * * * * 
+
+
+Found 604 matches for swiss-pdb patterns :(?i)swiss?.pdb
+
+	Show top 20 journals for swiss-pdb : (journal, pattern, count)
+		BMC_Bioinformatics	swiss-pdb	101
+		Bioinformation	swiss-pdb	67
+		Biomed_Res_Int	swiss-pdb	47
+		BMC_Evol_Biol	swiss-pdb	46
+		BMC_Struct_Biol	swiss-pdb	44
+		BMC_Genomics	swiss-pdb	40
+		BMC_Biochem	swiss-pdb	31
+		BMC_Plant_Biol	swiss-pdb	23
+		BMC_Microbiol	swiss-pdb	21
+		Biol_Direct	swiss-pdb	17
+		3_Biotech	swiss-pdb	12
+		Avicenna_J_Med_Biotechnol	swiss-pdb	12
+		Biochemistry	swiss-pdb	9
+		BMC_Immunol	swiss-pdb	8
+		BMC_Mol_Biol	swiss-pdb	8
+		BMC_Med_Genet	swiss-pdb	7
+		BMC_Biotechnol	swiss-pdb	6
+		BMC_Cell_Biol	swiss-pdb	6
+		Biochim_Biophys_Acta	swiss-pdb	5
+		Adv_Bioinformatics	swiss-pdb	5
+
+	Show top 20 journal where distinct words are counted swiss-pdb : (journal, pattern, distinct words count)
+		Bioinformation	swiss-pdb	24
+		BMC_Bioinformatics	swiss-pdb	18
+		Biomed_Res_Int	swiss-pdb	16
+		BMC_Evol_Biol	swiss-pdb	15
+		BMC_Struct_Biol	swiss-pdb	14
+		BMC_Genomics	swiss-pdb	12
+		BMC_Plant_Biol	swiss-pdb	10
+		BMC_Biochem	swiss-pdb	9
+		BMC_Microbiol	swiss-pdb	7
+		Biol_Direct	swiss-pdb	6
+		Biochemistry	swiss-pdb	6
+		Avicenna_J_Med_Biotechnol	swiss-pdb	5
+		BMC_Immunol	swiss-pdb	5
+		BMC_Biol	swiss-pdb	4
+		3_Biotech	swiss-pdb	4
+		BMC_Biotechnol	swiss-pdb	4
+		Brief_Bioinform	swiss-pdb	4
+		BMC_Med_Genet	swiss-pdb	4
+		BMC_Cell_Biol	swiss-pdb	4
+		BMC_Mol_Biol	swiss-pdb	4
+
+	Show top 20 words for swiss-pdb : (word, pattern, count)
+		Swiss-PdbViewer:	swiss-pdb	178
+		Swiss-PdbViewer	swiss-pdb	106
+		Swiss-PDB	swiss-pdb	77
+		Swiss-Pdb	swiss-pdb	60
+		SWISS-PDB	swiss-pdb	23
+		DeepView/Swiss-PdbViewer	swiss-pdb	12
+		SwissPDB	swiss-pdb	11
+		SwissPDBViewer	swiss-pdb	10
+		Swiss-PdbViewer.	swiss-pdb	10
+		SwissPDBviewer	swiss-pdb	8
+		Swiss-PDBViewer	swiss-pdb	7
+		SwissPdbViewer	swiss-pdb	7
+		Swiss-pdb	swiss-pdb	7
+		SwissPDBViewer.	swiss-pdb	4
+		Swiss-PdB	swiss-pdb	4
+		Swiss-PdbViewer,	swiss-pdb	4
+		DeepView/Swiss-PDBViewer	swiss-pdb	3
+		Swiss­PdbViewer	swiss-pdb	3
+		SWISSPDB	swiss-pdb	3
+		Swiss-pdbViewer	swiss-pdb	2
+
+	Show sample for swiss-pdb : (word, journal, publication, pattern, count, line, offset, length)
+		Swiss-pdb	Biotechnol_Lett	./Biotechnol_Lett/Biotechnol_Lett_2012_Mar_3_34(3)_475-481.txt	swiss-pdb	36	39	9
+		Swiss-PDB	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2012_Feb_7_5_3.txt	swiss-pdb	33	155	9
+		Swiss-PdbViewer:	BMC_Biophys	./BMC_Biophys/BMC_Biophys_2012_Feb_7_5_3.txt	swiss-pdb	195	7	16
+		SWISSPDB	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2012_Oct_3_1_37-43.txt	swiss-pdb	25	74	8
+		SWISS-PDB	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2012_Oct_3_1_37-43.txt	swiss-pdb	47	44	9
+		Swiss-PdbViewer:	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2013_Mar_20_7_24.txt	swiss-pdb	494	7	16
+		Swiss-PdbViewer:	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2007_Jan_31_1_10.txt	swiss-pdb	374	7	16
+		Swiss-PdbViewer:	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2013_Feb_18_6_26.txt	swiss-pdb	171	7	16
+		(Swiss-pdbviewer)	Biotechnol_Biofuels	./Biotechnol_Biofuels/Biotechnol_Biofuels_2012_Oct_11_5_76.txt	swiss-pdb	52	31	17
+		Swiss‐Pdb	Aging_Cell	./Aging_Cell/Aging_Cell_2016_Apr_5_15(2)_336-348.txt	swiss-pdb	809	6	9
+		Swiss-PdbViewer	BMC_Biol	./BMC_Biol/BMC_Biol_2012_Jul_19_10_62.txt	swiss-pdb	187	33	15
+		Swiss-Pdb	BMC_Biol	./BMC_Biol/BMC_Biol_2012_Jul_19_10_62.txt	swiss-pdb	267	7	9
+		DeepView/Swiss-PdbViewer	BMC_Biol	./BMC_Biol/BMC_Biol_2016_Oct_6_14_86.txt	swiss-pdb	499	16	24
+		Swiss-PdbViewer	BMC_Biol	./BMC_Biol/BMC_Biol_2011_Jan_28_9_7.txt	swiss-pdb	144	0	15
+		Swiss-PdbViewer:	BMC_Biol	./BMC_Biol/BMC_Biol_2011_Jan_28_9_7.txt	swiss-pdb	321	7	16
+		DeepView/Swiss-PDBViewer	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2014_Jan_27_14_37.txt	swiss-pdb	63	15	24
+		Swiss-PdbViewer:	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2012_Aug_15_12_145.txt	swiss-pdb	411	7	16
+		SWISS-PDB	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2016_Aug_15_16_177.txt	swiss-pdb	57	129	9
+		SWISS-PDB	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2016_Aug_15_16_177.txt	swiss-pdb	121	118	9
+		Swiss-PdbViewer:	BMC_Plant_Biol	./BMC_Plant_Biol/BMC_Plant_Biol_2016_Aug_15_16_177.txt	swiss-pdb	246	8	16
+
+ * * * * * * * * * * * * * * 
+
+
+Found 54 matches for swiss-regulon patterns :(?i)swiss?.regulon
+
+	Show top 20 journals for swiss-regulon : (journal, pattern, count)
+		BMC_Bioinformatics	swiss-regulon	21
+		BMC_Genomics	swiss-regulon	17
+		BMC_Syst_Biol	swiss-regulon	12
+		BMC_Res_Notes	swiss-regulon	2
+		BMC_Evol_Biol	swiss-regulon	1
+		BMC_Biol	swiss-regulon	1
+
+	Show top 20 journal where distinct words are counted swiss-regulon : (journal, pattern, distinct words count)
+		BMC_Bioinformatics	swiss-regulon	7
+		BMC_Genomics	swiss-regulon	5
+		BMC_Res_Notes	swiss-regulon	2
+		BMC_Syst_Biol	swiss-regulon	2
+		BMC_Biol	swiss-regulon	1
+		BMC_Evol_Biol	swiss-regulon	1
+
+	Show top 20 words for swiss-regulon : (word, pattern, count)
+		SwissRegulon	swiss-regulon	32
+		SwissRegulon:	swiss-regulon	8
+		Swissregulon	swiss-regulon	4
+		SwissRegulon,	swiss-regulon	4
+		Swissregulon,	swiss-regulon	1
+		SwissRegulon.	swiss-regulon	1
+		http://swissregulon.unibas.ch	swiss-regulon	1
+		SwissRegulon’s	swiss-regulon	1
+		Swissregulon:	swiss-regulon	1
+		(SwissRegulon	swiss-regulon	1
+
+	Show sample for swiss-regulon : (word, journal, publication, pattern, count, line, offset, length)
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S2.txt	swiss-regulon	23	87	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S2.txt	swiss-regulon	31	43	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S2.txt	swiss-regulon	220	7	12
+		SwissRegulon:	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S2.txt	swiss-regulon	289	9	13
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	23	71	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	83	1	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	85	12	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	87	75	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	101	5	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	101	21	12
+		SwissRegulon	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	101	40	12
+		SwissRegulon:	BMC_Syst_Biol	./BMC_Syst_Biol/BMC_Syst_Biol_2014_Dec_12_8(Suppl_5)_S9.txt	swiss-regulon	191	9	13
+		SwissRegulon:	BMC_Biol	./BMC_Biol/BMC_Biol_2010_Apr_21_8_49.txt	swiss-regulon	101	9	13
+		SwissRegulon	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2011_Jul_22_4_257.txt	swiss-regulon	15	172	12
+		SwissRegulon:	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2011_Jul_22_4_257.txt	swiss-regulon	143	9	13
+		SwissRegulon	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2015_May_1_16_140.txt	swiss-regulon	77	28	12
+		SwissRegulon	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2015_May_1_16_140.txt	swiss-regulon	108	0	12
+		http://swissregulon.unibas.ch	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2015_May_1_16_140.txt	swiss-regulon	109	0	29
+		SwissRegulon	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2015_May_1_16_140.txt	swiss-regulon	138	104	12
+		SwissRegulon	BMC_Bioinformatics	./BMC_Bioinformatics/BMC_Bioinformatics_2015_May_1_16_140.txt	swiss-regulon	156	0	12
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for swisslipid patterns :(?i)SLM:\d+
+
+ * * * * * * * * * * * * * * 
+
+
+Found 42 matches for viralzone patterns :(?i)viralzone
+
+	Show top 20 journals for viralzone : (journal, pattern, count)
+		BMC_Microbiol	viralzone	17
+		Biol_Direct	viralzone	17
+		BMC_Bioinformatics	viralzone	2
+		BMC_Genomics	viralzone	2
+		Appl_Transl_Genom	viralzone	2
+		Bioinformation	viralzone	1
+		Biologics	viralzone	1
+
+	Show top 20 journal where distinct words are counted viralzone : (journal, pattern, distinct words count)
+		Biol_Direct	viralzone	9
+		BMC_Microbiol	viralzone	4
+		BMC_Bioinformatics	viralzone	2
+		Appl_Transl_Genom	viralzone	2
+		BMC_Genomics	viralzone	2
+		Biologics	viralzone	1
+		Bioinformation	viralzone	1
+
+	Show top 20 words for viralzone : (word, pattern, count)
+		ViralZone	viralzone	22
+		ViralZone:	viralzone	6
+		ViralZone,	viralzone	3
+		ViralZone)	viralzone	1
+		http://viralzone.expasy.org/all_by_species/22.html	viralzone	1
+		Viralzone,	viralzone	1
+		ViralZone2GO	viralzone	1
+		virionViralZoneVIPERdbBaltimore	viralzone	1
+		“viralzone.csv”	viralzone	1
+		(ViralZone,	viralzone	1
+		[http://viralzone.expasy.org/all_by_species/67.html]	viralzone	1
+		http://viralzone.expasy.org/)	viralzone	1
+		ViralZone.	viralzone	1
+		www.expasy.org/viralzone/all_by_species/130.html.	viralzone	1
+
+	Show sample for viralzone : (word, journal, publication, pattern, count, line, offset, length)
+		Viralzone,	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2016_Mar_12_9_30-32.txt	viralzone	15	90	10
+		ViralZone:	Appl_Transl_Genom	./Appl_Transl_Genom/Appl_Transl_Genom_2016_Mar_12_9_30-32.txt	viralzone	73	13	10
+		www.expasy.org/viralzone/all_by_species/130.html.	Biologics	./Biologics/Biologics_2010_Sep_13_4_245-261.txt	viralzone	15	16	49
+		virionViralZoneVIPERdbBaltimore	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	20	4	31
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	156	6	9
+		http://viralzone.expasy.org/)	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	156	8	29
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	156	13	9
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	156	77	9
+		ViralZone.	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	156	122	10
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	158	34	9
+		(ViralZone,	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	162	40	11
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	164	21	9
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	164	37	9
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	164	76	9
+		ViralZone,	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	169	23	10
+		ViralZone)	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	181	23	10
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	227	3	9
+		ViralZone	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	227	21	9
+		“viralzone.csv”	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	227	31	15
+		ViralZone:	Biol_Direct	./Biol_Direct/Biol_Direct_2016_May_21_11_26.txt	viralzone	308	14	10
+
+ * * * * * * * * * * * * * * 
+
+
+Finished in 37.54241666666667 min
