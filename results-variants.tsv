@@ -1,0 +1,607 @@
+Found 29 matches for variant-hgvs-DNA-deletion patterns :(g)\.(\d+)(?:_(\d+))?del
+
+	Show top 20 journals for variant-hgvs-DNA-deletion : (journal, pattern, count)
+		Mol_Vis	variant-hgvs-DNA-deletion	11
+		PLoS_One	variant-hgvs-DNA-deletion	7
+		Front_Genet	variant-hgvs-DNA-deletion	2
+		BMC_Cancer	variant-hgvs-DNA-deletion	2
+		Fam_Cancer	variant-hgvs-DNA-deletion	2
+		Nat_Immunol	variant-hgvs-DNA-deletion	2
+		BMC_Med_Genet	variant-hgvs-DNA-deletion	1
+		Eur_J_Hum_Genet	variant-hgvs-DNA-deletion	1
+		Turk_J_Haematol	variant-hgvs-DNA-deletion	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-DNA-deletion : (journal, pattern, distinct words count)
+		Mol_Vis	variant-hgvs-DNA-deletion	7
+		PLoS_One	variant-hgvs-DNA-deletion	4
+		BMC_Cancer	variant-hgvs-DNA-deletion	2
+		Front_Genet	variant-hgvs-DNA-deletion	2
+		Fam_Cancer	variant-hgvs-DNA-deletion	2
+		Nat_Immunol	variant-hgvs-DNA-deletion	1
+		BMC_Med_Genet	variant-hgvs-DNA-deletion	1
+		Turk_J_Haematol	variant-hgvs-DNA-deletion	1
+		Eur_J_Hum_Genet	variant-hgvs-DNA-deletion	1
+
+	Show top 20 words for variant-hgvs-DNA-deletion : (word, pattern, count)
+		g.30586227delC*	variant-hgvs-DNA-deletion	4
+		(g.363924_416577del52654insA)	variant-hgvs-DNA-deletion	3
+		(g.302534_398773del96240)	variant-hgvs-DNA-deletion	2
+		TRIB3:g.-1272_HOIL1:g.9780del)	variant-hgvs-DNA-deletion	2
+		g.162078delA*	variant-hgvs-DNA-deletion	2
+		g.45855delT	variant-hgvs-DNA-deletion	1
+		g.156743delTCTG,	variant-hgvs-DNA-deletion	1
+		NC_000001.10:g.110280254delCinsCCT	variant-hgvs-DNA-deletion	1
+		(chr7:g.110876742_111470446del,	variant-hgvs-DNA-deletion	1
+		NC_000001.10:g.110280254delC,	variant-hgvs-DNA-deletion	1
+		g.162266delC	variant-hgvs-DNA-deletion	1
+		(g.302534_398773del96240),	variant-hgvs-DNA-deletion	1
+		g.43728907_43732862del3955ins26).	variant-hgvs-DNA-deletion	1
+		g.7578222_7578225del	variant-hgvs-DNA-deletion	1
+		g.162078delA.	variant-hgvs-DNA-deletion	1
+		g.156743delTCTG	variant-hgvs-DNA-deletion	1
+		g.64407delT	variant-hgvs-DNA-deletion	1
+		g.8280_9560del	variant-hgvs-DNA-deletion	1
+		(g.2525_7247del4723)	variant-hgvs-DNA-deletion	1
+		g.7578222_7578225del,	variant-hgvs-DNA-deletion	1
+
+	Show sample for variant-hgvs-DNA-deletion : (word, journal, publication, pattern, count, line, offset, length)
+		g.45855delT	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-deletion	81	9	11
+		g.162266delC	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-deletion	110	5	12
+		g.7578222_7578225del,	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2016_Apr_11_16_268.txt	variant-hgvs-DNA-deletion	99	73	21
+		g.7578222_7578225del	BMC_Cancer	./BMC_Cancer/BMC_Cancer_2016_Apr_11_16_268.txt	variant-hgvs-DNA-deletion	116	0	20
+		g.8280_9560del	Turk_J_Haematol	./Turk_J_Haematol/Turk_J_Haematol_2014_Sep_5_31(3)_335-336.txt	variant-hgvs-DNA-deletion	15	19	14
+		(g.302534_398773del96240),	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	7	161	26
+		(g.363924_416577del52654insA)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	7	194	29
+		(g.2525_7247del4723)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	18	64	20
+		(g.302534_398773del96240)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	48	56	25
+		(g.363924_416577del52654insA)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	61	51	29
+		(g.302534_398773del96240)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	73	110	25
+		(g.363924_416577del52654insA)	PLoS_One	./PLoS_One/PLoS_One_2012_Dec_14_7(12)_e52052.txt	variant-hgvs-DNA-deletion	73	133	29
+		g.30586227delC*	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Oct_17_15_2074-2083.txt	variant-hgvs-DNA-deletion	43	2	15
+		g.30586227delC*	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Oct_17_15_2074-2083.txt	variant-hgvs-DNA-deletion	44	2	15
+		g.30586227delC*	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Oct_17_15_2074-2083.txt	variant-hgvs-DNA-deletion	45	2	15
+		g.30586227delC*	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Oct_17_15_2074-2083.txt	variant-hgvs-DNA-deletion	46	2	15
+		g.64407delT,	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Apr_17_15_771-777.txt	variant-hgvs-DNA-deletion	15	43	12
+		g.156743delTCTG,	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Apr_17_15_771-777.txt	variant-hgvs-DNA-deletion	15	45	16
+		g.162078delA.	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Apr_17_15_771-777.txt	variant-hgvs-DNA-deletion	15	47	13
+		g.64407delT	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Apr_17_15_771-777.txt	variant-hgvs-DNA-deletion	98	10	11
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for variant-hgvs-DNA-deletion-insertion patterns :(g)\.(\d+)(?:_(\d+))?delins[A-Z]+
+
+ * * * * * * * * * * * * * * 
+
+
+Found 6 matches for variant-hgvs-DNA-duplication patterns :(g)\.(\d+)(?:_(\d+))?dup
+
+	Show top 20 journals for variant-hgvs-DNA-duplication : (journal, pattern, count)
+		Fam_Cancer	variant-hgvs-DNA-duplication	5
+		Mol_Vis	variant-hgvs-DNA-duplication	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-DNA-duplication : (journal, pattern, distinct words count)
+		Fam_Cancer	variant-hgvs-DNA-duplication	3
+		Mol_Vis	variant-hgvs-DNA-duplication	1
+
+	Show top 20 words for variant-hgvs-DNA-duplication : (word, pattern, count)
+		g.59702_59703dup	variant-hgvs-DNA-duplication	3
+		g.2121dupC	variant-hgvs-DNA-duplication	1
+		g.5505_5506dup	variant-hgvs-DNA-duplication	1
+		g.2179_2183dupGGACC	variant-hgvs-DNA-duplication	1
+
+	Show sample for variant-hgvs-DNA-duplication : (word, journal, publication, pattern, count, line, offset, length)
+		g.2121dupC	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-duplication	78	5	10
+		g.5505_5506dup	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-duplication	80	6	14
+		g.59702_59703dup	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-duplication	83	7	16
+		g.59702_59703dup	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-duplication	84	3	16
+		g.59702_59703dup	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-duplication	85	3	16
+		g.2179_2183dupGGACC	Mol_Vis	./Mol_Vis/Mol_Vis_2009_Apr_17_15_771-777.txt	variant-hgvs-DNA-duplication	94	9	19
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for variant-hgvs-DNA-insertion patterns :(g)\.(\d+)_(\d+)ins[A-Z]+
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for variant-hgvs-DNA-inversion patterns :(c)\.((?:\+|\-|\*)?\d+)(\+|\-\d+)?_((?:\+|\-|\*)?\d+)(\+|\-\d+)?inv
+
+ * * * * * * * * * * * * * * 
+
+
+Found 1 matches for variant-hgvs-DNA-repeatedsequences patterns :(c)\.((?:\+|\-|\*)?\d+)(\+|\-\d+)?(?:_((?:\+|\-|\*)?\d+)(\+|\-\d+)?)?\[(\d+)\]
+
+	Show top 20 journals for variant-hgvs-DNA-repeatedsequences : (journal, pattern, count)
+		Eur_J_Hum_Genet	variant-hgvs-DNA-repeatedsequences	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-DNA-repeatedsequences : (journal, pattern, distinct words count)
+		Eur_J_Hum_Genet	variant-hgvs-DNA-repeatedsequences	1
+
+	Show top 20 words for variant-hgvs-DNA-repeatedsequences : (word, pattern, count)
+		c.1210-12[7]	variant-hgvs-DNA-repeatedsequences	1
+
+	Show sample for variant-hgvs-DNA-repeatedsequences : (word, journal, publication, pattern, count, line, offset, length)
+		c.1210-12[7]	Eur_J_Hum_Genet	./Eur_J_Hum_Genet/Eur_J_Hum_Genet_2016_Apr_27_24(4)_469-478.txt	variant-hgvs-DNA-repeatedsequences	326	1	12
+
+ * * * * * * * * * * * * * * 
+
+
+Found 331 matches for variant-hgvs-DNA-substitution patterns :(g)\.(\d+)([A-Z])>([A-Z])
+
+	Show top 20 journals for variant-hgvs-DNA-substitution : (journal, pattern, count)
+		Int_J_Mol_Sci	variant-hgvs-DNA-substitution	53
+		Front_Genet	variant-hgvs-DNA-substitution	45
+		Fam_Cancer	variant-hgvs-DNA-substitution	40
+		Genes_Brain_Behav	variant-hgvs-DNA-substitution	40
+		PLoS_Genet	variant-hgvs-DNA-substitution	21
+		J_Korean_Surg_Soc	variant-hgvs-DNA-substitution	17
+		Eur_J_Hum_Genet	variant-hgvs-DNA-substitution	17
+		Orphanet_J_Rare_Dis	variant-hgvs-DNA-substitution	17
+		Mol_Vis	variant-hgvs-DNA-substitution	15
+		Mol_Biol_Rep	variant-hgvs-DNA-substitution	14
+		Int_J_Biol_Sci	variant-hgvs-DNA-substitution	10
+		Pharmgenomics_Pers_Med	variant-hgvs-DNA-substitution	7
+		PLoS_One	variant-hgvs-DNA-substitution	7
+		J_Vet_Intern_Med	variant-hgvs-DNA-substitution	6
+		Int_J_Cardiol	variant-hgvs-DNA-substitution	5
+		Br_J_Cancer	variant-hgvs-DNA-substitution	3
+		Biomed_Res_Int	variant-hgvs-DNA-substitution	3
+		Clin_Med_Insights_Cardiol	variant-hgvs-DNA-substitution	2
+		Pharmacogenomics_J	variant-hgvs-DNA-substitution	2
+		BMC_Med_Genomics	variant-hgvs-DNA-substitution	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-DNA-substitution : (journal, pattern, distinct words count)
+		Front_Genet	variant-hgvs-DNA-substitution	45
+		Int_J_Mol_Sci	variant-hgvs-DNA-substitution	37
+		PLoS_Genet	variant-hgvs-DNA-substitution	21
+		Fam_Cancer	variant-hgvs-DNA-substitution	20
+		Genes_Brain_Behav	variant-hgvs-DNA-substitution	17
+		Eur_J_Hum_Genet	variant-hgvs-DNA-substitution	17
+		Orphanet_J_Rare_Dis	variant-hgvs-DNA-substitution	14
+		Mol_Vis	variant-hgvs-DNA-substitution	9
+		Int_J_Biol_Sci	variant-hgvs-DNA-substitution	9
+		Mol_Biol_Rep	variant-hgvs-DNA-substitution	8
+		PLoS_One	variant-hgvs-DNA-substitution	7
+		J_Vet_Intern_Med	variant-hgvs-DNA-substitution	6
+		Br_J_Cancer	variant-hgvs-DNA-substitution	3
+		Pharmgenomics_Pers_Med	variant-hgvs-DNA-substitution	3
+		Int_J_Cardiol	variant-hgvs-DNA-substitution	3
+		Pharmacogenomics_J	variant-hgvs-DNA-substitution	2
+		Biomed_Res_Int	variant-hgvs-DNA-substitution	2
+		Clin_Med_Insights_Cardiol	variant-hgvs-DNA-substitution	2
+		BMC_Med_Genet	variant-hgvs-DNA-substitution	1
+		BMC_Med_Genomics	variant-hgvs-DNA-substitution	1
+
+	Show top 20 words for variant-hgvs-DNA-substitution : (word, pattern, count)
+		g.72C>T	variant-hgvs-DNA-substitution	17
+		g.76430C>T	variant-hgvs-DNA-substitution	7
+		g.72A>C	variant-hgvs-DNA-substitution	5
+		g.8213T>C	variant-hgvs-DNA-substitution	5
+		g.65386C>T	variant-hgvs-DNA-substitution	5
+		g.162237C>T	variant-hgvs-DNA-substitution	5
+		g.14718C>T	variant-hgvs-DNA-substitution	4
+		g.20765C>A	variant-hgvs-DNA-substitution	4
+		g.11559C>T	variant-hgvs-DNA-substitution	4
+		g.18492T>C	variant-hgvs-DNA-substitution	4
+		g.21796G>A	variant-hgvs-DNA-substitution	4
+		g.21762C>A	variant-hgvs-DNA-substitution	4
+		g.150037C>T	variant-hgvs-DNA-substitution	4
+		g.64348C>T	variant-hgvs-DNA-substitution	3
+		g.21502T>C	variant-hgvs-DNA-substitution	3
+		g.160729G>C/	variant-hgvs-DNA-substitution	3
+		g.2196G>A	variant-hgvs-DNA-substitution	3
+		g.1753C>T	variant-hgvs-DNA-substitution	3
+		apoA-Ib.2-g.1753C>T	variant-hgvs-DNA-substitution	3
+		apoA-Ib.2-g.183A>T	variant-hgvs-DNA-substitution	3
+
+	Show sample for variant-hgvs-DNA-substitution : (word, journal, publication, pattern, count, line, offset, length)
+		NG_007938.1:g.12083G>A,	Transpl_Int	./Transpl_Int/Transpl_Int_2013_Dec_15_26(12)_1198-1207.txt	variant-hgvs-DNA-substitution	39	22	23
+		g.5446G>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	79	6	9
+		g.59695C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	82	5	10
+		g.64348C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	86	5	10
+		g.64348C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	87	4	10
+		g.65386C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	88	7	10
+		g.70261C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	89	7	10
+		g.76430C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	90	8	10
+		g.76430C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	91	4	10
+		g.76430C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	92	4	10
+		g.76430C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	93	4	10
+		g.76430C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	94	4	10
+		g.76898C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	95	5	10
+		g.78238C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	96	6	10
+		g.78238C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	97	4	10
+		g.150037C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	98	5	11
+		g.150037C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	99	4	11
+		g.150037C>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	100	5	11
+		g.153211T>A	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	101	5	11
+		g.160832G>T	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-DNA-substitution	106	7	11
+
+ * * * * * * * * * * * * * * 
+
+
+Found 183 matches for variant-hgvs-protein-deletion patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?del
+
+	Show top 20 journals for variant-hgvs-protein-deletion : (journal, pattern, count)
+		PLoS_One	variant-hgvs-protein-deletion	34
+		Eur_J_Hum_Genet	variant-hgvs-protein-deletion	25
+		Mol_Genet_Genomic_Med	variant-hgvs-protein-deletion	20
+		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion	20
+		Mol_Vis	variant-hgvs-protein-deletion	14
+		Sci_Rep	variant-hgvs-protein-deletion	13
+		BMC_Res_Notes	variant-hgvs-protein-deletion	8
+		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	4
+		Hum_Mutat	variant-hgvs-protein-deletion	4
+		Cilia	variant-hgvs-protein-deletion	4
+		Brain	variant-hgvs-protein-deletion	4
+		Acta_Neuropathol_Commun	variant-hgvs-protein-deletion	4
+		Am_J_Ophthalmol	variant-hgvs-protein-deletion	4
+		Nature	variant-hgvs-protein-deletion	3
+		Metabolism	variant-hgvs-protein-deletion	3
+		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
+		Genet_Med	variant-hgvs-protein-deletion	2
+		Nat_Genet	variant-hgvs-protein-deletion	2
+		J_Med_Genet	variant-hgvs-protein-deletion	2
+		Front_Oncol	variant-hgvs-protein-deletion	2
+
+	Show top 20 journal where distinct words are counted variant-hgvs-protein-deletion : (journal, pattern, distinct words count)
+		Mol_Genet_Genomic_Med	variant-hgvs-protein-deletion	17
+		PLoS_One	variant-hgvs-protein-deletion	17
+		Sci_Rep	variant-hgvs-protein-deletion	10
+		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion	10
+		Mol_Vis	variant-hgvs-protein-deletion	8
+		Eur_J_Hum_Genet	variant-hgvs-protein-deletion	8
+		Acta_Neuropathol_Commun	variant-hgvs-protein-deletion	4
+		Brain	variant-hgvs-protein-deletion	4
+		Metabolism	variant-hgvs-protein-deletion	3
+		BMC_Res_Notes	variant-hgvs-protein-deletion	3
+		Nature	variant-hgvs-protein-deletion	3
+		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
+		Hum_Mutat	variant-hgvs-protein-deletion	2
+		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	2
+		Genet_Med	variant-hgvs-protein-deletion	2
+		Cilia	variant-hgvs-protein-deletion	2
+		J_Med_Genet	variant-hgvs-protein-deletion	1
+		Front_Endocrinol_(Lausanne)	variant-hgvs-protein-deletion	1
+		Hum_Genome_Var	variant-hgvs-protein-deletion	1
+		Front_Oncol	variant-hgvs-protein-deletion	1
+
+	Show top 20 words for variant-hgvs-protein-deletion : (word, pattern, count)
+		p.Phe508del	variant-hgvs-protein-deletion	20
+		p.P43_G61del	variant-hgvs-protein-deletion	6
+		p.Thr330del	variant-hgvs-protein-deletion	5
+		p.G378_G380delGGG	variant-hgvs-protein-deletion	4
+		p.D32_Q34del	variant-hgvs-protein-deletion	4
+		p.Phe508del/p.Leu1077Pro	variant-hgvs-protein-deletion	4
+		p.Val2985_Thr3001del	variant-hgvs-protein-deletion	4
+		p.Asn73del	variant-hgvs-protein-deletion	4
+		p.Ala31_Ala33del)	variant-hgvs-protein-deletion	3
+		p.Glu216_Lys251del	variant-hgvs-protein-deletion	3
+		p.Ser192_Gly193delAGCGGC)	variant-hgvs-protein-deletion	3
+		p.Phe508del)	variant-hgvs-protein-deletion	3
+		p.W409_G453del,	variant-hgvs-protein-deletion	3
+		CCM1:p.N607_K675del	variant-hgvs-protein-deletion	3
+		non-p.Phe508del	variant-hgvs-protein-deletion	3
+		p.Asp608del	variant-hgvs-protein-deletion	3
+		p.E229del	variant-hgvs-protein-deletion	3
+		(p.Asn73del)	variant-hgvs-protein-deletion	2
+		p.Ile507del	variant-hgvs-protein-deletion	2
+		p.Ile109del	variant-hgvs-protein-deletion	2
+
+	Show sample for variant-hgvs-protein-deletion : (word, journal, publication, pattern, count, line, offset, length)
+		p.Phe508del	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs-protein-deletion	59	192	11
+		p.Gly118del	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs-protein-deletion	128	0	11
+		p.E229del	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs-protein-deletion	90	6	9
+		p.E229del	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs-protein-deletion	91	8	9
+		p.E229del**	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs-protein-deletion	108	5	11
+		p.E229del	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs-protein-deletion	113	26	9
+		(p.M1209_E1214delMFYKKE)	Nature	./Nature/Nature_2011_Jan_27_469(7331)_539-542.txt	variant-hgvs-protein-deletion	17	79	24
+		(p.A14_A17del,	Nature	./Nature/Nature_2014_Oct_23_514(7523)_513-517.txt	variant-hgvs-protein-deletion	118	240	14
+		(p.A14_A17del),	Nature	./Nature/Nature_2014_Oct_23_514(7523)_513-517.txt	variant-hgvs-protein-deletion	152	155	15
+		(p.Lys32del),	Mol_Biol_Cell	./Mol_Biol_Cell/Mol_Biol_Cell_2011_Aug_1_22(15)_2716-2728.txt	variant-hgvs-protein-deletion	14	176	13
+		(p.Phe508del)	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	17	53	13
+		p.Phe508del	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	33	83	11
+		p.Phe508del/p.Leu1077Pro	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	40	6	24
+		p.Phe508del/p.Leu1077Pro	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	41	7	24
+		p.Phe508del/p.Leu1077Pro	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	42	7	24
+		p.Phe508del	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	93	23	11
+		p.Phe508del/p.Leu1077Pro	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	103	41	24
+		p.Phe508del	BMC_Res_Notes	./BMC_Res_Notes/BMC_Res_Notes_2013_Nov_13_6_461.txt	variant-hgvs-protein-deletion	116	44	11
+		p.Arg14del	J_Med_Genet	./J_Med_Genet/J_Med_Genet_2013_Sep_19_50(9)_614-626.txt	variant-hgvs-protein-deletion	125	10	10
+		p.Arg14del	J_Med_Genet	./J_Med_Genet/J_Med_Genet_2013_Sep_19_50(9)_614-626.txt	variant-hgvs-protein-deletion	137	9	10
+
+ * * * * * * * * * * * * * * 
+
+
+Found 3 matches for variant-hgvs-protein-deletion-insertion patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?delins((?:[A-Z\*]([a-z]{2})?)+)
+
+	Show top 20 journals for variant-hgvs-protein-deletion-insertion : (journal, pattern, count)
+		Front_Endocrinol_(Lausanne)	variant-hgvs-protein-deletion-insertion	1
+		Metabolism	variant-hgvs-protein-deletion-insertion	1
+		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion-insertion	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-protein-deletion-insertion : (journal, pattern, distinct words count)
+		Metabolism	variant-hgvs-protein-deletion-insertion	1
+		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion-insertion	1
+		Front_Endocrinol_(Lausanne)	variant-hgvs-protein-deletion-insertion	1
+
+	Show top 20 words for variant-hgvs-protein-deletion-insertion : (word, pattern, count)
+		p.H24_Y25delinsQI	variant-hgvs-protein-deletion-insertion	1
+		p.Leu64_Pro105delinsSer	variant-hgvs-protein-deletion-insertion	1
+		(p.Gln552_Ser553delinsHisPhe).	variant-hgvs-protein-deletion-insertion	1
+
+	Show sample for variant-hgvs-protein-deletion-insertion : (word, journal, publication, pattern, count, line, offset, length)
+		p.Leu64_Pro105delinsSer	Metabolism	./Metabolism/Metabolism_2016_Mar_65(3)_48-53.txt	variant-hgvs-protein-deletion-insertion	169	1	23
+		p.H24_Y25delinsQI	Front_Endocrinol_(Lausanne)	./Front_Endocrinol_(Lausanne)/Front_Endocrinol_(Lausanne)_2015_Aug_5_6_113.txt	variant-hgvs-protein-deletion-insertion	201	61	17
+		(p.Gln552_Ser553delinsHisPhe).	Orphanet_J_Rare_Dis	./Orphanet_J_Rare_Dis/Orphanet_J_Rare_Dis_2016_Aug_22_11(1)_118.txt	variant-hgvs-protein-deletion-insertion	310	46	30
+
+ * * * * * * * * * * * * * * 
+
+
+Found 11 matches for variant-hgvs-protein-duplication patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?dup
+
+	Show top 20 journals for variant-hgvs-protein-duplication : (journal, pattern, count)
+		Mol_Vis	variant-hgvs-protein-duplication	7
+		PLoS_One	variant-hgvs-protein-duplication	2
+		BMC_Med_Genet	variant-hgvs-protein-duplication	1
+		Medicine_(Baltimore)	variant-hgvs-protein-duplication	1
+
+	Show top 20 journal where distinct words are counted variant-hgvs-protein-duplication : (journal, pattern, distinct words count)
+		Mol_Vis	variant-hgvs-protein-duplication	3
+		PLoS_One	variant-hgvs-protein-duplication	2
+		Medicine_(Baltimore)	variant-hgvs-protein-duplication	1
+		BMC_Med_Genet	variant-hgvs-protein-duplication	1
+
+	Show top 20 words for variant-hgvs-protein-duplication : (word, pattern, count)
+		(p.Ala224_Ala234dup10),	variant-hgvs-protein-duplication	4
+		(p.Ala224_Ala234dup10)	variant-hgvs-protein-duplication	2
+		(p.Glu128_Asn130dup),	variant-hgvs-protein-duplication	1
+		p.P1441_P1443dup,	variant-hgvs-protein-duplication	1
+		p.Gly380dup	variant-hgvs-protein-duplication	1
+		p.Gly456dup)	variant-hgvs-protein-duplication	1
+		(p.Ala224_Ala234dup10).	variant-hgvs-protein-duplication	1
+
+	Show sample for variant-hgvs-protein-duplication : (word, journal, publication, pattern, count, line, offset, length)
+		p.P1441_P1443dup,	Medicine_(Baltimore)	./Medicine_(Baltimore)/Medicine_(Baltimore)_2015_Jul_13_94(27)_e1073.txt	variant-hgvs-protein-duplication	47	24	17
+		p.Gly380dup	PLoS_One	./PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	variant-hgvs-protein-duplication	73	52	11
+		p.Gly456dup)	PLoS_One	./PLoS_One/PLoS_One_2016_Jul_27_11(7)_e0160016.txt	variant-hgvs-protein-duplication	73	55	12
+		(p.Ala224_Ala234dup10),	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	12	11	23
+		(p.Ala224_Ala234dup10)	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	12	19	22
+		(p.Ala224_Ala234dup10),	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	53	19	23
+		(p.Ala224_Ala234dup10).	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	55	20	23
+		(p.Ala224_Ala234dup10)	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	57	4	22
+		(p.Ala224_Ala234dup10),	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	57	93	23
+		(p.Ala224_Ala234dup10),	Mol_Vis	./Mol_Vis/Mol_Vis_2013_Nov_16_19_2298-2305.txt	variant-hgvs-protein-duplication	82	6	23
+		(p.Glu128_Asn130dup),	BMC_Med_Genet	./BMC_Med_Genet/BMC_Med_Genet_2014_Jul_1_15_74.txt	variant-hgvs-protein-duplication	89	87	21
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for variant-hgvs-protein-extension patterns :(p)\.((?:Met|M|Ter|\*)\d+)([A-Z])([a-z]{2})?ext(\*|-)(\d+)
+
+ * * * * * * * * * * * * * * 
+
+
+Found 11 matches for variant-hgvs-protein-insertion patterns :(p)\.([A-Z])([a-z]{2})?(\d+)_([A-Z])([a-z]{2})?(\d+)ins((?:[A-Z\*]([a-z]{2})?)+)
+
+	Show top 20 journals for variant-hgvs-protein-insertion : (journal, pattern, count)
+		PLoS_One	variant-hgvs-protein-insertion	11
+
+	Show top 20 journal where distinct words are counted variant-hgvs-protein-insertion : (journal, pattern, distinct words count)
+		PLoS_One	variant-hgvs-protein-insertion	4
+
+	Show top 20 words for variant-hgvs-protein-insertion : (word, pattern, count)
+		p.A25_A26insAA	variant-hgvs-protein-insertion	5
+		p.A25_A26insAA,	variant-hgvs-protein-insertion	2
+		p.Glu233_Lys240insA]	variant-hgvs-protein-insertion	2
+		(p.A25_A26insAA)	variant-hgvs-protein-insertion	2
+
+	Show sample for variant-hgvs-protein-insertion : (word, journal, publication, pattern, count, line, offset, length)
+		p.A25_A26insAA	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	11	90	14
+		p.A25_A26insAA	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	81	4	14
+		p.A25_A26insAA	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	98	165	14
+		p.A25_A26insAA,	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	101	31	15
+		p.A25_A26insAA,	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	101	89	15
+		(p.A25_A26insAA)	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	104	25	16
+		p.A25_A26insAA	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	107	3	14
+		(p.A25_A26insAA)	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	127	22	16
+		p.A25_A26insAA	PLoS_One	./PLoS_One/PLoS_One_2014_Aug_5_9(8)_e95453.txt	variant-hgvs-protein-insertion	132	2	14
+		p.Glu233_Lys240insA]	PLoS_One	./PLoS_One/PLoS_One_2016_Mar_18_11(3)_e0151429.txt	variant-hgvs-protein-insertion	62	4	20
+		p.Glu233_Lys240insA]	PLoS_One	./PLoS_One/PLoS_One_2016_Mar_18_11(3)_e0151429.txt	variant-hgvs-protein-insertion	62	7	20
+
+ * * * * * * * * * * * * * * 
+
+
+Found 0 matches for variant-hgvs-protein-repeatedsequences patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?\[(\d+)\]
+
+ * * * * * * * * * * * * * * 
+
+
+Found 378899 matches for variant-hgvs-protein-substitution patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)|(\*)
+
+	Show top 20 journals for variant-hgvs-protein-substitution : (journal, pattern, count)
+		PLoS_One	variant-hgvs-protein-substitution	74184
+		Acta_Crystallogr_Sect_E_Struct_Rep_Online	variant-hgvs-protein-substitution	26669
+		J_Exp_Med	variant-hgvs-protein-substitution	9305
+		Sci_Rep	variant-hgvs-protein-substitution	8518
+		J_Cell_Biol	variant-hgvs-protein-substitution	6340
+		BMC_Public_Health	variant-hgvs-protein-substitution	5349
+		Br_J_Cancer	variant-hgvs-protein-substitution	4945
+		Environ_Health_Perspect	variant-hgvs-protein-substitution	4869
+		J_Gen_Physiol	variant-hgvs-protein-substitution	4622
+		Front_Psychol	variant-hgvs-protein-substitution	3826
+		Nucleic_Acids_Res	variant-hgvs-protein-substitution	3407
+		Int_J_Environ_Res_Public_Health	variant-hgvs-protein-substitution	3208
+		Nat_Commun	variant-hgvs-protein-substitution	2696
+		Int_J_Mol_Sci	variant-hgvs-protein-substitution	2682
+		PLoS_Genet	variant-hgvs-protein-substitution	2614
+		Biomed_Res_Int	variant-hgvs-protein-substitution	2568
+		Oncotarget	variant-hgvs-protein-substitution	2551
+		Evid_Based_Complement_Alternat_Med	variant-hgvs-protein-substitution	2543
+		PLoS_Pathog	variant-hgvs-protein-substitution	2453
+		ScientificWorldJournal	variant-hgvs-protein-substitution	2272
+
+	Show top 20 journal where distinct words are counted variant-hgvs-protein-substitution : (journal, pattern, distinct words count)
+		PLoS_One	variant-hgvs-protein-substitution	25544
+		Sci_Rep	variant-hgvs-protein-substitution	3995
+		J_Exp_Med	variant-hgvs-protein-substitution	3425
+		BMC_Public_Health	variant-hgvs-protein-substitution	3186
+		J_Cell_Biol	variant-hgvs-protein-substitution	2285
+		Br_J_Cancer	variant-hgvs-protein-substitution	2145
+		Environ_Health_Perspect	variant-hgvs-protein-substitution	1744
+		Front_Psychol	variant-hgvs-protein-substitution	1553
+		Biomed_Res_Int	variant-hgvs-protein-substitution	1522
+		J_Gen_Physiol	variant-hgvs-protein-substitution	1443
+		ScientificWorldJournal	variant-hgvs-protein-substitution	1398
+		Evid_Based_Complement_Alternat_Med	variant-hgvs-protein-substitution	1390
+		BMJ_Open	variant-hgvs-protein-substitution	1361
+		Acta_Crystallogr_Sect_E_Struct_Rep_Online	variant-hgvs-protein-substitution	1322
+		Sensors_(Basel)	variant-hgvs-protein-substitution	1222
+		Nucleic_Acids_Res	variant-hgvs-protein-substitution	1201
+		BMC_Genomics	variant-hgvs-protein-substitution	1123
+		Emerg_Infect_Dis	variant-hgvs-protein-substitution	1121
+		Nat_Commun	variant-hgvs-protein-substitution	1105
+		BMC_Health_Serv_Res	variant-hgvs-protein-substitution	1051
+
+	Show top 20 words for variant-hgvs-protein-substitution : (word, pattern, count)
+		*	variant-hgvs-protein-substitution	42755
+		**	variant-hgvs-protein-substitution	10099
+		***	variant-hgvs-protein-substitution	6530
+		*P	variant-hgvs-protein-substitution	4155
+		1*1	variant-hgvs-protein-substitution	3107
+		*,	variant-hgvs-protein-substitution	2953
+		America*	variant-hgvs-protein-substitution	2950
+		**P	variant-hgvs-protein-substitution	2431
+		*Correspondence:	variant-hgvs-protein-substitution	2417
+		*p	variant-hgvs-protein-substitution	2199
+		**,	variant-hgvs-protein-substitution	1823
+		(*)	variant-hgvs-protein-substitution	1698
+		**p	variant-hgvs-protein-substitution	1428
+		*P<0.05	variant-hgvs-protein-substitution	1351
+		***P	variant-hgvs-protein-substitution	1334
+		Uiso*/Ueq	variant-hgvs-protein-substitution	1254
+		*Department	variant-hgvs-protein-substitution	1248
+		*P<0.05,	variant-hgvs-protein-substitution	1205
+		***,	variant-hgvs-protein-substitution	1072
+		***p	variant-hgvs-protein-substitution	977
+
+	Show sample for variant-hgvs-protein-substitution : (word, journal, publication, pattern, count, line, offset, length)
+		*,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	44	81	2
+		**,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	44	82	3
+		***	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	44	84	3
+		*p < 0.05,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	69	117	10
+		**p < 0.01,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	69	118	11
+		***p < 0.001	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	69	119	12
+		*p < 0.05,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	71	81	10
+		**p < 0.01,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	71	82	11
+		***p < 0.001	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	71	83	12
+		*p < 0.05.	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	73	94	10
+		0%*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	88	2	3
+		7.20%*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	89	2	6
+		1.20%*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	90	1	6
+		2.80%*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	91	1	6
+		*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-hgvs-protein-substitution	92	0	1
+		1*Sakaue	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Jul-Sep_2(3)_186-191.txt	variant-hgvs-protein-substitution	3	35	8
+		Japan*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Jul-Sep_2(3)_186-191.txt	variant-hgvs-protein-substitution	3	67	6
+		356*1	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Apr-Jun_2(2)_123-128.txt	variant-hgvs-protein-substitution	3	41	5
+		Taiwan*	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Apr-Jun_2(2)_123-128.txt	variant-hgvs-protein-substitution	3	114	7
+		*p < 0.05	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-hgvs-protein-substitution	127	59	9
+
+ * * * * * * * * * * * * * * 
+
+
+Found 602 matches for variant-hgvs—protein-frameshift patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)?fs(?:(?:\*|Ter)(\d+))?
+
+	Show top 20 journals for variant-hgvs—protein-frameshift : (journal, pattern, count)
+		Mol_Vis	variant-hgvs—protein-frameshift	70
+		PLoS_One	variant-hgvs—protein-frameshift	52
+		Orphanet_J_Rare_Dis	variant-hgvs—protein-frameshift	50
+		BMC_Med_Genet	variant-hgvs—protein-frameshift	46
+		Eur_J_Hum_Genet	variant-hgvs—protein-frameshift	26
+		Mol_Genet_Genomic_Med	variant-hgvs—protein-frameshift	26
+		Sci_Rep	variant-hgvs—protein-frameshift	25
+		Cilia	variant-hgvs—protein-frameshift	25
+		Hum_Genome_Var	variant-hgvs—protein-frameshift	21
+		Nat_Genet	variant-hgvs—protein-frameshift	15
+		J_Hum_Genet	variant-hgvs—protein-frameshift	15
+		BMC_Genomics	variant-hgvs—protein-frameshift	15
+		Int_J_Mol_Med	variant-hgvs—protein-frameshift	13
+		Acta_Neuropathol_Commun	variant-hgvs—protein-frameshift	13
+		Mol_Cells	variant-hgvs—protein-frameshift	12
+		Diagn_Pathol	variant-hgvs—protein-frameshift	11
+		Hum_Mutat	variant-hgvs—protein-frameshift	10
+		Oncotarget	variant-hgvs—protein-frameshift	9
+		Fam_Cancer	variant-hgvs—protein-frameshift	9
+		Genet_Med	variant-hgvs—protein-frameshift	8
+
+	Show top 20 journal where distinct words are counted variant-hgvs—protein-frameshift : (journal, pattern, distinct words count)
+		Mol_Vis	variant-hgvs—protein-frameshift	53
+		PLoS_One	variant-hgvs—protein-frameshift	43
+		Orphanet_J_Rare_Dis	variant-hgvs—protein-frameshift	38
+		BMC_Med_Genet	variant-hgvs—protein-frameshift	35
+		Eur_J_Hum_Genet	variant-hgvs—protein-frameshift	26
+		Sci_Rep	variant-hgvs—protein-frameshift	25
+		Mol_Genet_Genomic_Med	variant-hgvs—protein-frameshift	25
+		Hum_Genome_Var	variant-hgvs—protein-frameshift	16
+		Cilia	variant-hgvs—protein-frameshift	16
+		J_Hum_Genet	variant-hgvs—protein-frameshift	14
+		Nat_Genet	variant-hgvs—protein-frameshift	12
+		Acta_Neuropathol_Commun	variant-hgvs—protein-frameshift	11
+		Mol_Cells	variant-hgvs—protein-frameshift	11
+		Diagn_Pathol	variant-hgvs—protein-frameshift	10
+		eLife	variant-hgvs—protein-frameshift	8
+		Fam_Cancer	variant-hgvs—protein-frameshift	6
+		Genet_Med	variant-hgvs—protein-frameshift	5
+		Oncotarget	variant-hgvs—protein-frameshift	5
+		Hum_Mol_Genet	variant-hgvs—protein-frameshift	5
+		Front_Oncol	variant-hgvs—protein-frameshift	5
+
+	Show top 20 words for variant-hgvs—protein-frameshift : (word, pattern, count)
+		p.D273RfsX13	variant-hgvs—protein-frameshift	12
+		p.Arg50Alafs*103	variant-hgvs—protein-frameshift	9
+		(p.F482fs)	variant-hgvs—protein-frameshift	8
+		p.Arg398Serfs*9	variant-hgvs—protein-frameshift	7
+		p.R1180SfsX6N	variant-hgvs—protein-frameshift	4
+		p.Arg632Glnfs*20)	variant-hgvs—protein-frameshift	4
+		p.Val13LeufsX11	variant-hgvs—protein-frameshift	4
+		(p.Q994VfsX6)	variant-hgvs—protein-frameshift	4
+		p.A2410Gfs*4	variant-hgvs—protein-frameshift	4
+		(p.Arg50Alafs*103)	variant-hgvs—protein-frameshift	3
+		(p.His4ArgfsX21)	variant-hgvs—protein-frameshift	3
+		p.Lys546LysfsX46	variant-hgvs—protein-frameshift	3
+		p.Asn258ArgfsX7	variant-hgvs—protein-frameshift	3
+		p.Met187Ilefs*19	variant-hgvs—protein-frameshift	3
+		p.K267Rfs*9	variant-hgvs—protein-frameshift	3
+		(p.E1554fs)	variant-hgvs—protein-frameshift	3
+		p.N323Mfs*21	variant-hgvs—protein-frameshift	3
+		p.L1007fs	variant-hgvs—protein-frameshift	3
+		p.V217fs,	variant-hgvs—protein-frameshift	3
+		c.1082insC/p.S359fsX377	variant-hgvs—protein-frameshift	3
+
+	Show sample for variant-hgvs—protein-frameshift : (word, journal, publication, pattern, count, line, offset, length)
+		p.Gln186Hisfs*6	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	97	0	15
+		p.Val397Glyfs*19;	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	99	1	17
+		p.Cys509Serfs*14	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	101	6	16
+		p.Gln186Hisfs*6	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	103	0	15
+		p.Cys509Serfs*14	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	104	4	16
+		p.Ser173Phefs*25;	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	124	1	17
+		p.Ser173Phefs*25;	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	131	1	17
+		p.Ser173Phefs*25	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	136	4	16
+		p.R1180SfsX6).	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	13	48	14
+		p.E216fsX221	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	75	5	12
+		p.E216fsX221	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	75	8	12
+		p.H128fsX140	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	77	5	12
+		p.H128fsX140	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	77	8	12
+		p.S318fs16XN	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	82	5	12
+		p.S318fs16XN	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	82	8	12
+		p.G1915FfsX1N	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	83	5	13
+		p.G1915FfsX1N	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	83	8	13
+		p.R1180SfsX6N	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	86	5	13
+		p.R1180SfsX6N	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	86	8	13
+		p.R1180SfsX6N	Cilia	./Cilia/Cilia_2012_Oct_1_1_18.txt	variant-hgvs—protein-frameshift	87	5	13
+
+ * * * * * * * * * * * * * * 
+
+
+Finished in 9.3599 min

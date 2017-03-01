@@ -2,10 +2,11 @@
 val start = System.currentTimeMillis();
 val fw = new java.io.FileWriter("results.tsv")
 
-val unsortedPatterns = scala.io.Source.fromFile("patterns.properties").getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
-val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
-
 val config = scala.io.Source.fromFile("config.properties").getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), v(1))}).toMap
+
+val patternFile = config.get("PATTERN_FILE").getOrElse("pattern.properties")
+val unsortedPatterns = scala.io.Source.fromFile(patternFile).getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
+val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
 
 //Defines the directory where the publications are stored
 val PUBLI_DIR = config.get("PUBLI_DIR").getOrElse(".")
