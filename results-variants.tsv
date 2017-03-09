@@ -8,12 +8,12 @@ Found 991 matches for variant-hgvs-cDNA-deletion patterns :(c)\.((?:-|\*)?\d+)((
 		J_Med_Genet	variant-hgvs-cDNA-deletion	61
 		Biomark_Res	variant-hgvs-cDNA-deletion	32
 		Eur_J_Hum_Genet	variant-hgvs-cDNA-deletion	30
-		BMC_Genomics	variant-hgvs-cDNA-deletion	28
 		Springerplus	variant-hgvs-cDNA-deletion	28
-		Brain	variant-hgvs-cDNA-deletion	22
+		BMC_Genomics	variant-hgvs-cDNA-deletion	28
 		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-deletion	22
-		Sci_Rep	variant-hgvs-cDNA-deletion	18
+		Brain	variant-hgvs-cDNA-deletion	22
 		Fam_Cancer	variant-hgvs-cDNA-deletion	18
+		Sci_Rep	variant-hgvs-cDNA-deletion	18
 		Hum_Mutat	variant-hgvs-cDNA-deletion	17
 		J_Hum_Genet	variant-hgvs-cDNA-deletion	16
 		BMC_Genet	variant-hgvs-cDNA-deletion	16
@@ -36,8 +36,8 @@ Found 991 matches for variant-hgvs-cDNA-deletion patterns :(c)\.((?:-|\*)?\d+)((
 		J_Hum_Genet	variant-hgvs-cDNA-deletion	16
 		Curr_Genomics	variant-hgvs-cDNA-deletion	13
 		Hum_Genome_Var	variant-hgvs-cDNA-deletion	12
-		Brain	variant-hgvs-cDNA-deletion	11
 		BMC_Genet	variant-hgvs-cDNA-deletion	11
+		Brain	variant-hgvs-cDNA-deletion	11
 		Diagn_Pathol	variant-hgvs-cDNA-deletion	10
 		Acta_Neuropathol_Commun	variant-hgvs-cDNA-deletion	10
 		Anemia	variant-hgvs-cDNA-deletion	10
@@ -56,15 +56,15 @@ Found 991 matches for variant-hgvs-cDNA-deletion patterns :(c)\.((?:-|\*)?\d+)((
 		c.70del20	variant-hgvs-cDNA-deletion	10
 		c.1164del1	variant-hgvs-cDNA-deletion	9
 		c.312_320del10insAT,	variant-hgvs-cDNA-deletion	9
-		c.792_793delAG	variant-hgvs-cDNA-deletion	8
-		c.2975_2978delAG	variant-hgvs-cDNA-deletion	8
 		c.2944_2944delA	variant-hgvs-cDNA-deletion	8
+		c.2975_2978delAG	variant-hgvs-cDNA-deletion	8
+		c.792_793delAG	variant-hgvs-cDNA-deletion	8
 		c.1114_1116del;	variant-hgvs-cDNA-deletion	7
 		c.153del	variant-hgvs-cDNA-deletion	7
-		c.68_69del	variant-hgvs-cDNA-deletion	6
 		c.771_778delTTGAAAAGinsCATC	variant-hgvs-cDNA-deletion	6
-		c.35delG	variant-hgvs-cDNA-deletion	6
 		c.1100delC	variant-hgvs-cDNA-deletion	6
+		c.1521_1523delCTT	variant-hgvs-cDNA-deletion	6
+		c.68_69del	variant-hgvs-cDNA-deletion	6
 
 	Show sample for variant-hgvs-cDNA-deletion : (word, journal, publication, pattern, count, line, offset, length)
 		c.1526delC	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs-cDNA-deletion	50	81	10
@@ -101,8 +101,8 @@ Found 25 matches for variant-hgvs-cDNA-deletion-insertion patterns :(c)\.((?:-|\
 		J_Exp_Med	variant-hgvs-cDNA-deletion-insertion	2
 		Acta_Neuropathol_Commun	variant-hgvs-cDNA-deletion-insertion	1
 		Arq_Bras_Cardiol	variant-hgvs-cDNA-deletion-insertion	1
-		Br_J_Cancer	variant-hgvs-cDNA-deletion-insertion	1
 		J_Hum_Genet	variant-hgvs-cDNA-deletion-insertion	1
+		Br_J_Cancer	variant-hgvs-cDNA-deletion-insertion	1
 
 	Show top 20 journal where distinct words are counted variant-hgvs-cDNA-deletion-insertion : (journal, pattern, distinct words count)
 		BMC_Med_Genet	variant-hgvs-cDNA-deletion-insertion	5
@@ -110,32 +110,32 @@ Found 25 matches for variant-hgvs-cDNA-deletion-insertion patterns :(c)\.((?:-|\
 		Orphanet_J_Rare_Dis	variant-hgvs-cDNA-deletion-insertion	3
 		Brain	variant-hgvs-cDNA-deletion-insertion	2
 		Acta_Neuropathol_Commun	variant-hgvs-cDNA-deletion-insertion	1
-		Arq_Bras_Cardiol	variant-hgvs-cDNA-deletion-insertion	1
-		J_Exp_Med	variant-hgvs-cDNA-deletion-insertion	1
-		J_Hum_Genet	variant-hgvs-cDNA-deletion-insertion	1
 		Br_J_Cancer	variant-hgvs-cDNA-deletion-insertion	1
+		J_Hum_Genet	variant-hgvs-cDNA-deletion-insertion	1
+		J_Exp_Med	variant-hgvs-cDNA-deletion-insertion	1
+		Arq_Bras_Cardiol	variant-hgvs-cDNA-deletion-insertion	1
 
 	Show top 20 words for variant-hgvs-cDNA-deletion-insertion : (word, pattern, count)
 		c.2826_2836delinsGGATGCTCCA	variant-hgvs-cDNA-deletion-insertion	3
-		[c.690_714delinsA,	variant-hgvs-cDNA-deletion-insertion	2
 		(c.2826_2836delinsGGATGCTCCA)	variant-hgvs-cDNA-deletion-insertion	2
+		[c.690_714delinsA,	variant-hgvs-cDNA-deletion-insertion	2
 		c.1910_1922delinsGTT	variant-hgvs-cDNA-deletion-insertion	2
-		c.21796_21810delinsT;	variant-hgvs-cDNA-deletion-insertion	1
 		p.C3267R/c.6319_6324delinsTAAA	variant-hgvs-cDNA-deletion-insertion	1
+		c.21796_21810delinsT;	variant-hgvs-cDNA-deletion-insertion	1
 		c.300_301delinsT	variant-hgvs-cDNA-deletion-insertion	1
 		c.1232_1234delinsTTTGAA	variant-hgvs-cDNA-deletion-insertion	1
 		c.1103_1104delinsC	variant-hgvs-cDNA-deletion-insertion	1
-		c.7665delinsGTGA;p.His2555Gln	variant-hgvs-cDNA-deletion-insertion	1
-		c.7075_7077delinsT	variant-hgvs-cDNA-deletion-insertion	1
-		c.1408_1410delinsTTT	variant-hgvs-cDNA-deletion-insertion	1
-		c.1983_1985delinsGG	variant-hgvs-cDNA-deletion-insertion	1
 		c.264-21_264-1delinsC)	variant-hgvs-cDNA-deletion-insertion	1
-		c.6319_6324delinsTAAA	variant-hgvs-cDNA-deletion-insertion	1
-		c.3408_3409delinsGT	variant-hgvs-cDNA-deletion-insertion	1
-		(c.264-21_264-1delinsC)	variant-hgvs-cDNA-deletion-insertion	1
-		c.2826_2836delinsGGATGCTCCA,	variant-hgvs-cDNA-deletion-insertion	1
+		c.1408_1410delinsTTT	variant-hgvs-cDNA-deletion-insertion	1
 		c.2600_2604delinsA	variant-hgvs-cDNA-deletion-insertion	1
+		c.2826_2836delinsGGATGCTCCA,	variant-hgvs-cDNA-deletion-insertion	1
+		c.1983_1985delinsGG	variant-hgvs-cDNA-deletion-insertion	1
+		c.7075_7077delinsT	variant-hgvs-cDNA-deletion-insertion	1
+		c.3408_3409delinsGT	variant-hgvs-cDNA-deletion-insertion	1
+		c.7665delinsGTGA;p.His2555Gln	variant-hgvs-cDNA-deletion-insertion	1
 		c.2826_2836delinsGGATGCTCCA).	variant-hgvs-cDNA-deletion-insertion	1
+		c.6319_6324delinsTAAA	variant-hgvs-cDNA-deletion-insertion	1
+		(c.264-21_264-1delinsC)	variant-hgvs-cDNA-deletion-insertion	1
 
 	Show sample for variant-hgvs-cDNA-deletion-insertion : (word, journal, publication, pattern, count, line, offset, length)
 		c.1910_1922delinsGTT	J_Exp_Med	./J_Exp_Med/J_Exp_Med_2013_Aug_26_210(9)_1729-1742.txt	variant-hgvs-cDNA-deletion-insertion	42	1	20
@@ -172,63 +172,63 @@ Found 209 matches for variant-hgvs-cDNA-duplication patterns :(c)\.((?:-|\*)?\d+
 		BMC_Med_Genet	variant-hgvs-cDNA-duplication	15
 		J_Med_Genet	variant-hgvs-cDNA-duplication	11
 		BMC_Genet	variant-hgvs-cDNA-duplication	9
-		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-duplication	8
 		J_Hum_Genet	variant-hgvs-cDNA-duplication	8
-		PLoS_One	variant-hgvs-cDNA-duplication	7
+		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-duplication	8
 		Eur_Arch_Otorhinolaryngol	variant-hgvs-cDNA-duplication	7
-		Ann_Lab_Med	variant-hgvs-cDNA-duplication	5
+		PLoS_One	variant-hgvs-cDNA-duplication	7
 		Eur_J_Hum_Genet	variant-hgvs-cDNA-duplication	5
-		Brain	variant-hgvs-cDNA-duplication	3
-		Hum_Genome_Var	variant-hgvs-cDNA-duplication	3
-		Blood_Cancer_J	variant-hgvs-cDNA-duplication	3
-		Mol_Cells	variant-hgvs-cDNA-duplication	3
+		Ann_Lab_Med	variant-hgvs-cDNA-duplication	5
 		BMC_Gastroenterol	variant-hgvs-cDNA-duplication	3
-		Blood	variant-hgvs-cDNA-duplication	2
+		Brain	variant-hgvs-cDNA-duplication	3
+		Blood_Cancer_J	variant-hgvs-cDNA-duplication	3
+		Hum_Genome_Var	variant-hgvs-cDNA-duplication	3
+		Mol_Cells	variant-hgvs-cDNA-duplication	3
 		Cell_Rep	variant-hgvs-cDNA-duplication	2
+		Zdr_Varst	variant-hgvs-cDNA-duplication	2
 
 	Show top 20 journal where distinct words are counted variant-hgvs-cDNA-duplication : (journal, pattern, distinct words count)
-		Orphanet_J_Rare_Dis	variant-hgvs-cDNA-duplication	14
 		Mol_Vis	variant-hgvs-cDNA-duplication	14
+		Orphanet_J_Rare_Dis	variant-hgvs-cDNA-duplication	14
 		Hered_Cancer_Clin_Pract	variant-hgvs-cDNA-duplication	11
-		J_Hum_Genet	variant-hgvs-cDNA-duplication	8
 		J_Med_Genet	variant-hgvs-cDNA-duplication	8
-		PLoS_One	variant-hgvs-cDNA-duplication	7
+		J_Hum_Genet	variant-hgvs-cDNA-duplication	8
 		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-duplication	7
+		PLoS_One	variant-hgvs-cDNA-duplication	7
 		BMC_Genet	variant-hgvs-cDNA-duplication	5
 		Eur_J_Hum_Genet	variant-hgvs-cDNA-duplication	5
 		Brain	variant-hgvs-cDNA-duplication	3
-		BMC_Med_Genet	variant-hgvs-cDNA-duplication	3
 		Mol_Cells	variant-hgvs-cDNA-duplication	3
+		BMC_Med_Genet	variant-hgvs-cDNA-duplication	3
 		Hum_Genome_Var	variant-hgvs-cDNA-duplication	3
-		Eur_Arch_Otorhinolaryngol	variant-hgvs-cDNA-duplication	2
-		Appl_Clin_Genet	variant-hgvs-cDNA-duplication	2
 		Med_Anthropol	variant-hgvs-cDNA-duplication	2
 		BMC_Gastroenterol	variant-hgvs-cDNA-duplication	2
 		Zdr_Varst	variant-hgvs-cDNA-duplication	2
+		Blood_Cancer_J	variant-hgvs-cDNA-duplication	2
+		Eur_Arch_Otorhinolaryngol	variant-hgvs-cDNA-duplication	2
 		Blood	variant-hgvs-cDNA-duplication	2
 		Neurol_Genet	variant-hgvs-cDNA-duplication	2
 
 	Show top 20 words for variant-hgvs-cDNA-duplication : (word, pattern, count)
 		BRCA1c.5266dup	variant-hgvs-cDNA-duplication	16
 		c.1445dupT	variant-hgvs-cDNA-duplication	15
-		c.5266dup	variant-hgvs-cDNA-duplication	11
 		c.2330dupG	variant-hgvs-cDNA-duplication	11
+		c.5266dup	variant-hgvs-cDNA-duplication	11
 		c.672_701dup30	variant-hgvs-cDNA-duplication	9
 		c.579dupA	variant-hgvs-cDNA-duplication	6
 		(c.1893dup;	variant-hgvs-cDNA-duplication	5
-		c.2330dupG/0	variant-hgvs-cDNA-duplication	3
+		c.1378-1405dup	variant-hgvs-cDNA-duplication	3
 		c.93_96dupAAAA	variant-hgvs-cDNA-duplication	3
+		c.2330dupG/0	variant-hgvs-cDNA-duplication	3
 		c.5266dupC	variant-hgvs-cDNA-duplication	3
 		c.35dupG	variant-hgvs-cDNA-duplication	3
-		c.1378-1405dup	variant-hgvs-cDNA-duplication	3
 		(BRCA1c.5266dup	variant-hgvs-cDNA-duplication	2
+		c.1638-1660dup	variant-hgvs-cDNA-duplication	2
+		c.2192dupA	variant-hgvs-cDNA-duplication	2
 		(c.5266dupC),	variant-hgvs-cDNA-duplication	2
+		c.4994dupA	variant-hgvs-cDNA-duplication	2
 		c.5266dupin	variant-hgvs-cDNA-duplication	2
 		c.1176_1177dupAT	variant-hgvs-cDNA-duplication	2
-		c.4994dupA	variant-hgvs-cDNA-duplication	2
-		c.2192dupA	variant-hgvs-cDNA-duplication	2
-		c.2373dupG	variant-hgvs-cDNA-duplication	2
-		(c.48_55dupGGATTCCG;	variant-hgvs-cDNA-duplication	2
+		c.106dupC	variant-hgvs-cDNA-duplication	2
 
 	Show sample for variant-hgvs-cDNA-duplication : (word, journal, publication, pattern, count, line, offset, length)
 		c.2373dupG	Cell_Rep	./Cell_Rep/Cell_Rep_2015_Oct_17_13(4)_733-745.txt	variant-hgvs-cDNA-duplication	58	73	10
@@ -263,20 +263,20 @@ Found 88 matches for variant-hgvs-cDNA-insertion patterns :(c)\.((?:-|\*)?\d+)((
 		Hum_Genome_Var	variant-hgvs-cDNA-insertion	6
 		BMC_Genet	variant-hgvs-cDNA-insertion	5
 		PLoS_One	variant-hgvs-cDNA-insertion	5
+		Sci_Rep	variant-hgvs-cDNA-insertion	4
 		Curr_Genomics	variant-hgvs-cDNA-insertion	4
 		Genet_Med	variant-hgvs-cDNA-insertion	4
-		Sci_Rep	variant-hgvs-cDNA-insertion	4
 		Cerebellum_Ataxias	variant-hgvs-cDNA-insertion	3
 		Eur_J_Hum_Genet	variant-hgvs-cDNA-insertion	3
 		Fam_Cancer	variant-hgvs-cDNA-insertion	3
-		Nat_Genet	variant-hgvs-cDNA-insertion	2
-		Blood	variant-hgvs-cDNA-insertion	2
-		Genet_Mol_Biol	variant-hgvs-cDNA-insertion	2
-		J_Korean_Med_Sci	variant-hgvs-cDNA-insertion	2
 		Diagn_Pathol	variant-hgvs-cDNA-insertion	2
+		Blood	variant-hgvs-cDNA-insertion	2
+		Nat_Genet	variant-hgvs-cDNA-insertion	2
+		J_Korean_Med_Sci	variant-hgvs-cDNA-insertion	2
+		Genet_Mol_Biol	variant-hgvs-cDNA-insertion	2
 		Br_J_Ophthalmol	variant-hgvs-cDNA-insertion	2
-		Cancer_Res_Treat	variant-hgvs-cDNA-insertion	1
-		Hered_Cancer_Clin_Pract	variant-hgvs-cDNA-insertion	1
+		Breast_Cancer_Res	variant-hgvs-cDNA-insertion	1
+		BMC_Neurol	variant-hgvs-cDNA-insertion	1
 		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-insertion	1
 
 	Show top 20 journal where distinct words are counted variant-hgvs-cDNA-insertion : (journal, pattern, distinct words count)
@@ -286,41 +286,41 @@ Found 88 matches for variant-hgvs-cDNA-insertion patterns :(c)\.((?:-|\*)?\d+)((
 		Sci_Rep	variant-hgvs-cDNA-insertion	4
 		Curr_Genomics	variant-hgvs-cDNA-insertion	4
 		Fam_Cancer	variant-hgvs-cDNA-insertion	3
-		Eur_J_Hum_Genet	variant-hgvs-cDNA-insertion	3
 		BMC_Genet	variant-hgvs-cDNA-insertion	3
-		Genet_Med	variant-hgvs-cDNA-insertion	2
-		Genet_Mol_Biol	variant-hgvs-cDNA-insertion	2
-		Blood	variant-hgvs-cDNA-insertion	2
-		Nat_Genet	variant-hgvs-cDNA-insertion	2
+		Eur_J_Hum_Genet	variant-hgvs-cDNA-insertion	3
 		Diagn_Pathol	variant-hgvs-cDNA-insertion	2
+		Nat_Genet	variant-hgvs-cDNA-insertion	2
+		Blood	variant-hgvs-cDNA-insertion	2
+		Genet_Med	variant-hgvs-cDNA-insertion	2
 		Br_J_Ophthalmol	variant-hgvs-cDNA-insertion	2
+		Genet_Mol_Biol	variant-hgvs-cDNA-insertion	2
 		Cerebellum_Ataxias	variant-hgvs-cDNA-insertion	2
 		Hum_Genome_Var	variant-hgvs-cDNA-insertion	2
-		Genome_Med	variant-hgvs-cDNA-insertion	1
-		Acta_Neuropathol_Commun	variant-hgvs-cDNA-insertion	1
-		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-insertion	1
+		J_Hum_Genet	variant-hgvs-cDNA-insertion	1
 		Cancer_Res_Treat	variant-hgvs-cDNA-insertion	1
+		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-insertion	1
+		Breast_Cancer_Res	variant-hgvs-cDNA-insertion	1
 
 	Show top 20 words for variant-hgvs-cDNA-insertion : (word, pattern, count)
 		c.1495+2_1495+3insT	variant-hgvs-cDNA-insertion	12
 		c.109_110insG	variant-hgvs-cDNA-insertion	4
-		c.1495+2_1495+3insT,	variant-hgvs-cDNA-insertion	4
 		c.2052_2053insA	variant-hgvs-cDNA-insertion	4
-		c.466_467insAC,	variant-hgvs-cDNA-insertion	2
-		c.551_552insG	variant-hgvs-cDNA-insertion	2
+		c.1495+2_1495+3insT,	variant-hgvs-cDNA-insertion	4
 		c.6686_6687insCAAC	variant-hgvs-cDNA-insertion	2
+		c.466_467insAC,	variant-hgvs-cDNA-insertion	2
 		c.517_518insT	variant-hgvs-cDNA-insertion	2
 		c.517_518insT;	variant-hgvs-cDNA-insertion	2
-		(c.1757_1758insC)	variant-hgvs-cDNA-insertion	1
-		c.156_157insT,	variant-hgvs-cDNA-insertion	1
-		c.6686_6687insCAAC;	variant-hgvs-cDNA-insertion	1
-		c.1579_1580insCTC	variant-hgvs-cDNA-insertion	1
-		c.1580_1581insCAGAAGGACCTGGGGGATG	variant-hgvs-cDNA-insertion	1
-		c.8821_8822insTG	variant-hgvs-cDNA-insertion	1
+		c.551_552insG	variant-hgvs-cDNA-insertion	2
+		[c.2458_2459insG	variant-hgvs-cDNA-insertion	1
 		(c.1029_1030insT	variant-hgvs-cDNA-insertion	1
-		c.2657+2_2657+3insA	variant-hgvs-cDNA-insertion	1
-		(c.156_157insAlu)	variant-hgvs-cDNA-insertion	1
+		c.852_853insTCCC	variant-hgvs-cDNA-insertion	1
+		c.220_221insGT,	variant-hgvs-cDNA-insertion	1
 		c.949_950insC	variant-hgvs-cDNA-insertion	1
+		(c.156_157insAlu)	variant-hgvs-cDNA-insertion	1
+		c.1580_1581insCAGAAGGACCTGGGGGATG	variant-hgvs-cDNA-insertion	1
+		(c.1757_1758insC)	variant-hgvs-cDNA-insertion	1
+		c.6686_6687insCAAC;	variant-hgvs-cDNA-insertion	1
+		(c.1495+2_1495+3insT;	variant-hgvs-cDNA-insertion	1
 		c.4941_4942insT)	variant-hgvs-cDNA-insertion	1
 
 	Show sample for variant-hgvs-cDNA-insertion : (word, journal, publication, pattern, count, line, offset, length)
@@ -385,8 +385,8 @@ Found 3160 matches for variant-hgvs-cDNA-substitution patterns :(c)\.((?:-|\*)?\
 		Sci_Rep	variant-hgvs-cDNA-substitution	81
 		Br_J_Cancer	variant-hgvs-cDNA-substitution	65
 		J_Clin_Oncol	variant-hgvs-cDNA-substitution	62
-		Mol_Cells	variant-hgvs-cDNA-substitution	60
 		Asian-Australas_J_Anim_Sci	variant-hgvs-cDNA-substitution	60
+		Mol_Cells	variant-hgvs-cDNA-substitution	60
 		J_Med_Genet	variant-hgvs-cDNA-substitution	57
 		J_Exp_Med	variant-hgvs-cDNA-substitution	55
 		Nat_Commun	variant-hgvs-cDNA-substitution	54
@@ -403,8 +403,8 @@ Found 3160 matches for variant-hgvs-cDNA-substitution patterns :(c)\.((?:-|\*)?\
 		Mol_Genet_Genomic_Med	variant-hgvs-cDNA-substitution	63
 		Sci_Rep	variant-hgvs-cDNA-substitution	56
 		Hum_Genome_Var	variant-hgvs-cDNA-substitution	55
-		Hum_Mutat	variant-hgvs-cDNA-substitution	52
 		J_Med_Genet	variant-hgvs-cDNA-substitution	52
+		Hum_Mutat	variant-hgvs-cDNA-substitution	52
 		J_Exp_Med	variant-hgvs-cDNA-substitution	50
 		Nat_Commun	variant-hgvs-cDNA-substitution	48
 		J_Clin_Oncol	variant-hgvs-cDNA-substitution	40
@@ -426,17 +426,17 @@ Found 3160 matches for variant-hgvs-cDNA-substitution patterns :(c)\.((?:-|\*)?\
 		c.2278C>T	variant-hgvs-cDNA-substitution	19
 		c.2168A>G	variant-hgvs-cDNA-substitution	19
 		c.615+5G>A	variant-hgvs-cDNA-substitution	17
-		c.946G>A	variant-hgvs-cDNA-substitution	15
-		c.-22T>C	variant-hgvs-cDNA-substitution	15
 		c.1091-2A>G	variant-hgvs-cDNA-substitution	15
+		c.-22T>C	variant-hgvs-cDNA-substitution	15
+		c.946G>A	variant-hgvs-cDNA-substitution	15
 		c.985A>G	variant-hgvs-cDNA-substitution	13
 		c.2T>C	variant-hgvs-cDNA-substitution	12
-		c.357-2A>G	variant-hgvs-cDNA-substitution	11
 		c.448G>A	variant-hgvs-cDNA-substitution	11
+		c.357-2A>G	variant-hgvs-cDNA-substitution	11
 		c.280A>G	variant-hgvs-cDNA-substitution	11
-		c.408G>C	variant-hgvs-cDNA-substitution	10
+		c.8672G>A	variant-hgvs-cDNA-substitution	10
+		c.471G>A	variant-hgvs-cDNA-substitution	10
 		c.1064G>A	variant-hgvs-cDNA-substitution	10
-		c.3871C>T	variant-hgvs-cDNA-substitution	10
 
 	Show sample for variant-hgvs-cDNA-substitution : (word, journal, publication, pattern, count, line, offset, length)
 		c.446T>G,	Pediatr_Rheumatol_Online_J	./Pediatr_Rheumatol_Online_J/Pediatr_Rheumatol_Online_J_2015_Sep_28_13(Suppl_1)_P57.txt	variant-hgvs-cDNA-substitution	15	39	9
@@ -468,13 +468,13 @@ Found 29 matches for variant-hgvs-gDNA-deletion patterns :(g)\.(\d+)(?:_(\d+))?d
 	Show top 20 journals for variant-hgvs-gDNA-deletion : (journal, pattern, count)
 		Mol_Vis	variant-hgvs-gDNA-deletion	11
 		PLoS_One	variant-hgvs-gDNA-deletion	7
-		BMC_Cancer	variant-hgvs-gDNA-deletion	2
 		Fam_Cancer	variant-hgvs-gDNA-deletion	2
 		Front_Genet	variant-hgvs-gDNA-deletion	2
 		Nat_Immunol	variant-hgvs-gDNA-deletion	2
+		BMC_Cancer	variant-hgvs-gDNA-deletion	2
 		BMC_Med_Genet	variant-hgvs-gDNA-deletion	1
-		Eur_J_Hum_Genet	variant-hgvs-gDNA-deletion	1
 		Turk_J_Haematol	variant-hgvs-gDNA-deletion	1
+		Eur_J_Hum_Genet	variant-hgvs-gDNA-deletion	1
 
 	Show top 20 journal where distinct words are counted variant-hgvs-gDNA-deletion : (journal, pattern, distinct words count)
 		Mol_Vis	variant-hgvs-gDNA-deletion	7
@@ -483,8 +483,8 @@ Found 29 matches for variant-hgvs-gDNA-deletion patterns :(g)\.(\d+)(?:_(\d+))?d
 		Front_Genet	variant-hgvs-gDNA-deletion	2
 		BMC_Cancer	variant-hgvs-gDNA-deletion	2
 		BMC_Med_Genet	variant-hgvs-gDNA-deletion	1
-		Eur_J_Hum_Genet	variant-hgvs-gDNA-deletion	1
 		Nat_Immunol	variant-hgvs-gDNA-deletion	1
+		Eur_J_Hum_Genet	variant-hgvs-gDNA-deletion	1
 		Turk_J_Haematol	variant-hgvs-gDNA-deletion	1
 
 	Show top 20 words for variant-hgvs-gDNA-deletion : (word, pattern, count)
@@ -493,21 +493,21 @@ Found 29 matches for variant-hgvs-gDNA-deletion patterns :(g)\.(\d+)(?:_(\d+))?d
 		(g.302534_398773del96240)	variant-hgvs-gDNA-deletion	2
 		TRIB3:g.-1272_HOIL1:g.9780del)	variant-hgvs-gDNA-deletion	2
 		g.162078delA*	variant-hgvs-gDNA-deletion	2
-		(g.302534_398773del96240),	variant-hgvs-gDNA-deletion	1
 		g.43728907_43732862del3955ins26).	variant-hgvs-gDNA-deletion	1
 		g.162078delA.	variant-hgvs-gDNA-deletion	1
+		g.156743delTCTG,	variant-hgvs-gDNA-deletion	1
+		g.162266delC	variant-hgvs-gDNA-deletion	1
 		g.156743delTCTG	variant-hgvs-gDNA-deletion	1
 		g.7578222_7578225del	variant-hgvs-gDNA-deletion	1
 		(chr7:g.110876742_111470446del,	variant-hgvs-gDNA-deletion	1
-		g.162266delC	variant-hgvs-gDNA-deletion	1
-		NC_000001.10:g.110280254delCinsCCT	variant-hgvs-gDNA-deletion	1
-		g.156743delTCTG,	variant-hgvs-gDNA-deletion	1
-		g.8280_9560del	variant-hgvs-gDNA-deletion	1
 		g.64407delT	variant-hgvs-gDNA-deletion	1
-		g.45855delT	variant-hgvs-gDNA-deletion	1
 		(g.2525_7247del4723)	variant-hgvs-gDNA-deletion	1
-		g.64407delT,	variant-hgvs-gDNA-deletion	1
 		g.7578222_7578225del,	variant-hgvs-gDNA-deletion	1
+		g.64407delT,	variant-hgvs-gDNA-deletion	1
+		g.8280_9560del	variant-hgvs-gDNA-deletion	1
+		(g.302534_398773del96240),	variant-hgvs-gDNA-deletion	1
+		g.45855delT	variant-hgvs-gDNA-deletion	1
+		NC_000001.10:g.110280254delCinsCCT	variant-hgvs-gDNA-deletion	1
 
 	Show sample for variant-hgvs-gDNA-deletion : (word, journal, publication, pattern, count, line, offset, length)
 		g.45855delT	Fam_Cancer	./Fam_Cancer/Fam_Cancer_2012_Jun_29_11(2)_225-233.txt	variant-hgvs-gDNA-deletion	81	9	11
@@ -584,8 +584,8 @@ Found 331 matches for variant-hgvs-gDNA-substitution patterns :(g)\.(\d+)([A-Z])
 		Fam_Cancer	variant-hgvs-gDNA-substitution	40
 		Genes_Brain_Behav	variant-hgvs-gDNA-substitution	40
 		PLoS_Genet	variant-hgvs-gDNA-substitution	21
-		J_Korean_Surg_Soc	variant-hgvs-gDNA-substitution	17
 		Orphanet_J_Rare_Dis	variant-hgvs-gDNA-substitution	17
+		J_Korean_Surg_Soc	variant-hgvs-gDNA-substitution	17
 		Eur_J_Hum_Genet	variant-hgvs-gDNA-substitution	17
 		Mol_Vis	variant-hgvs-gDNA-substitution	15
 		Mol_Biol_Rep	variant-hgvs-gDNA-substitution	14
@@ -598,7 +598,7 @@ Found 331 matches for variant-hgvs-gDNA-substitution patterns :(g)\.(\d+)([A-Z])
 		Br_J_Cancer	variant-hgvs-gDNA-substitution	3
 		Clin_Med_Insights_Cardiol	variant-hgvs-gDNA-substitution	2
 		Pharmacogenomics_J	variant-hgvs-gDNA-substitution	2
-		BMC_Med_Genomics	variant-hgvs-gDNA-substitution	1
+		Transpl_Int	variant-hgvs-gDNA-substitution	1
 
 	Show top 20 journal where distinct words are counted variant-hgvs-gDNA-substitution : (journal, pattern, distinct words count)
 		Front_Genet	variant-hgvs-gDNA-substitution	45
@@ -613,36 +613,36 @@ Found 331 matches for variant-hgvs-gDNA-substitution patterns :(g)\.(\d+)([A-Z])
 		Mol_Biol_Rep	variant-hgvs-gDNA-substitution	8
 		PLoS_One	variant-hgvs-gDNA-substitution	7
 		J_Vet_Intern_Med	variant-hgvs-gDNA-substitution	6
-		Br_J_Cancer	variant-hgvs-gDNA-substitution	3
 		Pharmgenomics_Pers_Med	variant-hgvs-gDNA-substitution	3
 		Int_J_Cardiol	variant-hgvs-gDNA-substitution	3
-		Pharmacogenomics_J	variant-hgvs-gDNA-substitution	2
-		Clin_Med_Insights_Cardiol	variant-hgvs-gDNA-substitution	2
+		Br_J_Cancer	variant-hgvs-gDNA-substitution	3
 		Biomed_Res_Int	variant-hgvs-gDNA-substitution	2
+		Clin_Med_Insights_Cardiol	variant-hgvs-gDNA-substitution	2
+		Pharmacogenomics_J	variant-hgvs-gDNA-substitution	2
+		Case_Rep_Transplant	variant-hgvs-gDNA-substitution	1
 		BMC_Med_Genomics	variant-hgvs-gDNA-substitution	1
-		Transpl_Int	variant-hgvs-gDNA-substitution	1
 
 	Show top 20 words for variant-hgvs-gDNA-substitution : (word, pattern, count)
 		g.72C>T	variant-hgvs-gDNA-substitution	17
 		g.76430C>T	variant-hgvs-gDNA-substitution	7
-		g.162237C>T	variant-hgvs-gDNA-substitution	5
-		g.72A>C	variant-hgvs-gDNA-substitution	5
 		g.65386C>T	variant-hgvs-gDNA-substitution	5
 		g.8213T>C	variant-hgvs-gDNA-substitution	5
-		g.21796G>A	variant-hgvs-gDNA-substitution	4
+		g.162237C>T	variant-hgvs-gDNA-substitution	5
+		g.72A>C	variant-hgvs-gDNA-substitution	5
 		g.18492T>C	variant-hgvs-gDNA-substitution	4
 		g.150037C>T	variant-hgvs-gDNA-substitution	4
-		g.11559C>T	variant-hgvs-gDNA-substitution	4
 		g.21762C>A	variant-hgvs-gDNA-substitution	4
-		g.14718C>T	variant-hgvs-gDNA-substitution	4
 		g.20765C>A	variant-hgvs-gDNA-substitution	4
-		apoA-Ib.2-g.1753C>T	variant-hgvs-gDNA-substitution	3
-		g.2196G>A	variant-hgvs-gDNA-substitution	3
+		g.14718C>T	variant-hgvs-gDNA-substitution	4
+		g.11559C>T	variant-hgvs-gDNA-substitution	4
+		g.21796G>A	variant-hgvs-gDNA-substitution	4
 		g.160729G>C/	variant-hgvs-gDNA-substitution	3
-		apoA-Ib.2-g.183A>T	variant-hgvs-gDNA-substitution	3
 		g.21502T>C	variant-hgvs-gDNA-substitution	3
-		g.183A>T	variant-hgvs-gDNA-substitution	3
+		apoA-Ib.2-g.183A>T	variant-hgvs-gDNA-substitution	3
+		g.2196G>A	variant-hgvs-gDNA-substitution	3
 		g.78238C>T	variant-hgvs-gDNA-substitution	3
+		g.1753C>T	variant-hgvs-gDNA-substitution	3
+		apoA-Ib.2-g.1753C>T	variant-hgvs-gDNA-substitution	3
 
 	Show sample for variant-hgvs-gDNA-substitution : (word, journal, publication, pattern, count, line, offset, length)
 		NG_007938.1:g.12083G>A,	Transpl_Int	./Transpl_Int/Transpl_Int_2013_Dec_15_26(12)_1198-1207.txt	variant-hgvs-gDNA-substitution	39	22	23
@@ -682,60 +682,60 @@ Found 183 matches for variant-hgvs-protein-deletion patterns :(p)\.([A-Z])([a-z]
 		Cilia	variant-hgvs-protein-deletion	4
 		Hum_Mutat	variant-hgvs-protein-deletion	4
 		Acta_Neuropathol_Commun	variant-hgvs-protein-deletion	4
-		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	4
 		Brain	variant-hgvs-protein-deletion	4
+		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	4
 		Am_J_Ophthalmol	variant-hgvs-protein-deletion	4
 		Metabolism	variant-hgvs-protein-deletion	3
 		Nature	variant-hgvs-protein-deletion	3
 		Nat_Genet	variant-hgvs-protein-deletion	2
-		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
-		J_Med_Genet	variant-hgvs-protein-deletion	2
-		Genet_Med	variant-hgvs-protein-deletion	2
 		Front_Oncol	variant-hgvs-protein-deletion	2
+		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
+		Genet_Med	variant-hgvs-protein-deletion	2
+		J_Med_Genet	variant-hgvs-protein-deletion	2
 
 	Show top 20 journal where distinct words are counted variant-hgvs-protein-deletion : (journal, pattern, distinct words count)
 		Mol_Genet_Genomic_Med	variant-hgvs-protein-deletion	17
 		PLoS_One	variant-hgvs-protein-deletion	17
-		Sci_Rep	variant-hgvs-protein-deletion	10
 		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion	10
+		Sci_Rep	variant-hgvs-protein-deletion	10
 		Eur_J_Hum_Genet	variant-hgvs-protein-deletion	8
 		Mol_Vis	variant-hgvs-protein-deletion	8
-		Acta_Neuropathol_Commun	variant-hgvs-protein-deletion	4
 		Brain	variant-hgvs-protein-deletion	4
-		Metabolism	variant-hgvs-protein-deletion	3
+		Acta_Neuropathol_Commun	variant-hgvs-protein-deletion	4
 		BMC_Res_Notes	variant-hgvs-protein-deletion	3
+		Metabolism	variant-hgvs-protein-deletion	3
 		Nature	variant-hgvs-protein-deletion	3
-		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	2
-		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
 		Hum_Mutat	variant-hgvs-protein-deletion	2
-		Genet_Med	variant-hgvs-protein-deletion	2
 		Cilia	variant-hgvs-protein-deletion	2
-		Mol_Biol_Cell	variant-hgvs-protein-deletion	1
+		J_Am_Coll_Cardiol	variant-hgvs-protein-deletion	2
+		Genet_Med	variant-hgvs-protein-deletion	2
+		Indian_J_Hum_Genet	variant-hgvs-protein-deletion	2
 		Nat_Genet	variant-hgvs-protein-deletion	1
+		Clin_Pract	variant-hgvs-protein-deletion	1
+		Mol_Biol_Cell	variant-hgvs-protein-deletion	1
 		Mol_Cells	variant-hgvs-protein-deletion	1
-		J_Med_Genet	variant-hgvs-protein-deletion	1
 
 	Show top 20 words for variant-hgvs-protein-deletion : (word, pattern, count)
 		p.Phe508del	variant-hgvs-protein-deletion	20
 		p.P43_G61del	variant-hgvs-protein-deletion	6
 		p.Thr330del	variant-hgvs-protein-deletion	5
-		p.Phe508del/p.Leu1077Pro	variant-hgvs-protein-deletion	4
-		p.Asn73del	variant-hgvs-protein-deletion	4
-		p.D32_Q34del	variant-hgvs-protein-deletion	4
 		p.G378_G380delGGG	variant-hgvs-protein-deletion	4
+		p.Asn73del	variant-hgvs-protein-deletion	4
+		p.Phe508del/p.Leu1077Pro	variant-hgvs-protein-deletion	4
+		p.D32_Q34del	variant-hgvs-protein-deletion	4
 		p.Val2985_Thr3001del	variant-hgvs-protein-deletion	4
-		p.Phe508del)	variant-hgvs-protein-deletion	3
-		p.W409_G453del,	variant-hgvs-protein-deletion	3
 		CCM1:p.N607_K675del	variant-hgvs-protein-deletion	3
-		p.Ala31_Ala33del)	variant-hgvs-protein-deletion	3
-		non-p.Phe508del	variant-hgvs-protein-deletion	3
+		p.W409_G453del,	variant-hgvs-protein-deletion	3
 		p.Glu216_Lys251del	variant-hgvs-protein-deletion	3
-		p.Asp608del	variant-hgvs-protein-deletion	3
+		p.Phe508del)	variant-hgvs-protein-deletion	3
+		non-p.Phe508del	variant-hgvs-protein-deletion	3
+		p.Ala31_Ala33del)	variant-hgvs-protein-deletion	3
 		p.Ser192_Gly193delAGCGGC)	variant-hgvs-protein-deletion	3
+		p.Asp608del	variant-hgvs-protein-deletion	3
 		p.E229del	variant-hgvs-protein-deletion	3
-		(p.E50_Q93del)	variant-hgvs-protein-deletion	2
+		p.Ile109del	variant-hgvs-protein-deletion	2
+		p.Ile507del	variant-hgvs-protein-deletion	2
 		p.Ser192_Gly193delAGCGGC	variant-hgvs-protein-deletion	2
-		(p.Asn73del)	variant-hgvs-protein-deletion	2
 
 	Show sample for variant-hgvs-protein-deletion : (word, journal, publication, pattern, count, line, offset, length)
 		p.Phe508del	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs-protein-deletion	59	192	11
@@ -765,8 +765,8 @@ Found 183 matches for variant-hgvs-protein-deletion patterns :(p)\.([A-Z])([a-z]
 Found 3 matches for variant-hgvs-protein-deletion-insertion patterns :(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?delins((?:[A-Z\*]([a-z]{2})?)+)
 
 	Show top 20 journals for variant-hgvs-protein-deletion-insertion : (journal, pattern, count)
-		Front_Endocrinol_(Lausanne)	variant-hgvs-protein-deletion-insertion	1
 		Metabolism	variant-hgvs-protein-deletion-insertion	1
+		Front_Endocrinol_(Lausanne)	variant-hgvs-protein-deletion-insertion	1
 		Orphanet_J_Rare_Dis	variant-hgvs-protein-deletion-insertion	1
 
 	Show top 20 journal where distinct words are counted variant-hgvs-protein-deletion-insertion : (journal, pattern, distinct words count)
@@ -923,11 +923,11 @@ Found 5846 matches for variant-hgvs-protein-substitution patterns :(p)\.([A-Z])(
 		p.L811P	variant-hgvs-protein-substitution	25
 		p.Leu1077Pro	variant-hgvs-protein-substitution	22
 		p.Pro240Leu	variant-hgvs-protein-substitution	21
-		p.L1341P	variant-hgvs-protein-substitution	20
 		p.Gly1324Ser	variant-hgvs-protein-substitution	20
+		p.L1341P	variant-hgvs-protein-substitution	20
 		p.G12S	variant-hgvs-protein-substitution	19
-		p.D727E	variant-hgvs-protein-substitution	18
 		p.G299R	variant-hgvs-protein-substitution	18
+		p.D727E	variant-hgvs-protein-substitution	18
 		p.Arg448Trp	variant-hgvs-protein-substitution	16
 		p.Gly2891Asp	variant-hgvs-protein-substitution	15
 		p.D150H	variant-hgvs-protein-substitution	15
@@ -966,16 +966,16 @@ Found 602 matches for variant-hgvs—protein-frameshift patterns :(p)\.([A-Z])([
 		PLoS_One	variant-hgvs—protein-frameshift	52
 		Orphanet_J_Rare_Dis	variant-hgvs—protein-frameshift	50
 		BMC_Med_Genet	variant-hgvs—protein-frameshift	46
-		Eur_J_Hum_Genet	variant-hgvs—protein-frameshift	26
 		Mol_Genet_Genomic_Med	variant-hgvs—protein-frameshift	26
+		Eur_J_Hum_Genet	variant-hgvs—protein-frameshift	26
 		Cilia	variant-hgvs—protein-frameshift	25
 		Sci_Rep	variant-hgvs—protein-frameshift	25
 		Hum_Genome_Var	variant-hgvs—protein-frameshift	21
+		J_Hum_Genet	variant-hgvs—protein-frameshift	15
 		BMC_Genomics	variant-hgvs—protein-frameshift	15
 		Nat_Genet	variant-hgvs—protein-frameshift	15
-		J_Hum_Genet	variant-hgvs—protein-frameshift	15
-		Int_J_Mol_Med	variant-hgvs—protein-frameshift	13
 		Acta_Neuropathol_Commun	variant-hgvs—protein-frameshift	13
+		Int_J_Mol_Med	variant-hgvs—protein-frameshift	13
 		Mol_Cells	variant-hgvs—protein-frameshift	12
 		Diagn_Pathol	variant-hgvs—protein-frameshift	11
 		Hum_Mutat	variant-hgvs—protein-frameshift	10
@@ -989,19 +989,19 @@ Found 602 matches for variant-hgvs—protein-frameshift patterns :(p)\.([A-Z])([
 		Orphanet_J_Rare_Dis	variant-hgvs—protein-frameshift	38
 		BMC_Med_Genet	variant-hgvs—protein-frameshift	35
 		Eur_J_Hum_Genet	variant-hgvs—protein-frameshift	26
-		Mol_Genet_Genomic_Med	variant-hgvs—protein-frameshift	25
 		Sci_Rep	variant-hgvs—protein-frameshift	25
+		Mol_Genet_Genomic_Med	variant-hgvs—protein-frameshift	25
 		Hum_Genome_Var	variant-hgvs—protein-frameshift	16
 		Cilia	variant-hgvs—protein-frameshift	16
 		J_Hum_Genet	variant-hgvs—protein-frameshift	14
 		Nat_Genet	variant-hgvs—protein-frameshift	12
-		Acta_Neuropathol_Commun	variant-hgvs—protein-frameshift	11
 		Mol_Cells	variant-hgvs—protein-frameshift	11
+		Acta_Neuropathol_Commun	variant-hgvs—protein-frameshift	11
 		Diagn_Pathol	variant-hgvs—protein-frameshift	10
 		eLife	variant-hgvs—protein-frameshift	8
 		Fam_Cancer	variant-hgvs—protein-frameshift	6
 		Hum_Mol_Genet	variant-hgvs—protein-frameshift	5
-		Front_Oncol	variant-hgvs—protein-frameshift	5
+		Ann_Dermatol	variant-hgvs—protein-frameshift	5
 		Genet_Med	variant-hgvs—protein-frameshift	5
 		Oncotarget	variant-hgvs—protein-frameshift	5
 
@@ -1010,22 +1010,22 @@ Found 602 matches for variant-hgvs—protein-frameshift patterns :(p)\.([A-Z])([
 		p.Arg50Alafs*103	variant-hgvs—protein-frameshift	9
 		(p.F482fs)	variant-hgvs—protein-frameshift	8
 		p.Arg398Serfs*9	variant-hgvs—protein-frameshift	7
-		p.A2410Gfs*4	variant-hgvs—protein-frameshift	4
+		p.Val13LeufsX11	variant-hgvs—protein-frameshift	4
 		p.R1180SfsX6N	variant-hgvs—protein-frameshift	4
 		(p.Q994VfsX6)	variant-hgvs—protein-frameshift	4
-		p.Val13LeufsX11	variant-hgvs—protein-frameshift	4
+		p.A2410Gfs*4	variant-hgvs—protein-frameshift	4
 		p.Arg632Glnfs*20)	variant-hgvs—protein-frameshift	4
-		(p.F482fs),	variant-hgvs—protein-frameshift	3
-		p.Met187Ilefs*19	variant-hgvs—protein-frameshift	3
-		p.L1007fs	variant-hgvs—protein-frameshift	3
-		(p.E1554fs)	variant-hgvs—protein-frameshift	3
 		p.V217fs,	variant-hgvs—protein-frameshift	3
-		p.Lys546LysfsX46	variant-hgvs—protein-frameshift	3
-		p.Asn258ArgfsX7	variant-hgvs—protein-frameshift	3
-		p.N323Mfs*21	variant-hgvs—protein-frameshift	3
+		(p.His4ArgfsX21)	variant-hgvs—protein-frameshift	3
+		(p.F482fs),	variant-hgvs—protein-frameshift	3
 		(p.Arg50Alafs*103)	variant-hgvs—protein-frameshift	3
 		p.K267Rfs*9	variant-hgvs—protein-frameshift	3
-		(p.His4ArgfsX21)	variant-hgvs—protein-frameshift	3
+		p.Asn258ArgfsX7	variant-hgvs—protein-frameshift	3
+		p.N323Mfs*21	variant-hgvs—protein-frameshift	3
+		p.Met187Ilefs*19	variant-hgvs—protein-frameshift	3
+		(p.E1554fs)	variant-hgvs—protein-frameshift	3
+		p.L1007fs	variant-hgvs—protein-frameshift	3
+		p.Lys546LysfsX46	variant-hgvs—protein-frameshift	3
 
 	Show sample for variant-hgvs—protein-frameshift : (word, journal, publication, pattern, count, line, offset, length)
 		p.Gln186Hisfs*6	Genet_Med	./Genet_Med/Genet_Med_2015_Aug_6_17(8)_660-667.txt	variant-hgvs—protein-frameshift	97	0	15
@@ -1052,4 +1052,190 @@ Found 602 matches for variant-hgvs—protein-frameshift patterns :(p)\.([A-Z])([
  * * * * * * * * * * * * * * 
 
 
-Finished in 10.303983333333333 min
+Found 867625 matches for variant-litterature-protein-substitution-1 patterns :([A-Z])([a-z]{2})?(?:\s+|\s*-\s*|\s*\()?(\d+)(?:\s+|\s*-\s*|\s*[- ]*>\s*|\)\s*)?(?:([A-Z])([a-z]{2})?|(\*))
+
+	Show top 20 journals for variant-litterature-protein-substitution-1 : (journal, pattern, count)
+		PLoS_One	variant-litterature-protein-substitution-1	148113
+		Acta_Crystallogr_Sect_E_Struct_Rep_Online	variant-litterature-protein-substitution-1	86238
+		Sci_Rep	variant-litterature-protein-substitution-1	28307
+		Nucleic_Acids_Res	variant-litterature-protein-substitution-1	19217
+		J_Exp_Med	variant-litterature-protein-substitution-1	18538
+		J_Cell_Biol	variant-litterature-protein-substitution-1	18210
+		Oncotarget	variant-litterature-protein-substitution-1	14810
+		PLoS_Genet	variant-litterature-protein-substitution-1	14171
+		PLoS_Pathog	variant-litterature-protein-substitution-1	13022
+		Nat_Commun	variant-litterature-protein-substitution-1	12950
+		BMC_Genomics	variant-litterature-protein-substitution-1	9259
+		Int_J_Mol_Sci	variant-litterature-protein-substitution-1	9220
+		Br_J_Cancer	variant-litterature-protein-substitution-1	7752
+		eLife	variant-litterature-protein-substitution-1	7169
+		Acta_Crystallogr_E_Crystallogr_Commun	variant-litterature-protein-substitution-1	7022
+		BMC_Cancer	variant-litterature-protein-substitution-1	7020
+		Mol_Biol_Cell	variant-litterature-protein-substitution-1	6419
+		J_Biol_Chem	variant-litterature-protein-substitution-1	6127
+		J_Gen_Physiol	variant-litterature-protein-substitution-1	6038
+		Biomed_Res_Int	variant-litterature-protein-substitution-1	5349
+
+	Show top 20 journal where distinct words are counted variant-litterature-protein-substitution-1 : (journal, pattern, distinct words count)
+		PLoS_One	variant-litterature-protein-substitution-1	47290
+		Acta_Crystallogr_Sect_E_Struct_Rep_Online	variant-litterature-protein-substitution-1	31411
+		Sci_Rep	variant-litterature-protein-substitution-1	10852
+		Nucleic_Acids_Res	variant-litterature-protein-substitution-1	7361
+		J_Cell_Biol	variant-litterature-protein-substitution-1	7087
+		J_Exp_Med	variant-litterature-protein-substitution-1	6289
+		BMC_Genomics	variant-litterature-protein-substitution-1	5567
+		PLoS_Genet	variant-litterature-protein-substitution-1	5361
+		Nat_Commun	variant-litterature-protein-substitution-1	4728
+		Acta_Crystallogr_E_Crystallogr_Commun	variant-litterature-protein-substitution-1	4540
+		Oncotarget	variant-litterature-protein-substitution-1	4466
+		PLoS_Pathog	variant-litterature-protein-substitution-1	4386
+		Int_J_Mol_Sci	variant-litterature-protein-substitution-1	3633
+		Br_J_Cancer	variant-litterature-protein-substitution-1	3002
+		eLife	variant-litterature-protein-substitution-1	2807
+		BMC_Cancer	variant-litterature-protein-substitution-1	2451
+		Front_Plant_Sci	variant-litterature-protein-substitution-1	2396
+		Mol_Biol_Cell	variant-litterature-protein-substitution-1	2331
+		PLoS_Biol	variant-litterature-protein-substitution-1	2259
+		Biomed_Res_Int	variant-litterature-protein-substitution-1	2249
+
+	Show top 20 words for variant-litterature-protein-substitution-1 : (word, pattern, count)
+		H2O2	variant-litterature-protein-substitution-1	7849
+		C57BL/6	variant-litterature-protein-substitution-1	5829
+		PI3K	variant-litterature-protein-substitution-1	4298
+		T2DM	variant-litterature-protein-substitution-1	3417
+		H1N1	variant-litterature-protein-substitution-1	2876
+		H5N1	variant-litterature-protein-substitution-1	2603
+		H2O	variant-litterature-protein-substitution-1	2340
+		T2D	variant-litterature-protein-substitution-1	2222
+		C57BL/6J	variant-litterature-protein-substitution-1	2093
+		HEK293T	variant-litterature-protein-substitution-1	1997
+		C2C12	variant-litterature-protein-substitution-1	1900
+		E2F1	variant-litterature-protein-substitution-1	1662
+		T1D	variant-litterature-protein-substitution-1	1643
+		PIK3CA	variant-litterature-protein-substitution-1	1628
+		H3K4me3	variant-litterature-protein-substitution-1	1618
+		3T3-L1	variant-litterature-protein-substitution-1	1616
+		SH-SY5Y	variant-litterature-protein-substitution-1	1546
+		PI3K/Akt	variant-litterature-protein-substitution-1	1514
+		(H1N1)	variant-litterature-protein-substitution-1	1490
+		EQ-5D	variant-litterature-protein-substitution-1	1468
+
+	Show sample for variant-litterature-protein-substitution-1 : (word, journal, publication, pattern, count, line, offset, length)
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	3	235	5
+		(C2C12)	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	20	2	7
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	51	271	5
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	71	40	5
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	71	58	5
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	73	11	5
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	73	44	5
+		C2C12	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Jan_8_6(1)_17-22.txt	variant-litterature-protein-substitution-1	73	61	5
+		3T3-L1	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Jul-Sep_2(3)_186-191.txt	variant-litterature-protein-substitution-1	17	13	6
+		H2O2.	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2014_Oct-Dec_4(4)_232-238.txt	variant-litterature-protein-substitution-1	36	46	5
+		H2O2	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2014_Oct-Dec_4(4)_232-238.txt	variant-litterature-protein-substitution-1	36	53	4
+		18S-18S	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2014_Oct-Dec_4(4)_232-238.txt	variant-litterature-protein-substitution-1	117	16	7
+		R-30-C,	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Feb_28_6(3)_204-208.txt	variant-litterature-protein-substitution-1	3	97	7
+		(CCMP95-TP-024).	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2012_Apr-Jun_2(2)_123-128.txt	variant-litterature-protein-substitution-1	53	22	16
+		H2O2-induced	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	3	19	12
+		FeCl2.4H2O	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	45	38	10
+		KH2PO4–KOH	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	48	45	10
+		H2O2	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	48	63	4
+		H2O2	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	62	26	4
+		H2O2	J_Tradit_Complement_Med	./J_Tradit_Complement_Med/J_Tradit_Complement_Med_2015_Nov_19_6(3)_299-304.txt	variant-litterature-protein-substitution-1	65	10	4
+
+ * * * * * * * * * * * * * * 
+
+
+Found 7059 matches for variant-litterature-protein-substitution-2 patterns :(\d+)\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))
+
+	Show top 20 journals for variant-litterature-protein-substitution-2 : (journal, pattern, count)
+		PLoS_One	variant-litterature-protein-substitution-2	1433
+		Mol_Vis	variant-litterature-protein-substitution-2	648
+		Eur_J_Hum_Genet	variant-litterature-protein-substitution-2	221
+		Orphanet_J_Rare_Dis	variant-litterature-protein-substitution-2	194
+		Hum_Mutat	variant-litterature-protein-substitution-2	159
+		BMC_Med_Genet	variant-litterature-protein-substitution-2	158
+		Br_J_Cancer	variant-litterature-protein-substitution-2	144
+		J_Med_Genet	variant-litterature-protein-substitution-2	136
+		J_Hum_Genet	variant-litterature-protein-substitution-2	132
+		Asian-Australas_J_Anim_Sci	variant-litterature-protein-substitution-2	105
+		Curr_Genomics	variant-litterature-protein-substitution-2	104
+		Hum_Genome_Var	variant-litterature-protein-substitution-2	103
+		Sci_Rep	variant-litterature-protein-substitution-2	97
+		Biomed_Res_Int	variant-litterature-protein-substitution-2	90
+		PLoS_Genet	variant-litterature-protein-substitution-2	87
+		Mol_Genet_Genomic_Med	variant-litterature-protein-substitution-2	86
+		Fam_Cancer	variant-litterature-protein-substitution-2	81
+		Dis_Markers	variant-litterature-protein-substitution-2	79
+		Genes_Brain_Behav	variant-litterature-protein-substitution-2	78
+		J_Inherit_Metab_Dis	variant-litterature-protein-substitution-2	74
+
+	Show top 20 journal where distinct words are counted variant-litterature-protein-substitution-2 : (journal, pattern, distinct words count)
+		PLoS_One	variant-litterature-protein-substitution-2	715
+		Mol_Vis	variant-litterature-protein-substitution-2	361
+		Eur_J_Hum_Genet	variant-litterature-protein-substitution-2	173
+		Orphanet_J_Rare_Dis	variant-litterature-protein-substitution-2	145
+		J_Med_Genet	variant-litterature-protein-substitution-2	122
+		Curr_Genomics	variant-litterature-protein-substitution-2	102
+		J_Hum_Genet	variant-litterature-protein-substitution-2	92
+		BMC_Med_Genet	variant-litterature-protein-substitution-2	80
+		Sci_Rep	variant-litterature-protein-substitution-2	71
+		Br_J_Cancer	variant-litterature-protein-substitution-2	67
+		Hum_Genome_Var	variant-litterature-protein-substitution-2	65
+		Mol_Genet_Genomic_Med	variant-litterature-protein-substitution-2	65
+		Nat_Commun	variant-litterature-protein-substitution-2	62
+		Hum_Mutat	variant-litterature-protein-substitution-2	53
+		PLoS_Genet	variant-litterature-protein-substitution-2	53
+		BMC_Cancer	variant-litterature-protein-substitution-2	51
+		J_Exp_Med	variant-litterature-protein-substitution-2	50
+		Front_Genet	variant-litterature-protein-substitution-2	48
+		Fam_Cancer	variant-litterature-protein-substitution-2	46
+		Int_J_Mol_Sci	variant-litterature-protein-substitution-2	44
+
+	Show top 20 words for variant-litterature-protein-substitution-2 : (word, pattern, count)
+		c.5254G>A	variant-litterature-protein-substitution-2	49
+		c.-7C>T	variant-litterature-protein-substitution-2	43
+		-938C>A	variant-litterature-protein-substitution-2	36
+		-762T>C	variant-litterature-protein-substitution-2	36
+		SNP-11377C>G	variant-litterature-protein-substitution-2	34
+		c.-28A>G	variant-litterature-protein-substitution-2	32
+		−786T>C	variant-litterature-protein-substitution-2	32
+		m.12201T>C	variant-litterature-protein-substitution-2	30
+		3243A>G	variant-litterature-protein-substitution-2	30
+		IVS1-13T>G	variant-litterature-protein-substitution-2	30
+		c.1111C>G	variant-litterature-protein-substitution-2	29
+		(-181A>G)	variant-litterature-protein-substitution-2	28
+		m.3243A>G	variant-litterature-protein-substitution-2	28
+		m.3635G>A	variant-litterature-protein-substitution-2	26
+		3238C>G	variant-litterature-protein-substitution-2	25
+		c.1A>G	variant-litterature-protein-substitution-2	24
+		684G>A	variant-litterature-protein-substitution-2	24
+		SNP-12140G>A	variant-litterature-protein-substitution-2	24
+		HBG2:g.-109G>T	variant-litterature-protein-substitution-2	23
+		5665G>T	variant-litterature-protein-substitution-2	23
+
+	Show sample for variant-litterature-protein-substitution-2 : (word, journal, publication, pattern, count, line, offset, length)
+		−866G>A)	PLoS_Med	./PLoS_Med/PLoS_Med_2005_Dec_1_2(12)_e406.txt	variant-litterature-protein-substitution-2	11	89	8
+		c.446T>G,	Pediatr_Rheumatol_Online_J	./Pediatr_Rheumatol_Online_J/Pediatr_Rheumatol_Online_J_2015_Sep_28_13(Suppl_1)_P57.txt	variant-litterature-protein-substitution-2	15	39	9
+		c.3G>A	Nat_Med	./Nat_Med/Nat_Med_2014_Jul_22_20(7)_748-753.txt	variant-litterature-protein-substitution-2	33	171	6
+		c.185G>A	Nat_Med	./Nat_Med/Nat_Med_2014_Jul_22_20(7)_748-753.txt	variant-litterature-protein-substitution-2	33	174	8
+		(+45T>G),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	9	13	9
+		(+276G>T),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	9	15	10
+		(−11391G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	9	17	11
+		(−10069G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	9	20	11
+		(+45T>G)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	27	77	8
+		(+276G>T)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	27	80	9
+		(−11391G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	27	129	11
+		(−10069G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	27	132	11
+		(+45T>G),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	29	38	9
+		(+276G>T),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	29	40	10
+		(−11391G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	29	42	11
+		(−10069G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	29	45	11
+		(+45T>G),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	43	5	9
+		(+276G>T),	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	43	7	10
+		(−11391G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	43	9	11
+		(−10069G>A)	J_Diabetes_Investig	./J_Diabetes_Investig/J_Diabetes_Investig_2014_Mar_23_5(2)_192-198.txt	variant-litterature-protein-substitution-2	43	12	11
+
+ * * * * * * * * * * * * * * 
+
+
+Finished in 13.1864 min
