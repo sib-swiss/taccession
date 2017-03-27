@@ -16,7 +16,7 @@ val PUBLI_DIR = config.get("PUBLI_DIR").getOrElse(".")
 
 val pathFile = "file_names_to_process.txt"
 val fileNames = getListOfFiles(PUBLI_DIR).map(f => f.getAbsolutePath()).toList
-new PrintWriter(pathFile) { write(fileNames.filter(l => l.contains("PLoS_One")).toList.slice(1,100).mkString("\n")); close }
+new PrintWriter(pathFile) { write(fileNames.mkString("\n")); close }
 
 
 //Creates a domain class for manipulation and exporting the result.
@@ -40,9 +40,9 @@ def searchTokens(fileName: String): List[TokenMatch] = {
     val file = scala.io.Source.fromFile(fileName)//.replaceAll("\\.\\/", "\\/"));
 
     val result  = 
-      file.getLines().zipWithIndex.flatMap {
-      case (lineContent, lineNumber) => {
-        lineContent.split("\\s+").zipWithIndex.flatMap {
+      file.getLines().zipWithIndex.flatMap { //Reads all lines and keep the index to get the line number
+      case (lineContent, lineNumber) => { 
+        lineContent.split("\\s+").zipWithIndex.flatMap { //For each line, split it into many words
           case (fullWord, offset) => {
             //Check for all patterns
             patterns.map {
