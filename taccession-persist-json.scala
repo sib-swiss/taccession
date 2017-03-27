@@ -3,10 +3,13 @@ import java.io._
 //Starts the time
 val start = System.currentTimeMillis();
 
+//Returns a list of files for a given directory
 def getListOfFiles(dir: String): List[File] = { val d = new File(dir); if (d.exists && d.isDirectory) { d.listFiles.filter(_.isFile).toList } else { List[File]() }}
 
+//Reads the config files
 val config = scala.io.Source.fromFile("config.properties").getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), v(1))}).toMap
 
+//Reads the patterns, parses them and save them in an ordered map
 val patternFile = config.get("PATTERN_FILE").getOrElse("pattern.properties")
 val unsortedPatterns = scala.io.Source.fromFile(patternFile).getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
 val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
@@ -14,16 +17,16 @@ val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
 //Defines the directory where the publications are stored
 val PUBLI_DIR = config.get("PUBLI_DIR").getOrElse(".")
 
+//Read the absolute path of the publication in the given directory
 val pathFile = "file_names_to_process.txt"
 val fileNames = getListOfFiles(PUBLI_DIR).map(f => f.getAbsolutePath()).toList
 new PrintWriter(pathFile) { write(fileNames.mkString("\n")); close }
 
 
-//Creates a domain class for manipulation and exporting the result.
-//A word found in a publication for a certain entity (defined in patterns) at a line in a offset and with a length.
-case class TokenMatch(tokenMatched: String, 
-                      tokenMatchedLength: Integer,
-                      fullWord: String, //A given word on a text file (word is separated by \\s+
+//Domain class that represents a match of a pattern in a given publication
+case class TokenMatch(tokenMatched: String, //The token that was matched 
+                      tokenMatchedLength: Integer, // The lenght of the token
+                      fullWord: String, //The word against which the token was matched (words are separated by \\s+ in a given line)
                       tokenStartInWord:Integer,  //The start or index of of the token inside the fullWord
                       lineNumberWord: Integer, //The line in the text where the word appears
                       wordsOffset: Integer, //Number of words from the beginning of the line 
