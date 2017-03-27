@@ -2,11 +2,14 @@
 val start = System.currentTimeMillis();
 val fw = new java.io.FileWriter("results.tsv")
 
-val unsortedPatterns = scala.io.Source.fromFile("patterns.properties").getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
+val config = scala.io.Source.fromFile("config.properties").getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), v(1))}).toMap
+
+val patternFile = config.get("PATTERN_FILE").getOrElse("pattern.properties")
+val unsortedPatterns = scala.io.Source.fromFile(patternFile).getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => {val v = l.split("="); (v(0), new scala.util.matching.Regex(v(1)))}).toMap
 val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq:_*)
 
 //Defines the directory where the publications are stored
-val PUBLI_DIR = "/scratch/local/monthly/dteixeir/publis/";
+val PUBLI_DIR = config.get("PUBLI_DIR").getOrElse(".")
 
 //Creates a domain class for manipulation and exporting the result.
 //A word found in a publication for a certain entity (defined in patterns) at a line in a offset and with a length.
@@ -20,10 +23,10 @@ def searchTokens(fileName: String): List[TokenMatch] = {
 
     val journalPattern = "(.+\\/)*(.+)\\/\\S{1,}\\.txt".r
     val journal = journalPattern.findAllMatchIn(fileName).next().group(2)
-    
-    val file = scala.io.Source.fromFile(PUBLI_DIR + fileName);
+    val file = scala.io.Source.fromFile(PUBLI_DIR + fileName.replaceAll("\\.\\/", "\\/"));
 
-    val result = file.getLines().zipWithIndex.flatMap {
+    val result = try {
+    file.getLines().zipWithIndex.flatMap {
       case (lineContent, lineNumber) => {
         lineContent.split("\\s+").zipWithIndex.flatMap {
           case (word, offset) => {
@@ -39,6 +42,13 @@ def searchTokens(fileName: String): List[TokenMatch] = {
         }
       }
     }.filter(_ != null).toList;
+    } catch {
+       case e: Exception => 
+       {
+               println("Failed for" + fileName) 
+               List()
+       }
+    }
     
    file.close()
 
@@ -46,10 +56,10 @@ def searchTokens(fileName: String): List[TokenMatch] = {
 }
 
 //This parameter can be tune (a benchmark as showed 200 is a good fit)
-val minPartitions = 200;
+val minPartitions = config.get("MIN_PARTITIONS").getOrElse("200").toInt
 
 //Reads paths 
-val allFiles = sc.textFile(PUBLI_DIR + "file_names.txt", minPartitions)
+val allFiles = sc.textFile(config.get("PUBLI_FILE_PATHS").getOrElse("file_names.txt"), minPartitions)
 
 //Reads all files (this is distributed among all workers)
 val df = allFiles.flatMap(searchTokens(_)).toDF()
