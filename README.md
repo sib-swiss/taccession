@@ -9,8 +9,10 @@ Text Mining of SIB accessions in the literature.
 *ssh goldorak
 *cd /data/user/
 *cd taccession
-*$SPARK_HOME/bin/spark-shell -i taccession-persist-json.scala.scala
+*spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
+
 ```
+
 
 ##Troubleshooting
 *rm derby.log 
