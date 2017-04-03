@@ -4,19 +4,26 @@
 
 Text Mining of SIB accessions in the literature. 
 
-##Internal procedure
+## Internal procedure
+
 ```shell
-*ssh goldorak
-*cd /data/user/
-*cd taccession
-*spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
+ ssh goldorak
+ cd /data/user/
+ cd taccession
+ sbt package
+ # For saving stats
+ $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
+
+ # For saving results
+ $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
 
 ```
 
-
-##Troubleshooting
-*rm derby.log 
-*
+## Troubleshooting
+```
+rm derby.log
+rm -r metastore_db/ 
+``
 
 ## Installation
 * Java 8
