@@ -28,18 +28,19 @@ $TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
 
 ```
 
-## Build
-```shell
- sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
- ```
+## Installation / Requirements
 
-
-## Installation
 
 * Java 8
 * [Spark](http://spark.apache.org/downloads.html). Results.tsv were created with this bundle: [spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
 * [sbt](http://www.scala-sbt.org/)
 
+In order to build the project, you need sbt. (http://www.scala-sbt.org/)
+The command to execute:
+
+```shell
+ sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
+ ```
 
 ## Configuration file
 The config files contain several attributes: 
@@ -48,6 +49,7 @@ The config files contain several attributes:
 * MIN_PARTITIONS - The minimal number of partitions to distribute the workers
 * PATTERN_FILE - The name of the file
 
+
 ## Troubleshooting
 
 ```shell
@@ -55,10 +57,9 @@ rm derby.log
 rm -r metastore_db/ 
 ```
 
-
 ## Run on a cluster
-```shell
-$SPARK_HOME/bin/spark-shell --master local[32] -i taccession.scala
-spark-shell --executor-memory 100g --driver-memory 100g --master spark://goldorak:7077 -i taccession-persist-json.scala
-$SPARK_HOME/bin/spark-shell --master spark://$master_hostname:7070 -i taccession.scala
+
+Simply add the master option followed by its url at the end of the TACCESSION_CMD command: 
 ```
+--master spark://goldorak:7077 
+``
