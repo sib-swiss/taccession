@@ -1,0 +1,6 @@
+matchedPattern	context	lineNumber	columnNumber	publicationName
+NX_RAT	"Alpha-internexin	|P23565|AINX_RAT	56115.38	5.20		Structur..."	461	27	Biomark_Insights_2009_Oct_28_4_135-164.txt
+NX_short	"HADs_ANX_short	.707	.258	-.301	.187"	81	6	Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt
+NX_SLEEP_short	"GHQ_ANX_SLEEP_short	.838	.197	-.025..."	83	5	Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt
+NX_short	...by each group of items. HADs_ANX_short: items 2,4,12 from th...	98	51	Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt
+NX_SLEEP_short	...ADs_DEPRE_short: 1,5,13, GHQ_ANX_SLEEP_short: 10,11,13,14 fr...	98	154	Health_Qual_Life_Outcomes_2010_Jan_7_8_2.txt

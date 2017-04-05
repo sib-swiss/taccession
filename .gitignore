@@ -9,3 +9,5 @@ project/target
 target/
 *.log
 metastore_db
+*_SUCCESS
+*.crc

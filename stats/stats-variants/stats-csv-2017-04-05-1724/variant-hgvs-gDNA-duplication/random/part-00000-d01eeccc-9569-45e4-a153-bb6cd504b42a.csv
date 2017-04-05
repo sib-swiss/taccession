@@ -1,0 +1,7 @@
+matchedPattern	context	lineNumber	columnNumber	publicationName
+g.2121dup	" 1	F22	NA	Exon 1	g.2121dupC	p.Ala22GlyfsX9	Bil	..."	78	17	Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.5505_5506dup	" 3	F12	1 (12)	Exon 2	g.5505_5506dup	p.Ala74GlufsX4	..."	80	21	Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.59702_59703dup	" 6	F17	2 (4f, 29)	Exon 8	g.59702_59703dup	p.Asn258Argfs..."	83	25	Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.59702_59703dup	" 7	F17		Exon8	g.59702_59703dup	p.Asn258Argfs..."	84	14	Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.59702_59703dup	" 8	F17		Exon8	g.59702_59703dup	p.Asn258Argfs..."	85	14	Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.2179_2183dup	"1	F1	43 y	1.3	-	1 rc	1	g.2179_2183dupGGACC	L42RfsX25"	94	23	Mol_Vis_2009_Apr_17_15_771-777.txt
