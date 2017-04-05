@@ -7,18 +7,32 @@ Text Mining of SIB accessions in the literature.
 ## Internal procedure
 
 ```shell
- ssh goldorak
- cd /data/user/taccession
+ssh goldorak
+cd /data/user/taccession
+
+export SPARK_HOME=/data/user/tools/spark
+export TACCESSION_CMD="$SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars target/scala-2.11/taccession_2.11-1.0.jar"
+export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
+export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
+
+# For generating stats for accession patterns
+$TACCESSION_CMD -i script/taccession-save-stats.scala $ACCESSION_CONFIG
+
+# For generating stats for variant patterns
+$TACCESSION_CMD -i script/taccession-save-stats.scala $VARIANT_CONFIG
  
- sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
- 
- # For saving stats
- $SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
- 
- # For saving results
- $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
+# For saving results for accessions
+$TACCESSION_CMD -i script/taccession-save-json.scala $ACCESSION_CONFIG
+
+$TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
 
 ```
+
+## Build
+```shell
+ sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
+ ```
+
 
 ## Installation
 

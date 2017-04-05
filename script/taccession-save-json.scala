@@ -4,7 +4,7 @@ import swiss.sib.taccession._
 val start = System.currentTimeMillis();
 
 //Init configs
-val config = TaccessionConfig.init("config.properties")
+val config = TaccessionConfig.init(System.getProperty("config.file"))
 
 //File containing all path of the files to parse (a trick for spark going faster)
 val filePaths = TaccessionConfig.getFilePaths(config);
