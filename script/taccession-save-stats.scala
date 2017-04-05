@@ -25,9 +25,10 @@ val patterns = TaccessionConfig.getPatterns(config);
 val df = filesRDD.flatMap(f => Taccession.searchTokens(patterns, f)).toDF().as("dfAll")
 df.cache()
 
-def writeToTsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
+def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
   if (!df.rdd.isEmpty) {
-    df.coalesce(1).write.option("delimiter", "\t").option("header", "true").csv(outputFolder + "/" + fileName)
+    println("Writing for " + fileName)
+    df.coalesce(1).write.option("header", "true").csv(outputFolder + "/" + fileName)
     return true
   } else {
     println("Nothing found for " + fileName)
@@ -45,7 +46,7 @@ def findTopForPattern(patternName: String) = {
       val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(limit).as("dfTop")
       topPatterns.cache();
 
-      val result = writeToTsv(topPatterns.select("matchedPattern", "count"), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top)
+      val result = writeToCsv(topPatterns.select("matchedPattern", "count"), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top)
 
       if (result) {
         val matchedPatternString = topPatterns.select("matchedPattern").rdd.map(r => r(0)).collect()
@@ -54,7 +55,7 @@ def findTopForPattern(patternName: String) = {
           val msStringEscapedForFileName = msString.replaceAll("[^a-zA-Z0-9.-]", "_")
 
           val dfJoined = df.filter($"matchedPattern" === msString).join(topPatterns, df("matchedPattern") === topPatterns("matchedPattern")).drop(df("matchedPattern")).drop(df("patternName"))
-          writeToTsv(dfJoined.select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(20), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top + "/" + msStringEscapedForFileName)
+          writeToCsv(dfJoined.select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(20), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top + "/" + msStringEscapedForFileName)
         })
       } else {
         //No need to check bottom if top is not found
@@ -68,7 +69,7 @@ def findTopForPattern(patternName: String) = {
 patterns.foreach(p => {
   val dfFiltered = df.filter($"patternName" === p._1).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(1000)
   if (!dfFiltered.rdd.isEmpty) {
-    val result = writeToTsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p._1 + "/random")
+    val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p._1 + "/random")
     if (result) {
         findTopForPattern(p._1)
     }
