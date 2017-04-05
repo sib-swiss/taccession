@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+c.109_110insG,"...including c.79C>T (p.Gln27X), c.109_110insG (p.Ala2GlyfsX19)...",26,715,Hum_Genome_Var_2016_Feb_11_3_15052.txt
+c.109_110insG,4	1	Familial	Exon5	c.109_110insG	Frameshift	p.Ala...,55,19,Hum_Genome_Var_2016_Feb_11_3_15052.txt
+c.109_110insG,5	1	 	Exon5	c.109_110insG	Frameshift	p.Ala...,56,12,Hum_Genome_Var_2016_Feb_11_3_15052.txt
+c.109_110insG,6	1	 	Exon5	c.109_110insG	Frameshift	p.Ala...,57,12,Hum_Genome_Var_2016_Feb_11_3_15052.txt
