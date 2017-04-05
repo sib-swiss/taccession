@@ -11,3 +11,5 @@ target/
 metastore_db
 *_SUCCESS
 *.crc
+json-output
+file_names_to_process.txt
