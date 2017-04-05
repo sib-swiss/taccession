@@ -17,6 +17,10 @@ object TaccessionConfig {
     return scala.io.Source.fromFile(configFile).getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => { val v = l.split("="); (v(0), v(1)) }).toMap
   }
 
+  def getOutputFolder(config: Map[String, String]): String = {
+    return config.get("OUTPUT_FOLDER").getOrElse(".")
+  }
+
   def getFilePaths(config: Map[String, String]): String = {
 
     //Defines the directory where the publications are stored
