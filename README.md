@@ -13,12 +13,12 @@ cd /data/user/taccession
 export SPARK_HOME=/data/user/tools/spark
 export TACCESSION_CMD="$SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars target/scala-2.11/taccession_2.11-1.0.jar"
 export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
-export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
+export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-accession.properties\""
 
-# For generating stats for accession patterns
+#Generating stats
+# For accession patterns
 $TACCESSION_CMD -i script/taccession-save-stats.scala $ACCESSION_CONFIG
-
-# For generating stats for variant patterns
+# For variant patterns
 $TACCESSION_CMD -i script/taccession-save-stats.scala $VARIANT_CONFIG
  
 # For saving results for accessions
