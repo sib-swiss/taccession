@@ -4,7 +4,7 @@
 
 Text Mining of SIB accessions in the literature. 
 
-## Internal procedure
+## Execution
 
 ```shell
 ssh goldorak
@@ -25,11 +25,9 @@ $TACCESSION_CMD -i script/taccession-save-stats.scala $VARIANT_CONFIG
 $TACCESSION_CMD -i script/taccession-save-json.scala $ACCESSION_CONFIG
 
 $TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
-
 ```
 
-## Installation / Requirements
-
+## Installation
 
 * Java 8
 * [Spark](http://spark.apache.org/downloads.html). Results.tsv were created with this bundle: [spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
