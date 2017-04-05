@@ -12,8 +12,8 @@ Text Mining of SIB accessions in the literature.
  cd taccession
  sbt package
  # For saving stats
- $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
-
+ $SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
+ 
  # For saving results
  $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
 
