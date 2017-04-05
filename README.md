@@ -8,12 +8,13 @@ Text Mining of SIB accessions in the literature.
 
 ```shell
  ssh goldorak
- cd /data/user/
- cd taccession
- sbt package
+ cd /data/user/taccession
+ 
+ sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
+ 
  # For saving stats
- $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
-
+ $SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-stats.scala
+ 
  # For saving results
  $SPARK_HOME/bin/spark-shell --jars target/scala-2.11/taccession_2.11-1.0.jar -i script/taccession-save-json.scala
 
