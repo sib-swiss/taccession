@@ -1,7 +1,0 @@
-matchedPattern,context,lineNumber,columnNumber,publicationName
-RHEA:15133,Table 1. The master reaction RHEA:15133 (shown in Figure 3)...,50,29,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
-RHEA:15133,RHEA:15133 (master reaction)	N...,53,0,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
-RHEA:15133,"RHEA:15134 - Left-to-Right (RHEA:15133, LR)	UniPathway:UER...",56,28,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
-RHEA:15133,"RHEA:15135 - Left-to-Right (RHEA:15133, LR)	Reactome:REACT...",59,28,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
-RHEA:15133,"RHEA:15136 - Bidirectional (RHEA:15133, BI)	UniPathway:UCR...",62,28,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
-RHEA:15133,.../rhea/reaction.xhtml?id=15133 RHEA:15133 is a master reactio...,115,129,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
