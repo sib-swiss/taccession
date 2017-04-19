@@ -1,0 +1,14 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NX_HUMAN,5	Alpha-internexin	AINX_HUMAN	10,63,21,BMC_Ophthalmol_2013_Sep_25_13_48.txt
+NX_HUMAN,Alpha-internexin	AINX_HUMAN	11,68,19,BMC_Ophthalmol_2013_Sep_25_13_48.txt
+NX_HUMAN,Alpha-internexin	AINX_HUMAN	10,71,19,BMC_Ophthalmol_2013_Sep_25_13_48.txt
+NX_HUMAN,    Tenascin-X	TENX_HUMAN	464	66	66	8.1	156,74,17,Mol_Cell_Proteomics_2010_Sep_15_9(9)_2048-2062.txt
+NX_HUMAN,    Tenascin-X	TENX_HUMAN	464	79	79	4.5	140,156,17,Mol_Cell_Proteomics_2010_Sep_15_9(9)_2048-2062.txt
+NX_HUMAN,    Tenascin-X	TENX_HUMAN	464	47 ± 3	32 ± 1	0.1...,63,17,Mol_Cell_Proteomics_2011_Aug_18_10(8)_M111_008128.txt
+NX_HUMAN,    Tenascin-X	TENX_HUMAN	464	31 ± 1	39 ± 10	0....,157,17,Mol_Cell_Proteomics_2011_Aug_18_10(8)_M111_008128.txt
+NX_HUMAN,AINX_HUMAN	α-internexin	Homo sap...,168,2,Oncol_Rep_2012_Aug_1_28(2)_429-438.txt
+NX_HUMAN,AINX_HUMAN	INA	22502	228	55357	2...,69,2,PLoS_One_2012_Aug_28_7(8)_e44228.txt
+NX_HUMAN,TENX_HUMAN	Tenascin-X	TNXB	28	9	...,98,2,PLoS_One_2014_May_12_9(5)_e96526.txt
+NX_HUMAN,TENX_HUMAN	TNXB	tenascin XB	cell...,217,2,PLoS_One_2016_Jun_22_11(6)_e0157614.txt
+NX_HUMAN,756	AINX_HUMAN	Alpha-internexin	P	-,159,7,PLoS_ONE_2008_Feb_13_3(2)_e1589.txt
+NX_HUMAN,Cell differentiation	AINX_HUMAN	Alpha internexin 	0.3...,220,23,Stem_Cells_Int_2015_Aug_17_2015_319238.txt

@@ -1,0 +1,10 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NX_cds,"... sets (HIS_cds, EF1a_cds and ANX_cds) amplified within codin...",51,372,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,...the newly added gene regions ANX_cds and ANX_utr were ca. 23...,53,243,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,ANX_cds/utr	0.506±0.216	0.200±0...,65,1,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,"...imers (HIS_cds, EF1a_cds and ANX_cds) were omitted from rank...",69,264,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,...1a_utr2	0.586	SAND_utr	0.159	ANX_cds	0.448	bTUB_utr1	0.294	E...,80,34,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,..._utr2	0.425*	bTUB_utr2	0.821	ANX_cds	0.901	ANX_cds	0.885,82,51,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,...TUB_utr2	0.821	ANX_cds	0.901	ANX_cds	0.885,82,65,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,ANX_cds	0.015	0.308	0.737	0.575...,104,1,PLoS_One_2014_Jan_22_9(1)_e86492.txt
+NX_cds,...tial template amount between ANX_cds and ANX_utr regions by ...,130,1484,PLoS_One_2014_Jan_22_9(1)_e86492.txt
