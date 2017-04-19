@@ -5,7 +5,7 @@ val start = System.currentTimeMillis();
 
 val formatter = java.time.format.DateTimeFormatter.ofPattern("yyyy-MM-dd-HHmm");
 val date = java.time.LocalDateTime.now();
-val fileSuffix = date.format(formatter)
+val fileSuffix = "" //date.format(formatter)
 
 //Init configs
 val config = TaccessionConfig.init(System.getProperty("config.file"))
@@ -43,13 +43,13 @@ def findTopForPattern(patternName: String) = {
 
     if (foundTop) { //No need to check bottom if top is not found
       val (top, limit, order) = (op._1, op._2, op._3)
-      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(limit).as("dfTop")
+      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(100).as("dfTop")
       topPatterns.cache();
 
       val result = writeToCsv(topPatterns.select("matchedPattern", "count"), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top)
 
       if (result) {
-        val matchedPatternString = topPatterns.select("matchedPattern").rdd.map(r => r(0)).collect()
+        val matchedPatternString = topPatterns.select("matchedPattern").rdd.map(r => r(0)).take(limit)
         matchedPatternString.foreach(ms => {
           val msString = ms.toString
           val msStringEscapedForFileName = msString.replaceAll("[^a-zA-Z0-9.-]", "_")
