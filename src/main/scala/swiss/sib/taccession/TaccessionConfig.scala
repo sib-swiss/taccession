@@ -3,6 +3,7 @@ package swiss.sib.taccession
 import java.io.File
 import java.io.PrintWriter
 import scala.util.matching.Regex
+import scala.collection.immutable.HashMap
 
 object TaccessionConfig {
 
@@ -49,6 +50,19 @@ object TaccessionConfig {
     val patterns = scala.collection.immutable.TreeMap(unsortedPatterns.toSeq: _*)
 
     return patterns;
+
+  }
+
+  def getKeywords(config: Map[String, String]): Map[String, List[String]] = {
+
+    //Reads the patterns, parses them and save them in an ordered map
+    val patternFile = config.get("KEYWORDS_FILE")
+    
+    if(patternFile.isDefined){
+       scala.io.Source.fromFile(patternFile.get).getLines().filter(l => (!l.startsWith("#") && !l.trim().isEmpty())).map(l => { val v = l.split("="); (v(0), v(1).split(",").toList) }).toMap
+    }else {
+      new HashMap();
+    }
 
   }
 
