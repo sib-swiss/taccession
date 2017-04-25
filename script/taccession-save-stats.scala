@@ -21,8 +21,11 @@ val filesRDD = sc.textFile(filePaths, TaccessionConfig.getMinPartitions(config))
 //Patterns
 val patterns = TaccessionConfig.getPatterns(config);
 
+//Keywords
+val keywords = TaccessionConfig.getKeywords(config);
+
 //Reads all files (this is distributed among all workers)
-val df = filesRDD.flatMap(f => Taccession.searchTokens(patterns, f)).toDF().as("dfAll")
+val df = filesRDD.flatMap(f => Taccession.searchTokens(patterns, keywords, f)).toDF().as("dfAll")
 df.cache()
 
 def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
