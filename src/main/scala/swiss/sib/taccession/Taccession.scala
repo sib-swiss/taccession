@@ -2,6 +2,7 @@ package swiss.sib.taccession
 
 import java.io.File
 import java.io.PrintWriter;
+import scala.collection.immutable.HashMap
 
 object Taccession {
 
@@ -10,48 +11,54 @@ object Taccession {
 
     val f = new File(filePath);
     val file = scala.io.Source.fromFile(f)
-    val content = file.mkString
-
+    
+    val patternKeywordsFound = new java.util.HashMap[String, Boolean]();
+    keywords.keySet.foreach(patternName => {patternKeywordsFound.put(patternName, false)})
+        
     val result =
-      content.split("\n").zipWithIndex.flatMap { //Reads all lines and keep the index to get the line number
+      file.getLines().zipWithIndex.flatMap { //Reads all lines and keep the index to get the line number
         case (lineContent, lineNumber) => {
           //Check for all patterns
           patterns.map {
             case (patternName, pattern) => {
 
-              val kwFiltering = keywords.contains(patternName);
-              var kwFound = false;
-              if (kwFiltering) {
-                kwFound = keywords.getOrElse(patternName, List()).find { kw => content.toLowerCase().contains(kw) }.isDefined
+              //If it's a pattern keyword and no keyword was found yet
+              if(patternKeywordsFound.containsKey(patternName) && !patternKeywordsFound.get(patternName)){
+                val foundKw = keywords.getOrElse(patternName, List()).find { kw => lineContent.toLowerCase().contains(kw.toLowerCase()) }.isDefined
+                if(foundKw){
+                  patternKeywordsFound.put(patternName, true);
+                }
               }
 
-              if (!kwFiltering || (kwFiltering && kwFound)) {
-                pattern.findAllMatchIn(lineContent.toString).map(m => {
-                  val (matchedPattern, columnNumber) = (m.toString(), m.start)
 
-                  //Defining context
-                  val (contextStart, startText) = if ((m.start - 30) > 0) ((m.start - 30), "...") else (0, "");
-                  val (contextEnd, endText) = if ((m.start + 30) <= (lineContent.length() - 1)) ((m.start + 30), "...") else (lineContent.length() - 1, "");
+              pattern.findAllMatchIn(lineContent.toString).map(m => {
+                val (matchedPattern, columnNumber) = (m.toString(), m.start)
 
-                  val context = lineContent.substring(contextStart, contextEnd)
-                  TokenMatch(matchedPattern,
-                    startText + context + endText,
-                    new Integer(matchedPattern.length),
-                    new Integer(lineNumber + 1),
-                    new Integer(columnNumber),
-                    f.getName,
-                    patternName)
-                })
-              } else {
-                null
-              }
+                //Defining context
+                val (contextStart, startText) = if ((m.start - 30) > 0) ((m.start - 30), "...") else (0, "");
+                val (contextEnd, endText) = if ((m.start + 30) <= (lineContent.length() - 1)) ((m.start + 30), "...") else (lineContent.length() - 1, "");
+
+                val context = lineContent.substring(contextStart, contextEnd)
+                TokenMatch(matchedPattern,
+                  startText + context + endText,
+                  new Integer(matchedPattern.length),
+                  new Integer(lineNumber + 1),
+                  new Integer(columnNumber + 1),
+                  f.getName,
+                  patternName)
+              })
             }
           }
         }
-      }.filter(_ != null).toList.flatten;
+      }.toList.flatten;
 
-    file.close()
-    return result
+      
+    return result.filter(r => {
+      if(patternKeywordsFound.containsKey(r.patternName)){
+        patternKeywordsFound.get(r.patternName); //Filter out the element if it was not found (false)
+      }else true;
+    })
+      
   }
 
 }

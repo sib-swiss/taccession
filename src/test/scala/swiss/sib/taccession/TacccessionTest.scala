@@ -24,6 +24,7 @@ class TacccessionTest extends FlatSpec with Matchers {
 
   }
 
+  
   it should "find the correct lines of the elements" in {
 
     val config = TaccessionConfig.init("config-accession.properties");
@@ -56,7 +57,7 @@ class TacccessionTest extends FlatSpec with Matchers {
 
     println(tokens)
     val tm = tokens.filter(_.lineNumber === 2)(0);
-    tm.columnNumber should be(49) //Starts at 0
+    tm.columnNumber should be(50) 
     tm.matchedPattern should be("NX_P01308") 
     
   }
