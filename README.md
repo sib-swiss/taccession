@@ -27,6 +27,18 @@ $TACCESSION_CMD -i script/taccession-save-json.scala $ACCESSION_CONFIG
 $TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
 ```
 
+## Build
+```
+sbt package
+```
+
+
+## Tests
+```
+sbt test
+```
+
+
 ## Installation
 
 * Java 8
