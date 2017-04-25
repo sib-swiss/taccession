@@ -53,6 +53,7 @@ object Taccession {
       }.toList.flatten;
 
       
+    file.close();
     return result.filter(r => {
       if(patternKeywordsFound.containsKey(r.patternName)){
         patternKeywordsFound.get(r.patternName); //Filter out the element if it was not found (false)
