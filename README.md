@@ -3,6 +3,10 @@
 **Note:** This project is under **active development**.
 
 Text Mining of SIB accessions in the literature. 
+## Build
+```
+sbt package #This creates the following jar file: target/scala-2.11/taccession_2.11-1.0.jar
+```
 
 ## Execution
 
@@ -25,11 +29,6 @@ $TACCESSION_CMD -i script/taccession-save-stats.scala $VARIANT_CONFIG
 $TACCESSION_CMD -i script/taccession-save-json.scala $ACCESSION_CONFIG
 
 $TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
-```
-
-## Build
-```
-sbt package
 ```
 
 
