@@ -19,6 +19,8 @@ export TACCESSION_CMD="$SPARK_HOME/bin/spark-shell --executor-memory 100g --driv
 export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
 export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-accession.properties\""
 
+./clear-stats.sh #This will remove and git remove the previous stats directory.
+
 #Generating stats
 # For accession patterns
 $TACCESSION_CMD -i script/taccession-save-stats.scala $ACCESSION_CONFIG
@@ -41,30 +43,9 @@ sbt test
 ## Installation
 
 * Java 8
-* [Spark](http://spark.apache.org/downloads.html). Results.tsv were created with this bundle: [spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
-* [sbt](http://www.scala-sbt.org/)
+* [Spark](http://spark.apache.org/downloads.html). (Tested with: [spark-2.1.0-bin-hadoop2.7](http://d3kbcqa49mib13.cloudfront.net/spark-2.1.0-bin-hadoop2.7.tgz)
+* [sbt](http://www.scala-sbt.org/) Add to your PATH sbt/bin
 
-In order to build the project, you need sbt. (http://www.scala-sbt.org/)
-The command to execute:
-
-```shell
- sbt package #SBT bin should be in the path. Add in your bash_profile the following: PATH=$PATH:/data/user/tools/sbt/bin
- ```
-
-## Configuration file
-The config files contain several attributes: 
-
-* PUBLI_DIR - The directory where one can find the publications
-* MIN_PARTITIONS - The minimal number of partitions to distribute the workers
-* PATTERN_FILE - The name of the file
-
-
-## Troubleshooting
-
-```shell
-rm derby.log
-rm -r metastore_db/ 
-```
 
 ## Run on a cluster
 
