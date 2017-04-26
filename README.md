@@ -19,7 +19,8 @@ export TACCESSION_CMD="$SPARK_HOME/bin/spark-shell --executor-memory 100g --driv
 export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-variants.properties\""
 export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=config-accession.properties\""
 
-./clear-stats.sh #This will remove and git remove the previous stats directory.
+./clear-accession-stats.sh #This will remove and git remove the previous stats directory.
+./clear-variant-stats.sh #This will remove and git remove the previous stats directory.
 
 #Generating stats
 # For accession patterns
