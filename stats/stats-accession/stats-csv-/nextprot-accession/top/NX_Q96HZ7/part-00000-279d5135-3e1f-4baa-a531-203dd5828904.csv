@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NX_Q96HZ7,10	NX_Q96HZ7	C21orf119	likely unobservable	Intestine ...,84,4,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_Q96HZ7,"For NX_Q96HZ7 (C21orf119, line 10), two datasets show ...",103,5,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_Q96HZ7,"...icted to encode a long non-coding RNA. Therefore, NX_Q96HZ7 will remain PE5 until contradictory evid...",103,153,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_Q96HZ7,NX_Q96HZ7	C21orf119	PE5,120,1,Database_(Oxford)_2016_May_12_2016_baw070.txt

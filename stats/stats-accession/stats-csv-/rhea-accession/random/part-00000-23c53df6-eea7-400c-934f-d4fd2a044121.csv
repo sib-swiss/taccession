@@ -1,0 +1,36 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+RHEA:18596,"...hosphate = phosphoethanolamine + palmitaldehyde’ (RHEA:18596), which is catalyzed by the enzyme SGPL...",20,297,PMC5210663.txt
+RHEA:33510,"... this class such as sphingosine-1-phosphate (18) (RHEA:33510), the main phosphorylated sphingoid bas...",20,722,PMC5210663.txt
+RHEA:34746,...well as 15-methylhexadecasphinganine-1-phosphate (RHEA:34746) and 15-methylhexadecasphingosine-1-pho...,20,842,PMC5210663.txt
+RHEA:34722,"...46) and 15-methylhexadecasphingosine-1-phosphate (RHEA:34722) (19), two phosphorylated sphingoid bas...",20,900,PMC5210663.txt
+RHEA:40002,...sphate = a fatty aldehyde + phosphoethanolamine’ (RHEA:40002) was created using the newly defined gr...,20,1546,PMC5210663.txt
+RHEA:31295,"...ng tautomeric forms of the same compound, such as RHEA:31295 which connects reactions involving (2E)...",15,2028,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:22580,"... include each of these forms. To illustrate this, RHEA:22580 describes a reaction involving a keto t...",16,365,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:27873,...a reaction involving a keto tautomeric form while RHEA:27873 describes a separate reaction involving...,16,436,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:31295,... compound. The keto-enol tautomerization reaction RHEA:31295 allows the two reactions to be linked i...,16,563,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,Table 1. The master reaction RHEA:15133 (shown in Figure 3) has an undefined di...,50,30,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15134,"...t is associated with three directional reactions (RHEA:15134, RHEA:15135 and RHEA:15136), each of wh...",50,173,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15135,"...ted with three directional reactions (RHEA:15134, RHEA:15135 and RHEA:15136), each of which has a sp...",50,185,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15136,"...directional reactions (RHEA:15134, RHEA:15135 and RHEA:15136), each of which has a specific set of c...",50,200,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,RHEA:15133 (master reaction)	None,53,1,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15134,"RHEA:15134 - Left-to-Right (RHEA:15133, LR)	UniPat...",56,1,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,"RHEA:15134 - Left-to-Right (RHEA:15133, LR)	UniPathway:UER00591",56,29,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15135,"RHEA:15135 - Left-to-Right (RHEA:15133, LR)	Reacto...",59,1,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,"RHEA:15135 - Left-to-Right (RHEA:15133, LR)	Reactome:REACT_1896.4",59,29,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15136,"RHEA:15136 - Bidirectional (RHEA:15133, BI)	UniPat...",62,1,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,"RHEA:15136 - Bidirectional (RHEA:15133, BI)	UniPathway:UCR00243",62,29,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15133,...http://www.ebi.ac.uk/rhea/reaction.xhtml?id=15133 RHEA:15133 is a master reaction. This master react...,115,130,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15134,"...e participants, different directions’. These are: RHEA:15134 (left-to-right), RHEA:15135 (right-to-l...",115,413,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15135,"...rections’. These are: RHEA:15134 (left-to-right), RHEA:15135 (right-to-left) and RHEA:15136 (bidirec...",115,441,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15136,"...4 (left-to-right), RHEA:15135 (right-to-left) and RHEA:15136 (bidirectional). The section titled ‘Cr...",115,472,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15134,"...be determined from the directional icon (‘=>’ for RHEA:15134, ‘<=’ for RHEA:15135 and ‘<=>’ for RHEA...",115,704,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15135,"...e directional icon (‘=>’ for RHEA:15134, ‘<=’ for RHEA:15135 and ‘<=>’ for RHEA:15136). The user can...",115,725,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:15136,"...for RHEA:15134, ‘<=’ for RHEA:15135 and ‘<=>’ for RHEA:15136). The user can retrieve a list of all t...",115,750,Nucleic_Acids_Res_2012_Jan_30_40(Database_issue)_D754-D760.txt
+RHEA:12071,...s post-translational modification is described by RHEA:12071 (Figure 2A). The substrate for this rea...,15,856,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:41791,"...ty acid synthesis on holo-[ACP] is represented by RHEA:41791, in which an acetyl group is transferre...",15,1270,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:42399,... of a single tRNA molecule (14). This reaction is RHEA:42399 (Figure 2C). Its substrate is Rhea GENE...,15,2125,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:12071,Figure 2. Rhea generics. (A) RHEA:12071 represents the priming of acyl carrier ...,17,30,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:41791,...-phosphoryl)-l-serine residue (GENERIC:9685). (B) RHEA:41791 represents the initiation of fatty acid...,17,460,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:42399,...′-phosphoryl)-l-serine residue (CHEBI:78446). (C) RHEA:42399 illustrates the use of Rhea generics co...,17,820,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:17800,Figure 3. Rhea polymers. RHEA:17800 is a polymerization reaction where the ...,32,26,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
+RHEA:28105,...forementioned GDP-α-d-mannose hydrolysis reaction RHEA:28105 described in UniProtKB/Swiss-Prot recor...,61,777,Nucleic_Acids_Res_2015_Jan_28_43(Database_issue)_D459-D464.txt
