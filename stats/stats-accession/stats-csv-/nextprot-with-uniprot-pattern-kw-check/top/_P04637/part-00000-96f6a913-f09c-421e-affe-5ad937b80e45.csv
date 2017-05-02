@@ -1,0 +1,40 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P04637,TP53	P04637	K164E	Acetylation	ovarian cancer; brain ca...,180,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R248Q	Binding Site(DNA binding site)	brain...,182,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R248W	Binding Site(DNA binding site)	brain...,183,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	S241F	Binding Site(DNA binding site)	breas...,184,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	S241C	Binding Site(DNA binding site)	breas...,185,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	A276P	Binding Site(DNA binding site)	breas...,186,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C277F	Binding Site(DNA binding site)	urina...,187,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R273H	Binding Site(DNA binding site)	brain...,188,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R273L	Binding Site(DNA binding site)	breas...,189,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R273P	Binding Site(DNA binding site)	breas...,190,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R273C	Binding Site(DNA binding site)	brain...,191,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R273S	Binding Site(DNA binding site)	uteri...,192,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C275Y	Binding Site(DNA binding site)	brain...,194,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	N239S	Binding Site(DNA binding site)	diffu...,195,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R280T	Binding Site(DNA binding site)	breas...,196,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R280I	Binding Site(DNA binding site)	ovari...,197,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R280G	Binding Site(DNA binding site)	hemat...,198,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C242Y	Binding Site(zinc binding site)	brai...,212,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	H179R	Binding Site(zinc binding site)	brai...,213,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	H179Y	Binding Site(zinc binding site)	brea...,214,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C176Y	Binding Site(zinc binding site)	ovar...,215,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C176F	Binding Site(zinc binding site)	brea...,216,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C238S	Binding Site(zinc binding site)	brea...,217,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C238F	Binding Site(zinc binding site)	brai...,218,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	C238Y	Binding Site(zinc binding site)	brai...,219,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R110L	Methylation	ovarian cancer; pancreat...,220,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R213L	Methylation	breast cancer; oropharyn...,221,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R213Q	Methylation	kidney cancer; brain can...,222,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R209I	Methylation	breast cancer; uterine c...,224,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R337L	Methylation	colon cancer; oropharynx...,225,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	R337C	Methylation	brain cancer; ovarian ca...,226,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	S215R	Phosphorylation	breast cancer; ovari...,227,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	T155N	Phosphorylation	breast cancer; brain...,232,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	T155P	Phosphorylation	breast cancer; pancr...,233,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	T211I	Phosphorylation	colon cancer; brain ...,235,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	K164E	Ubiquitylation	ovarian cancer; brain...,238,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	K132N	Ubiquitylation	breast cancer; colon ...,239,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	K132E	Ubiquitylation	breast cancer; ovaria...,240,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P04637,TP53	P04637	K132R	Ubiquitylation	ovarian cancer; colon...,241,5,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt

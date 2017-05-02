@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NX_P0CB46,8	NX_P0CB46	CASP16	likely unobservable	Spleen > Uter...,82,3,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_P0CB46,"For NX_P0CB46 (CASP16, line 8), two datasets show expr...",105,5,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_P0CB46,"... as a pseudogene (not protein coding). Therefore, NX_P0CB46 has been deleted from UniProtKB/Swiss-Pr...",105,210,Database_(Oxford)_2016_May_12_2016_baw070.txt
+NX_P0CB46,NX_P0CB46	CASP16	Deleted,118,1,Database_(Oxford)_2016_May_12_2016_baw070.txt
