@@ -1,0 +1,10 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P19256,P19256	LFA3_HUMAN	SHORT	CD58; LFA3	X06296,204,1,Genome_Biol_2004_Feb_2_5(2)_R8.txt
+P19256,... coding for attachment of a GPI anchor from CD58 (P19256; amino acids 207–237) obtained as a BamHI–N...,112,985,J_Cell_Biol_2005_Jan_17_168(2)_303-313.txt
+P19256,Lymphocyte function-associated antigen 3	P19256	CD58	126.9,130,42,J_Extracell_Vesicles_2012_Sep_11_1_10_3402_jev_v1i0_18704.txt
+P19256,antigen 3	P19256	2	5,553,11,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P19256,antigen 3	P19256	2	5,553,11,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P19256,CD58	1.04	1	0.96	0.05	4.80	P19256	2 (4)		SLC4A2	0.93	10	1.08	0.30	4.27	P04920...,114,29,Mol_Cell_Proteomics_2009_Aug_20_8(8)_1959-1971.txt
+P19256,Austrian Science Fund (FWF; grant P19256-B03); Austrian Academy of Sciences. Funding...,86,35,Nucleic_Acids_Res_2012_Jul_29_40(12)_5615-5624.txt
+P19256,12	Lymphocyte function-associated antigen 3	P19256	28	0	2.4 (1)	0	6.0 (2)	1/3	2/3,84,45,Proteomics_2014_Nov_12_14(21-22)_2471-2484.txt
+P19256,15	Lymphocyte function-associated antigen 3	P19256	28	0	8.0 (2)	0	5.1 (1)	2/3	2/3,141,45,Proteomics_2014_Nov_12_14(21-22)_2471-2484.txt

@@ -1,0 +1,15 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+Q01813,Q01813	K6PP	6-phosphofructokinase type C	1.18	2.47...,123,1,BMC_Cancer_2016_Mar_10_16_206.txt
+Q01813,55	K6PP	6-phosphofructokinase type C	Q01813	Q9WUA3		+	+	+,215,38,Front_Cell_Infect_Microbiol_2015_Jun_2_5_48.txt
+Q01813,sp|Q01813	6-phosphofructokinase type C	1.04	0.82	1.00...,67,4,Mol_Cancer_2013_Jul_15_12_74.txt
+Q01813,Q01813	PFKP	6-phosphofructokinase type C	−8.6	−1.2...,55,1,Oncotarget_2015_Oct_26_6(35)_38166-38180.txt
+Q01813,Q01813	PFKP	6-phosphofructokinase type C	−8.6	−1.2...,115,1,Oncotarget_2015_Oct_26_6(35)_38166-38180.txt
+Q01813,"...ter of human PFK1 proteins PFK-M (P08237), PFK-P (Q01813), PFK-L (P17858), and A. niger (P78985) are...",151,129,PLoS_One_2011_May_4_6(5)_e19645.txt
+Q01813,Q01813	6-phosphofructokinase type C	1	1	47	21,209,1,PLoS_One_2013_Apr_2_8(4)_e60300.txt
+Q01813,17	Q01813	PFKP	6-phosphofructokinase type C	1661	12	2...,152,4,PLoS_One_2013_Aug_21_8(8)_e70642.txt
+Q01813,PFKP	Q01813	6-phosphofructokinase type C	2.7.1.11	Glyco...,92,6,PLoS_One_2015_Jul_6_10(7)_e0132695.txt
+Q01813,"PFKP	phosphofructokinase, platelet	1346355	Q01813	1.338	0.0019	C	K",114,44,PLoS_One_2014_Nov_7_9(11)_e110736.txt
+Q01813,"...ofructokinase, platelet type	PFKP	85596	7.50	5214	Q01813",117,90,Sci_Rep_2016_Apr_29_6_25270.txt
+Q01813,Q01813**	6-phosphofructokinase type C	0.54	0.01	0....,143,1,Sci_Rep_2016_May_11_6_25619.txt
+Q01813,Q01813**	6-phosphofructokinase type C	0.54	0.01	0....,143,1,Sci_Rep_2016_May_11_6_25619.txt
+Q01813,"...11413), 6-phosphofructokinase type C (UniProt ID: Q01813), and deoxyribose-phosphate aldolase (UniPr...",45,252,PMC5292683.txt

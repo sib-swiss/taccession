@@ -1,0 +1,267 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+CVCL_2050,"...ll cell line names (e.g. GOS-3), accessions (e.g. CVCL_2050), synonyms (e.g. GOS3), as well as non-a...",56,162,Bioinformatics_2016_Jan_15_32(2)_276-282.txt
+CVCL_L708,"...-myc antibody 9E10 (prepared from hybridoma, RRID:CVCL_L708, 1:100), mouse monoclonal anti-His6 (HIS...",120,805,PMC5267430.txt
+CVCL_0045,...rase reporter cells (initially derived from RRID: CVCL_0045) were performed as previously described ...,267,94,PMC5336696.txt
+CVCL_0027,...ne assays in HepG2 (ATCC; Cat. no. HB-8065; RRID: CVCL_0027) and LβT2 (kindly provided by Dr. Pamela...,273,75,PMC5336696.txt
+CVCL_0398,"...kindly provided by Dr. Pamela Mellon, UCSD; RRID: CVCL_0398) cells were performed as previously desc...",273,146,PMC5336696.txt
+CVCL_0596,... L17 (kindly provided by Dr. Joan Massagué; RRID: CVCL_0596) cells were performed as previously desc...,276,71,PMC5336696.txt
+CVCL_8155,"...e/SAMN03151953 ,http://web.expasy.org/cellosaurus/CVCL_8155, http://iclac.org/wp-content/uploads/Cro...",11,143,BMC_Genomics_2015_Nov_30_16_1019.txt
+CVCL_9830,"...sample/3152040, http://web.expasy.org/cellosaurus/CVCL_9830). Nevertheless, our data indicate that t...",13,211,BMC_Genomics_2015_Nov_30_16_1019.txt
+CVCL_0493,"...p://web.expasy.org/cellosaurus/ under references: CVCL_0493, CVCL_0006 and CVCL_0059. All other data...",274,293,PMC5339975.txt
+CVCL_0006,"...asy.org/cellosaurus/ under references: CVCL_0493, CVCL_0006 and CVCL_0059. All other datasets suppor...",274,304,PMC5339975.txt
+CVCL_0059,"...aurus/ under references: CVCL_0493, CVCL_0006 and CVCL_0059. All other datasets supporting the concl...",274,318,PMC5339975.txt
+CVCL_0063,Human embryonic kidney cells	ECACC	HEK293T; RRID: CVCL_0063,85,51,Cell_2016_Nov_3_167(4)_1079-1087_e5.txt
+CVCL_0168,"...ithelial cells	Reddel et al., 1989	BEAS-2B; RRID: CVCL_0168",86,69,Cell_2016_Nov_3_167(4)_1079-1087_e5.txt
+CVCL_0023,"Human lung alveolus cells	Smith, 1977	A549; RRID: CVCL_0023",87,51,Cell_2016_Nov_3_167(4)_1079-1087_e5.txt
+CVCL_0336,"...ma cell line	Nakabayashi et al., 1982	HuH7; RRID: CVCL_0336",88,63,Cell_2016_Nov_3_167(4)_1079-1087_e5.txt
+CVCL_0031,Human: MCF7 cells	ATCC: HTB-22	Cat#HTB-22; RRID:CVCL_0031,335,49,PMC5279869.txt
+CVCL_1781,...: UACC812 cells	ATCC: CRL-1897	Cat#CRL-1897; RRID:CVCL_1781,336,56,PMC5279869.txt
+CVCL_0178,Human: BT20 cells	ATCC: HTB-19	Cat#HTB-19; RRID:CVCL_0178,337,49,PMC5279869.txt
+CVCL_1092,...uman: BT549 cells	ATCC: HTB-122	Cat#HTB-122; RRID:CVCL_1092,338,52,PMC5279869.txt
+CVCL_8917,"... cell lines STS26T (sporadic; NF1 wild type; RRID:CVCL_8917), and 8814 (RRID:CVCL_8916), 88-3, S462T...",35,56,EBioMedicine_2016_Jun_4_9_110-119.txt
+CVCL_8916,"...c; NF1 wild type; RRID:CVCL_8917), and 8814 (RRID:CVCL_8916), 88-3, S462TY (RRID:CVCL_1Y70), T265 (R...",35,83,EBioMedicine_2016_Jun_4_9_110-119.txt
+CVCL_1Y70,"...7), and 8814 (RRID:CVCL_8916), 88-3, S462TY (RRID:CVCL_1Y70), T265 (RRID:CVCL_S805; all NF1 mutant),...",35,114,EBioMedicine_2016_Jun_4_9_110-119.txt
+CVCL_S805,"..._8916), 88-3, S462TY (RRID:CVCL_1Y70), T265 (RRID:CVCL_S805; all NF1 mutant), and immortalized human...",35,137,EBioMedicine_2016_Jun_4_9_110-119.txt
+CVCL_0002,"HL-60 cells (ATCC, USA, Cat# CCL-240, RRID:CVCL_0002) were incubated with IMDM (ATCC) contain...",45,44,EBioMedicine_2016_Jul_14_10_204-215.txt
+CVCL_1D85,"...he psV neutralization assay in 293TT cells (RRID: CVCL_1D85), with the following specifications (Sch...",48,307,EBioMedicine_2016_Jun_29_10_55-64.txt
+CVCL_0336,Huh7 cells (RRID:CVCL_0336) were maintained in a high-glucose Dulbe...,28,18,EBioMedicine_2016_Sep_14_12_156-160.txt
+CVCL_0063,"...ey cells (obtained from ATCC, Cat# CRL-3216, RRID:CVCL_0063), CEM.NKr cells (obtained from Dr. David...",29,76,EBioMedicine_2016_Sep_9_12_208-218.txt
+CVCL_D050,SCN2.2 cells (RRID:CVCL_D050) were cultured in MEM containing 10% FBS...,303,20,eLife_5_e17171.txt
+CVCL_0058,...RID:SCR_004694). HeLa S3 cell line was used (RRID:CVCL_0058). The integration of LexA-LacO sequences...,198,406,eLife_5_e16691.txt
+CVCL_0291,Human HCT116 p53+/+ (RRID: CVCL_0291) and HCT116 p53-/- (RRID: CVCL_S744) cel...,157,28,eLife_5_e15978.txt
+CVCL_S744,...p53+/+ (RRID: CVCL_0291) and HCT116 p53-/- (RRID: CVCL_S744) cells were generous gifts from Dr. Bert...,157,64,eLife_5_e15978.txt
+CVCL_0023,"... the John Hopkins Medical Institutes. A549 (RRID: CVCL_0023), HepG2 (RRID: CVCL_0027), U2OS (RRID: C...",157,178,eLife_5_e15978.txt
+CVCL_0027,"... Institutes. A549 (RRID: CVCL_0023), HepG2 (RRID: CVCL_0027), U2OS (RRID: CVCL_0042), H460 (RRID: CV...",157,203,eLife_5_e15978.txt
+CVCL_0042,"... CVCL_0023), HepG2 (RRID: CVCL_0027), U2OS (RRID: CVCL_0042), H460 (RRID: CVCL_0459) and H1299 (RRID...",157,227,eLife_5_e15978.txt
+CVCL_0459,"...: CVCL_0027), U2OS (RRID: CVCL_0042), H460 (RRID: CVCL_0459) and H1299 (RRID: CVCL_0060) cells were ...",157,251,eLife_5_e15978.txt
+CVCL_0060,"...CL_0042), H460 (RRID: CVCL_0459) and H1299 (RRID: CVCL_0060) cells were purchased from American Type...",157,279,eLife_5_e15978.txt
+CVCL_0035,...o’s modified Eagle’s medium (DMEM) and PC3 (RRID: CVCL_0035) cells (also from ATCC) in RPMI 1640 med...,157,441,eLife_5_e15978.txt
+CVCL_0030,...or mycoplasma contamination. The HeLa cells (RRID:CVCL_0030) used in the study has been obtained fro...,436,83,eLife_5_e16228.txt
+CVCL_4388,...E-1 immortalized by the expression of hTert (RRID:CVCL_4388) has well as the CHO cells have been obt...,436,407,eLife_5_e16228.txt
+CVCL_0159,"...rican Type Culture Collection Cat# CRL-6475, RRID:CVCL_0159) were injected subcutaneously on both fl...",456,98,eLife_5_e18414.txt
+CVCL_7526,"...ell Cell Repositories (Camden, New Jersey) (RRID: CVCL_7526). The EBV-negative BL31 cell line series...",180,700,eLife_5_e18270.txt
+CVCL_0045,HEK293 cells (RRID:CVCL_0045) were maintained in Dulbecco’s Modified ...,362,20,eLife_5_e18312.txt
+CVCL_0224,"...pull-down assay was conducted in COS7 cells (RRID:CVCL_0224) as described (Bird et al., 2016). Plasm...",365,65,eLife_5_e18312.txt
+CVCL_7487,GM08447	CVCL_7487,236,9,eLife_5_e16220.txt
+CVCL_7434,GM05659	CVCL_7434,237,9,eLife_5_e16220.txt
+CVCL_7311,GM00969	CVCL_7311,238,9,eLife_5_e16220.txt
+CVCL_7348,GM02036	CVCL_7348,239,9,eLife_5_e16220.txt
+CVCL_7384,GM03377	CVCL_7384,240,9,eLife_5_e16220.txt
+CVCL_7388,GM03440	CVCL_7388,241,9,eLife_5_e16220.txt
+CVCL_V475,GM04616	CVCL_V475,242,9,eLife_5_e16220.txt
+CVCL_L780,AG05397	CVCL_L780,243,9,eLife_5_e16220.txt
+CVCL_X793,AG06922	CVCL_X793,244,9,eLife_5_e16220.txt
+CVCL_V469,GM02767	CVCL_V469,245,9,eLife_5_e16220.txt
+CVCL_X871,AG08941	CVCL_X871,246,9,eLife_5_e16220.txt
+CVCL_X872,AG08942	CVCL_X872,247,9,eLife_5_e16220.txt
+CVCL_U427,...sed from Thermo Fisher Scientific Australia; RRID:CVCL_U427); FreeStyle 293-F (HEK293FS; purchased f...,190,109,eLife_5_e17463.txt
+CVCL_D603,...S; purchased from (Thermo Fisher Scientific; RRID:CVCL_D603) and HeLa cells (RRID:CVCL_0030); kindly...,190,195,eLife_5_e17463.txt
+CVCL_0030,"... Scientific; RRID:CVCL_D603) and HeLa cells (RRID:CVCL_0030); kindly provided by Prof. Paul Gleeson,...",190,227,eLife_5_e17463.txt
+CVCL_0045,"HEK293 (ATCC Cat# CRL-1573, RRID: CVCL_0045) and HeLa cells (ATCC Cat# CCL-2, RRID: ...",450,35,eLife_5_e17523.txt
+CVCL_0030,"...CVCL_0045) and HeLa cells (ATCC Cat# CCL-2, RRID: CVCL_0030) were cultured in Dulbecco’s Modified Ea...",450,85,eLife_5_e17523.txt
+CVCL_1926,"...obtained from ATCC (Manassas, VA, CRL-11268, RRID:CVCL_1926, lot 62312975) where they were tested fr...",229,70,eLife_5_e16144.txt
+CVCL_0063,"...t al., 2013) by co-transfection of HEK 293T (RRID:CVCL_0063) cells with pNL4-3-ΔE-eGFP and pVSV-G. V...",259,186,eLife_5_e18447.txt
+CVCL_0031,"MCF7 cells were obtained from ATCC (HTB-22, RRID:CVCL_0031), where they were authenticated by STR p...",259,50,eLife_5_e17548.txt
+CVCL_0598,"...0A cells were obtained from ATCC (CRL-10317, RRID:CVCL_0598), where they were authenticated by STR p...",259,604,eLife_5_e17548.txt
+CVCL_0031,"... was generated from MCF7 cells (ATCC HTB-22, RRID:CVCL_0031, as described above) that were first tra...",259,1393,eLife_5_e17548.txt
+CVCL_G144,"... a S9.6 hybridoma cell line (ATCC, HB-8730; RRID: CVCL_G144). Hybridoma supernatant was applied to a...",262,492,eLife_5_e17548.txt
+CVCL_5423,"...laboratory of Ron Vale (UCSF), SUM159 cells (RRID:CVCL_5423) were from the laboratory of Tomas Kirch...",282,101,eLife_5_e16582.txt
+CVCL_0045,"...LAG immunoblot (Figure 2). HEK293 (CRL-1573, RRID:CVCL_0045) and HK2 (CRL-2190, RRID:CVCL_0302) cell...",959,821,eLife_5_e17047.txt
+CVCL_0302,"...CRL-1573, RRID:CVCL_0045) and HK2 (CRL-2190, RRID:CVCL_0302) cells were purchased from ATCC. The ide...",959,856,eLife_5_e17047.txt
+CVCL_00459,... STR profiling (http://web.expasy.org/cellosaurus/CVCL_00459) (http://web.expasy.org/cellosaurus/CVC...,959,999,eLife_5_e17047.txt
+CVCL_0302,...us/CVCL_00459) (http://web.expasy.org/cellosaurus/CVCL_0302). No mycoplasma contamination was detect...,959,1046,eLife_5_e17047.txt
+CVCL_D047,G1E-ER-GATA-1 (RRID:CVCL_D047) cells were cultured in Iscove’s Modifie...,216,21,eLife_5_e17877.txt
+CVCL_D046,"...mycin (Gemini) (Fujiwara et al., 2009). G1E (RRID:CVCL_D046 cells were cultured without puromycin",216,452,eLife_5_e17877.txt
+CVCL_0493,...on. The RAW264.7 mouse macrophage cell line (RRID:CVCL_0493) was from ATCC. The EO771 cell line orig...,172,384,eLife_5_e18501.txt
+CVCL_GR23,"...ontaneous mammary tumor in a C57BL/6 mouse (RRID: CVCL_GR23) (Casey et al., 1951) was from CH3 BioSy...",172,508,eLife_5_e18501.txt
+CVCL_DP48,"... human breast cancer sub-line (MDA-BoM-1833; RRID:CVCL_DP48) (Kang et al., 2003) was provided by Joa...",172,662,eLife_5_e18501.txt
+CVCL_GR32,"...e-labeled 4T1.2 mouse mammary tumor subline (RRID:CVCL_GR32) (Lelekakis et al., 1999) was provided b...",172,828,eLife_5_e18501.txt
+CVCL_AQ08,"...in C57BL/6 MMTV-PyMT female transgenic mice (RRID:CVCL_AQ08) (Biswas et al., 2014)",175,542,eLife_5_e18501.txt
+CVCL_0A58,"S2R+ (DGRC Cat# 196, RRID:CVCL_0A58) and CL8 (DGRC Cat# 151, RRID:CVCL_Z790)...",408,27,eLife_5_e16624.txt
+CVCL_Z790,"...196, RRID:CVCL_0A58) and CL8 (DGRC Cat# 151, RRID:CVCL_Z790) cells were cultured at 27°C in Shields ...",408,67,eLife_5_e16624.txt
+CVCL_4511,"C17.2 cells (RRID:CVCL_4511)(07062902, Sigma, UK) were grown in DMEM...",439,19,eLife_5_e16118.txt
+CVCL_0063,"...entiviruses were produced in HEK293T cells (RRID: CVCL_0063) as previously described (Araki et al., ...",199,52,eLife_5_e19749.txt
+CVCL_1922,"...as from Prof. Narumiya in Kyoto University (RRID: CVCL_1922), and the genome was sequenced previousl...",216,82,eLife_5_e19071.txt
+CVCL_3758,"...viously (Landry et al., 2013). Wildtype NRK (RRID:CVCL_3758) and U2OS (RRID:CVCL_0042) cell lines we...",216,176,eLife_5_e19071.txt
+CVCL_0042,...13). Wildtype NRK (RRID:CVCL_3758) and U2OS (RRID:CVCL_0042) cell lines were purchased from ATCC (We...,216,202,eLife_5_e19071.txt
+CVCL_1Y51,"...edical Research, Coriell ID, RRID#: AG08498, RRID:CVCL_1Y51; AG07095, RRID:CVCL_0N66; AG11732, RRID:...",121,215,eLife_5_e18648.txt
+CVCL_0N66,"...ID, RRID#: AG08498, RRID:CVCL_1Y51; AG07095, RRID:CVCL_0N66; AG11732, RRID:CVCL_2E35; AG04060, RRID:...",121,240,eLife_5_e18648.txt
+CVCL_2E35,"...CVCL_1Y51; AG07095, RRID:CVCL_0N66; AG11732, RRID:CVCL_2E35; AG04060, RRID:CVCL_2A45; AG04148, RRID:...",121,265,eLife_5_e18648.txt
+CVCL_2A45,"...CVCL_0N66; AG11732, RRID:CVCL_2E35; AG04060, RRID:CVCL_2A45; AG04148, RRID:CVCL_2A55; AG04349, RRID:...",121,290,eLife_5_e18648.txt
+CVCL_2A55,"...CVCL_2E35; AG04060, RRID:CVCL_2A45; AG04148, RRID:CVCL_2A55; AG04349, RRID:CVCL_2A62; AG04379, RRID:...",121,315,eLife_5_e18648.txt
+CVCL_2A62,"...CVCL_2A45; AG04148, RRID:CVCL_2A55; AG04349, RRID:CVCL_2A62; AG04379, RRID:CVCL_2A72; AG04056, RRID:...",121,340,eLife_5_e18648.txt
+CVCL_2A72,"...CVCL_2A55; AG04349, RRID:CVCL_2A62; AG04379, RRID:CVCL_2A72; AG04056, RRID:CVCL_2A43; AG04356, RRID:...",121,365,eLife_5_e18648.txt
+CVCL_2A43,"...CVCL_2A62; AG04379, RRID:CVCL_2A72; AG04056, RRID:CVCL_2A43; AG04356, RRID:CVCL_2A69; AG04057, RRID:...",121,390,eLife_5_e18648.txt
+CVCL_2A69,"...CVCL_2A72; AG04056, RRID:CVCL_2A43; AG04356, RRID:CVCL_2A69; AG04057, RRID:CVCL_2A44; AG04055, RRID:...",121,415,eLife_5_e18648.txt
+CVCL_2A44,"...CVCL_2A43; AG04356, RRID:CVCL_2A69; AG04057, RRID:CVCL_2A44; AG04055, RRID:CVCL_2A42; AG13349, RRID:...",121,440,eLife_5_e18648.txt
+CVCL_2A42,"...CVCL_2A69; AG04057, RRID:CVCL_2A44; AG04055, RRID:CVCL_2A42; AG13349, RRID:CVCL_2G05; AG13129, RRID:...",121,465,eLife_5_e18648.txt
+CVCL_2G05,"...CVCL_2A44; AG04055, RRID:CVCL_2A42; AG13349, RRID:CVCL_2G05; AG13129, RRID:CVCL_2F55; AG12788, RRID:...",121,490,eLife_5_e18648.txt
+CVCL_2F55,"...CVCL_2A42; AG13349, RRID:CVCL_2G05; AG13129, RRID:CVCL_2F55; AG12788, RRID:CVCL_L632; AG07725, RRID:...",121,515,eLife_5_e18648.txt
+CVCL_L632,"...CVCL_2G05; AG13129, RRID:CVCL_2F55; AG12788, RRID:CVCL_L632; AG07725, RRID:CVCL_2C46; AG04064, RRID:...",121,540,eLife_5_e18648.txt
+CVCL_2C46,"...CVCL_2F55; AG12788, RRID:CVCL_L632; AG07725, RRID:CVCL_2C46; AG04064, RRID:CVCL_L624; AG04059, RRID:...",121,565,eLife_5_e18648.txt
+CVCL_L624,"...CVCL_L632; AG07725, RRID:CVCL_2C46; AG04064, RRID:CVCL_L624; AG04059, RRID:CVCL_L623; AG09602, RRID:...",121,590,eLife_5_e18648.txt
+CVCL_L623,"...CVCL_2C46; AG04064, RRID:CVCL_L624; AG04059, RRID:CVCL_L623; AG09602, RRID:CVCL_L607; AG16409, RRID:...",121,615,eLife_5_e18648.txt
+CVCL_L607,"...CVCL_L624; AG04059, RRID:CVCL_L623; AG09602, RRID:CVCL_L607; AG16409, RRID:CVCL_V978; AG06234, RRID:...",121,640,eLife_5_e18648.txt
+CVCL_V978,"...CVCL_L623; AG09602, RRID:CVCL_L607; AG16409, RRID:CVCL_V978; AG06234, RRID:CVCL_2B66; AG04062, RRID:...",121,665,eLife_5_e18648.txt
+CVCL_2B66,"...CVCL_L607; AG16409, RRID:CVCL_V978; AG06234, RRID:CVCL_2B66; AG04062, RRID:CVCL_2A47; AG08433, RRID:...",121,690,eLife_5_e18648.txt
+CVCL_2A47,"...CVCL_V978; AG06234, RRID:CVCL_2B66; AG04062, RRID:CVCL_2A47; AG08433, RRID:CVCL_L625; AG16409, RRID:...",121,715,eLife_5_e18648.txt
+CVCL_L625,"...CVCL_2B66; AG04062, RRID:CVCL_2A47; AG08433, RRID:CVCL_L625; AG16409, RRID:CVCL_V978; GM00302, RRID:...",121,740,eLife_5_e18648.txt
+CVCL_V978,"...CVCL_2A47; AG08433, RRID:CVCL_L625; AG16409, RRID:CVCL_V978; GM00302, RRID:CVCL_7277; AG01518, RRID:...",121,765,eLife_5_e18648.txt
+CVCL_7277,"...CVCL_L625; AG16409, RRID:CVCL_V978; GM00302, RRID:CVCL_7277; AG01518, RRID:CVCL_F696; AG06234, RRID:...",121,790,eLife_5_e18648.txt
+CVCL_F696,"...CVCL_V978; GM00302, RRID:CVCL_7277; AG01518, RRID:CVCL_F696; AG06234, RRID:CVCL_2B66. We routinely c...",121,815,eLife_5_e18648.txt
+CVCL_2B66,"...CVCL_7277; AG01518, RRID:CVCL_F696; AG06234, RRID:CVCL_2B66. We routinely check all our cell culture...",121,840,eLife_5_e18648.txt
+CVCL_0188,C2C12 mouse myoblasts (RRID:CVCL_0188) were purchased from the ATCC (ATCC #CRL...,222,29,eLife_5_e17462.txt
+CVCL_0045,HEK293 cells (RRID: CVCL_0045) were cultured using standard tissue cul...,149,21,eLife_5_e18130.txt
+CVCL_0063,...e packaged into lentivirus in HEK293T cells (RRID:CVCL_0063) and infected into a previously establis...,183,205,eLife_5_e19760.txt
+CVCL_0004,...om K562 cells originally obtained from ATCC (RRID:CVCL_0004). Cytogenetic profiling by array compara...,183,1109,eLife_5_e19760.txt
+CVCL_J957,...vector was electroporated into JM8 ES cells (RRID:CVCL_J957) to generate a Gcna targeted allele on a...,275,1182,eLife_5_e19993.txt
+CVCL_0063,"HEK293T (RRID: CVCL_0063, purchased from ATCC, the identity has b...",148,16,eLife_5_e19360.txt
+CVCL_0023,"...uthenticated using STR profiling) and A549 (RRID: CVCL_0023, purchased from ATCC, the identity has b...",148,121,eLife_5_e19360.txt
+CVCL_0004,"...ATCC (human leukemia cell line, ATCC CCL243, RRID:CVCL_0004). The cells were mycoplasma free and cel...",718,372,eLife_5_e20930.txt
+CVCL_0063,"HEK293T cells (ATCC CRL-3216, RRID: CVCL_0063) were seeded in 10 cm dishes and culture...",422,37,eLife_5_e18790.txt
+CVCL_C320,"...s were derived from E14 (Hooper et al., 1987 RRID:CVCL_C320) and were cultured as previously describ...",371,64,eLife_5_e21964.txt
+CVCL_0224,"...S-7 cells (ATCCCRL-1651, passage number 2–4; RRID:CVCL_0224) were obtained from a biological resourc...",218,2222,eLife_5_e19264.txt
+CVCL_0321,...ortalized mouse hippocampal cell line (HT22; RRID:CVCL_0321) was a gift from Dr. Kiren Rockenstein (...,218,3006,eLife_5_e19264.txt
+CVCL_0045,"...ative from HEK293 cells (ATCC Cat# CRL-1573, RRID:CVCL_0045). HR1 cells were maintained in DMEM with...",251,165,eLife_5_e19545.txt
+CVCL_L691,"...oshi Mihara). Mfn1-null (ATCC Cat# CRL-2992, RRID:CVCL_L691), Mfn2-null (ATCC Cat# CRL-2993, RRID:CV...",217,402,eLife_5_e17896.txt
+CVCL_L693,"...D:CVCL_L691), Mfn2-null (ATCC Cat# CRL-2993, RRID:CVCL_L693), Mfn-dm (ATCC Cat# CRL-2994, RRID:CVCL_...",217,450,eLife_5_e17896.txt
+CVCL_L692,"...RRID:CVCL_L693), Mfn-dm (ATCC Cat# CRL-2994, RRID:CVCL_L692), Opa1-null (ATCC Cat# CRL-2995, RRID:CV...",217,495,eLife_5_e17896.txt
+CVCL_L694,"...D:CVCL_L692), Opa1-null (ATCC Cat# CRL-2995, RRID:CVCL_L694), Mff-null, Fis1-null MEFs have been des...",217,543,eLife_5_e17896.txt
+CVCL_0030,".... HeLa cells (originally obtained from ATCC, RRID:CVCL_0030) were generously provided by Dusty Mille...",275,253,eLife_5_e20352.txt
+CVCL_1381,"...Seattle, WA). Melanoma cell lines (LOX-IMVI, RRID:CVCL_1381; SK-MEL-5, RRID:CVCL_0527) were purchase...",275,402,eLife_5_e20352.txt
+CVCL_0527,"...l lines (LOX-IMVI, RRID:CVCL_1381; SK-MEL-5, RRID:CVCL_0527) were purchased from the National Cancer...",275,428,eLife_5_e20352.txt
+CVCL_0022,"...go, CA); U87 (originally obtained from ATCC; RRID:CVCL_0022) were modified to express EGFR and varia...",275,664,eLife_5_e20352.txt
+CVCL_0547,"...2006). SW620 (originally obtained from ATCC, RRID:CVCL_0547), HCT-116 (ATCC, RRID:CVCL_0291), DLD1 (...",275,805,eLife_5_e20352.txt
+CVCL_0291,"...d from ATCC, RRID:CVCL_0547), HCT-116 (ATCC, RRID:CVCL_0291), DLD1 (ATCC, RRID:CVCL_0248), RKO (ATCC...",275,837,eLife_5_e20352.txt
+CVCL_0248,"... HCT-116 (ATCC, RRID:CVCL_0291), DLD1 (ATCC, RRID:CVCL_0248), RKO (ATCC, RRID:CVCL_0504), HT-29 (ATC...",275,866,eLife_5_e20352.txt
+CVCL_0504,"...91), DLD1 (ATCC, RRID:CVCL_0248), RKO (ATCC, RRID:CVCL_0504), HT-29 (ATCC, RRID:CVCL_0320), Caco-2 (...",275,894,eLife_5_e20352.txt
+CVCL_0320,"...8), RKO (ATCC, RRID:CVCL_0504), HT-29 (ATCC, RRID:CVCL_0320), Caco-2 (ATCC, RRID:CVCL_0025), and SW4...",275,924,eLife_5_e20352.txt
+CVCL_0025,"... HT-29 (ATCC, RRID:CVCL_0320), Caco-2 (ATCC, RRID:CVCL_0025), and SW48 (ATCC, RRID:CVCL_1724) colon ...",275,955,eLife_5_e20352.txt
+CVCL_1724,"...co-2 (ATCC, RRID:CVCL_0025), and SW48 (ATCC, RRID:CVCL_1724) colon cancer cell lines were generously...",275,988,eLife_5_e20352.txt
+CVCL_0063,"... transient transfection of 293T cells (AATC, RRID:CVCL_0063) with plasmid DNA along with the packagi...",587,287,eLife_5_e20352.txt
+CVCL_0470,"For the Neuro-2a cells (RRID:CVCL_0470), cells were harvested and lysed in ice-...",119,30,eLife_5_e20732.txt
+CVCL_0063,Human embryonic kidney 293T (RRID:CVCL_0063) and human cervical carcinoma HeLa (RRID...,168,35,eLife_5_e18858.txt
+CVCL_0030,...VCL_0063) and human cervical carcinoma HeLa (RRID:CVCL_0030) cells were maintained in Dulbecco's Mod...,168,86,eLife_5_e18858.txt
+CVCL_0518,...gous expression was performed in SF21 cells (RRID:CVCL_0518) using the Bac-to-Bac baculovirus expres...,774,59,eLife_5_e19430.txt
+CVCL_0518,"... and amplified using the sf21 insect cells (RRID: CVCL_0518), maintained in the SIM SF medium (Sino ...",204,599,eLife_5_e22238.txt
+CVCL_C190,"...l Inc.). For protein production, Hi5 cells (RRID: CVCL_C190) grown in the SIM HF medium (Sino Biolog...",204,708,eLife_5_e22238.txt
+CVCL_Y019,HAP1 cells (RRID: CVCL_Y019) are a haploid human cell line with an a...,213,19,eLife_5_e22238.txt
+CVCL_A426,...inally derived from parent cell line KBM-7 (RRID: CVCL_A426). A protocol for generating HAP1 cells w...,213,160,eLife_5_e22238.txt
+CVCL_0063,...CO2 atmosphere. HEK293T cells (ATCCCRL-3216; PRID:CVCL_0063) and PC12 cells (ATCCCRL-1721; PRID:CVCL...,215,1292,eLife_5_e20799.txt
+CVCL_0481,...RID:CVCL_0063) and PC12 cells (ATCCCRL-1721; PRID:CVCL_0481) were obtained from ATCC. ATCC perform a...,215,1338,eLife_5_e20799.txt
+CVCL_J962,"...nts, we used the mouse ES cell line JM8.N4 (RRID: CVCL_J962) obtained from the KOMP repository (http...",197,67,eLife_5_e22280.txt
+CVCL_Z232,Drosophila embryo driven S2 cells (CVCL_Z232) were cultured in Insect–XPRESS medium (...,202,36,eLife_5_e19881.txt
+CVCL_F936,... purchased from Boshide Biology Ltd. China (RRID: CVCL_F936). The B16 cell line was stably transfect...,475,74,eLife_5_e14756.txt
+CVCL_0030,"...reviously (Kawaai et al., 2015). HeLa cells (RRID:CVCL_0030) were obtained from the RIKEN BioResourc...",173,149,eLife_5_e19896.txt
+CVCL_3949,".... The mouse myeloma-derived J558L cell line (RRID:CVCL_3949, obtained from J. Cyster) was maintained...",234,1655,PMC5207771.txt
+CVCL_9474,"...CO2. The mouse B lymphoma cell lines BAL 17 (RRID:CVCL_9474, obtained from A. DeFranco), M12 (obtain...",234,1912,PMC5207771.txt
+CVCL_0577,"...M12 (obtained from J. Cyster), and WEHI-231 (RRID:CVCL_0577, obtained from J. Cyster) were maintaine...",234,2001,PMC5207771.txt
+CVCL_H717,"... Jackson ImmunoResearch). Phoenix-Eco cells (RRID:CVCL_H717, obtained from K.M. Ansel, [Swift et al....",234,2435,PMC5207771.txt
+CVCL_2177,"Rin5F cells were purchased from ATCC (RRID:CVCL_2177; Cat. # CRL-2058, Manassas, VA). Cells w...",567,44,PMC5207774.txt
+CVCL_6974,...ut they were originally purchased from ATCC (RRID:CVCL_6974). Cells were cultured in DMEM media (Cat...,569,172,PMC5207774.txt
+CVCL_0214,CHO cells were purchased from ATCC (RRID:CVCL_0214; Cat. #: CCL-61). Cells were cultured in...,571,42,PMC5207774.txt
+CVCL_0218,...cer cell lines used in this study (COLO205 - RRID:CVCL_0218; DLD1 - RRID:CVCL_0248; HT29 - RRID:CVCL...,307,133,PMC5224920.txt
+CVCL_0248,...this study (COLO205 - RRID:CVCL_0218; DLD1 - RRID:CVCL_0248; HT29 - RRID:CVCL_0320; LS174T - RRID:CV...,307,156,PMC5224920.txt
+CVCL_0320,...RID:CVCL_0218; DLD1 - RRID:CVCL_0248; HT29 - RRID:CVCL_0320; LS174T - RRID:CVCL_1384; LS180 - RRID:C...,307,179,PMC5224920.txt
+CVCL_1384,...D:CVCL_0248; HT29 - RRID:CVCL_0320; LS174T - RRID:CVCL_1384; LS180 - RRID:CVCL_0397; LS513 - RRID:CV...,307,204,PMC5224920.txt
+CVCL_0397,...:CVCL_0320; LS174T - RRID:CVCL_1384; LS180 - RRID:CVCL_0397; LS513 - RRID:CVCL_1386; RKO - RRID:CVCL...,307,228,PMC5224920.txt
+CVCL_1386,...D:CVCL_1384; LS180 - RRID:CVCL_0397; LS513 - RRID:CVCL_1386; RKO - RRID:CVCL_0504; SW620 - RRID:CVCL...,307,252,PMC5224920.txt
+CVCL_0504,...RID:CVCL_0397; LS513 - RRID:CVCL_1386; RKO - RRID:CVCL_0504; SW620 - RRID:CVCL_0547; SW837 - RRID:CV...,307,274,PMC5224920.txt
+CVCL_0547,...RID:CVCL_1386; RKO - RRID:CVCL_0504; SW620 - RRID:CVCL_0547; SW837 - RRID:CVCL_1729; SW948 - RRID:CV...,307,298,PMC5224920.txt
+CVCL_1729,...D:CVCL_0504; SW620 - RRID:CVCL_0547; SW837 - RRID:CVCL_1729; SW948 - RRID:CVCL_0632) were obtained f...,307,322,PMC5224920.txt
+CVCL_0632,...D:CVCL_0547; SW837 - RRID:CVCL_1729; SW948 - RRID:CVCL_0632) were obtained from the ATCC (LGC Promoc...,307,346,PMC5224920.txt
+CVCL_0229,"CV-1 (RRID:CVCL_0229), COS-7 (RRID:CVCL_0224), and HEK 293T (...",162,12,PMC5224922.txt
+CVCL_0224,"CV-1 (RRID:CVCL_0229), COS-7 (RRID:CVCL_0224), and HEK 293T (RRID:CVCL_0063) cells we...",162,36,PMC5224922.txt
+CVCL_0063,"...0229), COS-7 (RRID:CVCL_0224), and HEK 293T (RRID:CVCL_0063) cells were obtained from ATCC. The Flp-...",162,67,PMC5224922.txt
+CVCL_U427,...d from ATCC. The Flp-In T-REx 293 cell line (RRID:CVCL_U427) was purchased from Thermo Fisher Scient...,162,146,PMC5224922.txt
+CVCL_1070,"...hildren’s Hospital, Columbus, OH). The AM38 (RRID:CVCL_1070) cell line was purchased from the Japan ...",424,232,PMC5241115.txt
+CVCL_B488,Plat-E cells (RRID:CVCL_B488) were provided by T. Kitamura (Morita et...,364,20,PMC5249261.txt
+CVCL_0224,"...l line was obtained from ATCC (Manassas, VA; RRID:CVCL_0224). All cell cultures were routinely check...",364,689,PMC5249261.txt
+CVCL_S744,"HCT116 p53−/− cells (Bunz et al., 1998) (RRID:CVCL_S744, a generous gift from Fred Bunz, Johns H...",92,47,PMC5245961.txt
+CVCL_X491,...lemented with 10% fetal bovine serum. HBEC3 (RRID:CVCL_X491)-p53KD-K-RasV12 cells (a generous gift f...,92,205,PMC5245961.txt
+CVCL_0063,"...sher Scientific, Waltham, MA. HEK293T cells (RRID:CVCL_0063) were from ATCC (CRL-3216). No mycoplasm...",92,955,PMC5245961.txt
+CVCL_0063,".../). Next, HEK293T cells (ATCC Cat# CRL-3216, RRID:CVCL_0063), maintained in DMEM supplemented with 1...",126,722,PMC5245968.txt
+CVCL_0470,"Mouse Neuro-2a (ATCC, CCL-131; RRID:CVCL_0470) and human HEK293T cells (ATCC, CRL-3216...",151,37,PMC5283830.txt
+CVCL_0063,"...70) and human HEK293T cells (ATCC, CRL-3216; RRID:CVCL_0063) were obtained directly from ATCC and ma...",151,94,PMC5283830.txt
+CVCL_0224,"...7 cells were purchased from ATCC (CRL-1651, RRID: CVCL_0224) cultured at 37°C, 5% CO2 in DMEM (Life ...",182,55,PMC5283831.txt
+CVCL_0214,"CHO-K1 cells (RRID: CVCL_0214) were purchased from ATCC, identity-auth...",1095,21,PMC5283832.txt
+CVCL_0023,"...egative for Mycoplasma contamination. A549 (RRID: CVCL_0023), AU565 (RRID: CVCL_1074), H1299 (RRID: ...",331,477,PMC5092050.txt
+CVCL_1074,"...ntamination. A549 (RRID: CVCL_0023), AU565 (RRID: CVCL_1074), H1299 (RRID: CVCL_0060), HCC1937 (RRID...",331,502,PMC5092050.txt
+CVCL_0060,"...CVCL_0023), AU565 (RRID: CVCL_1074), H1299 (RRID: CVCL_0060), HCC1937 (RRID: CVCL_0290) and Hop62 (R...",331,527,PMC5092050.txt
+CVCL_0290,"...CL_1074), H1299 (RRID: CVCL_0060), HCC1937 (RRID: CVCL_0290) and Hop62 (RRID: CVCL_1285) cells were ...",331,554,PMC5092050.txt
+CVCL_1285,"...0060), HCC1937 (RRID: CVCL_0290) and Hop62 (RRID: CVCL_1285) cells were cultured in RPMI supplemente...",331,582,PMC5092050.txt
+CVCL_0158,"...eptomycin (10,000 units/mL, Gibco). B16-F1 (RRID: CVCL_0158), Calu-6 (RRID: CVCL_0236), H2126 (RRID:...",331,742,PMC5092050.txt
+CVCL_0236,"..., Gibco). B16-F1 (RRID: CVCL_0158), Calu-6 (RRID: CVCL_0236), H2126 (RRID: CVCL_1532), HEK-293T (RRI...",331,768,PMC5092050.txt
+CVCL_1532,"...VCL_0158), Calu-6 (RRID: CVCL_0236), H2126 (RRID: CVCL_1532), HEK-293T (RRID: CVCL_0063), MCF7 (RRID...",331,793,PMC5092050.txt
+CVCL_0063,"...L_0236), H2126 (RRID: CVCL_1532), HEK-293T (RRID: CVCL_0063), MCF7 (RRID: CVCL_0031), and SW684 (RRI...",331,821,PMC5092050.txt
+CVCL_0031,"...CL_1532), HEK-293T (RRID: CVCL_0063), MCF7 (RRID: CVCL_0031), and SW684 (RRID: CVCL_1726) cells were...",331,845,PMC5092050.txt
+CVCL_1726,"...L_0063), MCF7 (RRID: CVCL_0031), and SW684 (RRID: CVCL_1726) cells were cultured in DMEM supplemente...",331,874,PMC5092050.txt
+CVCL_1174,"...eptomycin (10,000 units/mL, Gibco). DMS114 (RRID: CVCL_1174) cells were cultured in Waymouth media s...",331,1034,PMC5092050.txt
+CVCL_H781,"... lines were used: rat H19-7 (ATCC CRL-2526; RRID: CVCL_H781), mouse Neuro-2a (ATCC CCL-131; RRID:CVC...",248,1035,PMC5293492.txt
+CVCL_0470,"...D: CVCL_H781), mouse Neuro-2a (ATCC CCL-131; RRID:CVCL_0470), human HEK-293FT (Invitrogen R70007; RR...",248,1082,PMC5293492.txt
+CVCL_6911,"...L_0470), human HEK-293FT (Invitrogen R70007; RRID:CVCL_6911), human HEK-293T (ATCC CRL-3216; RRID:CV...",248,1135,PMC5293492.txt
+CVCL_0063,"...D:CVCL_6911), human HEK-293T (ATCC CRL-3216; RRID:CVCL_0063)",248,1183,PMC5293492.txt
+CVCL_0058,"HeLa-S3 (RRID:CVCL_0058; mycoplasma, not detected) was obtained ...",248,15,PMC5305215.txt
+CVCL_2737,tsA-201 cells (RRID:CVCL_2737) were obtained from the European Collect...,167,21,PMC5308894.txt
+CVCL_0030,HeLa (RRID:CVCL_0030) and HEK293 (RRID:CVCL_0045) cell lines ...,670,12,PMC5308896.txt
+CVCL_0045,HeLa (RRID:CVCL_0030) and HEK293 (RRID:CVCL_0045) cell lines were obtained from ATCC (Man...,670,40,PMC5308896.txt
+CVCL_0063,HEK293T (RRID: CVCL_0063) and R28 retinal progenitor cells (RRID:...,273,16,PMC5308899.txt
+CVCL_5I35,...VCL_0063) and R28 retinal progenitor cells (RRID: CVCL_5I35) were obtained from ATCC and a gift from...,273,67,PMC5308899.txt
+CVCL_0594,NIH3T3 cells (RRID:CVCL_0594) and 293 T cells (RRID:CVCL_0063) were o...,149,20,PMC5310841.txt
+CVCL_0063,"...H3T3 cells (RRID:CVCL_0594) and 293 T cells (RRID:CVCL_0063) were obtained from ATCC (Manassas, VA)....",149,53,PMC5310841.txt
+CVCL_C860,"...d before (Krutá et al., 2014). hESC (CCTL14; RRID:CVCL_C860) cells were prepared as described before...",149,200,PMC5310841.txt
+CVCL_S122,"...bed before (Dvorak et al., 2005). RCS cells (RRID:CVCL_S122), KMS11 (RRID:CVCL_2989) and LP1 (RRID:C...",149,290,PMC5310841.txt
+CVCL_2989,"...., 2005). RCS cells (RRID:CVCL_S122), KMS11 (RRID:CVCL_2989) and LP1 (RRID:CVCL_0012) cells were obt...",149,314,PMC5310841.txt
+CVCL_0012,"...:CVCL_S122), KMS11 (RRID:CVCL_2989) and LP1 (RRID:CVCL_0012) cells were obtained as described before...",149,339,PMC5310841.txt
+CVCL_0063,"HEK-293 T (RRID:CVCL_0063), HEK-293T-REx (RRID:CVCL_D585) and U2OS...",317,17,PMC5323046.txt
+CVCL_D585,"HEK-293 T (RRID:CVCL_0063), HEK-293T-REx (RRID:CVCL_D585) and U2OS (RRID:CVCL_0042) cells were cu...",317,48,PMC5323046.txt
+CVCL_0042,"...63), HEK-293T-REx (RRID:CVCL_D585) and U2OS (RRID:CVCL_0042) cells were cultured in Dulbecco’s modif...",317,74,PMC5323046.txt
+CVCL_6911,"... al., 1996). HEK293FT cells (Gibco; R700–07; RRID:CVCL_6911) plated on a poly-L-lysine (Sigma-Aldric...",263,170,PMC5323041.txt
+CVCL_0045,...Embryonic Kidney-293 (HEK-293) N type cells (RRID:CVCL_0045) were from the American Type Culture Col...,244,57,PMC5325621.txt
+CVCL_E222,"For mES cell populations, G4 ES cells (RRID:CVCL_E222, Lunenfeld-Tanenbaum Research Institute,...",415,45,PMC5325622.txt
+CVCL_0224,"...erformed in COS-7 cells (ATCC Cat# CRL-1651, RRID:CVCL_0224). 0.4 × 105 cells were plated in 24-well...",242,92,PMC5338919.txt
+CVCL_0045,"...rformed in HEK293 cells (ATCC Cat# CRL-1573, RRID:CVCL_0045). 0.4 × 105 cells were plated in 24-well...",245,81,PMC5338919.txt
+CVCL_1926,"...HEK293T cells (HEK293T/17, ATCC: CRL-11268, RRID: CVCL_1926) and human U937 cells (ATCC: CRL-1593.2,...",289,114,PMC5338925.txt
+CVCL_0007,"...26) and human U937 cells (ATCC: CRL-1593.2, RRID: CVCL_0007) (Sundström and Nilsson, 1976). HEK293T ...",289,171,PMC5338925.txt
+CVCL_0030,"...om HeLa cells (Sigma-Aldrich ECACC 93021013, RRID:CVCL_0030), were kindly provided by Dr. Paul Melan...",306,60,PMC5338925.txt
+CVCL_0030,"HeLa (RRID: CVCL_0030), HEK-293 (RRID: CVCL_0045) and PC3 cell...",194,13,PMC5340530.txt
+CVCL_0045,"HeLa (RRID: CVCL_0030), HEK-293 (RRID: CVCL_0045) and PC3 cells (RRID: CVCL_0035) were pu...",194,40,PMC5340530.txt
+CVCL_0035,"...), HEK-293 (RRID: CVCL_0045) and PC3 cells (RRID: CVCL_0035) were purchased from the DSMZ. U2OS cell...",194,72,PMC5340530.txt
+CVCL_0042,...) were purchased from the DSMZ. U2OS cells (RRID: CVCL_0042) were purchased from ATCC. 293-CD40 cell...,194,131,PMC5340530.txt
+CVCL_9832,...) were purchased from ATCC. 293-CD40 cells (RRID: CVCL_9832) were a gift from Steve Ley and L929 (RR...,194,190,PMC5340530.txt
+CVCL_0462,..._9832) were a gift from Steve Ley and L929 (RRID: CVCL_0462) a gift of Andrea Oeckinghaus. Stocks fr...,194,244,PMC5340530.txt
+CVCL_0063,Human HEK-293T (RRID:CVCL_0063) and MCF-7 (RRID:CVCL_0031) cells were c...,755,22,PMC5340527.txt
+CVCL_0031,Human HEK-293T (RRID:CVCL_0063) and MCF-7 (RRID:CVCL_0031) cells were cultured in DMEM (Wako) supp...,755,49,PMC5340527.txt
+CVCL_0045,... insert were used to transfect HEK293 cells (RRID:CVCL_0045) for virus production. The SUR1 recombin...,366,675,PMC5344670.txt
+CVCL_7226,INS-1 cells clone 832/13 (RRID:CVCL_7226) (from Dr. Christopher Newgard) (Hohmeie...,369,32,PMC5344670.txt
+CVCL_0023,"A549 (RRID: CVCL_0023), H1650 (RRID: CVCL_1483), HCC4006 (RRID...",348,13,PMC5345931.txt
+CVCL_1483,"A549 (RRID: CVCL_0023), H1650 (RRID: CVCL_1483), HCC4006 (RRID: CVCL_1269), H23 (RRID: ...",348,38,PMC5345931.txt
+CVCL_1269,"...CL_0023), H1650 (RRID: CVCL_1483), HCC4006 (RRID: CVCL_1269), H23 (RRID: CVCL_1547), BT-474 (RRID: C...",348,65,PMC5345931.txt
+CVCL_1547,"...CVCL_1483), HCC4006 (RRID: CVCL_1269), H23 (RRID: CVCL_1547), BT-474 (RRID: CVCL_0179), MDA-MB-231 (...",348,88,PMC5345931.txt
+CVCL_0179,"... CVCL_1269), H23 (RRID: CVCL_1547), BT-474 (RRID: CVCL_0179), MDA-MB-231 (RRID: CVCL_0062), MDA-MB-4...",348,114,PMC5345931.txt
+CVCL_0062,"...547), BT-474 (RRID: CVCL_0179), MDA-MB-231 (RRID: CVCL_0062), MDA-MB-435S (RRID: CVCL_0622) and NCI-...",348,144,PMC5345931.txt
+CVCL_0622,"... MDA-MB-231 (RRID: CVCL_0062), MDA-MB-435S (RRID: CVCL_0622) and NCI-H23 (RRID: CVCL_1547) were obta...",348,175,PMC5345931.txt
+CVCL_1547,... MDA-MB-435S (RRID: CVCL_0622) and NCI-H23 (RRID: CVCL_1547) were obtained from the American Type Cu...,348,205,PMC5345931.txt
+CVCL_0031,"...tory (ATCC, Manassas, Virginia). The MCF-7 (RRID: CVCL_0031) cell line was obtained from the Cold Sp...",348,328,PMC5345931.txt
+CVCL_B260,...aboratory Tissue Culture Facility. The PC9 (RRID: CVCL_B260) cell line was a gift from Dr Jeffrey A....,348,441,PMC5345931.txt
+CVCL_0075,"...ka (Rockefeller University, NY). The NMuMG (RRID: CVCL_0075) cell line was a gift from Linda Van Ael...",348,670,PMC5345931.txt
+CVCL_C865,v6.5 (RRID: CVCL_C865; passage number 18 ~ 30; mycoplasma test...,334,13,PMC5352225.txt
+CVCL_0422,"...nolayers of Madin Derby canine kidney (MDCK; RRID:CVCL_0422) cells (Huprikar and Rabinowitz, 1980)",282,677,PMC5354519.txt
+CVCL_0023,...ined by the BCA method (Pierce). A549 cells (RRID:CVCL_0023) were treated with 10 μM MG132 (6 h) and...,317,167,PMC5354519.txt
+CVCL_0063,"...ed to Sepharose. Alternatively, 293 T cells (RRID:CVCL_0063) were transiently transfected with vecto...",317,517,PMC5354519.txt
+CVCL_0470,"...-2a (N2a; ATCC, Manassas, VA, cat. #CCL-131, RRID:CVCL_0470) and HEK293 cells (gift from Sklar labor...",39,91,eNeuro_2016_Nov_21_3(6)_ENEURO_0092-16_2016.txt
+CVCL_7526,...mphoblastoid cells [Coriell; Cellosaurus GM12878 (CVCL_7526)] and mouse ES cell line V6.5 [Cellosaur...,299,109,Epigenetics_Chromatin_2016_Nov_4_9_49.txt
+CVCL_C865,...)] and mouse ES cell line V6.5 [Cellosaurus v6.5 (CVCL_C865)] were cross-linked with formaldehyde as...,299,168,Epigenetics_Chromatin_2016_Nov_4_9_49.txt
+CVCL_0042,"U-2 OS cells (ATCC; #HTB-96; RRID: CVCL_0042), cultured to 80% confluency, were rinse...",102,36,F1000Res_2016_Nov_25_5_2764.txt
+CVCL_0023,"...ncubator. A549 cells (ATCC Cat# CRM-CCL-185, RRID:CVCL_0023) were grown in our laboratory in DMEM wi...",59,210,PMC5206578.txt
+CVCL_0574,"...ltured in Vero E6 cells (ATCC Cat# CRL-1586, RRID:CVCL_0574) in our laboratory and titrated using an...",59,464,PMC5206578.txt
+CVCL_0063,"HEK293T cells (KCB Cat# KCB 200744YJ, RRID:CVCL_0063) were used for expressing GluAs, stargaz...",27,44,PMC5333494.txt
+CVCL_8795,...OCI-LY10 from Ontario Cancer Institute (accession CVCL_8795; https://www.abmgood.com/OCI-Ly10-Cell-L...,26,239,PeerJ_2016_May_24_4_e2074.txt
+CVCL_0284,"...-E rat hepatoma cells, ATCC® cat# CRL-1548™, RRID:CVCL_0284) were cultured in DMEM containing 1 g/L ...",61,513,PLoS_One_2016_Oct_11_11(10)_e0164593.txt
+CVCL_8970,...such as CTLA-4 (http://web.expasy.org/cellosaurus/CVCL_8970),50,463,PMC5331984.txt
+CVCL_Z070,"...ith immortalized murine myeloma cells (PAI, RRID: CVCL_Z070) by PEG1500 (Roche Diagnostics GmbH, Pen...",41,789,PMC5220167.txt
+CVCL_4462,...y: Cellosaurus. http://web.expasy.org/cellosaurus/CVCL_4462. Accessed 8 July 2016,172,60,PMC5248497.txt
+CVCL_6020,"...g cell lines were used for this study: SK-MEL-10 (CVCL_6020), SK-MEL-9 (CVCL_U934), A2058 (ATCC® CRL...",24,223,PMC5336193.txt
+CVCL_U934,"... for this study: SK-MEL-10 (CVCL_6020), SK-MEL-9 (CVCL_U934), A2058 (ATCC® CRL-11147™), and MeWo (AT...",24,245,PMC5336193.txt
+CVCL_B057,"LUHMES cell (ATCC cat# CRL-2927, RRID CVCL_B057, kind gift from Dr Tanja Waldmann) tissu...",187,39,Wellcome_Open_Res_2016_Nov_15_1_13.txt
+CVCL_B057,"...ells used in this paper (ATCC cat# CRL-2927, RRID CVCL_B057) are cited as a “kind gift from Dr Tanja...",580,56,Wellcome_Open_Res_2016_Nov_15_1_13.txt

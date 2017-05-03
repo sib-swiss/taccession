@@ -57,8 +57,8 @@ def findTopForPattern(patternName: String) = {
           val msString = ms.toString
           val msStringEscapedForFileName = msString.replaceAll("[^a-zA-Z0-9.-]", "_")
 
-          val dfJoined = df.filter($"matchedPattern" === msString).join(topPatterns, df("matchedPattern") === topPatterns("matchedPattern")).drop(df("matchedPattern")).drop(df("patternName"))
-          writeToCsv(dfJoined.select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(20), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top + "/" + msStringEscapedForFileName)
+          val dfFiltered = df.filter($"matchedPattern" === msString);
+          writeToCsv(dfFiltered.select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(20), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top + "/" + msStringEscapedForFileName)
         })
       } else {
         //No need to check bottom if top is not found

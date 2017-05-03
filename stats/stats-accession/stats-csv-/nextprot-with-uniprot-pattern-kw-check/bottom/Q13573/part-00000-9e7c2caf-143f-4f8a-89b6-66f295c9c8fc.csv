@@ -1,0 +1,6 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+Q13573,"... (AtSKIP, O80653), rice (OsSKIP,), human (HsSKIP, Q13573), Caenorhaabditis elegans (CeSKIP, Q22836),...",25,313,BMC_Plant_Biol_2013_Feb_6_13_21.txt
+Q13573,SKI protein	Q13573	0.77	0.022	Protooncoprotein,162,13,Int_J_Proteomics_2015_Apr_28_2015_841769.txt
+Q13573,Q13573	SKIP	Prp45p	61	7	2,78,1,PLoS_One_2011_Apr_19_6(4)_e19061.txt
+Q13573,Q13573	SNW domain-containing protein 1	NO,244,3,PLoS_One_2014_Dec_18_9(12)_e115460.txt
+Q13573,Q13573	SNW domain-containing protein 1	NO,244,3,PLoS_One_2014_Dec_18_9(12)_e115460.txt
