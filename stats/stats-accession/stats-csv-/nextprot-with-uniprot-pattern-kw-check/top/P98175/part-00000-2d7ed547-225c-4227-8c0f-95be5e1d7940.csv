@@ -1,0 +1,16 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P98175,"...entified as RBM10 “missing” valine 354 (UniProt – P98175-2), and as a mismatch of I353 with valine (...",62,359,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,"...entified as RBM10 “missing” valine 354 (UniProt – P98175-2), and as a mismatch of I353 with valine (...",62,359,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,EMBL-EBI InterPro	STIVEAA	P98175,81,27,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,EMBL-EBI InterPro	STIVEAA	P98175,81,27,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,UniProtKB	STIVEAA	P98175-1,82,19,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,UniProtKB	STIVEAA	P98175-1,82,19,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,STI-EAA	P98175-2,83,10,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,STI-EAA	P98175-2,83,10,BMC_Res_Notes_2015_Feb_19_8_46.txt
+P98175,P98175	RNA-binding protein 10 OS=Homo sapiens GN=R...,960,1,Cancer_Biol_Med_2015_Sep_12(3)_246-254.txt
+P98175,RBM10	RNA-binding protein 10	P98175	S50	EYGpSQEGK	2.55	1.52,226,30,Int_J_Oncol_2016_Jan_11_48(3)_1016-1028.txt
+P98175,P98175	RNA-binding protein 10 OS=H. sapiens GN=RBM...,168,1,PMC5304996.txt
+P98175,...ing versions of RBM10 with (Swiss prot identifier P98175-1) or without (Swiss prot identifier P98175...,34,218,RNA_Biol_2016_Feb_6_13(4)_4669-472.txt
+P98175,...ifier P98175-1) or without (Swiss prot identifier P98175-2) valine 354 (Fig. 2A). Given the relevanc...,34,262,RNA_Biol_2016_Feb_6_13(4)_4669-472.txt
+P98175,"WT 354V	Swiss-Prot	P98175-1	 	RRM1, ZnFn1, RRM2, OCRE, ZnFn2, G-patch...",111,20,RNA_Biol_2016_Feb_6_13(4)_4669-472.txt
+P98175,"WT −354	Swiss-Prot	P98175-2	 	RRM1, ZnFn1, RRM2, OCRE, ZnFn2, G-patch...",112,20,RNA_Biol_2016_Feb_6_13(4)_4669-472.txt

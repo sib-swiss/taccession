@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P08069,P08069	IG1R	Human	NKPPKECGDLCPGTL,39,1,BMC_Chem_Biol_2004_Dec_16_4_2.txt
+P08069,IGF1R	P08069	97010288–97319034	308746,81,7,BMC_Med_Genet_2008_Jan_14_9_2.txt
+P08069,...4	P63104	43.46	P21333	0.59	P00533	1.32	P81605	215	P08069	1976,140,61,BMC_Syst_Biol_2011_Oct_31_5_179.txt
+P08069,...5	P11142	39.31	P13500	0.71	P00533	2.12	P32246	373	P08069	1854,189,61,BMC_Syst_Biol_2011_Oct_31_5_179.txt
+P08069,"HGNC, UniProt	INSR, P06213	IGF1R, P08069	INSRR, P14616",335,35,Br_J_Pharmacol_2013_Dec_17_170(8)_1676-1705.txt
+P08069,"IGF1R, P0806",2094,8,Br_J_Pharmacol_2015_Dec_9_172(24)_5979-6023.txt
+P08069,P08069 Insulin-like growth factor I receptor precu...,907,1,Dis_Markers_2006_Dec_22_22(1-2)_3-26.txt
+P08069,"...y chose 6 proteins (with UniProt ids/common name: P08069/IGFR1, P35240/Merlin, P63165/SUMO1, Q8WUI4/...",1084,61,eLife_5_e18715.txt
+P08069,9	P08069	3I81	Insulin-like growth factor 1 receptor,74,3,Evid_Based_Complement_Alternat_Med_2013_Oct_10_2013_203614.txt
+P08069,"...base www.uniprot.org accession numbers P06213 and P08069). For each sequence, we generated an ideal ...",24,716,Front_Endocrinol_(Lausanne)_2016_Jun_20_7_68.txt
+P08069,"Human IGF1R (P08069) is, as IR, a member of the tyrosine kinase...",110,14,PMC5137917.txt
+P08069,"...Chromosome 15: 98,648,971-98,964,530	Homo Sapiens	P08069	P08069	1IGR",143,89,Genom_Data_2016_Mar_31_8_52-60.txt
+P08069,"...ome 15: 98,648,971-98,964,530	Homo Sapiens	P08069	P08069	1IGR",143,96,Genom_Data_2016_Mar_31_8_52-60.txt
+P08069,"...try P00533), and IGFR (UniProtKB/Swiss-Prot entry P08069) was performed with BLAST 2 SEQUENCES [68]",122,202,Genome_Biol_2008_Mar_1_9(3)_R47.txt
+P08069,... TGC ATT TC	Insulin-like growth factor I receptor	P08069,99,87,J_Thyroid_Res_2011_Oct_20_2011_979840.txt
+P08069,...cid sequence related to IGF-1R (accession number: P08069) was obtained from UniProt database (http:/...,26,529,PMC5326484.txt
+P08069,... acid numbering according to human UniProtKB acc. P08069; position of the patient's mutation is mark...,37,60,PLoS_One_2012_May_31_7(5)_e38220.txt
+P08069,P08069	IGF1R	27	5	5	0	21	5	Insulin-like growth fac...,124,1,PLoS_One_2014_Jul_16_9(7)_e102341.txt
+P08069, IGF1R (P08069)	Lys1150Arg	K1150	NCMVAEDFTVKI GDFGMTRDI	Ph...,169,9,Sci_Rep_2015_Jul_8_5_10900.txt
+P08069, IGF1R (P08069)	Lys1150Arg	K1150	NCMVAEDFTVKI GDFGMTRDI	Ph...,169,9,Sci_Rep_2015_Jul_8_5_10900.txt

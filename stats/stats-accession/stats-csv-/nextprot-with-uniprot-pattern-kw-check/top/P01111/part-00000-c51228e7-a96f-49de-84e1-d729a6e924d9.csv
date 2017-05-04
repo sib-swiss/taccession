@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P01111,P01111	189	7.59	1796	3.84	3551	10	1367,231,1,BMC_Bioinformatics_2008_Mar_26_9(Suppl_2)_S10.txt
+P01111,"...accession numbers P56980, O29181, P03630, P02232, P01111, P05013, P14942, P00762, P53765, Q8ZGB4, P0...",83,79,BMC_Bioinformatics_2011_Jun_1_12_221.txt
+P01111,"...Swiss-Prot: P03630, Swiss-Prot:P02232, Swiss-Prot:P01111, Swiss-Prot: P05013, Swiss-Prot:P14942, Swi...",124,191,BMC_Bioinformatics_2016_Feb_10_17_81.txt
+P01111,P01111	189	3.01	9.163	2.47	11.194,113,1,BMC_Res_Notes_2009_May_6_2_73.txt
+P01111,P01111	GTPase NRas OS=Homo sapiens GN=NRAS PE=1 SV...,1081,1,Cancer_Biol_Med_2015_Sep_12(3)_246-254.txt
+P01111,"...n, 3 isoforms of RAS (Uniprot ids P01116, P01112, P01111) which we are examining in detail in other ...",1084,233,eLife_5_e18715.txt
+P01111,    GTPase NRas	RASN_HUMAN	P01111	NRAS		Plasma membrane,304,28,Mol_Cell_Proteomics_2013_Apr_23_12(4)_956-978.txt
+P01111,NRAS	P01111	Q61L	Binding Site(GEF interaction site)	bra...,201,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61L	Binding Site(GEF interaction site)	bra...,201,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61R	Binding Site(GEF interaction site)	rec...,202,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61R	Binding Site(GEF interaction site)	rec...,202,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61K	Binding Site(GEF interaction site)	lun...,203,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61K	Binding Site(GEF interaction site)	lun...,203,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61H	Binding Site(GEF interaction site)	ski...,204,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,NRAS	P01111	Q61H	Binding Site(GEF interaction site)	ski...,204,6,Nucleic_Acids_Res_2014_Oct_13_42(18)_11570-11588.txt
+P01111,P01111	NRAS	GTPase NRas	7.08,79,1,PMC5341331.txt
+P01111,"...e text are: H-Ras P01112, K-Ras P01116, and N-Ras P01111",106,184,PLoS_One_2009_Jul_9_4(7)_e6148.txt
+P01111,...that are well-known (e.g. NRAS human gene product P01111 is not annotated to GO:0043410 positive reg...,10,749,PLoS_One_2011_Sep_16_6(9)_e24289.txt
+P01111,NRAS:Y157	P01111	unknown,106,11,PLoS_ONE_2008_Aug_6_3(8)_e2877.txt
+P01111,NRAS	P01111	Q61K	Binding Site	24,189,6,PMC5296879.txt

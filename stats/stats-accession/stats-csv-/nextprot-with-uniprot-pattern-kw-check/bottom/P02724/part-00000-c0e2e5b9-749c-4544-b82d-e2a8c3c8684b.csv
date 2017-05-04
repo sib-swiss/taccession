@@ -1,0 +1,14 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P02724,"... The protein was glycophorin-A (GYPA, UniProt ID: P02724), a major intrinsic membrane protein with a...",89,210,Bioinform_Biol_Insights_2015_Jul_5_9_103-109.txt
+P02724,Figure 4 Case study using glycoprotein P02724,126,40,Bioinform_Biol_Insights_2015_Jul_5_9_103-109.txt
+P02724,P02724	150	Glycophorin-A	TM = 1	0.0%	0.0%	48%	24%	...,85,1,BMC_Bioinformatics_2010_Oct_29_11_536.txt
+P02724,Alanine biosynthesis (P02724)	2	0.00 %	0.00 %,263,23,Genome_Med_2016_Sep_8_8(1)_93.txt
+P02724,CD235a	+	–	glycophorin-A	P02724	20	94,537,26,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P02724,CD235a	+	–	glycophorin-A	P02724	20	94,537,26,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P02724,"...5790, BS 366171); “Alanine biosynthesis” (PANTHER P02724); “Measles” (KEGG hsa05162, BS 213306); “IL...",78,926,PLoS_Genet_2013_Oct_3_9(10)_e1003770.txt
+P02724,...en from the C-terminal side of the glycophorin-A (P02724) TM protein. We palmitoylated the N-terminu...,68,864,PLoS_One_2015_Jun_3_10(6)_e0127383.txt
+P02724,"...re H). Peptide 10, pal-RRLIKKSP-NH2 Glycophorin-A P02724 (GLPA_HUMAN) 150 residues in length (Figure...",132,1315,PLoS_One_2015_Jun_3_10(6)_e0127383.txt
+P02724,GYPA	0.85	HGNC = 4702|UniProtKB = P02724	Glycophorin-A;GYPA;ortholog,450,35,PLoS_One_2016_Aug_4_11(8)_e0160224.txt
+P02724,Human CD34 (P28906) and Glycophorin-A (P02724) are used as outgroups. The tree was constr...,130,40,Sci_Rep_2016_Oct_7_6_35011.txt
+P02724,"...rchased from Waters (Milford, MA). Glycophorin A (P02724), bovine fetuin (Q58D62 and P12763), ovalbu...",18,213,Sci_Rep_2016_Nov_21_6_37189.txt
+P02724,"...eins with UniProt IDs of Q58D62, P12763 (fetuin), P02724 (glycophorin A) and P01012 (ovalbumin) was ...",28,686,Sci_Rep_2016_Nov_21_6_37189.txt

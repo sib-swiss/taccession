@@ -1,0 +1,16 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+PS51257,...rograms: (i) the Prosite position-specific matrix PS51257 (PROKAR_LIPOPROTEIN) [23];  (ii) LipoP [24...,37,376,Archaea_2010_Sep_16_2010_410975.txt
+PS51257,"...g tools: (i) the Prosite position-specific matrix PS51257 (PROKAR_LIPOPROTEIN) [23] and LipoP [24], ...",67,148,Archaea_2010_Sep_16_2010_410975.txt
+PS51257,"... prediction programs (PredLipo, LipoP and Prosite PS51257), with the exception of Hvo_1242, which wa...",145,260,Archaea_2010_Sep_16_2010_410975.txt
+PS51257,"...SITE (Hulo et al., 2008) prokaryotic lipoprotein (PS51257) motif revealed their strong association w...",42,95,Bioinformatics_2008_Aug_15_24(16)_1793-1797.txt
+PS51257,"... pattern, and residues D17 to D21 (CITAC) hit the PS51257 pattern (Figure 3A) [27], which suggested ...",32,420,BMC_Microbiol_2010_Dec_1_10_309.txt
+PS51257,"...n, and amino acid residues D17 to D21 (CITAC) hit PS51257 pattern. The symbol \"<\" indicates that the...",34,310,BMC_Microbiol_2010_Dec_1_10_309.txt
+PS51257,PROKAR_LIPOPROTEIN	PS51257	1/20	Lipobox motif,146,20,Front_Microbiol_2014_Feb_20_5_57.txt
+PS51257,"...Juncker et al., 2003) and searching PROSITE motif PS51257. Protein domain prediction and COG assignm...",32,537,PMC5289999.txt
+PS51257,"...he sequence matched a lipid-binding site (profile PS51257) and a signal peptide. Hence, the α-helix ...",44,1690,Genet_Mol_Biol_2013_Jul_9_36(2)_243-251.txt
+PS51257,...in lipid attachment site (Prosite accession-no.: [PS51257]) at its immediate NH2-terminus as identif...,252,469,Parasit_Vectors_2009_Jun_25_2_27.txt
+PS51257,...mbrane lipoprotein lipid attachment site motif is PS51257,286,142,PLoS_Genet_2007_May_18_3(5)_e75.txt
+PS51257,...SE: PS50059; PPIC_PPIASE: PS01096; PROKAR_LIPOPR: PS51257; TPR: PS50005; FHA: PS50006. Sequences fla...,101,254,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS51257,"... v1.0 [120], (v) ScanProsite for a scan with both PS51257 profile and G+LPP v2.0 pattern [121], (vi)...",297,196,PLoS_One_2012_Aug_9_7(8)_e42982.txt
+PS51257,...cted at the N-terminus (http://prosite.expasy.org/PS51257) that suggest potential attachment to the ...,13,946,PMC5311943.txt
+PS51257,"...sylation site, PS00009: AMIDATION Amidation site, PS51257: PROKAR_LIPOPROTEIN Prokaryotic membrane l...",244,796,Springerplus_2012_Oct_5_1_30.txt

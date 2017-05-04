@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P00533,"...any known modified sites are indicated (UniProtKB P00533 and Figure 4B). In this section, we also re...",101,1337,PMC5290486.txt
+P00533,Epidermal growth factor receptor	✓	✓		✓	✓	4	yes	P00533	6.9E+06	(Baron et al. 2001)	A membrane tyro...,153,49,Biomark_Insights_2007_Feb_7_1_1-48.txt
+P00533,"...is is the epidermal growth factor receptor (EGFR, P00533), also present in Figure 3. EGFR is involve...",110,1005,Biomed_Res_Int_2015_Mar_22_2015_747156.txt
+P00533,EGFR	P00533,106,6,BMC_Bioinformatics_2008_Nov_25_9_491.txt
+P00533,"...ch protein entry (see for example , for the entry P00533, in the \"Sequence features\" section, under ...",21,1599,BMC_Bioinformatics_2009_Aug_27_10(Suppl_8)_S6.txt
+P00533,P00533	48	0.097,116,1,BMC_Bioinformatics_2011_Jun_2_12_225.txt
+P00533,"...ermal growth factor receptor, which is encoded as P00533 G719A. In the following sections, we will u...",54,457,BMC_Bioinformatics_2013_Nov_29_14_345.txt
+P00533,...lm.nih.gov/dbvar/; http://www.uniprot.org/uniprot/P00533#ref83; http://www.ensembl.org/Homo_sapiens/...,121,260,BMC_Cancer_2013_Mar_13_13_114.txt
+P00533,...228.3) (p.Glu749* - ENSP00000275493; NP_005219.2; P00533) (Figur,124,347,BMC_Cancer_2013_Mar_13_13_114.txt
+P00533,...ain (from aa 712 to aa 968) of the EGFR receptor (P00533_http://www.uniprot.org/) and generates a pr...,126,134,BMC_Cancer_2013_Mar_13_13_114.txt
+P00533,P00533	EGFR	epidermal growth factor receptor	1.755...,135,1,BMC_Cancer_2015_May_7_15_367.txt
+P00533,EGFR	7p12	P00533,38,12,BMC_Evol_Biol_2007_Nov_30_7_239.txt
+P00533,"...B65624]; hGRK6 [GenBank, P43250]; hEGFR [GenBank, P00533]; hFGFR2 [GenBank, P21802]; hHGFR [GenBank,...",53,1204,BMC_Evol_Biol_2011_Dec_20_11_367.txt
+P00533,P00533	epidermal growth factor receptor (erythrobl...,100,1,BMC_Genomics_2009_Dec_3_10(Suppl_3)_S30.txt
+P00533,...cursor of human epidermal growth factor receptor (P00533) and the transcription initiation factor II...,76,847,BMC_Genomics_2010_Feb_10_11(Suppl_1)_S15.txt
+P00533,21	[PIR:P00533]/EGFR	Epidermal growth factor receptor prec...,252,9,BMC_Syst_Biol_2007_Nov_27_1_56.txt
+P00533,... of the rank (among the 25 HD mediators); this is P00533 (Epidermal growth factor receptor) in the 2...,86,679,BMC_Syst_Biol_2011_Oct_31_5_179.txt
+P00533,P12931	14.67	P00533	43.76	P17252	13.52	P12931	100.73	P06241	554...,94,14,BMC_Syst_Biol_2011_Oct_31_5_179.txt
+P00533,P09471	1.54	O14939	40.64	P00533	0.97	P41240	15.68	O15552	875	Q99962	1730,108,26,BMC_Syst_Biol_2011_Oct_31_5_179.txt
+P00533,...9	Q06124	40.51	P18545	0.84	P13500	6.11	O43665	875	P00533	1521,110,61,BMC_Syst_Biol_2011_Oct_31_5_179.txt

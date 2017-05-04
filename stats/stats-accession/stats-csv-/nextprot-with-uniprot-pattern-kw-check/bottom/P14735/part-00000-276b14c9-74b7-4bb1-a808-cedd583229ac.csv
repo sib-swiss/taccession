@@ -1,0 +1,7 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P14735,15	P14735	3E4A	Insulin-degrading enzyme,80,4,Evid_Based_Complement_Alternat_Med_2013_Oct_10_2013_203614.txt
+P14735,insulin-degrading enzyme	P14735	M16.002	 ,1025,26,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P14735,insulin-degrading enzyme	P14735	M16.002	 ,1025,26,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P14735,    Insulin-degrading enzyme	IDE_HUMAN	P14735	IDE	Extracellular	Plasma membrane,276,40,Mol_Cell_Proteomics_2013_Apr_23_12(4)_956-978.txt
+P14735,IDE_HUMAN	P14735	Insulin-degrading enzyme	IDE	0.55,116,11,Sci_Rep_2016_Mar_18_6_23162.txt
+P14735,"...02]; BAX [Q07812]), Alzheimer (APP [P05067]; IDE [P14735]; BACE2 [Q9Y5Z0]), Apoptosis (BCL2 [P10415]...",26,612,Sci_Rep_2016_May_6_6_25589.txt

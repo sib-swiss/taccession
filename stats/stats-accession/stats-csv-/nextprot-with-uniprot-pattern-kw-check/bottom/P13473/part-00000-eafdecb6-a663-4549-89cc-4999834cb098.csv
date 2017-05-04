@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P13473,P13473	410	Lysosome-associated membrane glycoprote...,101,1,BMC_Bioinformatics_2010_Oct_29_11_536.txt
+P13473,"... five human LAMP family proteins (UniProt P11279, P13473, Q9UQV4, Q9UJQ1, P34810). O- and N-linked g...",23,116,BMC_Biol_2012_Jul_19_10_62.txt
+P13473,P13473	LAMP2	lysosomal-associated membrane protein...,148,1,BMC_Cancer_2015_May_7_15_367.txt
+P13473,P1347,391,1,BMC_Med_Genomics_2008_Sep_15_1_41.txt
+P13473,110	P13473	Lysosome-associated membrane glycoprotein 2...,177,5,Clin_Proteomics_2014_May_12_11(1)_20.txt
+P13473,63	P13473	Lysosome-associated membrane glycoprotein 2...,356,4,Clin_Proteomics_2014_May_12_11(1)_20.txt
+P13473,"...ce and theoretical structure of LAMP2A (UniProtKB:P13473) as indicated; signal peptide, aa 1–28; hin...",38,1930,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"...uced in three spliced forms A, B and C (UniProtKB:P13473, P13473-2 and P13473-3, respectively), in w...",89,200,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"...three spliced forms A, B and C (UniProtKB:P13473, P13473-2 and P13473-3, respectively), in which the...",89,208,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"... forms A, B and C (UniProtKB:P13473, P13473-2 and P13473-3, respectively), in which the isoform spec...",89,221,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"...typic tryptic LAMP2A, B and C peptides (UniProtKB:P13473, P13473-2 and P13473-3, respectively). When...",130,1594,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"...yptic LAMP2A, B and C peptides (UniProtKB:P13473, P13473-2 and P13473-3, respectively). When idle, d...",130,1602,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,"... B and C peptides (UniProtKB:P13473, P13473-2 and P13473-3, respectively). When idle, data dependent...",130,1615,Clin_Proteomics_2016_Feb_25_13_4.txt
+P13473,P13473	Lysosome-associated membrane glycoprotein 2...,131,1,Data_Brief_2016_Mar_14_7_814-833.txt
+P13473,23	LAMP2	P13473	44961	18/16	8/10	24/99	√	—	—,137,10,Int_J_Mol_Sci_2012_Oct_29_13(11)_13894-13910.txt
+P13473,glycoprotein 2	P13473	1	2,556,16,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P13473,glycoprotein 2	P13473	1	2,556,16,J_Proteome_Res_2014_Apr_4_13(4)_2028-2044.txt
+P13473,"P13473	LAMP2	14	5	-	H, NHLBI	Proposed autoantigen ...",238,1,Kidney_Int_2014_May_6_85(5)_1225-1237.txt
+P13473,...bility and increased interaction with the Lamp2a (P13473) receptor compared with wild-type UCH-L1 [8...,8,2011,PLoS_One_2010_Oct_6_5(10)_e13175.txt
+P13473,LAMP 2	5	11.22	4	9.4	3	7.95	P13473	P17047,74,29,PLoS_One_2011_Feb_16_6(2)_e17278.txt
