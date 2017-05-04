@@ -1,0 +1,4 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+MF_00799,...no motif was found except in Rv0635. A motif YNNN_MF_00799 http://myhits.isb-sib.ch/cgibin/view_mot_...,113,118,Proteome_Sci_2012_Mar_1_10_14.txt
+MF_00799,....isb-sib.ch/cgibin/view_mot_entry?name=hamap:YNNN_MF_00799 was detected in Rv0635. This motif is con...,113,190,Proteome_Sci_2012_Mar_1_10_14.txt
+MF_00799,...MotifScan analysis predicted the presence of YNNN_MF_00799 motif which is conserved in UPF0336 famil...,133,1322,Proteome_Sci_2012_Mar_1_10_14.txt
