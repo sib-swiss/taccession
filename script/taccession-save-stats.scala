@@ -42,11 +42,11 @@ def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = 
 def findTopForPattern(patternName: String) = {
 
   var foundTop = true;
-  List(("top", 5, $"count" desc), ("bottom", 20, $"count" asc)).foreach(op => {
+  List(("top", 20, $"count" desc), ("bottom", 20, $"count" asc)).foreach(op => {
 
     if (foundTop) { //No need to check bottom if top is not found
       val (top, limit, order) = (op._1, op._2, op._3)
-      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(100).as("dfTop")
+      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(5000).as("dfTop")
       topPatterns.cache();
 
       val result = writeToCsv(topPatterns.select("matchedPattern", "count"), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top)
