@@ -1,0 +1,17 @@
+name: Resource accession configurations 
+    
+filesDirectory: /data/user/publications/allpubmed/
+statsOutputFolder: stats/stats-accession
+
+sparkPartitions: 200
+
+patterns: 
+-   patternName: swisslipid
+    pattern: (?i)SLM:\d+
+
+-   patternName: nextprot 
+    pattern: NX_[OPQ][0-9][A-Z0-9]{3}[0-9]|NX_[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}
+
+-   patternName: nextprot-with-uniprot 
+    pattern: \b[OPQ][0-9][A-Z0-9]{3}[0-9]|\b[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}
+    mustFindTokensInPublication: nextprot
