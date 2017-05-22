@@ -1,0 +1,4 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+g.59702_59703dup," 6	F17	2 (4f, 29)	Exon 8	g.59702_59703dup	p.Asn258ArgfsX7	Ul	Yes	Enucl	Epit...",83,26,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.59702_59703dup, 7	F17		Exon8	g.59702_59703dup	p.Asn258ArgfsX7	Bil	No	RT	Epithel...,84,15,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.59702_59703dup, 8	F17		Exon8	g.59702_59703dup	p.Asn258ArgfsX7	Bil	No	RT + CH	Ep...,85,15,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt

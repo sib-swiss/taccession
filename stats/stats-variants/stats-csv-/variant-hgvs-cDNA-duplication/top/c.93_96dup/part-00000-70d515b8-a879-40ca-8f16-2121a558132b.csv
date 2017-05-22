@@ -1,0 +1,4 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+c.93_96dup,OPA1	NM_015560.2	c.93_96dupAAAA	179	0	NA	69	 	 	 	 	69.27	 ,145,18,BMC_Genet_2013_Feb_19_14_6.txt
+c.93_96dup,"4). Three changes (IDUA c.973-45 G > C, OPA1 c.93_96dupAAAA and SGSH c.664-39_664-38delCT) miss...",237,46,BMC_Genet_2013_Feb_19_14_6.txt
+c.93_96dup,"...hat had 34,879 reads. Similarly, the OPA1 sample, c.93_96dupAAAA mutation has only 179 reads compare...",300,1111,BMC_Genet_2013_Feb_19_14_6.txt

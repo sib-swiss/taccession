@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NC_000964.3,Bacillus subtilis (Bs)	subtilis 168	NC_000964.3	Firmicutes	0	1	4176	32	21	30,46,37,BMC_Genomics_2013_Jul_31_14_524.txt
+NC_000964.3,...sequence of the mapping was B. subtilis str. 168 (NC_000964.3). The read data (DRX000504) were depos...,20,1382,Nucleic_Acids_Res_2011_Jul_14_39(13)_e90.txt
+NC_000964.3,"...he reference sequences used for each mapping were NC_000964.3 (Bacillus subtilis str.168), NC_002945...",47,125,Nucleic_Acids_Res_2011_Jul_14_39(13)_e90.txt
+NC_000964.3,"...mpassing coordinates 3276141 to 3276434, Acc. N0. NC_000964.3) was PCR amplified using the primer pa...",51,114,PLoS_One_2013_Jul_4_8(7)_e67840.txt

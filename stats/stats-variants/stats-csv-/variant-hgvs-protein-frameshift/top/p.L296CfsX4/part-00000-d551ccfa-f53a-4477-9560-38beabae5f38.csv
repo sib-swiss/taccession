@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+p.L296CfsX4,"...20, we discovered a deletion mutation (c.885delC, p.L296CfsX4)17 in the proband F4:II:1, which was p...",31,1200,Sci_Rep_2016_Oct_14_6_35414.txt
+p.L296CfsX4,"... and c.5196 + 1G > A), introducing a frame shift (p.L296CfsX4) or by the introduction of a premature...",34,190,Sci_Rep_2016_Oct_14_6_35414.txt
+p.L296CfsX4,...c.5196 + 1G > A); and one was frameshift variant (p.L296CfsX4). Our data suggested that each of them...,41,219,Sci_Rep_2016_Oct_14_6_35414.txt
+p.L296CfsX4,F4:II:1	45	FC/FC	8	c.885delC	p.L296CfsX4	Het	Frameshift	—	—	—	Rare	13,79,30,Sci_Rep_2016_Oct_14_6_35414.txt
