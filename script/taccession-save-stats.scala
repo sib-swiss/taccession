@@ -22,7 +22,7 @@ df.cache()
 def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
   if (!df.rdd.isEmpty) {
     println("Writing for " + fileName)
-    df.coalesce(1).write.option("header", "true").csv(outputFolder + "/" + fileName)
+    df.coalesce(1).write.option("header", "true").csv(config.statsOutputFolder.getPath + "/" + fileName)
     return true
   } else {
     println("Nothing found for " + fileName)
@@ -60,15 +60,15 @@ def findTopForPattern(patternName: String) = {
 }
 
 //Random values for each patterns
-patterns.foreach(p => {
-  val dfFiltered = df.filter($"patternName" === p._1).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(1000)
+config.patterns.foreach(p => {
+  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(1000)
   if (!dfFiltered.rdd.isEmpty) {
-    val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p._1 + "/random")
+    val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p.patternName + "/random")
     if (result) {
-        findTopForPattern(p._1)
+        findTopForPattern(p.patternName)
     }
   } else {
-    println("Nothing found for " + p._1)
+    println("Nothing found for " + p.patternName)
   }
 })
 
