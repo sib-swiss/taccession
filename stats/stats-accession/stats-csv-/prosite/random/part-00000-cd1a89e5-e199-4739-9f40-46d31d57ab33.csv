@@ -1,0 +1,471 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+PS00086,"...450, conserved site (IPR017972) which consists of PS00086, and one type has no unintegrated signatur...",52,1078,Acta_Pharm_Sin_B_2016_Nov_19_6(6)_614-622.txt
+PS00086,"...ersed domains (SSF48264, PF00067, G3DSA, PR00463, PS00086, PTHR24286, PTHR24286 (SF74, SUB) and TMhe...",96,313,Acta_Pharm_Sin_B_2016_Nov_19_6(6)_614-622.txt
+PS00341,PS00341	IPCCPV	9	702	77.8	9	21	65	166	13	217,179,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00415,PS00415	LRRRLSDS	12	3582	91.6	9	503	1058	2103	11	1...,180,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00047,PS00047	GAKRH	105	653	93.3	21	61	109	216	27	460,181,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00984,PS00984	CFWKYC	19	1256	100	1	1	1	785	1	5,182,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00541,PS00541	SKRKYRK	6	144	100	1	85	110	131	3	134,183,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00822,PS00822	PFDRHDW	9	2251	100	1	1	5	204	1	400,184,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00419,PS00419	CDGPGRGGTC	207	32936	100	1	1	1	3	1	158,185,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00349,PS00349	RKRKYFKKHEKR	18	2929	100	1	38	86	2884	19	3...,186,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00861,PS00861	GWTLNSAGYLLGP	32	888	100	1	66	301	179	1	56...,187,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01024,PS01024	EFDYLKSLEIEEKIN	60	5527	100	1	620	2427	526...,188,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00291,PS00291	AGAAAAGAVVGGLGGY	136	2423	100	1	1033	1770	...,189,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00084,PS00084	HHM..F.C	206	13	10	1	4	54	3	3,232,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00927,PS00927	PGGRF.E.Y.WD.Y	60	32	32	5	2	1	2	2,233,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01142,PS01142	GTLW.G...........L....W	419	5	4	1	3	198	3	...,234,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00780,PS00780	NHT.C.C.TC..HK	30	57	54	8	7	3	9	9,235,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00799,PS00799	C.D..HCCP....C	285	6	5	1	53	91	50	50,236,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00987,PS00987	GKCNN..GHGHNY	106	13	6	1	4	94	3	3,237,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00458,PS00458	P...LGP.C.Y.AA.V.R...HW..P.L.AGA.A.G...K	5...,238,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00506,PS00506	H.CGGNVGD	41	16	15	14	2	27	2	2,239,1,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00034,...lexible gap motifs from the Prosite dataset entry PS00034 (55 sequences). The characteristics of the...,247,96,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00799,"...s reasonable results. Note that for Prosite entry PS00799, the three measures IG, LogOdd and Z-Score...",264,386,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00034,...f 250 flexible gap motifs from the Prosite family PS00034. The plot in Figure 2 (a) shows clearly th...,278,162,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00034,...lexible gap motifs from the Prosite dataset entry PS00034 (55 sequences). The characteristics of the...,280,151,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00978,"...ficance measures for four Prosite family entries: PS00978, PS001172, PS00076 and PS00021. For each f...",348,147,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00117,"...easures for four Prosite family entries: PS00978, PS001172, PS00076 and PS00021. For each family dat...",348,156,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00076,"...r four Prosite family entries: PS00978, PS001172, PS00076 and PS00021. For each family dataset, rigi...",348,166,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00021,"...te family entries: PS00978, PS001172, PS00076 and PS00021. For each family dataset, rigid gap motifs...",348,178,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00541,"...ion of the scoring for two datasets from prosite, PS00541 and PS01024 (see Table 3), with respective...",399,254,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01024,"...coring for two datasets from prosite, PS00541 and PS01024 (see Table 3), with respectively 144 and 5...",399,266,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00056,"...ed to evaluate rigid gap motifs, one from prosite PS00056 (see Table 6) with 41 motifs and the other...",399,429,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00541,"...sional visualization of motifs from the datasets: PS00541, PS01024, PS00056 and DILIMOT \"Q.RLQ..Q\". ...",401,121,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01024,"...sualization of motifs from the datasets: PS00541, PS01024, PS00056 and DILIMOT \"Q.RLQ..Q\". The first...",401,130,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00056,"...on of motifs from the datasets: PS00541, PS01024, PS00056 and DILIMOT \"Q.RLQ..Q\". The first two data...",401,139,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00506,"...g of the target motif is not very high, as in the PS00506 and the DILIMOT datasets, the target motif...",403,388,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS00541,"...ntified. When they appear highly conserved, as in PS00541 and PS01024, their identification is strai...",403,507,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01024,"...n they appear highly conserved, as in PS00541 and PS01024, their identification is straightforward",403,519,Algorithms_Mol_Biol_2007_Dec_24_2_16.txt
+PS01095,"...][D/N][L/IV/M/F][D/N]xE, PROSITE accession number PS01095), YD (position 231–232, consensus Y[D/N]) ...",143,263,Appl_Microbiol_Biotechnol_2015_Jun_4_99(19)_8199-8215.txt
+PS00889,...are aligned in PROSITE (http://prosite.expasy.org/PS00889). Note that the two consensus sequences do...,17,1671,Biochem_Soc_Trans_2014_Apr_1_42(Pt_2)_295-301.txt
+PDOC00211,...inal binding sites [21-24] (PROSITE documentation PDOC00211) and thus are a significant figurehead f...,61,2478,BioData_Min_2013_Dec_2_6_21.txt
+PDOC00559,...inal binding sites [21-24] (PROSITE documentation PDOC00559) in Pfam family with Pfam-Id: PF00002 (F...,61,2682,BioData_Min_2013_Dec_2_6_21.txt
+PS00008,PS00008	N-myristoylation site	13,138,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00001,PS00001	N-glycosylation site	4,139,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00007,PS00007	Tyrosine kinase phosphorylation site	1,140,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00004,PS00004	cAMP- and cGMP-dependent protein kinase ph...,141,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00006,PS00006	Casein kinase II phosphorylation site	6,142,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00122,PS00122	Carboxylesterases type-B serine active sit...,143,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00941,PS00941	Carboxylesterases type-B signature 2	1,144,1,Bioinformation_2006_Dec_6_1(8)_281-284.txt
+PS00012,"... of Fas-2, which holds the binding site (prosite: PS00012 Phosphopantetheine attachment site). This ...",95,152,Bioinformation_2008_Sep_20_3(1)_33-40.txt
+PS00606,"...rganisms is the prosite detected for KS (prosite: PS00606, Beta-ketoacyl synthase active site). This...",118,52,Bioinformation_2008_Sep_20_3(1)_33-40.txt
+PS00436,in both monocot and dicot plants first motif PS00436 and,168,46,Bioinformation_2014_Feb_19_10(2)_87-93.txt
+PS00435,PS00435. PS00436 occur at starting sequence like 5...,169,1,Bioinformation_2014_Feb_19_10(2)_87-93.txt
+PS00436,PS00435. PS00436 occur at starting sequence like 57-67 and,169,10,Bioinformation_2014_Feb_19_10(2)_87-93.txt
+PS00435,PS00435 is found at middle sequence like 177 – 187...,170,1,Bioinformation_2014_Feb_19_10(2)_87-93.txt
+PS50099,...th this domain and a proline-rich region profile (PS50099). Only the MIPS database names At3g33790 a...,21,818,Bioinform_Biol_Insights_2009_Feb_18_3_15-28.txt
+PS50315,...ine-rich protein” although the score obtained for PS50315 (glycine-rich region) is very low (Table 2...,23,290,Bioinform_Biol_Insights_2009_Feb_18_3_15-28.txt
+PS50099,...although the only identified structural domain is PS50099 (proline-rich region). A “BLAST 2 sequence...,23,623,Bioinform_Biol_Insights_2009_Feb_18_3_15-28.txt
+PS50099,"...leucine-rich repeat, N-terminal; PF08263: LRR_NT; PS50099: PRO_RICH proline-rich region profile; IPR...",112,231,Bioinform_Biol_Insights_2009_Feb_18_3_15-28.txt
+PS50099,IPR001611 PF00560	IPR013210 PF08263	PS50099	IPR003882 PR01218	IPR003883 PF02095	PR0121...,115,37,Bioinform_Biol_Insights_2009_Feb_18_3_15-28.txt
+PS50110,... in the protein (well conserved PROSITE signature PS50110) and is target of rapamycin (TOR). TOR its...,47,615,Bioinform_Biol_Insights_2012_May_3_6_97-128.txt
+PS00076,...) as containing a pyridine_redox_1 motif (ProSite PS00076). The word therefore may be taken to have ...,113,389,Bioinform_Biol_Insights_2009_Nov_24_1_101-126.txt
+PS00572,...which is consistent with the consensus pattern of PS00572. The results indicated that the protein (T...,25,878,Biotechnol_Biofuels_2012_Jul_11_5_31.txt
+PS00010,...thdrawn ENSEMBL predictions and the Prosite motif PS000107 were removed. Additionally the A6/twinfil...,75,660,BMC_Bioinformatics_2006_Feb_20_7_82.txt
+PS00015,... the prosite bipartite nuclear localization motif PS00015 and predictNLS [28-33]. Additionally we pr...,100,1207,BMC_Bioinformatics_2006_Feb_20_7_82.txt
+PS00103,...nyway functionally related to it. Two of them are PS00103 and PS00120,137,311,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00120,...onally related to it. Two of them are PS00103 and PS00120,137,323,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00103,The majority of PS00103 true positives are ribose-phosphate pyroph...,139,17,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00103,...ch contain the Pribosyltran Pfam [15] domain. The PS00103 motif is well conserved in this domain. Ne...,139,134,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00120,PS00120 is the PROSITE motif built around the seri...,141,1,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00675,...r interesting example of mis-annotated pattern is PS00675 which is an atypical ATP-binding motif A (...,143,57,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00675,"...b-like ypt1 family of GTP-binding proteins. Thus, PS00675 might be either an ancestral motif origina...",143,416,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00014,"... true outlier among many others is represented by PS00014, which is annotated in the ELM database (E...",145,184,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00014,A further analysis was performed on the PS00014 false positive sequences annotated in the ...,147,41,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00850,"...and 4 for yeast100). For example, the reversed of PS00850 is found almost solely in regulator of rib...",176,659,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00469,... extracted from domain PF00334.10 matched against PS00469 (bottom) with a p-value of less than 10-31...,65,211,BMC_Bioinformatics_2010_Apr_26_11_205.txt
+PS00213,... correspond to the conserved motif (PROSITE motif PS00213). The column-wise Sum-of-Pairs Score (SPS)...,31,1148,BMC_Bioinformatics_2011_May_21_12_184.txt
+PS00213,"... family must contain the conserved motif (PROSITE PS00213 [33,34]) near the first beta-strand. In th...",43,359,BMC_Bioinformatics_2011_May_21_12_184.txt
+PS00213,"...this example, the motif \"Lipocalin prosite motif (PS00213)\" is set for the \"root\" lineage, which cov...",65,252,BMC_Bioinformatics_2011_May_21_12_184.txt
+PS00163,"...[^RS]K.N, a pattern found in the Fumarate_Lyases (PS00163) family of sequences. In the above mention...",170,99,BMC_Bioinformatics_2013_Mar_15_14_96.txt
+PS00163,...llowing sample of amino acid distributions in the PS00163 family protein sequences: XXPENEPGSSIMPGKV...,170,618,BMC_Bioinformatics_2013_Mar_15_14_96.txt
+PS00027,"...e, the “Homeobox domain signature” motif (PROSITE:PS00027) was found in 1290 nuclear proteins (Figur...",77,602,BMC_Bioinformatics_2013_Jul_18_14_229.txt
+PDOC00027,"...hrough a helix-turn-helix type structure (PROSITE:PDOC00027). However, this motif was also found wit...",77,747,BMC_Bioinformatics_2013_Jul_18_14_229.txt
+PS00847,"...r example, is the “MCM family signature” (PROSITE:PS00847) for minichromosome maintenance proteins i...",77,1217,BMC_Bioinformatics_2013_Jul_18_14_229.txt
+PS00014,...smic reticulum targeting sequence” motif (PROSITE:PS00014) is a short C-terminal sequence (frequentl...,81,254,BMC_Bioinformatics_2013_Jul_18_14_229.txt
+PS00028,...ed the PDB files listed as 3D cross-references in PS00028 file from Prosite’s Release 20.99 [28] for...,184,99,BMC_Bioinformatics_2015_Aug_14_16_256.txt
+PDOC00028,...dditional sequence features. The Prosite database PDOC00028 alignment was used for the reference con...,129,155,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,...afA ZF1-2 and ZF3-4 are indicated separately. The PDOC00028 C2H2 consensus is shown at the bottom as...,131,249,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"... appearance in ϕ1, ϕ2, and those of general C2H2 (PDOC00028) is shown. Valine, leucine, and isoleuci...",133,531,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"...those in a compilation of general C2H2 sequences (PDOC00028) (valine, 4.2%; leucine, 9.5%; isoleucin...",135,482,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"...on) than those of general C2H2 sequences (Prosite PDOC00028, 8.1 ± 5.0 aa) (P < 1 × 10-100, Mann-Whi...",137,173,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"...ce was found in about 65% of the sequences in the PDOC00028 alignment. Accordingly, conservation of ...",137,413,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,...rst cysteine of the C-terminally flanking ZF. The PDOC00028 (general C2H2) alignment contained 12326...,139,349,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"...is, WebLogo http://weblogo.berkeley.edu/[77]. The PDOC00028 alignment in the Prosite database (12328...",262,708,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,The PDOC00028 sequence alignment contains the gene nam...,264,5,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PDOC00028,"...use the average length of general C2H2 sequences (PDOC00028) was 27.95 (n = 12328, standard deviatio...",264,367,BMC_Evol_Biol_2010_Feb_19_10_53.txt
+PS00280,"... KUNITZ 2 motif [C1-C6, C2-C4 and C3-C5, Prosite: PS00280] indicates the 3 disulphide bonds which de...",39,558,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS00280,"...but those within curly brackets are not, Prosite: PS00280] was located within BPTI KUNITZ 2 (aa 51–6...",39,965,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS50279,"#PS50279 153 nt, 51 aa",82,2,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS00280,"~PS00280 57 nt, 19 aa",84,2,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS50279,"...the Kunitz domain motifs (BPTI KUNITZ 2, Prosite: PS50279 and BPTI KUNITZ 1, Prosite: PS00280) are i...",252,1138,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS00280,"...Z 2, Prosite: PS50279 and BPTI KUNITZ 1, Prosite: PS00280) are indicated by red and green lines, res...",252,1174,BMC_Evol_Biol_2012_Jun_8_12_80.txt
+PS50960,"...lix-turn-helix, Psq domain (aa 1 – 51) [PF05225] [PS50960],",64,188,BMC_Evol_Biol_2008_Apr_12_8_110.txt
+PS00017,"...GTP-binding site motif A (P-loop) (aa 394 – 401) [PS00017], Helicase domain (aa 381 – 720) [SM00490]...",68,183,BMC_Evol_Biol_2008_Apr_12_8_110.txt
+PS51192,...licase domain (aa 381 – 720) [SM00490] [PF00271] [PS51192] [PS51194].,68,245,BMC_Evol_Biol_2008_Apr_12_8_110.txt
+PS51194,...ain (aa 381 – 720) [SM00490] [PF00271] [PS51192] [PS51194].,68,255,BMC_Evol_Biol_2008_Apr_12_8_110.txt
+PS50071,... latter 918 sequences were obtained from the file PS50071 available at PROSITE [10] after removing a...,55,830,BMC_Evol_Biol_2008_Jul_11_8_200.txt
+PS50192,"...ARE), PF00957 (Synaptobrevin) and PROSITE domains PS50192 (SNARE), PS50892 (V-SNARE), PS50859 (longi...",84,308,BMC_Genomics_2006_Oct_6_7_250.txt
+PS50892,"...naptobrevin) and PROSITE domains PS50192 (SNARE), PS50892 (V-SNARE), PS50859 (longin)",84,325,BMC_Genomics_2006_Oct_6_7_250.txt
+PS50859,"...OSITE domains PS50192 (SNARE), PS50892 (V-SNARE), PS50859 (longin)",84,344,BMC_Genomics_2006_Oct_6_7_250.txt
+PS00704,"...f A. ferrooxidans exhibits the Prosite signature (PS00704) of a beta-type, prokaryotic-type carbonic...",32,667,BMC_Genomics_2003_Dec_15_4_51.txt
+PS00365,...ans. The putative CysI exhibits the prosite motif PS00365 [STV]-G-C-x(3)-C-x(6)-[DE]-[LIVMF]-[GAT]-L...,50,426,BMC_Genomics_2003_Dec_15_4_51.txt
+PS00365,"...s are shown in red. The sequence of prosite motif PS00365, [STV]-G-C-x(3)-C-x(6)-[DE]-[LIVMF]-[GAT]-...",52,732,BMC_Genomics_2003_Dec_15_4_51.txt
+PDOC00547,... A. ferrooxidans exhibits the two prosite motifs (PDOC00547) characteristic of the enzyme as shown i...,87,72,BMC_Genomics_2003_Dec_15_4_51.txt
+PS50893,...edicted protein sequences and the prosite profile PS50893. NBDs were then subjected to a phylogeneti...,229,1520,BMC_Genomics_2009_Apr_21_10_170.txt
+PS50143,"...equence (http://www.expasy.org/cgi-bin/nicedoc.pl?PS50143), and are 4236 aa and 136 aa long, respect...",125,1141,BMC_Genomics_2010_Oct_31_11_611.txt
+PS00100,"...sporters, receptors, etc. For example, descriptor PS00100, which represents the sequence pattern com...",24,586,BMC_Genomics_2012_Apr_27_13_157.txt
+PS51007,"...nizable c-type cytochrome PROSITE profiles (i.e., PS51007, PS51008, PS51009, and PS51010) were elimi...",34,1049,BMC_Genomics_2012_May_22_13_200.txt
+PS51008,"...-type cytochrome PROSITE profiles (i.e., PS51007, PS51008, PS51009, and PS51010) were eliminated fro...",34,1058,BMC_Genomics_2012_May_22_13_200.txt
+PS51009,"...ochrome PROSITE profiles (i.e., PS51007, PS51008, PS51009, and PS51010) were eliminated from further...",34,1067,BMC_Genomics_2012_May_22_13_200.txt
+PS51010,"...TE profiles (i.e., PS51007, PS51008, PS51009, and PS51010) were eliminated from further analysis. Tr...",34,1080,BMC_Genomics_2012_May_22_13_200.txt
+PS00597,"...e. 86 cases) of them shared in common the pattern PS00597, that is",109,253,BMC_Genomics_2012_Jan_17_13(Suppl_1)_S9.txt
+PS50076,"...e, our results showed that the J-domain (PF00226, PS50076) of DnaJ/Hsp40 was the binding site for Dn...",208,554,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS00017,...00071) and ATP/GTP-binding site motif A (P-loop) (PS00017) of the small GTPase Ran were potential in...,219,367,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS00017,"...S7). Furthermore, in addition to Rac (PF00071 and PS00017, PS51420), MAPK6 (PF00069 and PS50011, PS0...",229,932,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS51420,"...hermore, in addition to Rac (PF00071 and PS00017, PS51420), MAPK6 (PF00069 and PS50011, PS00108, PS0...",229,941,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS50011,"...PF00071 and PS00017, PS51420), MAPK6 (PF00069 and PS50011, PS00108, PS00107, PS01351) also contained...",229,970,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS00108,"...nd PS00017, PS51420), MAPK6 (PF00069 and PS50011, PS00108, PS00107, PS01351) also contained potentia...",229,979,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS00107,"...7, PS51420), MAPK6 (PF00069 and PS50011, PS00108, PS00107, PS01351) also contained potential binding...",229,988,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS01351,"...0), MAPK6 (PF00069 and PS50011, PS00108, PS00107, PS01351) also contained potential binding sites fo...",229,997,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS00674,"... S8). The AAA-protein family signatures (PF00004, PS00674) of FtsH proteins were identified as poten...",234,492,BMC_Genomics_2014_May_7_15(1)_344.txt
+PS50893,...he ScanProSite facility [121] and Prosite profile PS50893; ( )2 indicates that the T. urticae ABC pr...,137,188,BMC_Genomics_2013_May_10_14_317.txt
+PS50893,...canProsite facility [121] and the Prosite profile PS50893. T. urticae ABC protein NBDs were aligned ...,279,1003,BMC_Genomics_2013_May_10_14_317.txt
+PS00017,"...ive ATP/GTP-binding sites (P-loop) motif (prosite PS00017: consensus sequence TGxGKS), which were un...",195,214,BMC_Genomics_2013_Aug_30_14_594.txt
+PDOC00015,...Bipartite NLSs were defined as those matching the PDOC00015 prosite profile (two adjacent basic amin...,95,125,BMC_Genomics_2016_Jun_24_17_472.txt
+PS00441,...and the consensus pattern of CHS/STS active site [PS00441] were obtained from PROSITE (http://prosit...,318,187,BMC_Genomics_2016_Aug_4_17_540.txt
+PS01033,...ith the globin classified at the PROSITE entry as PS01033. Two metal binding residues are also prese...,217,217,BMC_Immunol_2011_Dec_28_12_69.txt
+PS01095,...VMF] - [DN] - [LIVMF] - [DN] - x - E (Prosite no. PS01095) being variant at one position (Additional...,45,726,BMC_Microbiol_2009_Aug_31_9_184.txt
+PS51257,"... pattern, and residues D17 to D21 (CITAC) hit the PS51257 pattern (Figure 3A) [27], which suggested ...",32,420,BMC_Microbiol_2010_Dec_1_10_309.txt
+PS51257,"...n, and amino acid residues D17 to D21 (CITAC) hit PS51257 pattern. The symbol \"<\" indicates that the...",34,310,BMC_Microbiol_2010_Dec_1_10_309.txt
+PS00629,"...List/. Reported Prosite motifs are 1 (N-terminal; PS00629): [FWV]-x(0,1)- [LIVM]-D-P- [LIVM]-D- [SG]...",198,377,BMC_Microbiol_2010_Feb_18_10_50.txt
+PS00630,... [ST]-x(2)- [FY]-x- [HKRNSTY]; and 2 (C-terminal; PS00630): [WYV]-D-x- [AC]- [GSA]- [GSAPV]-x- [LIVF...,198,478,BMC_Microbiol_2010_Feb_18_10_50.txt
+PS00451,...ed to have NTPase activity and the Bet v 1 motif [PS00451] characteristic of proteins from the Bet v...,15,752,BMC_Plant_Biol_2010_Aug_20_10_184.txt
+PS00451,"...elated proteins Bet v 1 family (Prosite accession PS00451)[3,9]. The predictive three-dimensional st...",84,1205,BMC_Plant_Biol_2010_Aug_20_10_184.txt
+PS50090,"...ity of our results, we performed PROSITE profile (PS50090) and simple modular architecture research ...",27,82,BMC_Plant_Biol_2012_Jul_9_12_106.txt
+PS50090,"... PROSITE (http://prosite.expasy.org/scanprosite/, PS50090) R repeats [14,72]. The final set of prote...",476,228,BMC_Plant_Biol_2014_May_18_14_135.txt
+PS00375,"...ROSITE (http://prosite.expasy.org/, Accession no. PS00375) and searched against the Nr unigene set u...",95,392,BMC_Plant_Biol_2015_Jun_12_15_138.txt
+PS50099,"...e proline rich function unknown, accession number PS50099 [28,29]; and are discussed in the text. Ho...",53,1502,BMC_Res_Notes_2013_May_9_6_189.txt
+PS00171,"...in and the structural location of a PROSITE motif PS00171 (Figure 4), which was analyzed as having t...",37,1084,BMC_Struct_Biol_2009_Dec_14_9_73.txt
+PS00171,"...he most frequently occurred PROSITE motif (entry: PS00171, pattern: [AVG]- [YLV]-E-P- [LIVMEPKST]- [...",39,154,BMC_Struct_Biol_2009_Dec_14_9_73.txt
+PS01259,...eishmania genus using the central region from the PS01259 motif signature (L-[KARQ]-x-[IVAL]-G-D-[DE...,17,549,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,...010702776). The sequence logo26 for ProSite entry PS01259 and a multiple sequence alignment of the p...,17,1187,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,"...ukaryotes reveals that very few of them match the PS01259 pattern exactly. In fact, the recall rate ...",17,1821,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,...ging to the BH3 domain (positions 5 and 10 in the PS01259 motif) were replaced by Lys (Li-BH3AQPL287...,39,447,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,...LQNLGDEV sequence as the second best match to the PS01259 signature motif in the Leishmania genome. ...,46,640,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,...[KARQ]-x-[IVAL]-G-D-[DESG]-[LIMFV] (Prosite entry PS01259) was used as the query sequence. After ide...,57,472,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,...hes the BH3 consensus pattern. (a) Weblogo of the PS01259 pattern highlighting the strongly conserve...,123,97,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,"...d residues show highly conserved positions in the PS01259 pattern. Gray, hydrophobic residues; green...",123,398,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PS01259,PROSITE. Available at: http://prosite.expasy.org/PS01259. Last accessed date 1 May 2016,192,50,Cell_Death_Discov_2016_Jul_4_2_16043.txt
+PDOC50878,...ted using prosite accession numbers PDSC50507 and PDOC5087,20,1784,Cell_Mol_Life_Sci_2014_Aug_1_71(22)_4403-4420.txt
+PS00014,"... was used to scan ER targeting sequence (Prosite: PS00014) (30). With each of the programs, the defa...",18,761,Database_(Oxford)_2011_Feb_3_2011_bar001.txt
+PS00014,"...asmic reticulum (ER) targeting sequence (Prosite: PS00014) (26, 27). Proteins having one or more mem...",24,815,Database_(Oxford)_2015_Aug_8_2015_bav077.txt
+PS00014,... by SignalP 4.0 and an ER target signal (Prosite: PS00014) by PS-Scan often are luminal ER proteins,35,305,Database_(Oxford)_2015_Aug_8_2015_bav077.txt
+PS00012,"...serve as negative examples (See PROSITE_positives_PS000125.fasta, PROSITE_negatives_PS000125.fasta, ...",53,429,F1000Res_2015_May_29_4_60.txt
+PS00012,"...OSITE_positives_PS000125.fasta, PROSITE_negatives_PS000125.fasta, PROSITE_positives_PS00028.fasta, P...",53,463,F1000Res_2015_May_29_4_60.txt
+PS00028,"...OSITE_negatives_PS000125.fasta, PROSITE_positives_PS00028.fasta, PROSITE_negatives_PS00028.fasta). T...",53,497,F1000Res_2015_May_29_4_60.txt
+PS00028,"...ROSITE_positives_PS00028.fasta, PROSITE_negatives_PS00028.fasta). The most current PROSITE records a...",53,530,F1000Res_2015_May_29_4_60.txt
+PS00125,...ords available at the time were used (See PROSITE_PS00125.txt and PROSITE_PS00028.txt),53,624,F1000Res_2015_May_29_4_60.txt
+PS00028,...me were used (See PROSITE_PS00125.txt and PROSITE_PS00028.txt),53,648,F1000Res_2015_May_29_4_60.txt
+PS00012,Data file 1 Title: Data File PROSITE_positives_PS000125.fasta. Legend: Sequence file in FASTA for...,241,48,F1000Res_2015_May_29_4_60.txt
+PS00012,Data file 2 Data File PROSITE_negatives_PS000125.fasta. Sequence file in FASTA format of a...,243,41,F1000Res_2015_May_29_4_60.txt
+PS00028,Data file 3 Data File PROSITE_positives_PS00028.fasta. Sequence file in FASTA format of al...,245,41,F1000Res_2015_May_29_4_60.txt
+PS00028,Data file 4 Data File PROSITE_negatives_PS00028.fasta. Sequence file in FASTA format of al...,247,41,F1000Res_2015_May_29_4_60.txt
+PS00125,Data file 5 Data File PROSITE_PS00125.txt. PROSITE record used for the ser/thr p...,249,31,F1000Res_2015_May_29_4_60.txt
+PS00028,Data file 6 Data File PROSITE_PS00028.txt. PROSITE record used for the zinc fing...,251,31,F1000Res_2015_May_29_4_60.txt
+PS00125,Data file 9 Data File PILGram_PATTERNS_PS00125.txt. Regular expression generated by PILGr...,257,40,F1000Res_2015_May_29_4_60.txt
+PS00125,Data file 10 Data File PS00125_alignments.out. Sequence alignments of PIL...,259,24,F1000Res_2015_May_29_4_60.txt
+PS00028,Data file 11 Data File PILGram_PATTERNS_PS00028.txt. Regular expressions generated by PILG...,261,41,F1000Res_2015_May_29_4_60.txt
+PS00028,Data file 12 Data File PS00028_alignments.out. Sequence alignments of PIL...,263,24,F1000Res_2015_May_29_4_60.txt
+PS00125,...the serine-threonine phosphatase pattern (PROSITE PS00125) by obtaining 166 sequences listed as true...,276,256,F1000Res_2015_May_29_4_60.txt
+PS00125,...y as well (See Supplemental Data PILGram_PATTERNS_PS00125.txt). I,280,372,F1000Res_2015_May_29_4_60.txt
+PS00125,"...sitive examples are included as Supplemental Data PS00125_alignments.out. However, the PILGram patte...",281,259,F1000Res_2015_May_29_4_60.txt
+PS00125,PS0012,286,1,F1000Res_2015_May_29_4_60.txt
+PS00028,"...ted pattern and so chose the zinc finger pattern (PS00028), which is a somewhat variable arrangement...",293,231,F1000Res_2015_May_29_4_60.txt
+PS00125,Q9LHE7	PS00125,297,8,F1000Res_2015_May_29_4_60.txt
+PS00125,P12982	PS00125,305,8,F1000Res_2015_May_29_4_60.txt
+PS00125,A2XN40	PS00125,313,8,F1000Res_2015_May_29_4_60.txt
+PS00028,"Table 3; Supplemental Data PILGram_PATTERNS_PS00028.txt) vary in composition and accuracy, wit...",322,45,F1000Res_2015_May_29_4_60.txt
+PS00028,PS0002,327,1,F1000Res_2015_May_29_4_60.txt
+PS00028,...or the zinc finger domain (represented in PROSITE PS00028) were counted (X axis) and accuracy (Y axi...,348,109,F1000Res_2015_May_29_4_60.txt
+PS00028,"... PILGram patterns match each residue of the known PS00028 pattern, whereas the number of patterns ma...",350,417,F1000Res_2015_May_29_4_60.txt
+PS00028,...sitive examples are provided as Supplemental Data PS00028_alignments.out,351,386,F1000Res_2015_May_29_4_60.txt
+PS00028,Q24174	PS00028,355,8,F1000Res_2015_May_29_4_60.txt
+PS00028,Q59RR0	PS00028,397,8,F1000Res_2015_May_29_4_60.txt
+PS00125,"...at on Mar 17, 2015 shows 198 positive matches for PS00125, and I'm assuming 2018 (hard to tell from ...",902,94,F1000Res_2015_May_29_4_60.txt
+PS00028,"...018 (hard to tell from file) positive matches for PS00028, versus 166 and 1997 sequences mentioned i...",902,171,F1000Res_2015_May_29_4_60.txt
+PS00125,...d for both positive and negative examples for the PS00125 and PS00028 PROSITE patterns,1033,94,F1000Res_2015_May_29_4_60.txt
+PS00028,...ositive and negative examples for the PS00125 and PS00028 PROSITE patterns,1033,106,F1000Res_2015_May_29_4_60.txt
+PDOC00531,"...res were retrieved from http://prosite.expasy.org/PDOC00531. For multiple sequence alignments, Clust...",44,513,Front_Bioeng_Biotechnol_2015_Jun_3_3_76.txt
+PDOC00531,...utions indicated below (http://prosite.expasy.org/PDOC00531). Corresponding amino acids are shown in...,108,331,Front_Bioeng_Biotechnol_2015_Jun_3_3_76.txt
+PDOC00531,6http://prosite.expasy.org/PDOC0053,204,28,Front_Bioeng_Biotechnol_2015_Jun_3_3_76.txt
+PS00213,5http://prosite.expasy.org/PS0021,139,28,Front_Immunol_2013_Dec_30_4_492.txt
+PS00279,... members of the MACPF family (see Prosite entries PS00279 and PDOC00251 at http://prosite.expasy.org...,23,897,Front_Immunol_2016_Nov_3_7_464.txt
+PDOC00251,...the MACPF family (see Prosite entries PS00279 and PDOC00251 at http://prosite.expasy.org),23,909,Front_Immunol_2016_Nov_3_7_464.txt
+PS00198,"...(Sigrist et al., 2013). Three consensus patterns (PS00198, PS00455, PS00143) were removed because of...",69,1512,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00455,"...et al., 2013). Three consensus patterns (PS00198, PS00455, PS00143) were removed because of their lo...",69,1521,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00143,"...013). Three consensus patterns (PS00198, PS00455, PS00143) were removed because of their low specifi...",69,1530,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00059,Pattern	PS00059	15	–,142,9,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00061,PS00061	3	–,143,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,PS00136	3	–,144,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,PS00137	1	–,145,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,PS00138	2	–,146,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00141,PS00141	11	–,147,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00501,PS00501	6	–,148,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00060,PS00060	PS00913	4	Pat 1	Fe—ADH [1.1.1.1],149,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00913,PS00060	PS00913	4	Pat 1	Fe—ADH [1.1.1.1],149,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00062,PS00062	PS00063	PS00798	19	Pat 2	dkgA [1.1.1.274],150,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00063,PS00062	PS00063	PS00798	19	Pat 2	dkgA [1.1.1.274],150,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00798,PS00062	PS00063	PS00798	19	Pat 2	dkgA [1.1.1.274],150,18,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00065,PS00065	PS00670	PS00671	27	Pat 3	Glyoxylate red. [...,151,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00670,PS00065	PS00670	PS00671	27	Pat 3	Glyoxylate red. [1.1.1.26...,151,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00671,PS00065	PS00670	PS00671	27	Pat 3	Glyoxylate red. [1.1.1.26],151,18,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00381,PS00381	PS00382	2	Pat 4	Clp protease [3.4.21.92],152,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00382,PS00381	PS00382	2	Pat 4	Clp protease [3.4.21.92],152,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00490,PS00490	PS00551	PS00932	11	Pat 5	Molybdopt. OR [e....,153,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00551,"PS00490	PS00551	PS00932	11	Pat 5	Molybdopt. OR [e.g., 1.2....",153,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00932,"PS00490	PS00551	PS00932	11	Pat 5	Molybdopt. OR [e.g., 1.2.2.1]",153,18,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00090,PS00090	PS00699	10	Pat 6	Nitrogenase [1.18.6.1],154,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00699,PS00090	PS00699	10	Pat 6	Nitrogenase [1.18.6.1],154,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00692,PS00692	PS00746	7	Pat 7,155,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00746,PS00692	PS00746	7	Pat 7,155,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,PS00136	PS00137	2	Pat 8	Subtilisin [3.4.21.*],156,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,PS00136	PS00137	2	Pat 8	Subtilisin [3.4.21.*],156,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,PS00136	PS00138	4	Pat 9,157,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,PS00136	PS00138	4	Pat 9,157,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,PS00137	PS00138	1	Pat 10,158,2,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,PS00137	PS00138	1	Pat 10,158,10,Front_Microbiol_2014_Apr_7_5_134.txt
+PS01298,Profile and Pattern	GO:0008839	PS01298	14	PP 1	DHPR [1.3.1.26],159,32,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,"...et. For example pattern sets with combinations of PS00136 and PS00137, PS00136, and PS00138 or PS001...",167,305,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,"...ple pattern sets with combinations of PS00136 and PS00137, PS00136, and PS00138 or PS00137 and PS001...",167,317,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,"...rn sets with combinations of PS00136 and PS00137, PS00136, and PS00138 or PS00137 and PS00138 are al...",167,326,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,"...combinations of PS00136 and PS00137, PS00136, and PS00138 or PS00137 and PS00138 are all indicative ...",167,339,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,"...s of PS00136 and PS00137, PS00136, and PS00138 or PS00137 and PS00138 are all indicative of subtilas...",167,350,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,"... and PS00137, PS00136, and PS00138 or PS00137 and PS00138 are all indicative of subtilase type serin...",167,362,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,...Reliability may be as low as 55% false positives (PS00136) or 90% false negatives (PS00065). A furth...,212,518,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00065,...false positives (PS00136) or 90% false negatives (PS00065). A further problem of pattern-based annot...,212,551,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,"...age, one of the strongest pattern combinations is PS00136–PS00138. If a protein includes at least tw...",212,1715,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,... of the strongest pattern combinations is PS00136–PS00138. If a protein includes at least two of the...,212,1723,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00059,PS00059	Zinc-containing AD signature	491	97.4	2.6	...,217,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00061,PS00061	Short-chain DHR family signature	720	82.5	...,218,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00065,PS00065	NAD-binding 2-hydroxyacid DH signature	235...,219,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00136,"PS00136	Subtilase family, aspartic acid active sit...",220,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00137,"PS00137	Subtilase family, histidine active site	20...",221,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00138,"PS00138	Subtilase family, serine active site	261	8...",222,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00671,PS00671	NAD-binding 2-hydroxyacid DH signature 3	3...,223,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00913,PS00913	Iron-containing ADH signature 1	42	81.0	19...,224,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS01298,PS01298	DHPR signature	541	100.0	0.0	19	3.5,225,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00162,PS00162	A-CA signature	64	100.0	0.0	32	50.0,226,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00704,PS00704	Prokaryotic-type CA signature 1	22	95.5	4....,227,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00705,PS00705	Prokaryotic-type CA signature 2	25	100.0	0...,228,1,Front_Microbiol_2014_Apr_7_5_134.txt
+PS00014,...Leu) in the C-terminal region (prosite accession “PS00014”) with PS-SCAN (version 1.79). Annotation ...,215,1019,Front_Microbiol_2015_Nov_18_6_1278.txt
+PS51371,...g to the CBS logo plot unlike the other residues (PS513716). This marks the importance of this glyci...,84,391,Front_Microbiol_2016_Nov_25_7_1888.txt
+PS51371,...e.expasy.org/cgi-bin/prosite/sequence_logo.cgi?ac=PS5137,137,66,Front_Microbiol_2016_Nov_25_7_1888.txt
+PS00028,...Zinc_Finger_C2H2 motif (http://prosite.expasy.org/PS00028) containing four well-spaced Cys and His r...,133,542,Front_Plant_Sci_2014_Mar_12_5_84.txt
+PS01351,"... TAİR (http://www.arabidopsis.org/). MAPK domain (PS01351), ATP-binding domain (PS00107), protein ki...",34,474,Front_Plant_Sci_2015_Jul_22_6_556.txt
+PS00107,"...org/). MAPK domain (PS01351), ATP-binding domain (PS00107), protein kinase domain (PS50011), serine/...",34,504,Front_Plant_Sci_2015_Jul_22_6_556.txt
+PS50011,"...-binding domain (PS00107), protein kinase domain (PS50011), serine/threonine protein kinase active s...",34,537,Front_Plant_Sci_2015_Jul_22_6_556.txt
+PS00108,"...11), serine/threonine protein kinase active site (PS00108) were identified in the sequences of polyp...",34,592,Front_Plant_Sci_2015_Jul_22_6_556.txt
+PDOC00937,"...or AMTs has been defined corresponding to Prosite PDOC00937, InterPro IPR001905, and Pfam 00909. The...",71,130,Front_Plant_Sci_2016_May_25_7_679.txt
+PS00135,"...PASy proteomics server, the prosite documentation PS00135 of serine proteases belonging to the tryps...",21,127,Genomics_Proteomics_Bioinformatics_2010_Jun_4_8(2)_103-112.txt
+PS01256,"...IVM]-x-R-x(5,7)-[FYLV]-x-Y-x-[SAT]; PROSITE entry PS01256, http://prosite.expasy.org/), located betw...",15,2245,PMC5243919.txt
+PS50217,...a bZIP domain as defined in the prosite database (PS50217 –Table 4). Only one ORF (GB11585) was retr...,142,708,Insect_Mol_Biol_2006_Oct_15(5)_551-561.txt
+PS50217,...o acids of the bZIP domain as defined by prosite (PS50217) within the honeybee protein,157,69,Insect_Mol_Biol_2006_Oct_15(5)_551-561.txt
+PS00137,"...nd exhibited a triosephosphate isomerase pattern (PS001371). Eight B cell epitopes (11–18, 30–35, 71...",18,1135,Int_J_Genomics_2014_May_8_2014_483905.txt
+PS00171,"..., we found that Der f 25 exhibited a TPI pattern, PS00171 (162–172, AYEPVWAIGTG) (Figure 2). Phospho...",65,104,Int_J_Genomics_2014_May_8_2014_483905.txt
+PS51509,"...teristic patterns of phosphagen kinase, including PS51509 (phosphagen kinase N-terminal domain profi...",76,484,Int_J_Mol_Med_2016_Dec_27_38(6)_1795-1805.txt
+PS51510,...(phosphagen kinase N-terminal domain profile) and PS51510 (phosphagen kinase C-terminal domain profi...,76,542,Int_J_Mol_Med_2016_Dec_27_38(6)_1795-1805.txt
+PS00112,"...agen kinase C-terminal domain profile). Moreover, PS00112 was contained in PS51510 and consisted of ...",76,607,Int_J_Mol_Med_2016_Dec_27_38(6)_1795-1805.txt
+PS51510,"...main profile). Moreover, PS00112 was contained in PS51510 and consisted of CPTNLGT, which was the ac...",76,632,Int_J_Mol_Med_2016_Dec_27_38(6)_1795-1805.txt
+PS00108,"...ed a serine/threonine protein kinase active site (PS00108), a protein kinase domain (PS50011) and a ...",18,777,Int_J_Mol_Sci_2013_Sep_11_14(9)_18740-18757.txt
+PS50011,"...e active site (PS00108), a protein kinase domain (PS50011) and a protein kinase ATP-binding region (...",18,812,Int_J_Mol_Sci_2013_Sep_11_14(9)_18740-18757.txt
+PS00107,...PS50011) and a protein kinase ATP-binding region (PS00107). These characteristic features suggested ...,18,862,Int_J_Mol_Sci_2013_Sep_11_14(9)_18740-18757.txt
+PS00107,"...UP:P05132, we find links to four PROSITE entries, PS00107, PS00108, PS50011, PS51285. Then, retrievi...",209,766,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS00108,"..., we find links to four PROSITE entries, PS00107, PS00108, PS50011, PS51285. Then, retrieving the PR...",209,775,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS50011,"... links to four PROSITE entries, PS00107, PS00108, PS50011, PS51285. Then, retrieving the PROSITE ent...",209,784,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS51285,"... four PROSITE entries, PS00107, PS00108, PS50011, PS51285. Then, retrieving the PROSITE entries at t...",209,793,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS00107,"...n Bio2RDF (e.g., <http://purl.uniprot.org/prosite/PS00107> is redirected to <http://bio2rdf.org/pros...",209,1274,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS00107,...107> is redirected to <http://bio2rdf.org/prosite:PS00107>). Redirections from UniProt PURLs to Bio2...,209,1328,J_Biomed_Semantics_2015_Jan_7_6_3.txt
+PS00889,"... proteins, the data were downloaded from Prosite (PS00889; CNMP_BINDING_2) [19,20]. (D) A phylogenet...",224,1733,J_Cardiovasc_Dev_Dis_2016_Jun_15_3(2)_22.txt
+PS51013,"...se proteins “pannexins” (PROSITE accession number PS51013; www.expasy.org/prosite). Three genes, pan...",20,868,J_Cell_Biol_2006_Aug_14_174(4)_535-546.txt
+PDOC00029,"...diate protein–protein interaction (Prosite entry: PDOC00029), several potential transmembrane helice...",52,1047,J_Cell_Biol_2003_Nov_10_163(3)_597-607.txt
+PS50859,...VAMP7 family member: an N-terminal longin domain (PS50859); a coiled-coil v-SNARE domain with argini...,49,503,J_Exp_Bot_2012_May_16_63(8)_3083-3095.txt
+PS50892,...v-SNARE domain with arginine at the ‘zero’ layer (PS50892); and a C-terminal transmembrane domain se...,49,577,J_Exp_Bot_2012_May_16_63(8)_3083-3095.txt
+PDOC50099,... (http://www.expasy.org/cgi-bin/prosite-search-ac?PDOC50099 and http://us.expasy.org/prosite/PS50324...,54,298,J_Immunol_Res_2014_Apr_24_2014_649075.txt
+PS50324,...rch-ac?PDOC50099 and http://us.expasy.org/prosite/PS50324). It is serine rich protein sequences invo...,54,341,J_Immunol_Res_2014_Apr_24_2014_649075.txt
+PS00941,"...ww.uniprot.org/uniprot/?by=taxonomy&query=prosite+PS00941#35237, 2759, 33208, 119089, 6656, 6939, 69...",14,275,J_Insect_Sci_2010_Jul_11_10_102.txt
+PS50325,...les with a high probability of occurrence (Entry: PS50325) based on ScanProsite analysis http://www....,79,196,Microb_Cell_Fact_2010_May_14_9_33.txt
+PS50079,...tNLS/) and Prosite (http://www.expasy.org/prosite/PS50079). Protein alignments were performed with s...,65,160,Mol_Biol_Cell_2010_Mar_1_21(5)_753-766.txt
+PS50240,ACT_SITE	26	PS50240/TRYPSIN_DOM,93,13,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS51007,BINDING	8	PS51007/CYTC,94,11,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50222,CA_BIND	1	PS50222/EF_HAND_2,95,11,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50015,CARBOHYD	2	PS50015/SAP_B,96,12,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50948,DISULFID	45	PS50948/PAN,97,13,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS51063,DNA_BIND	17	PS51063/HTH_CRP_2,98,13,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50873,METAL	24	PS50873/PEROXIDASE_4,99,10,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS51149,MOD_RES	20	PS51149/GLY_RADICAL_2,100,12,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50936,NP_BIND	9	PS50936/ENGC_GTPASE,101,11,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS51062,SITE	2	PS51062/RUNT,102,8,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50115,ZN_FING	6	PS50115/ARFGAP,103,11,Nucleic_Acids_Res_2006_Jul_1_34(Web_Server_issue)_W362-W365.txt
+PS50292,...roteins matched by the animal peroxidase profile (PS50292) on the ScanProsite web page. It can annot...,11,247,Nucleic_Acids_Res_2008_Jan_14_36(Database_issue)_D245-D249.txt
+PS51192,...like for example the ATP-binding helicase domain (PS51192) and the C-terminal helicase domain (PS511...,30,221,Nucleic_Acids_Res_2008_Jan_14_36(Database_issue)_D245-D249.txt
+PS51194,...ain (PS51192) and the C-terminal helicase domain (PS51194). A PROSITE profile can be promoted by one...,30,266,Nucleic_Acids_Res_2008_Jan_14_36(Database_issue)_D245-D249.txt
+PS50808,...rver.vital-it.ch/das/prositealign/alignment?query=PS50808),54,81,Nucleic_Acids_Res_2010_Jan_25_38(Database_issue)_D161-D166.txt
+PS51375,"... loop before helix A (http://expasy.org/prosite/, PS51375; 34th aa for the Pfam, Asp of S to L2 in F...",40,791,Nucleic_Acids_Res_2012_Mar_29_40(6)_2712-2723.txt
+PS51375,... numbering are coincident with the PROSITE model (PS51375). The helix and loop structure is schemati...,41,358,Nucleic_Acids_Res_2012_Mar_29_40(6)_2712-2723.txt
+PS50122,"...ors in ScanProsite. The PROSITE profiles used are PS50122 (CHEB), PS50123 (CHER) and PS50110 (RESPON...",56,86,Nucleic_Acids_Res_2013_Jan_17_41(Database_issue)_D344-D347.txt
+PS50123,"...te. The PROSITE profiles used are PS50122 (CHEB), PS50123 (CHER) and PS50110 (RESPONSE_REGULATORY). ...",56,102,Nucleic_Acids_Res_2013_Jan_17_41(Database_issue)_D344-D347.txt
+PS50110,"...files used are PS50122 (CHEB), PS50123 (CHER) and PS50110 (RESPONSE_REGULATORY). The matched archite...",56,121,Nucleic_Acids_Res_2013_Jan_17_41(Database_issue)_D344-D347.txt
+PS00014,"...m lumen retention signal (KDEL motif, Prosite ID: PS00014) using ScanProSite (http://prosite.expasy....",27,1424,Parasit_Vectors_2015_Jan_7_8_7.txt
+PS50109,"...nt ortholog sequences for each protein domain (HK—PS50109 PROSITE Domain, RR—PS50110 PROSITE Domain ...",34,267,PeerJ_2015_Aug_13_3_e1183.txt
+PS50110,"...ach protein domain (HK—PS50109 PROSITE Domain, RR—PS50110 PROSITE Domain and HPt—PS50894 PROSITE Dom...",34,294,PeerJ_2015_Aug_13_3_e1183.txt
+PS50894,"...PROSITE Domain, RR—PS50110 PROSITE Domain and HPt—PS50894 PROSITE Domain) from PROSITE. We then used...",34,325,PeerJ_2015_Aug_13_3_e1183.txt
+PS00014,"...9, http://www.ebi.ac.uk/interpro/entry/IPR011679; PS00014, http://prosite.expasy.org/PS00014) and no...",31,194,Plant_Methods_2015_Jan_16_11_2.txt
+PS00014,"...try/IPR011679; PS00014, http://prosite.expasy.org/PS00014) and no more than one trans-membrane domai...",31,229,Plant_Methods_2015_Jan_16_11_2.txt
+PS00018,...ween consensus catalytic sites from UBC (PROSITE: PS000183) and soybean GmUBC2. The catalytic cystei...,58,1960,Plant_Mol_Biol_2010_Mar_26_72(4-5)_357-367.txt
+PS00061,....org/prosite/) accession number for human CBR1 is PS00061. The Protein Data Bank (http://www.rcsb.or...,287,201,PLoS_Biol_2005_May_5_3(5)_e128.txt
+PS51257,...mbrane lipoprotein lipid attachment site motif is PS51257,286,142,PLoS_Genet_2007_May_18_3(5)_e75.txt
+PS00014,...asy.org/scanprosite/) [60] with Prosite accession PS00014. The remaining proteins were considered se...,185,878,PLoS_Genet_2014_Oct_16_10(10)_e1004662.txt
+PS50804,...ine to the end of a leucine-rich domain (prosite: PS50804); and H395R (Broad Institute) modification...,172,881,PLoS_Med_2016_Dec_6_13(12)_e1002162.txt
+PS50072,"...lophilin-like domain (CLD, Prosite access number: PS50072). The CLD carries the peptidylprolyl isome...",18,204,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50072,"...ilin-like domain, CLD, (Prosite accession number: PS50072, FY-xx-STCNLVA-x-FV-H-RH-LIVMNS-LIVM-xx-F-...",66,472,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50072,...accession numbers of the domains are: CSA_PPIASE: PS50072; FKBP_PPIASE: PS50059; PPIC_PPIASE: PS0109...,101,186,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50059,...he domains are: CSA_PPIASE: PS50072; FKBP_PPIASE: PS50059; PPIC_PPIASE: PS01096; PROKAR_LIPOPR: PS51...,101,208,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS01096,...IASE: PS50072; FKBP_PPIASE: PS50059; PPIC_PPIASE: PS01096; PROKAR_LIPOPR: PS51257; TPR: PS50005; FHA...,101,230,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS51257,...SE: PS50059; PPIC_PPIASE: PS01096; PROKAR_LIPOPR: PS51257; TPR: PS50005; FHA: PS50006. Sequences fla...,101,254,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50005,...PIC_PPIASE: PS01096; PROKAR_LIPOPR: PS51257; TPR: PS50005; FHA: PS50006. Sequences flanking the PPIa...,101,268,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50006,...01096; PROKAR_LIPOPR: PS51257; TPR: PS50005; FHA: PS50006. Sequences flanking the PPIase domain were...,101,282,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS50005,"...ide repeat domains (TPR, prosite accession number PS50005) known to interact with HSP90 [48]–[51]",107,1149,PLoS_Negl_Trop_Dis_2010_Jun_29_4(6)_e729.txt
+PS01031,...HSPs are associated with the PROSITE [30] profile PS01031 [15]. This profile is based on a sequence ...,23,292,PLoS_One_2010_Apr_7_5(4)_e9990.txt
+PS01031,"...ll heat shock protein”, family: “HSP20”, “prosite PS01031”, and “pfam PF00011”. The annotations “sma...",48,252,PLoS_One_2010_Apr_7_5(4)_e9990.txt
+PS01031,...uences were included in our dataset. The “prosite PS01031” and “pfam PF00011” annotations were assig...,48,514,PLoS_One_2010_Apr_7_5(4)_e9990.txt
+PS01031,“prosite PS01031”	4499	92,54,10,PLoS_One_2010_Apr_7_5(4)_e9990.txt
+PS01031,"...mall heat shock protein, family:“HSP20”, “prosite PS01031” and “pfam PF0011”. The first two are comm...",137,186,PLoS_One_2010_Apr_7_5(4)_e9990.txt
+PS50049,... their conserved TNF_2 protein domain (domain ID: PS50049) using PROSITE [87] (Table S5). Eight memb...,193,255,PLoS_One_2012_Mar_20_7(3)_e33091.txt
+PS50030,...//expasy.org/cgi-bin/prosite/sequence_logo.cgi?ac=PS50030. Stack heights represent conservation at a...,46,298,PLoS_One_2012_Mar_23_7(3)_e34231.txt
+PS50805,"... the KRAB domain (PF01352, IPR001909, SM00349 and PS50805, respectively), and using these as filters...",33,380,PLoS_One_2013_Feb_22_8(2)_e56721.txt
+PS50805,"...Pro (IPR001909, www.ebi.ac.uk/interpro), Prosite (PS50805, http://www.expasy.org/prosite) and SMART ...",106,160,PLoS_One_2013_Feb_22_8(2)_e56721.txt
+PS51375,"...5668 individual PPR motifs (PROSITE accession no. PS51375). Residues 1, 4, and “ii” (position -2) we...",34,131,PLoS_One_2013_Mar_5_8(3)_e57286.txt
+PS50294,"...possessing WD regions proximal to the N-terminus (PS50294, PS50082) and a transmembrane region in th...",71,743,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50082,"...g WD regions proximal to the N-terminus (PS50294, PS50082) and a transmembrane region in the C-termi...",71,752,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS00001,"...inus (ARAMEMNON), as well as glycosylation sites (PS00001). Interestingly, the glycosylation sites o...",71,851,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50191,"...ained 22 proteins with a single CRAL_TRIO domain (PS50191), designated SEC14 homologues in accordanc...",103,316,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50011,"...nd them to have a protein kinase domain (PF00069, PS50011) for Sec31a, and an Nsp1 domain (PF05064) ...",106,1072,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50866,...eceptors we searched for the GOLD domain profile (PS50866) in proteins included in the chloroplast T...,109,336,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50191,"...stead an additional domain (the CRAL_TRIO domain; PS50191), involved in vesicle budding and biogenes...",113,411,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50913,"... domain profiles were retrieved: the GRIP domain (PS50913, PF10375), and RINTI/TIP20 domain profile ...",168,605,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS51386,"...S50913, PF10375), and RINTI/TIP20 domain profile (PS51386, PF04437). When the TAIR dataset was scann...",168,656,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50192,"...and using Prosite we identified a t-SNARE domain (PS50192), and a scan of the Arabidopsis chloroplas...",190,274,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50192,"...30, has two domains – the t-SNARE domain profile (PS50192 and PF05739) and the syntaxin domain profi...",202,119,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS00914,...192 and PF05739) and the syntaxin domain profile (PS00914 and PF00804) – and has been named AtSYP21 ...,202,173,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50892,"...60 (Table 6) with three domain profiles (v-SNARE, PS50892: longin, PS50859; synaptobrevin, PS00417),...",204,154,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50859,"... three domain profiles (v-SNARE, PS50892: longin, PS50859; synaptobrevin, PS00417), whereas Pfam onl...",204,171,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS00417,"...v-SNARE, PS50892: longin, PS50859; synaptobrevin, PS00417), whereas Pfam only identified the longin ...",204,195,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50202,"...0 has a major sperm protein (MSP) domain profile (PS50202) according to Prosite (Figure 1, Table 6)....",209,523,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS51419,"...icle proteins in Prosite we found one Rab domain (PS51419) that, according to the TAIR chloroplast d...",212,221,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50086,"...P) that contains a Tre-2/Bub2/Cdc16 (TBC) domain (PS50086, PF00566), which is important for catalyti...",249,99,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50845,"...th Prosite and Pfam identified reticulon domains (PS50845, PF02453) in these proteins when scanning ...",252,398,PLoS_One_2013_Apr_1_8(4)_e59898.txt
+PS50079,... nuclear localization sequence (NLS; PROSITE code PS50079) in its Junction domain. The sequence of a...,76,150,PLoS_One_2013_Oct_23_8(10)_e76392.txt
+PS00018,...all four Ca2+ binding EF hand loops (PROSITE code PS00018) in its CaM-LD are conserved (Figure 2). F...,76,249,PLoS_One_2013_Oct_23_8(10)_e76392.txt
+PS00018,"...nd loop with a consensus 12-residue (PROSITE code PS00018), which is flanked on both sides by a 12-r...",76,1158,PLoS_One_2013_Oct_23_8(10)_e76392.txt
+PS50137,"...rminus double stranded RNA binding domain (DsRBD, PS50137) was absent in whitefly, as reported in T....",83,862,PLoS_One_2013_Dec_31_8(12)_e83692.txt
+PS50137,"...d two double stranded RNA binding domains (DSRBD, PS50137) in whitefly R2D2 (Figure 4a, Table 6). Mu...",128,408,PLoS_One_2013_Dec_31_8(12)_e83692.txt
+PDOC00018,...pattern at PROSITE [38](http://prosite.expasy.org/PDOC00018) was used to retrieve sequences of the E...,146,172,PLoS_One_2014_Apr_23_9(4)_e96202.txt
+PS00070,"...e) [58] searches. Likewise, the two active sites (PS00070 (cysteine active site) and PS00687 (glutam...",120,1168,PLoS_One_2014_Jul_2_9(7)_e101136.txt
+PS00687,... active sites (PS00070 (cysteine active site) and PS00687 (glutamic acid active site)) were checked ...,120,1203,PLoS_One_2014_Jul_2_9(7)_e101136.txt
+PS00455,"...howed that AMP-binding domain signatures (PROSITE PS00455), [LIVMFY]-[E]-[VES]-[STG]-[STAG]-G-[ST]-[...",68,135,PLoS_One_2014_Jul_3_9(7)_e100144.txt
+PS50236,...and a Clathrin heavy-chain (CHCR) repeat profile (PS50236) as identified in yeast (Table S1). The ch...,61,341,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00435,...eroxidases proximal heme-ligand signature domain (PS00435) as the γ subunit of AP1 in yeast (Table S...,75,541,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00867,...rbamoyl-phosphate synthase subdomain signature 2 (PS00867) identified using Prosite (Table S3),90,539,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50294,"...ex, with a Trp-Asp (WD) repeats circular profile (PS50294) and a Trp-Asp (WD) repeats profile (PS500...",129,263,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50082,"...ile (PS50294) and a Trp-Asp (WD) repeats profile (PS50082), which identifiey the β′ subunit in both ...",129,308,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50234,"...120 (Table 6), both having a VWFA domain profile (PS50234) (Table S8). ARAMEMNON strongly predicted ...",146,236,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS51072,"...t5g57460 with a Mu homology domain (MHD) profile (PS51072), an identifier of AP2 μ2, AP4 μ4, AP4 σ4,...",181,165,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS51417,"... proteins have a small GTPase Arf family profile (PS51417), and an ADP-ribosylation factor family (P...",184,387,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50236,"...637), Clathrin heavy-chain (CHCR) repeat profile (PS50236) domains and an Orn/DAP/Arg decarboxylases...",189,634,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00878,...arboxylases family 2 pyridoxal-P attachment site (PS00878) (Table S10),189,723,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00435,...ave a Peroxidases proximal heme-ligand signature (PS00435) (Table S10). Two putative AP2 β2 subunits...,218,256,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00867,...-phosphate synthase subdomain signature 2 domain (PS00867) (Table S10),218,552,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50082,...equired domains — a Trp-Asp (WD) repeats profile (PS50082) and a Trp-Asp (WD) repeats circular profi...,220,149,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50294,"...082) and a Trp-Asp (WD) repeats circular profile (PS50294) —for a functional B-COPI β′ subunit, wher...",220,203,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50234,"...ive F-COPI ζ subunit, with a VWFA domain profile (PS50234), in rice chloroplasts (Table 8, Table S10...",220,543,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50082,"...I β′ subunit, with a Trp-Asp (WD) repeats profile PS50082, Trp-Asp (WD) repeats circular profile (PS...",222,1026,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50294,"...e PS50082, Trp-Asp (WD) repeats circular profile (PS50294) and Trp-Asp (WD) repeats signature (PS006...",222,1074,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00678,"...ile (PS50294) and Trp-Asp (WD) repeats signature (PS00678). Finally, a candidate for all ARF groups ...",222,1119,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00435,"...alled Peroxidases proximal heme-ligand signature (PS00435), which was also found in five proteins in...",263,281,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00867,... found a characteristic domain of the β2 subunit (PS00867) in five chloroplast proteins: Putative H-...,268,80,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50234,"...systems (Table S8). It has a VWFA domain profile (PS50234), similar to von Willebrand factor type A ...",283,378,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS51417,...as both a small GTPase Arf family profile domain (PS51417) and an ADP-ribosylation factor family dom...,297,61,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50294,"...cterized. The domains identified in this protein (PS50294, PS50082 and PS00678) all refer to WD repe...",322,257,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS50082,"... The domains identified in this protein (PS50294, PS50082 and PS00678) all refer to WD repeats (Tabl...",322,266,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PS00678,"... identified in this protein (PS50294, PS50082 and PS00678) all refer to WD repeats (Table S10). WD r...",322,278,PLoS_One_2014_Aug_19_9(8)_e104423.txt
+PDOC00717,"... as defined by Prosite (http://prosite.expasy.org/PDOC00717) (S3 Fig.). Additionally, a search of F....",131,1193,PLoS_One_2015_Jan_28_10(1)_e0117087.txt
+PDOC00717,...y. Regions with identity to the Prosite trehalase PDOC00717 signature 1 (PGGRFxExYxWDxY)and signatur...,169,294,PLoS_One_2015_Jan_28_10(1)_e0117087.txt
+PS01360,...d SET domain is compared to the PROSITE signature PS01360 and to the MYND hidden Markov model PFAM s...,88,144,PLoS_One_2015_Jul_31_10(7)_e0134106.txt
+PS01360,...acids between Zn-ligand residues according to the PS01360 formula,88,929,PLoS_One_2015_Jul_31_10(7)_e0134106.txt
+PS01360,...ngers as defined by the PROSITE signature pattern PS01360 and by PFAM Hidden Markov Model PF01753 (F...,90,91,PLoS_One_2015_Jul_31_10(7)_e0134106.txt
+PS51032,"...all E. grandis AP2/ERF family members. First, the PS51032 domain of Prosite and alternatively the Ar...",40,123,PLoS_One_2015_Apr_7_10(4)_e0121041.txt
+PS50157,"...H2 motif weight matrix (http://prosite.expasy.org/PS50157), reflecting the fact that W in that posit...",185,904,PLoS_One_2015_Jun_23_10(6)_e0130149.txt
+PS01351,"...inase or mitogen activated protein kinase such as PS01351, PS00107, PS00108, PS50011 were considered...",19,2569,PLoS_One_2016_Feb_26_11(2)_e0149861.txt
+PS00107,"...mitogen activated protein kinase such as PS01351, PS00107, PS00108, PS50011 were considered as posit...",19,2578,PLoS_One_2016_Feb_26_11(2)_e0149861.txt
+PS00108,"...ctivated protein kinase such as PS01351, PS00107, PS00108, PS50011 were considered as positive predi...",19,2587,PLoS_One_2016_Feb_26_11(2)_e0149861.txt
+PS50011,"...protein kinase such as PS01351, PS00107, PS00108, PS50011 were considered as positive prediction for...",19,2596,PLoS_One_2016_Feb_26_11(2)_e0149861.txt
+PS51211,... T. urticae. Scan-Prosite score for vitellogenin (PS51211) and VWFD (PS51233) domains in different i...,80,599,PLoS_One_2016_May_9_11(5)_e0155306.txt
+PS51233,...rosite score for vitellogenin (PS51211) and VWFD (PS51233) domains in different insects is shown in ...,80,618,PLoS_One_2016_May_9_11(5)_e0155306.txt
+PS51211,"Blue and red colour show vitellogenin (PS51211) and VWFD (PS51233) domains, respectively....",214,40,PLoS_One_2016_May_9_11(5)_e0155306.txt
+PS51233,"... red colour show vitellogenin (PS51211) and VWFD (PS51233) domains, respectively. N-terminus signal ...",214,59,PLoS_One_2016_May_9_11(5)_e0155306.txt
+PS01045,"...thase signature 2 “LGlanQlt.NIlRDVgeDarrg…RiYlP” (PS01045) motif in the TaPSY1, TaPSY2 and TaPSY3. H...",138,231,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS01044,...phytoene synthase signature 1 “YCyyVAGTVGlmSvpV” (PS01044) and lipases serine active site “VPVMGVSPG...,138,348,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS00120,"...044) and lipases serine active site “VPVMGVSPGS” (PS00120) were present in the TaPSY1 and TaPSY3, re...",138,402,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS01045,"...thase signature 2 “LGlanQlt.NIlRDVgeDarrg…RiYlP” (PS01045), respectively. Light blue and purple colo...",141,246,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS01044,...phytoene synthase signature 1 “YCyyVAGTVGlmSvpV” (PS01044) in PSY1 and lipases serine active site “V...,141,380,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS00120,"...PSY1 and lipases serine active site “VPVMGVSPGS” (PS00120) in PSY3, respectively. Yellow colour boxe...",141,442,PLoS_One_2016_Oct_3_11(10)_e0162443.txt
+PS00523,...by the conservation of the two PROSITE signatures PS00523 and PS00149 which correspond to the simpli...,229,317,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,...rvation of the two PROSITE signatures PS00523 and PS00149 which correspond to the simplified pattern...,229,329,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"...ich propose the signatures PF00884 (sulfatase) or PS00523 and PS00149. However, these signatures wer...",233,464,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"...the signatures PF00884 (sulfatase) or PS00523 and PS00149. However, these signatures were defined on...",233,476,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"... number of seed sequences (57 for PF00884, 58 for PS00523 and 50 for PS00149) and our multi-alignmen...",233,586,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"...uences (57 for PF00884, 58 for PS00523 and 50 for PS00149) and our multi-alignment shows that these ...",233,605,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"...t. Therefore, we have updated the two signatures, PS00523 and PS00149 (Fig 4A and 4B). Moreover, we ...",233,747,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"..., we have updated the two signatures, PS00523 and PS00149 (Fig 4A and 4B). Moreover, we have identif...",233,759,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"...ic site that corresponds to the PROSITE signature PS00523, is shown in A. The logo sequence of PROSI...",236,173,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,...hown in A. The logo sequence of PROSITE signature PS00149 is shown in B. The two logo sequences of c...,236,236,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,... PROSITE database describes the consensus pattern PS00523 for the catalytic site. This signature con...,239,54,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"...4A. On the model of the PROSITE consensus pattern PS00523, we have updated this pattern, called the ...",239,2959,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"...ce corresponding to the second PROSITE signature (PS00149) is G94-x(0,1)-Y93-A12-T84-x(0,42)-A31-x(0...",241,98,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"...Gly105, Tyr106, Gly112 and Lys113), the signature PS00149 is poorly conserved and presents many inse...",243,108,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,...nsus pattern not too degenerated in comparison to PS00149. Moreover only residues that represent mor...,243,1592,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PDOC00117,"... to FGly-sulfatases (http://www.expasy.ch/prosite/PDOC00117 and http://pfam.xfam.org/family/PF00884,...",282,687,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00523,"...sponding to the catalytic site (PROSITE signature PS00523), the PROSITE signature PS00149, the two c...",309,241,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS00149,"...PROSITE signature PS00523), the PROSITE signature PS00149, the two calcium binding sites and to a su...",309,273,PLoS_One_2016_Oct_17_11(10)_e0164846.txt
+PS51588,...ive COMT sequences for the conserved SAM_MT_COMT (PS51588) motifs. The amino acid sequences of rapes...,59,527,PLoS_One_2016_Nov_10_11(11)_e0165975.txt
+PDOC50853,...rosite domain database (http://prosite.expasy.org/PDOC50853). The FN3 domains in this database are h...,17,165,Protein_Eng_Des_Sel_2015_Mar_16_28(3)_67-78.txt
+PS50079,"...zation signals (dark gray bar with N, NLS_BP, and PS50079) detected by Motif Scan (64) were indicate...",30,280,Sci_Adv_2016_Oct_7_2(10)_e1601087.txt
+PS50893,...org/scanprosite/) with the Prosite domain profile PS50893. The presence of N- and O-glycosylation si...,76,1056,Sci_Rep_2015_Sep_3_5_13728.txt
+PS50090,"...l-heidelberg.de/) and ExPASy (The PROSITE profile PS50090 was used, http://expasy.org/prosite/) tool...",87,1161,Sci_Rep_2015_Jun_5_5_11037.txt
+PS00014,"...ptide were cross-examined using ScanProsite, with PS00014 as a scan pattern to determine if the prot...",32,699,Sci_Rep_2015_Dec_18_5_18427.txt
+PS00609,"...)-[LIVMA]-N-D-P-N-[GA] (http://prosite.expasy.org/PS00609), was also detected in InvHJ14 (HLMPPVGLLN...",17,412,Sci_Rep_2016_Aug_24_6_32081.txt
+PS46474,...d promote the individual bacterium to synthesize EPS464748. Cell aggregation is complicated process ...,89,475,Sci_Rep_2016_Dec_7_6_38122.txt
+PS00018,"...d two EF-hand calcium-binding domains (EF_HAND_1, PS00018) in the C-terminus of NlSEF1. Both domains...",17,875,PMC5241783.txt
+PS51257,...cted at the N-terminus (http://prosite.expasy.org/PS51257) that suggest potential attachment to the ...,13,946,PMC5311943.txt
+PS00006,"...OSPHO_SITE Casein kinase II phosphorylation site (PS00006), PKC_PHOSPHO_SITE Protein kinase C phosph...",242,134,Springerplus_2012_Oct_5_1_30.txt
+PS00005,"...OSPHO_SITE Protein kinase C phosphorylation site (PS00005), and ASN_GLYCOSYLATION N-glycosylation si...",242,200,Springerplus_2012_Oct_5_1_30.txt
+PS00001,"...005), and ASN_GLYCOSYLATION N-glycosylation site (PS00001) are more abundant in OLP compared to TLP ...",242,254,Springerplus_2012_Oct_5_1_30.txt
+PS51367,"...n contrast, THAUMATIN_2 Thaumatin family profile (PS51367) and CAMP_PHOSPHO_SITE cAMP- and cGMP-depe...",243,55,Springerplus_2012_Oct_5_1_30.txt
+PS00004,...MP-dependent protein kinase phosphorylation site (PS00004) are more frequent in TLP homologs (Figure...,243,148,Springerplus_2012_Oct_5_1_30.txt
+PS00008,"...comparison between TLP and OLP protein sequences. PS00008: MYRISTYL N-myristoylation site, PS00004: ...",244,361,Springerplus_2012_Oct_5_1_30.txt
+PS00004,"...quences. PS00008: MYRISTYL N-myristoylation site, PS00004: CAMP_PHOSPHO_SITE cAMP- and cGMP-dependen...",244,402,Springerplus_2012_Oct_5_1_30.txt
+PS50102,"...MP-dependent protein kinase phosphorylation site, PS50102: RRM Eukaryotic RNA Recognition Motif (RRM...",244,491,Springerplus_2012_Oct_5_1_30.txt
+PS51367,"...M Eukaryotic RNA Recognition Motif (RRM) profile, PS51367: THAUMATIN_2 Thaumatin family profile, PS0...",244,552,Springerplus_2012_Oct_5_1_30.txt
+PS00316,"...e, PS51367: THAUMATIN_2 Thaumatin family profile, PS00316: THAUMATIN_1 Thaumatin family signatur, PS...",244,599,Springerplus_2012_Oct_5_1_30.txt
+PS00006,"..., PS00316: THAUMATIN_1 Thaumatin family signatur, PS00006: CK2_PHOSPHO_SITE Casein kinase II phospho...",244,647,Springerplus_2012_Oct_5_1_30.txt
+PS00001,"...OSPHO_SITE Casein kinase II phosphorylation site, PS00001: ASN_GLYCOSYLATION N-glycosylation site, P...",244,712,Springerplus_2012_Oct_5_1_30.txt
+PS00009,"... PS00001: ASN_GLYCOSYLATION N-glycosylation site, PS00009: AMIDATION Amidation site, PS51257: PROKAR...",244,761,Springerplus_2012_Oct_5_1_30.txt
+PS51257,"...sylation site, PS00009: AMIDATION Amidation site, PS51257: PROKAR_LIPOPROTEIN Prokaryotic membrane l...",244,796,Springerplus_2012_Oct_5_1_30.txt
+PS50050,...s were identified searching for the Prosite motif PS50050 (TNFR/NGFR family cysteine-rich region dom...,37,263,Virol_J_2013_Jun_7_10_188.txt
+PS00135,"PROSITE regular expression, PS00135. The sensi",172,29,Yeast_2000_17(4)_327-334.txt
+PS00135,"tives), for PS00135 is reported as 94% withi",174,13,Yeast_2000_17(4)_327-334.txt
+PS00135,of PS00135 may be lower for the expande,184,4,Yeast_2000_17(4)_327-334.txt
+PS00135,"sequences matching PS00135 in SWISS-PROT, th",187,20,Yeast_2000_17(4)_327-334.txt
+PS00135,have an exact match to the PS00135 active-sit,191,28,Yeast_2000_17(4)_327-334.txt

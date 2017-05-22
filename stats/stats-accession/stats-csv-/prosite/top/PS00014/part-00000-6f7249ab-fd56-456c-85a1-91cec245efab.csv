@@ -1,0 +1,13 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+PS00014,"... true outlier among many others is represented by PS00014, which is annotated in the ELM database (E...",145,184,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00014,A further analysis was performed on the PS00014 false positive sequences annotated in the ...,147,41,BMC_Bioinformatics_2007_Mar_1_8_68.txt
+PS00014,...smic reticulum targeting sequence” motif (PROSITE:PS00014) is a short C-terminal sequence (frequentl...,81,254,BMC_Bioinformatics_2013_Jul_18_14_229.txt
+PS00014,"... was used to scan ER targeting sequence (Prosite: PS00014) (30). With each of the programs, the defa...",18,761,Database_(Oxford)_2011_Feb_3_2011_bar001.txt
+PS00014,"...asmic reticulum (ER) targeting sequence (Prosite: PS00014) (26, 27). Proteins having one or more mem...",24,815,Database_(Oxford)_2015_Aug_8_2015_bav077.txt
+PS00014,... by SignalP 4.0 and an ER target signal (Prosite: PS00014) by PS-Scan often are luminal ER proteins,35,305,Database_(Oxford)_2015_Aug_8_2015_bav077.txt
+PS00014,...Leu) in the C-terminal region (prosite accession “PS00014”) with PS-SCAN (version 1.79). Annotation ...,215,1019,Front_Microbiol_2015_Nov_18_6_1278.txt
+PS00014,"...m lumen retention signal (KDEL motif, Prosite ID: PS00014) using ScanProSite (http://prosite.expasy....",27,1424,Parasit_Vectors_2015_Jan_7_8_7.txt
+PS00014,"...9, http://www.ebi.ac.uk/interpro/entry/IPR011679; PS00014, http://prosite.expasy.org/PS00014) and no...",31,194,Plant_Methods_2015_Jan_16_11_2.txt
+PS00014,"...try/IPR011679; PS00014, http://prosite.expasy.org/PS00014) and no more than one trans-membrane domai...",31,229,Plant_Methods_2015_Jan_16_11_2.txt
+PS00014,...asy.org/scanprosite/) [60] with Prosite accession PS00014. The remaining proteins were considered se...,185,878,PLoS_Genet_2014_Oct_16_10(10)_e1004662.txt
+PS00014,"...ptide were cross-examined using ScanProsite, with PS00014 as a scan pattern to determine if the prot...",32,699,Sci_Rep_2015_Dec_18_5_18427.txt
