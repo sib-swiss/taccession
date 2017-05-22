@@ -1,0 +1,7 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+NC_000001.10,...	NC_000016.9 (NM_001055)	NC_000003.11 (NM_022002)	NC_000001.10 (NM_005122),62,247,Front_Genet_2014_Jun_4_5_167.txt
+NC_000001.10,"NC_000001.10:g.110280254delC, NC_000001.10:g.11028...",201,2,Front_Genet_2014_Nov_14_5_391.txt
+NC_000001.10,"NC_000001.10:g.110280254delC, NC_000001.10:g.110280254delCinsCCT",201,32,Front_Genet_2014_Nov_14_5_391.txt
+NC_000001.10,"... capturing 92% of the variation of PLA2G2A (Chr1, NC_000001.10) [13]. These were genotyped in a coho...",24,101,PLoS_One_2012_Jul_17_7(7)_e41139.txt
+NC_000001.10,...ygous for the common C allele for rs11573156 C>G (NC_000001.10:g20306146G>C) in the 5′UTR of PLA2G2A...,24,400,PLoS_One_2012_Jul_17_7(7)_e41139.txt
+NC_000001.10,"....9×10−14). For the second variant, rs3767221 T>G (NC_000001.10:g20301781A>C) in the 3′UTR (Figure 1)...",24,580,PLoS_One_2012_Jul_17_7(7)_e41139.txt

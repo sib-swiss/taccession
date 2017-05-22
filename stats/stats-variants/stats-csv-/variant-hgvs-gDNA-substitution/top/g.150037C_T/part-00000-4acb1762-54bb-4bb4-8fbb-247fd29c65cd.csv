@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+g.150037C>T, 21a	F10	0	Exon 18	g.150037C>T	p.Arg579X	Ul	Yes	Missing	Other	(59),98,20,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.150037C>T, 22a	F10		Exon 18	g.150037C>T	p.Arg579X	Bil	No	RT	Melanoma	(35),99,19,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.150037C>T, 23a	F24	NA	Exon 18	g.150037C>T	p.Arg579X	Bil	No	RT	Osteosarcoma	(10),100,21,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.150037C>T,18	g.150037C>T	Arg.579X	7	3,167,4,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt

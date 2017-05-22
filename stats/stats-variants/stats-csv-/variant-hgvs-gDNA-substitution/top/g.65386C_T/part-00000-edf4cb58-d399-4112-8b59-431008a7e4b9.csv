@@ -1,0 +1,6 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+g.65386C>T," 11a	F5	2 (26, 1f)	Exon 11	g.65386C>T	p.Arg358X	Bil	Yes	RT + CH	Sarcoma	LMS (...",88,28,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.65386C>T,11	g.65386C>T	Arg.358X	3	1,161,4,Fam_Cancer_2012_Jun_29_11(2)_225-233.txt
+g.65386C>T,6	F4	5 y 8 m	1.8	3 rc	1 rc	11	g.65386C>T	R358X,99,31,Mol_Vis_2009_Apr_17_15_771-777.txt
+g.65386C>T,7	F4	8 m	1.8	2 rc	Rb	11	g.65386C>T	R358X,100,25,Mol_Vis_2009_Apr_17_15_771-777.txt
+g.65386C>T,8	F4	30 y 8 m	1.8	1 rc	1 rc	11	g.65386C>T	R358X,101,32,Mol_Vis_2009_Apr_17_15_771-777.txt
