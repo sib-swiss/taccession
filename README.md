@@ -52,4 +52,4 @@ sbt test
 Simply add the master option followed by its url at the end of the TACCESSION_CMD command: 
 ```
 --master spark://goldorak:7077 
-``
+```
