@@ -40,6 +40,11 @@ $TACCESSION_CMD -i script/taccession-save-data.scala $VARIANT_CONFIG
 sbt test
 ```
 
+## Troubleshooting
+If you find this error: Failed to start database 'metastore_db'
+It might be because there is another instance runnning. Kill the process and remove the folder metastore_db and the file derby.log
+
+
 ## Installation
 
 * Java 8
