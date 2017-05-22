@@ -10,8 +10,10 @@ val fileSuffix = "" //date.format(formatter)
 //Init configs
 val config = TaccessionUtils.readConfigFile(System.getProperty("config.file"))
 
+val filePaths = TaccessionConfig.getFilePaths(config)
+
 //Reads paths 
-val filesRDD = sc.textFile(config.filesDirectory.getPath, config.sparkPartitions)
+val filesRDD = sc.textFile(filePaths, config.sparkPartitions)
 
 //Reads all files (this is distributed among all workers)
 val df = filesRDD.flatMap(f => Taccession.searchTokens(config.patterns, f)).toDF().as("dfAll")

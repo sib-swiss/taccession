@@ -43,14 +43,11 @@ object TaccessionUtils {
     convertYamlToTConfig(scala.io.Source.fromFile(configFile).mkString.parseYaml.convertTo[YamlConfig])
   }
 
-  def getFilePaths(config: Map[String, String]): String = {
-
-    //Defines the directory where the publications are stored
-    val PUBLI_DIR = config.get("PUBLI_DIR").getOrElse(".")
+  def getFilePaths(config: TConfig): String = {
 
     //Read the absolute path of the publication in the given directory
     val pathFile = "file_names_to_process.txt"
-    val fileNames = recursiveListFiles(new File(PUBLI_DIR), """\.txt$""".r).map(f => f.getAbsolutePath()).toList
+    val fileNames = recursiveListFiles(config.filesDirectory, """\.txt$""".r).map(f => f.getAbsolutePath()).toList
 
     new PrintWriter(pathFile) { write(fileNames.mkString("\n")); close }
 
