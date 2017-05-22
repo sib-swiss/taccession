@@ -10,7 +10,7 @@ val fileSuffix = "" //date.format(formatter)
 //Init configs
 val config = TaccessionUtils.readConfigFile(System.getProperty("config.file"))
 
-val filePaths = TaccessionConfig.getFilePaths(config)
+val filePaths = TaccessionUtils.getFilePaths(config)
 
 //Reads paths 
 val filesRDD = sc.textFile(filePaths, config.sparkPartitions)
