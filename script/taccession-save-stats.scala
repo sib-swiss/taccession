@@ -8,24 +8,13 @@ val date = java.time.LocalDateTime.now();
 val fileSuffix = "" //date.format(formatter)
 
 //Init configs
-val config = TaccessionConfig.init(System.getProperty("config.file"))
-
-//File containing all path of the files to parse (a trick for spark going faster)
-val filePaths = TaccessionConfig.getFilePaths(config);
-
-val outputFolder = TaccessionConfig.getOutputFolder(config);
+val config = TaccessionUtils.readConfigFile(System.getProperty("config.file"))
 
 //Reads paths 
-val filesRDD = sc.textFile(filePaths, TaccessionConfig.getMinPartitions(config))
-
-//Patterns
-val patterns = TaccessionConfig.getPatterns(config);
-
-//Keywords
-val keywords = TaccessionConfig.getKeywords(config);
+val filesRDD = sc.textFile(filePaths, config.sparkPartitions)
 
 //Reads all files (this is distributed among all workers)
-val df = filesRDD.flatMap(f => Taccession.searchTokens(patterns, keywords, f)).toDF().as("dfAll")
+val df = filesRDD.flatMap(f => Taccession.searchTokens(config.patterns, f)).toDF().as("dfAll")
 df.cache()
 
 def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
