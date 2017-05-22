@@ -16,8 +16,8 @@ cd /data/user/taccession
 
 export SPARK_HOME=/data/user/tools/spark
 export TACCESSION_CMD="$SPARK_HOME/bin/spark-shell --executor-memory 100g --driver-memory 100g --jars lib/moultingyaml_2.11-0.4.0.jar,lib/snakeyaml-1.18.jar,target/scala-2.11/taccession_2.11-1.0.jar"
-export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=variants-config.yaml\""
 export ACCESSION_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=accession-config.yaml\""
+export VARIANT_CONFIG="--conf spark.driver.extraJavaOptions=\"-Dconfig.file=variants-config.yaml\""
 
 ./clear-stats-accessions.sh #This will remove and git remove the previous stats directory.
 ./clear-stats-variants.sh #This will remove and git remove the previous stats directory.
