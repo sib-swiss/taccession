@@ -29,9 +29,9 @@ $TACCESSION_CMD -i script/taccession-save-stats.scala $ACCESSION_CONFIG
 $TACCESSION_CMD -i script/taccession-save-stats.scala $VARIANT_CONFIG
  
 # For saving results for accessions
-$TACCESSION_CMD -i script/taccession-save-json.scala $ACCESSION_CONFIG
+$TACCESSION_CMD -i script/taccession-save-data.scala $ACCESSION_CONFIG
 
-$TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
+$TACCESSION_CMD -i script/taccession-save-data.scala $VARIANT_CONFIG
 ```
 
 
@@ -39,7 +39,6 @@ $TACCESSION_CMD -i script/taccession-save-json.scala $VARIANT_CONFIG
 ```
 sbt test
 ```
-
 
 ## Installation
 
@@ -53,4 +52,4 @@ sbt test
 Simply add the master option followed by its url at the end of the TACCESSION_CMD command: 
 ```
 --master spark://goldorak:7077 
-``
+```
