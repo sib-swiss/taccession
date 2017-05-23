@@ -1,0 +1,5 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+P06748,"...e nucleophosmin protein (UniProtKB/Swiss-Prot ID, P06748) contains a Lys263Arg variation at the K263...",25,2926,Sci_Rep_2015_Jul_8_5_10900.txt
+P06748,"...OID:74)44. Conversely, the nucleophosmin protein (P06748), involve in the survival of the parasite, ...",25,3116,Sci_Rep_2015_Jul_8_5_10900.txt
+P06748, NPM1 (P06748)	Lys263Arg	K263	ASIEKGGSLPKV EAKFINYVK	Phos...,147,8,Sci_Rep_2015_Jul_8_5_10900.txt
+P06748, NPM1 (P06748)	Arg101Lys	K101	GFEITPPVVLRL KCGSGPVHI	Expe...,206,8,Sci_Rep_2015_Jul_8_5_10900.txt

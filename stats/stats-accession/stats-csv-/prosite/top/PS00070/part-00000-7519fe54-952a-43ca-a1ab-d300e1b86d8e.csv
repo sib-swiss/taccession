@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+PS00070,ALDEHYDE_DEHYDR_CYS	PS00070	12	331,283,21,Algorithms_Mol_Biol_2010_Jan_26_5_15.txt
+PS00070,"...en double checked using Pfam 00171 (ALDH family), PS00070 (ALDH cysteine active site), PS00687 (ALDH...",132,346,BMC_Struct_Biol_2010_Dec_29_10_43.txt
+PS00070,"...ily) protein domains (http://pfam.sanger.ac.uk/), PS00070 (ALDH cysteine active site), PS00687 (ALDH...",113,128,PLoS_One_2010_Jul_12_5(7)_e11516.txt
+PS00070,"...tive site (PS00687) and the ALDH-CYS-active site (PS00070), the pentatricopeptide (PPR) repeat profi...",20,333,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,... [AGCN] - {HE} - [GSTADNEKR]	ALDH_CYS_active site	PS00070,25,121,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,Family 1	RF1A1	RF2A	AF215823	Q43274	PS00687PS00070	ALDH (NAD+)	Zea mays,45,44,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1A2	RF2	AF269064	Q94G64	PS00070	ALDH	Zea mays,46,28,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1A3	RF2B	AF348418	Q7FWR0	PS00687PS00070	ALDH	Zea mays,47,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1A4	ALDH	AF162665	Q9LLR2	PS00687PS00070	ALDH	Oryza sativa,48,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1A5	RF2B	AF348417	Q8RUR9	PS00687PS00070	ALDH	Zea mays,49,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1B1	RF2C	BT063394	Q8S532	PS00687PS00070	ALDH	Zea mays,50,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1B2	RF2C	AF348413	Q8S531	PS00687PS00070	ALDH	Zea mays,51,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,RF1B3	RF2D	BT041044	Q8S529	PS00687PS00070	ALDH	Zea mays,52,36,PLoS_One_2010_Dec_28_5(12)_e15906.txt
+PS00070,"...sequences [6], Pfam domain PF00171 (ALDH family), PS00070 (ALDH cysteine active site), PS00687 (ALDH...",157,90,PLoS_One_2012_Feb_15_7(2)_e32153.txt
+PS00070,"...e) [58] searches. Likewise, the two active sites (PS00070 (cysteine active site) and PS00687 (glutam...",120,1168,PLoS_One_2014_Jul_2_9(7)_e101136.txt
+PS00070,"... PS00687 (ALDH glutamic acid active site), and/or PS00070 (ALDH cysteine active site); in addition t...",86,549,PLoS_One_2016_Oct_18_11(10)_e0164798.txt
+PS00070,...e analysis showed that characteristic PS00687 and PS00070 domains were absent in some of the ALDH se...,98,61,PLoS_One_2016_Oct_18_11(10)_e0164798.txt
+PS00070,... of the ALDH sequences. 15 out 29 genes contained PS00070 domains (ALDH cysteine active site) and PS...,98,146,PLoS_One_2016_Oct_18_11(10)_e0164798.txt
+PS00070,...s (PS00687 domain was absent in ALDH19 and ALDH6; PS00070 domain was absent in ALDH3H and ALDH7). Al...,98,395,PLoS_One_2016_Oct_18_11(10)_e0164798.txt
+PS00070,"... absent in ALDH3H and ALDH7). Although PS00687 or PS00070 domains were absent in some proteins, othe...",98,463,PLoS_One_2016_Oct_18_11(10)_e0164798.txt

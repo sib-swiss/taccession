@@ -1,6 +1,0 @@
-matchedPattern,context,lineNumber,columnNumber,publicationName
-PS00012,"... of Fas-2, which holds the binding site (prosite: PS00012 Phosphopantetheine attachment site). This ...",95,152,Bioinformation_2008_Sep_20_3(1)_33-40.txt
-PS00012,"...serve as negative examples (See PROSITE_positives_PS000125.fasta, PROSITE_negatives_PS000125.fasta, ...",53,429,F1000Res_2015_May_29_4_60.txt
-PS00012,"...OSITE_positives_PS000125.fasta, PROSITE_negatives_PS000125.fasta, PROSITE_positives_PS00028.fasta, P...",53,463,F1000Res_2015_May_29_4_60.txt
-PS00012,Data file 1 Title: Data File PROSITE_positives_PS000125.fasta. Legend: Sequence file in FASTA for...,241,48,F1000Res_2015_May_29_4_60.txt
-PS00012,Data file 2 Data File PROSITE_negatives_PS000125.fasta. Sequence file in FASTA format of a...,243,41,F1000Res_2015_May_29_4_60.txt

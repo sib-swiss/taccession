@@ -1,6 +1,0 @@
-matchedPattern,context,lineNumber,columnNumber,publicationName
-PS01031,...HSPs are associated with the PROSITE [30] profile PS01031 [15]. This profile is based on a sequence ...,23,292,PLoS_One_2010_Apr_7_5(4)_e9990.txt
-PS01031,"...ll heat shock protein”, family: “HSP20”, “prosite PS01031”, and “pfam PF00011”. The annotations “sma...",48,252,PLoS_One_2010_Apr_7_5(4)_e9990.txt
-PS01031,...uences were included in our dataset. The “prosite PS01031” and “pfam PF00011” annotations were assig...,48,514,PLoS_One_2010_Apr_7_5(4)_e9990.txt
-PS01031,“prosite PS01031”	4499	92,54,10,PLoS_One_2010_Apr_7_5(4)_e9990.txt
-PS01031,"...mall heat shock protein, family:“HSP20”, “prosite PS01031” and “pfam PF0011”. The first two are comm...",137,186,PLoS_One_2010_Apr_7_5(4)_e9990.txt
