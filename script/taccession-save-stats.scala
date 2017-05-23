@@ -61,7 +61,7 @@ def findTopForPattern(patternName: String) = {
 
 //Random values for each patterns
 config.patterns.foreach(p => {
-  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(1000)
+  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(5000)
   if (!dfFiltered.rdd.isEmpty) {
     val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p.patternName + "/random")
     if (result) {
