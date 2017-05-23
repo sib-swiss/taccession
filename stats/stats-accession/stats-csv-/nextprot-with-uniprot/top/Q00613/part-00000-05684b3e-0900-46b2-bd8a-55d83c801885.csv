@@ -1,4 +1,0 @@
-matchedPattern,context,lineNumber,columnNumber,publicationName
-Q00613,"...serine) at S303 of HSF1 (UniProtKB/Swiss-Prot ID, Q00613), a heat shock transcription factor, enhanc...",28,3584,Sci_Rep_2015_Jul_8_5_10900.txt
-Q00613, HSF1 (Q00613)	Lys298Asn	K298	PLSSSPLVRVKE EPPSPPQSP	UniP...,192,8,Sci_Rep_2015_Jul_8_5_10900.txt
-Q00613, HSF1 (Q00613)	Ser303Ala	K298	PLSSSPLVRVKE EPPSPPQSP	UniP...,223,8,Sci_Rep_2015_Jul_8_5_10900.txt

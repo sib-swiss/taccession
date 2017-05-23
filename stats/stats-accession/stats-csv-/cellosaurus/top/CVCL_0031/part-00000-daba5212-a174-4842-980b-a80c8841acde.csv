@@ -1,7 +1,0 @@
-matchedPattern,context,lineNumber,columnNumber,publicationName
-CVCL_0031,Human: MCF7 cells	ATCC: HTB-22	Cat#HTB-22; RRID:CVCL_0031,335,49,PMC5279869.txt
-CVCL_0031,"MCF7 cells were obtained from ATCC (HTB-22, RRID:CVCL_0031), where they were authenticated by STR p...",259,50,eLife_5_e17548.txt
-CVCL_0031,"... was generated from MCF7 cells (ATCC HTB-22, RRID:CVCL_0031, as described above) that were first tra...",259,1393,eLife_5_e17548.txt
-CVCL_0031,"...CL_1532), HEK-293T (RRID: CVCL_0063), MCF7 (RRID: CVCL_0031), and SW684 (RRID: CVCL_1726) cells were...",331,845,PMC5092050.txt
-CVCL_0031,Human HEK-293T (RRID:CVCL_0063) and MCF-7 (RRID:CVCL_0031) cells were cultured in DMEM (Wako) supp...,755,49,PMC5340527.txt
-CVCL_0031,"...tory (ATCC, Manassas, Virginia). The MCF-7 (RRID: CVCL_0031) cell line was obtained from the Cold Sp...",348,328,PMC5345931.txt
