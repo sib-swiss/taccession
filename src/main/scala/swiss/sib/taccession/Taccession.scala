@@ -20,7 +20,7 @@ object Taccession {
       val (contextStart, startText) = if ((m.start - 50) > 0) ((m.start - 50), "...") else (0, "");
       val (contextEnd, endText) = if ((m.start + 50) <= (lineContent.length() - 1)) ((m.start + 50), "...") else (lineContent.length() - 1, "");
 
-      val context = lineContent.substring(contextStart, contextEnd)
+      val context = lineContent.substring(contextStart, contextEnd).replaceAll("\"", "");
       TokenMatch(matchedPattern,
         startText + context + endText,
         new Integer(matchedPattern.length),

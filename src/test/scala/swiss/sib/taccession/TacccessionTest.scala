@@ -45,6 +45,16 @@ class TacccessionTest extends FlatSpec with Matchers {
     tokens.filter(_.lineNumber === 9).size should be(2) //2 words one line 9
 
   }
+  
+  it should "remove quotas from context" in {
+
+    val config = TaccessionUtils.readConfigFile("accession-config.yaml");
+
+    val tokens = Taccession.searchTokens(config.patterns, "src/test/resources/text-with-nextprot-pattern.txt")
+
+    println(tokens)
+    tokens(0).context.contains("\"") should be (false)
+  }
 
   it should "find the correct column" in {
 
@@ -53,7 +63,7 @@ class TacccessionTest extends FlatSpec with Matchers {
 
     println(tokens)
     val tm = tokens.filter(_.lineNumber === 2)(0);
-    tm.columnNumber should be(50)
+    tm.columnNumber should be(52)
     tm.matchedPattern should be("NX_P01308")
 
   }
