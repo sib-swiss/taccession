@@ -37,10 +37,14 @@ patterns:
 
 -   patternName: prosite-without-keyword
     pattern: \bPDOC\d{5}|\bPS\d{5}
-    
+
 -   patternName: enzyme
-    pattern: (EC )?[1-6]\.[1-9-][0-9]?\.[1-9-][0-9]?\.n?[1-9-][0-9]{0,2}
+    pattern: \b(EC )?[1-6]\.[1-9-][0-9]?\.[1-9-][0-9]?\.n?[1-9-][0-9]{0,2}
+    mustFindRegexInFile: (?i)enzyme
+
+-   patternName: enzyme-without-keyword
+    pattern: \b(EC )?[1-6]\.[1-9-][0-9]?\.[1-9-][0-9]?\.n?[1-9-][0-9]{0,2}
     
 -   patternName: HAMAP
     pattern: MF_\d{5}
-    mustFindRegexInFile: hamap
+    mustFindRegexInFile: (?i)hamap
