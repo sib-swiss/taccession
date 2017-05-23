@@ -15,7 +15,7 @@ patterns:
 
 -   patternName: nextprot-with-uniprot 
     pattern: \b[OPQ][0-9][A-Z0-9]{3}[0-9]|\b[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}
-    mustFindRegexInFile: nextprot
+    mustFindRegexInFile: (?i)nextprot
 
 -   patternName: cellosaurus 
     pattern: (?:\b|^)(?i)CVCL_\w+
@@ -33,7 +33,7 @@ patterns:
     
 -   patternName: prosite
     pattern: PDOC\d{5}|PS\d{5}
-    mustFindRegexInFile: prosite
+    mustFindRegexInFile: (?i)prosite
 
 -   patternName: enzyme
     pattern: (EC )?[1-6]\.[1-9-][0-9]?\.[1-9-][0-9]?\.n?[1-9-][0-9]{0,2}
