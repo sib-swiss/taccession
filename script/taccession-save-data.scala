@@ -3,7 +3,6 @@ import swiss.sib.taccession._
 //Starts the time
 val start = System.currentTimeMillis();
 
-
 //Init configs
 val config = TaccessionUtils.readConfigFile(System.getProperty("config.file"))
 

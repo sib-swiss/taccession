@@ -1,4 +1,5 @@
 import swiss.sib.taccession._
+import org.apache.spark.sql.DataFrame
 
 //Starts the time
 val start = System.currentTimeMillis();
@@ -29,6 +30,18 @@ def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = 
     return false
   }
 }
+
+def getRandomValuesFromDataFrame(dataframe: DataFrame, limitForRandom: Double): DataFrame = {
+  val dfPatternCount = dataframe.count
+  if (dfPatternCount > limitForRandom) {
+    //If the size of dataframe is bigger than the limit, we take a sample
+    dataframe.sample(true, (limitForRandom / dfPatternCount))
+  } else {
+    //In other case we take the original dataframe
+    dataframe
+  }
+}
+
 
 def findTopForPattern(patternName: String) = {
 
@@ -61,16 +74,18 @@ def findTopForPattern(patternName: String) = {
 
 //Random values for each patterns
 config.patterns.foreach(p => {
-  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(2500)
-  if (!dfFiltered.rdd.isEmpty) {
-    val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p.patternName + "/random")
+
+  val dfFilterRandoms = getRandomValuesFromDataFrame(df.filter($"patternName" === p.patternName), 2500.0)
+  val dfFilterRandomsWithCorrectHeader = dfFilterRandoms.select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName")
+  if (!dfFilterRandomsWithCorrectHeader.rdd.isEmpty) {
+    val result = writeToCsv(dfFilterRandomsWithCorrectHeader, "stats-csv-" + fileSuffix + "/" + p.patternName + "/random")
     if (result) {
-        findTopForPattern(p.patternName)
+      findTopForPattern(p.patternName)
     }
   } else {
     println("Nothing found for " + p.patternName)
   }
+  
 })
-
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0) + " min")
