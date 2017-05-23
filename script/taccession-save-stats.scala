@@ -37,7 +37,7 @@ def findTopForPattern(patternName: String) = {
 
     if (foundTop) { //No need to check bottom if top is not found
       val (top, limit, order) = (op._1, op._2, op._3)
-      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(2500).as("dfTop")
+      val topPatterns = df.filter($"patternName" === patternName).select($"matchedPattern", $"patternName").groupBy($"patternName", $"matchedPattern").count().orderBy(order).limit(10000).as("dfTop")
       topPatterns.cache();
 
       val result = writeToCsv(topPatterns.select("matchedPattern", "count"), "stats-csv-" + fileSuffix + "/" + patternName + "/" + top)
@@ -61,7 +61,7 @@ def findTopForPattern(patternName: String) = {
 
 //Random values for each patterns
 config.patterns.foreach(p => {
-  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(5000)
+  val dfFiltered = df.filter($"patternName" === p.patternName).select("matchedPattern", "context", "lineNumber", "columnNumber", "publicationName").limit(2500)
   if (!dfFiltered.rdd.isEmpty) {
     val result = writeToCsv(dfFiltered, "stats-csv-" + fileSuffix + "/" + p.patternName + "/random")
     if (result) {
