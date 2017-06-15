@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+H19A,H19A	0.1775	0.3065	0.5154	0.111*,237,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_12_71(Pt_12)_m257-m258.txt
+H19A,C2—H2C	0.9800	C19—H19A	0.9800,304,19,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_12_71(Pt_12)_m257-m258.txt
+H19A,In1—C2—H2C	109.5	N2—C19—H19A	109.5,357,25,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_12_71(Pt_12)_m257-m258.txt
+H19A,H2B—C2—H2C	109.5	H19A—C19—H19B	109.5,359,18,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_12_71(Pt_12)_m257-m258.txt
+H19A,O1—C3—C8	120.74 (17)	H19A—C19—H19C	109.5,361,22,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_12_71(Pt_12)_m257-m258.txt
+H19A,H19A	0.4842	0.3664	0.7274	0.064*,230,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H19A,C9—C10	1.497 (4)	C19—H19A	0.9700,291,22,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H19A,O2—C8—C7	127.0 (2)	N2—C19—H19A	109.3,319,27,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H19A,N1—C8—C7	106.0 (2)	C20—C19—H19A	109.3,320,28,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H19A,C10—C9—H9A	109.2	H19A—C19—H19B	107.9,323,18,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H19A,H19A	0.6409	0.8888	0.4400	0.043*,318,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_10_71(Pt_2)_o92-o93.txt
+H19A,C13—C17	1.564 (3)	C19—H19A	0.9800,450,23,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_10_71(Pt_2)_o92-o93.txt
+H19A,C17—C16—H16B	110.4	C10—C19—H19A	109.5,539,28,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_10_71(Pt_2)_o92-o93.txt
+H19A,C35—C36—H36	119.1	H19A—C19—H19B	109.5,542,19,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_10_71(Pt_2)_o92-o93.txt
+H19A,C24—C25—H25	107.3	H19A—C19—H19C	109.5,543,19,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_10_71(Pt_2)_o92-o93.txt
+H19A,H19A	−0.10920	1.03390	0.92250	0.0650*,281,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_3_71(Pt_2)_o77-o78.txt
+H19A,C8—C9	1.385 (3)	C19—H19A	0.9600,341,21,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_3_71(Pt_2)_o77-o78.txt
+H19A,C12—C13—C14	119.29 (16)	C18—C19—H19A	109.00,380,33,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_3_71(Pt_2)_o77-o78.txt
+H19A,C10—C15—C14	120.32 (17)	H19A—C19—H19B	109.00,383,25,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_3_71(Pt_2)_o77-o78.txt
+H19A,O2—C16—C13	113.42 (15)	H19A—C19—H19C	109.00,384,24,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_3_71(Pt_2)_o77-o78.txt

@@ -1,0 +1,6 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+AB042240.3,"tRNA RF00005	AB042240.3/15036-15107	72	4,851	66	RSEARCH	66/66/0...",68,14,BMC_Genomics_2007_Jul_31_8_257.txt
+AB042240.3,3	AB042240.3/15036-15107	355		234	21.1,103,3,BMC_Genomics_2007_Jul_31_8_257.txt
+AB042240.3,"...A database, like Rfam, by RScan. Suppose that the AB042240.3/15036-15107, which is the tRNA query me...",177,183,BMC_Genomics_2007_Jul_31_8_257.txt
+AB042240.3,RF00005/AB042240.3/15036-15107	7	21	90	95	216/206/5	38,184,9,BMC_Genomics_2007_Jul_31_8_257.txt
+AB042240.3,...to make two randomized genomes. The queries tRNA AB042240.3/15036-15107 and rRNA M28193.1/1-119 ...,247,350,BMC_Genomics_2007_Jul_31_8_257.txt

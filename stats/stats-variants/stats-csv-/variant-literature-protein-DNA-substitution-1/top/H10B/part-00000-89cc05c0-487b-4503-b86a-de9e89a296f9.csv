@@ -1,0 +1,21 @@
+matchedPattern,context,lineNumber,columnNumber,publicationName
+H10B,H10B	0.5478	−0.0453	0.8469	0.096*,216,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H10B,C10—H10B	0.9600	C20—H20C	0.9600,295,5,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H10B,C9—C10—H10B	109.5	H20A—C20—H20C	109.5,328,8,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H10B,H10A—C10—H10B	109.5	H20B—C20—H20C	109.5,329,10,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H10B,H10B—C10—H10C	109.5	C4—N1—C9	125.04 (18),332,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Dec_6_71(Pt_12)_o1024-o1025.txt
+H10B,H10B	0.99470	0.31390	0.12960	0.0680*,261,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_1_71(Pt_1)_o56-o57.txt
+H10B,N2—H2N	0.87 (2)	C10—H10B	0.9600,293,21,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_1_71(Pt_1)_o56-o57.txt
+H10B,C1—C6—C5	119.63 (19)	C9—C10—H10B	110.00,313,29,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_1_71(Pt_1)_o56-o57.txt
+H10B,O1—C7—C6	121.90 (18)	H10A—C10—H10B	110.00,315,31,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_1_71(Pt_1)_o56-o57.txt
+H10B,S1—C8—N1	118.47 (16)	H10B—C10—H10C	109.00,317,22,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jan_1_71(Pt_1)_o56-o57.txt
+H10B,H10B	0.6064	1.0495	0.4334	0.050*,350,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jul_4_71(Pt_8)_o542-o543.txt
+H10B,C11—C12	1.516 (3)	C10'—H10B	0.9700,494,24,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jul_4_71(Pt_8)_o542-o543.txt
+H10B,N1—C11—C10	111.00 (16)	C9'—C10'—H10B	108.9,582,33,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jul_4_71(Pt_8)_o542-o543.txt
+H10B,C12—C11—C10	109.06 (16)	C11'—C10'—H10B	108.9,583,35,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jul_4_71(Pt_8)_o542-o543.txt
+H10B,N1—C11—H11	107.7	H10A—C10'—H10B	107.7,584,28,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jul_4_71(Pt_8)_o542-o543.txt
+H10B,H10B	0.5990	−0.0806	0.2811	0.077*,130,1,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jun_24_71(Pt_7)_827-831.txt
+H10B,O3—C15	1.402 (4)	C10—H10B	0.9700,210,22,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jun_24_71(Pt_7)_827-831.txt
+H10B,C11—C10—H10B	110.7	N3—C22—C23	107.9 (4),293,9,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jun_24_71(Pt_7)_827-831.txt
+H10B,S9—C10—H10B	110.7	N3—C22—C21	121.3 (4),294,8,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jun_24_71(Pt_7)_827-831.txt
+H10B,H10A—C10—H10B	108.8	C23—C22—C21	130.3 (4),295,10,Acta_Crystallogr_E_Crystallogr_Commun_2015_Jun_24_71(Pt_7)_827-831.txt
