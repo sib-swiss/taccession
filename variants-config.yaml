@@ -1,0 +1,136 @@
+name: Taccession variants configurations
+    
+filesDirectory: /data/user/publications/sample/sample70k/
+statsOutputFolder: stats/stats-variants
+dataOutputFolder: /data/user/results/result-variants
+
+sparkPartitions: 200
+
+patterns: 
+-   patternName: variant-hgvs-protein-duplication
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?dup(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-duplication
+    pattern: (?:\b|^)(c)\.((?:-|\*)?\d+)((?:\+|\-)\d+)?(?:_((?:-|\*)?\d+)((?:\+|\-)\d+)?)?dup(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-duplication
+    pattern: (?:\b|^)(g)\.(\d+)(?:_(\d+))?dup(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-duplication
+    pattern: (?:\b|^)(m)\.(\d+)(?:_(\d+))?dup(?:\b|$)
+
+-   patternName: variant-hgvs-protein-substitution
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-substitution
+    pattern: (?:\b|^)(c)\.((?:-|\*)?\d+)((?:\+|\-)\d+)?([A-Z])>([A-Z])(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-substitution
+    pattern: (?:\b|^)(g)\.(\d+)([A-Z])>([A-Z])(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-substitution
+    pattern: (?:\b|^)(m)\.(\d+)([A-Z])>([A-Z])(?:\b|$)
+
+-   patternName: variant-hgvs-protein-deletion
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?del(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-deletion
+    pattern: (?:\b|^)(c)\.((?:-|\*)?\d+)((?:\+|\-)\d+)?(?:_((?:-|\*)?\d+)((?:\+|\-)\d+)?)?del[A-Z]*(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-deletion
+    pattern: (?:\b|^)(g)\.(\d+)(?:_(\d+))?del[A-Z]*(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-deletion
+    pattern: (?:\b|^)(m)\.(\d+)(?:_(\d+))?del[A-Z]*(?:\b|$)
+
+-   patternName: variant-hgvs-protein-insertion
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)_([A-Z])([a-z]{2})?(\d+)ins(?:((?:[A-Z\*]([a-z]{2})?)+)|(\d+))(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-insertion
+    pattern: (?:\b|^)(c)\.((?:-|\*)?\d+)((?:\+|\-)\d+)?_((?:-|\*)?\d+)((?:\+|\-)\d+)?ins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-insertion
+    pattern: (?:\b|^)(g)\.(\d+)_(\d+)ins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-insertion
+    pattern: (?:\b|^)(m)\.(\d+)_(\d+)ins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-protein-deletion-insertion
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?delins((?:[A-Z\*]([a-z]{2})?)+)(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-deletion-insertion
+    pattern: (?:\b|^)(c)\.((?:-|\*)?\d+)((?:\+|\-)\d+)?(?:_((?:-|\*)?\d+)((?:\+|\-)\d+)?)?delins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-deletion-insertion
+    pattern: (?:\b|^)(g)\.(\d+)(?:_(\d+))?delins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-deletion-insertion
+    pattern: (?:\b|^)(m)\.(\d+)(?:_(\d+))?delins[A-Z]+(?:\b|$)
+
+-   patternName: variant-hgvs-protein-repeatedsequences
+    pattern: (?:\b|^)(p)\.([A-Z])([a-z]{2})?(\d+)(?:_([A-Z])([a-z]{2})?(\d+))?\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-repeatedsequences-1
+    pattern: (?:\b|^)(c)\.((?:\-|\*)?\d+)((?:\+|\-)\d+)?(?:_((?:\-|\*)?\d+)((?:\+|\-)\d+)?)?\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-repeatedsequences-1
+    pattern: (?:\b|^)(g)\.(\d+)(?:_(\d+))?\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-repeatedsequences-1
+    pattern: (?:\b|^)(m)\.(\d+)(?:_(\d+))?\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-repeatedsequences-2
+    pattern: (?:\b|^)(c)\.((?:\-|\*)?\d+)((?:\+|\-)\d+)?[A-Z]+\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-repeatedsequences-2
+    pattern: (?:\b|^)(g)\.(\d+)[A-Z]+\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-repeatedsequences-2
+    pattern: (?:\b|^)(m)\.(\d+)[A-Z]+\[(\d+)\](?:\b|$)
+
+-   patternName: variant-hgvs-protein-extension
+    pattern: (?:\b|^)(p)\.((?:Met|M|Ter|\*)\d+)([A-Z])([a-z]{2})?ext(?:([A-Z])([a-z]{2})?)*(\*|-)(\d+)(?:\b|$)
+
+-   patternName: variant-hgvs-cDNA-inversion
+    pattern: (?:\b|^)(c)\.((?:\-|\*)?\d+)((?:\+|\-)\d+)?_((?:\-|\*)?\d+)((?:\+|\-)\d+)?inv(?:\b|$)
+
+-   patternName: variant-hgvs-gDNA-inversion
+    pattern: (?:\b|^)(g)\.(\d+)_(\d+)inv(?:\b|$)
+
+-   patternName: variant-hgvs-mtDNA-inversion
+    pattern: (?:\b|^)(m)\.(\d+)_(\d+)inv(?:\b|$)
+# does not match substitution with position 1-9 to avoid many false positive
+
+-   patternName: variant-literature-protein-DNA-substitution-1
+    pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d{2,})(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+
+-   patternName: variant-literature-protein-DNA-substitution-2
+    pattern: (?<!\.)(?:\b|^)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+
+-   patternName: variant-hgvs-protein-frameshift
+    pattern: (p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)?fs(?:(?:\*|Ter|X)(\d+))?(?:\b|$)
+
+-   patternName: dbSNP
+    pattern: (?:\b|^)\b(rs\d+)(?:\b|$)
+
+-   patternName: refseq_genomic
+    pattern: (?:\b|^)[NA][CGTWSZ]_\d+\.\d+(?:\b|$)
+
+-   patternName: refseq_mRNA
+    pattern: (?:\b|^)[NX][MR]_\d+\.\d+(?:\b|$)
+
+-   patternName: refseq_protein
+    pattern: (?:\b|^)[NAXZ]P_\d+\.\d+(?:\b|$)
+
+-   patternName: LRG_gene
+    pattern: (?:\b|^)LRG_\d+(?:\b|$)
+
+-   patternName: LRG_mRNA
+    pattern: (?:\b|^)LRG_\d+t\d+(?:\b|$)
+
+-   patternName: LRG_protein
+    pattern: (?:\b|^)LRG_\d+p\d+(?:\b|$)
+
+-   patternName: Genbank_locus_id
+    pattern: (?:\b|^)AB\d+\.\d+(?:\b|$)
+
