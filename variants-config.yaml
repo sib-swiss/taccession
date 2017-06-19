@@ -99,16 +99,41 @@ patterns:
 
 -   patternName: variant-hgvs-mtDNA-inversion
     pattern: (?:\b|^)(m)\.(\d+)_(\d+)inv(?:\b|$)
-# does not match substitution with position 1-9 to avoid many false positive
-
--   patternName: variant-literature-protein-DNA-substitution-1
-    pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d{2,})(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+    
+# does not match substitution with position 1-9 to avoid many false positive. Too much false positives !! (cristallography)
+#-   patternName: variant-literature-protein-DNA-substitution-1
+ #   pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d{2,})(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 
 -   patternName: variant-literature-protein-DNA-substitution-2
-    pattern: (?<!\.)(?:\b|^)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+    pattern: (?<!\.)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 
 -   patternName: variant-hgvs-protein-frameshift
     pattern: (p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)?fs(?:(?:\*|Ter|X)(\d+))?(?:\b|$)
+    
+-   patternName: dbSNP-rsid
+    pattern: (?:\b|^)(rs\d+)(?:\b|$)
+
+-   patternName: variant-literature-CNV
+    pattern: (expansion|duplication|deletion)
+
+
+# reference sequences found on https://www.ncbi.nlm.nih.gov/books/NBK21091/table/ch18.T.refseq_accession_numbers_and_mole/?report=objectonly
+#refseq_genomic=(?:\b|^)NC_\d+\.\d+
+#refseq_genomic_alternate=(?:\b|^)AC_\d+\.\d+
+#refseq_genomic_incomplete=(?:\b|^)NG_\d+\.\d+
+#refseq_genomic_contig_clone_wgs=(?:\b|^)NT_\d+\.\d+
+#refseq_genomic_contig_wgs=(?:\b|^)NW_\d+\.\d+
+#refseq_genomic_environmental=(?:\b|^)NS_\d+\.\d+
+#refseq_genomic_unfinished_wgs=(?:\b|^)NZ_\d+\.\d+
+#refseq_mRNA=(?:\b|^)NM_\d+\.\d+
+#refseq_RNA=(?:\b|^)NR_\d+\.\d+
+#refseq_mRNA_predicted=(?:\b|^)XM_\d+\.\d+
+#refseq_RNA_predicted=(?:\b|^)XR_\d+\.\d+
+#refseq_protein=(?:\b|^)NP_\d+\.\d+
+#refseq_protein_alternate=(?:\b|^)AP_\d+\.\d+
+#refseq_protein_predicted=(?:\b|^)XP_\d+\.\d+
+#refseq_protein_unfinished_wgs=(?:\b|^)ZP_\d+\.\d+
+    
 
 -   patternName: dbSNP
     pattern: (?:\b|^)\b(rs\d+)(?:\b|$)
