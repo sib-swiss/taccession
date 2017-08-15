@@ -19,10 +19,6 @@ rm -r /scratch/local/daily/$USER/$spark_release/*
 cp -r /scratch/cluster/monthly/spark/$spark_release /scratch/local/daily/$USER/
 cd /scratch/local/daily/$USER/$spark_release
 
-rm -r /scratch/local/daily/$USER/spark-notebook
-rsync -ra /scratch/cluster/monthly/$USER/spark-notebook /scratch/local/daily/$USER/
 ./sbin/start-master.sh
-cd ../spark-notebook/
-./bin/spark-notebook
 #./bin/spark-class org.apache.spark.deploy.master.Master
-module rm Development/java_jdk/1.8.0_112
+module rm Development/java_jdk/1.8.0_121
