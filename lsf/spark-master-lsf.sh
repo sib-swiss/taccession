@@ -14,6 +14,8 @@ spark_release=spark-2.2.0-bin-hadoop2.7
 module add Development/java_jdk/1.8.0_121
 mkdir -p /scratch/local/daily/$USER/$spark_release
 rm -r /scratch/local/daily/$USER/$spark_release/*
+
+#Must download SPARK beforehand and unzipped it into /scratch/cluster/monthly/spark
 cp -r /scratch/cluster/monthly/spark/$spark_release /scratch/local/daily/$USER/
 cd /scratch/local/daily/$USER/$spark_release
 
