@@ -9,8 +9,7 @@
 
 hostname > /scratch/cluster/monthly/$USER/master_hostname
 
-spark_release=spark-2.1.0-bin-hadoop2.7
-
+spark_release=spark-2.2.0-bin-hadoop2.7
 
 module add Development/java_jdk/1.8.0_112
 mkdir -p /scratch/local/daily/$USER/$spark_release
