@@ -4,7 +4,7 @@
 #BSUB -J spark-worker[1-15]
 #BSUB -n 4
 #BSUB -R "rusage[mem=5120] span[ptile=4]"
-#BSUB -M 52444160
+#BSUB -M 5242880
 #BSUB -o ./logs/spark-workers-%J-output.log
 #BSUB -e ./logs/spark-workers-%J-error.log
 
