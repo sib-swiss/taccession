@@ -104,9 +104,9 @@ patterns:
 # does not match substitution with position 1-9 to avoid many false positive. Too much false positives !! (cristallography)
 #-   patternName: variant-literature-protein-DNA-substitution-1
  #   pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d{2,})(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
-
+# avoid e.g. IVS1-3G>T to match as 1-3GT, but misses -3G>T match
 -   patternName: variant-literature-protein-DNA-substitution-2
-    pattern: (?<!\.|\d)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+    pattern: (?<!\.|\w|-|\*)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 
 -   patternName: variant-hgvs-protein-frameshift
     pattern: (p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)?fs(?:(?:\*|Ter|X)(\d+))?(?:\b|$)
