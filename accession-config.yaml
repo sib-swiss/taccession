@@ -2,7 +2,7 @@ name: Taccession configurations
     
 filesDirectory: /data/user/publications/allpubmed/
 statsOutputFolder: stats/stats-accession
-dataOutputFolder: /data/user/results/result-accession
+dataOutputFolder: /data/user/results/result-accession-new
 
 sparkPartitions: 200
 
