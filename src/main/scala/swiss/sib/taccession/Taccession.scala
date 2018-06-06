@@ -1,8 +1,10 @@
 package swiss.sib.taccession
 
-import java.io.File
-import java.io.PrintWriter;
-import scala.collection.immutable.HashMap
+//import java.io.File
+import java.io.{FileInputStream, PrintWriter}
+import java.util.zip._
+
+import scala.io.BufferedSource
 import scala.util.matching.Regex
 
 object Taccession {
@@ -31,7 +33,6 @@ object Taccession {
         foundKeywordValue,
         if (excludeTokens.isDefined) {excludeTokens.get.findAllIn(matchedPattern).size > 0} else {false})
     }).toList
-
     if(foundKeywordValue && result.isEmpty){
       return List(TokenMatch(
       "placeholder", "", 0, new Integer(lineNumber + 1), 0, fileName, patternName, foundKeywordValue, true)
@@ -43,22 +44,53 @@ object Taccession {
 
   //Function that opens a file, search for the patterns and returns a list of TokenMatch with the results
   def searchTokens(patterns: List[TConfigPattern], filePath: String): List[TokenMatch] = {
+// to read gunzipped file in XML format for TREC data
 
-    val f = new File(filePath);
-    val file = scala.io.Source.fromFile(f)
+    val rawResult : List[ TokenMatch ] = filePath match {
+      case _ if filePath.endsWith("gz") => {
+        // directly read from gz file
+        println("--------------------------> reading file "+filePath)
+        val fis: FileInputStream = new FileInputStream(filePath)
+        val gzis: GZIPInputStream = new GZIPInputStream(fis)
+        val xmlfile : BufferedSource = scala.io.Source.fromInputStream(gzis)
+        val pubmeds : List[ PubMed ] = PubMed.fromSource( xmlfile ).filter { p => p.synopsis.nonEmpty }
 
-    val rawResult =
-      file.getLines().zipWithIndex.flatMap { //Reads all lines and keep the index to get the line number
-        case (lineContent, lineNumber) => {
-          //Check for all patterns
-          patterns.flatMap(p => {
-            searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, lineContent, lineNumber, f.getName)
-          })
+        gzis.close()
+        fis.close()
+
+        pubmeds.flatMap {
+          pm : PubMed => {
+            pm.synopsis.split( """\r?\n""").toList.zipWithIndex.flatMap {
+              case ( line : String, i : Int ) => {
+                patterns.flatMap( p => {
+                  val out: List[ TokenMatch ] = searchTokenForPattern( p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, line, i, pm.pmid )
+                  //out.foreach { t => println("====> "+t.publicationName+" "+t.patternName+" "+t.context+" "+t.matchedPattern+" "+t.columnNumber+" "+t.containsExcludedToken+" "+t.containsMustFindKeywordInCurrentLine+" "+t.lineNumber+" "+t.matchedPatternLength+" "+t.publicationName )}
+                  out
+                } )
+              }
+            }
+          }
         }
-      }.toList;
 
-    file.close();
-    
+      }
+      case _ => {
+
+        val f    = new java.io.File(filePath)
+        val file = scala.io.Source.fromFile(filePath)
+
+        val out : List[ TokenMatch ] = file.getLines().zipWithIndex.flatMap {
+          //Reads all lines and keep the index to get the line number
+          case (lineContent, lineNumber) => {
+            //Check for all patterns
+            patterns.flatMap(p => {
+              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, lineContent, lineNumber, f.getName)
+            })
+          }
+        }.toList
+        file.close()
+        out
+      }
+    }
     //Removes tokens where the keyword was specified but not found in the document
     //It looks a bit weird to filter at the end, but it was done like this because it performs better to read each line only once
     val keywordFoundResults : List[TokenMatch] = patterns.flatMap(p => {

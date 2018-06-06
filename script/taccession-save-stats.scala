@@ -11,19 +11,23 @@ val fileSuffix = "" //date.format(formatter)
 //Init configs
 val config = TaccessionUtils.readConfigFile(System.getProperty("config.file"))
 
-val filePaths = TaccessionUtils.getFilePaths(config)
+val filePaths: String = TaccessionUtils.getFilePaths(config)
 
 //Reads paths 
 val filesRDD = sc.textFile(filePaths, config.sparkPartitions)
+
 
 //Reads all files (this is distributed among all workers)
 val df = filesRDD.flatMap(f => Taccession.searchTokens(config.patterns, f)).toDF().as("dfAll")
 df.cache()
 
+
 def writeToCsv(df: org.apache.spark.sql.DataFrame, fileName: String): Boolean = {
   if (!df.rdd.isEmpty) {
-    println("Writing for " + fileName)
+    println("Writing for " + config.statsOutputFolder.getPath + "/" + fileName)
+
     df.coalesce(1).write.option("header", "true").csv(config.statsOutputFolder.getPath + "/" + fileName)
+
     return true
   } else {
     println("Nothing found for " + fileName)

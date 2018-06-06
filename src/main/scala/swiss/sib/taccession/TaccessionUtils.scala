@@ -47,7 +47,7 @@ object TaccessionUtils {
 
     //Read the absolute path of the publication in the given directory
     val pathFile = "file_names_to_process.txt"
-    val fileNames = recursiveListFiles(config.filesDirectory, """\.txt$""".r).map(f => f.getAbsolutePath()).toList
+    val fileNames = recursiveListFiles(config.filesDirectory, """\.(?:gz|txt|xml)$""".r).map(f => f.getAbsolutePath()).toList
 
     new PrintWriter(pathFile) { write(fileNames.mkString("\n")); close }
 
