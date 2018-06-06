@@ -105,8 +105,21 @@ patterns:
 #-   patternName: variant-literature-protein-DNA-substitution-1
  #   pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d{2,})(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 # avoid e.g. IVS1-3G>T to match as 1-3GT, but misses -3G>T match
--   patternName: variant-literature-protein-DNA-substitution-2
-    pattern: (?<!\.|\w|-|\*)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+#-   patternName: variant-literature-protein-DNA-substitution-2
+ #   pattern: (?<!\.|\w|-|\*)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([A-Z])([a-z]{2})?\s*[- ]*>\s*(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+
+-   patternName: variant-literature-protein-substitution-1
+    pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
+    
+-   patternName: variant-literature-protein-1AA-substitution-2
+    pattern: (?<!\.)(?:\b|^)(\d+)\s*(?:([BD-FH-SU-Z])\s*[- ]*>\s*(?:([A-Z*]))|([A-Z])\s*[- ]*>\s*([BD-FH-SU-Z*]))(?:\b|$)
+    
+-   patternName: variant-literature-protein-3AA-substitution-2
+    pattern: (?<!\.)(?:\b|^)(\d+)\s*([A-Z][a-z]{2})\s*[- ]*>\s*(?:([A-Z][a-z]{2})|(\*))(?:\b|$)
+    
+#avoid e.g. IVS1-3G>T to match as -3GT but does not avoid to match p.-9-15G>T as 9-15G>T...
+-   patternName: variant-literature-DNA-substitution
+    pattern: (?<!\.|\d|\w)(?:\b|^)((?:\-|\*)?\d+)((?:\+|\-)\d+)?\s*([ATGC])\s*[- ]*>\s*([ATGC])(?:\b|$)
 
 -   patternName: variant-hgvs-protein-frameshift
     pattern: (p)\.([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?)?fs(?:(?:\*|Ter|X)(\d+))?(?:\b|$)
