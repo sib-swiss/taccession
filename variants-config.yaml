@@ -1,8 +1,15 @@
 name: Taccession variants configurations
     
+<<<<<<< HEAD
 filesDirectory: /data/user/publications/sample/sample70k/
 statsOutputFolder: stats/stats-variants-trec2017
 dataOutputFolder: /data/user/results/result-variants
+=======
+filesDirectory: /data/user/publications/trec17abstract/test/
+# filesDirectory: /data/user/publications/sample/sample70k/
+statsOutputFolder: /stats/stats-variants-trec2017
+dataOutputFolder: /data/user/results/result-variants-trec2017
+>>>>>>> 2a75d805791b1b422f082f034137e3369dd7df44
 
 sparkPartitions: 200
 
@@ -113,8 +120,8 @@ patterns:
 -   patternName: dbSNP-rsid
     pattern: (?:\b|^)(rs\d+)(?:\b|$)
 
--   patternName: variant-literature-CNV
-    pattern: (expansion|duplication|deletion)
+#-   patternName: variant-literature-CNV
+#   pattern: (expansion|duplication|deletion)
 
 
 # reference sequences found on https://www.ncbi.nlm.nih.gov/books/NBK21091/table/ch18.T.refseq_accession_numbers_and_mole/?report=objectonly
