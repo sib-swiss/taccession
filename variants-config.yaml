@@ -1,15 +1,11 @@
 name: Taccession variants configurations
     
-<<<<<<< HEAD
-filesDirectory: /data/user/publications/sample/sample70k/
-statsOutputFolder: stats/stats-variants-trec2017
-dataOutputFolder: /data/user/results/result-variants
-=======
+
 filesDirectory: /data/user/publications/trec17abstract/test/
 # filesDirectory: /data/user/publications/sample/sample70k/
 statsOutputFolder: /stats/stats-variants-trec2017
 dataOutputFolder: /data/user/results/result-variants-trec2017
->>>>>>> 2a75d805791b1b422f082f034137e3369dd7df44
+# dataOutputFolder: /data/user/results/result-variants
 
 sparkPartitions: 200
 
