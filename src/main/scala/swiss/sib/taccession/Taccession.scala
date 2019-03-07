@@ -74,22 +74,38 @@ object Taccession {
 
       }
       case _ => {
-
+  
         val f    = new java.io.File(filePath)
         val file = scala.io.Source.fromFile(filePath)
-
-        val out : List[ TokenMatch ] = file.getLines().zipWithIndex.flatMap {
+        val out : List[ TokenMatch ] = file.mkString.split("""\.(?=\s+|$)""".zipWithIndex.flatMap {
           //Reads all lines and keep the index to get the line number
-          case (lineContent, lineNumber) => {
+          case (SentenceContent, SentenceNumber) => {
             //Check for all patterns
             patterns.flatMap(p => {
-              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, lineContent, lineNumber, f.getName)
+              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, SentenceContent, SentenceNumber, f.getName)
             })
           }
         }.toList
         file.close()
         out
       }
+//      case _ => {
+//
+//        val f    = new java.io.File(filePath)
+//        val file = scala.io.Source.fromFile(filePath)
+//
+//        val out : List[ TokenMatch ] = file.getLines().zipWithIndex.flatMap {
+//          //Reads all lines and keep the index to get the line number
+//          case (lineContent, lineNumber) => {
+//            //Check for all patterns
+//            patterns.flatMap(p => {
+//              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, lineContent, lineNumber, f.getName)
+//            })
+//          }
+//        }.toList
+//        file.close()
+//        out
+//      }
     }
     //Removes tokens where the keyword was specified but not found in the document
     //It looks a bit weird to filter at the end, but it was done like this because it performs better to read each line only once
