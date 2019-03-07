@@ -6,7 +6,7 @@ name: Taccession variants configurations
 #statsOutputFolder: /stats/stats-variants-trec2017
 statsOutputFolder: /stats/stats-variants-trec2017
 #dataOutputFolder: /data/user/results/result-variants-trec2017
- dataOutputFolder: /data/user/results/result-variants-sentence
+ dataOutputFolder: /data/user/anais/results/result-variants
 
 sparkPartitions: 200
 
