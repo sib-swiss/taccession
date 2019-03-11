@@ -168,7 +168,6 @@ patterns:
 #refseq_protein_alternate=(?:\b|^)AP_\d+\.\d+
 #refseq_protein_predicted=(?:\b|^)XP_\d+\.\d+
 #refseq_protein_unfinished_wgs=(?:\b|^)ZP_\d+\.\d+
-    
 
 
 #-   patternName: refseq_genomic
