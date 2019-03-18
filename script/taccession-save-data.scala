@@ -15,6 +15,7 @@ val filesRDD = sc.textFile(filePaths, config.sparkPartitions)
 val df = filesRDD.flatMap(f => Taccession.searchTokens(config.patterns, f)).toDF()
 
 //Save results in json format
-df.select("matchedPattern", "matchedPatternLength", "lineNumber", "columnNumber", "publicationName", "patternName").write.json(config.dataOutputFolder.getPath + "/json-output")
+df.select("matchedPattern", "matchedPatternLength", "lineNumber", "columnNumber", "publicationName", "patternName").write.json(config.dataOutputFolder.getPath + "/pattern/json-output")
+df.select("context", "publicationName").write.json(config.dataOutputFolder.getPath + "/abstract/json-output")
 
 println("Finished in " + (System.currentTimeMillis() - start) / (60 * 1000.0)  + " min")
