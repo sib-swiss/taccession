@@ -24,6 +24,7 @@ object Taccession {
     
 
       val context = lineContent; // .substring(contextStart, contextEnd).replaceAll("\"", "")
+        println(context)
       TokenMatch(matchedPattern,
         startText + context + endText,
         new Integer(matchedPattern.length),
