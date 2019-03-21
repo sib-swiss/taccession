@@ -23,10 +23,9 @@ object Taccession {
 //      val (contextEnd, endText) = if ((m.start + 50) <= (lineContent.length() - 1)) ((m.start + 50), "...") else (lineContent.length() - 1, "");
     
 
-      val context = lineContent; // .substring(contextStart, contextEnd).replaceAll("\"", "")
-        println(context)
+//      val context = lineContent; // .substring(contextStart, contextEnd).replaceAll("\"", "")
       TokenMatch(matchedPattern,
-        context,
+        lineContent,
         new Integer(matchedPattern.length),
         new Integer(lineNumber + 1),
         new Integer(columnNumber + 1),
