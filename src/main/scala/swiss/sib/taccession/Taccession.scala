@@ -13,7 +13,7 @@ object Taccession {
 
     val foundKeywordValue: Boolean = if (mustFindRegexInFile.isDefined) {
       mustFindRegexInFile.get.findAllIn(lineContent).size > 0
-    } else true;
+    } else true
 
     val result = pattern.findAllMatchIn(lineContent).map(m => {
       val (matchedPattern, columnNumber) = (m.toString(), m.start)
@@ -84,10 +84,10 @@ object Taccession {
           case (sentenceContent, sentenceNumber) => {
             //Check for all patterns
             patterns.flatMap(p => {
-              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, SentenceContent, SentenceNumber, f.getName)
+              searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, sentenceContent, sentenceNumber, f.getName)
             })
           }
-        }.toList
+        }
         file.close()
         out
       }
@@ -112,9 +112,9 @@ object Taccession {
     //Removes tokens where the keyword was specified but not found in the document
     //It looks a bit weird to filter at the end, but it was done like this because it performs better to read each line only once
     val keywordFoundResults : List[TokenMatch] = patterns.flatMap(p => {
-      val tokensFoundForPattern = rawResult.filter(t => t.patternName.equals(p.patternName));
+      val tokensFoundForPattern = rawResult.filter(t => t.patternName.equals(p.patternName))
       if(p.mustFindRegexInFile.isDefined){
-        val foundKeyword = tokensFoundForPattern.find(t => t.containsMustFindKeywordInCurrentLine);
+        val foundKeyword = tokensFoundForPattern.find(t => t.containsMustFindKeywordInCurrentLine)
         if(foundKeyword.isDefined)
           Some(tokensFoundForPattern)
         else None
@@ -122,9 +122,9 @@ object Taccession {
     }).flatten
 
     //Filters out the excluded tokens
-    val excludedTokensResults = keywordFoundResults.filter(t => !t.containsExcludedToken).toList;
+    val excludedTokensResults = keywordFoundResults.filter(t => !t.containsExcludedToken).toList
 
-    return excludedTokensResults;
+    excludedTokensResults
   }
 
 }
