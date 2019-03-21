@@ -79,7 +79,7 @@ object Taccession {
   
         val f    = new java.io.File(filePath)
         val file = scala.io.Source.fromFile(filePath)
-        val out : List[ TokenMatch ] = file.mkString.split("""\.(?=\s+|$)""".zipWithIndex.flatMap {
+        val out : List[ TokenMatch ] = file.mkString.split("""\.(?=\s+|$)""").zipWithIndex.flatMap {
           //Reads all lines and keep the index to get the line number
           case (SentenceContent, SentenceNumber) => {
             //Check for all patterns
