@@ -26,7 +26,7 @@ object Taccession {
       val context = lineContent; // .substring(contextStart, contextEnd).replaceAll("\"", "")
         println(context)
       TokenMatch(matchedPattern,
-        startText + context + endText,
+        context,
         new Integer(matchedPattern.length),
         new Integer(lineNumber + 1),
         new Integer(columnNumber + 1),
@@ -80,8 +80,8 @@ object Taccession {
         val f    = new java.io.File(filePath)
         val file = scala.io.Source.fromFile(filePath)
         val out : List[ TokenMatch ] = file.mkString.split("""\.(?=\s+|$)""").zipWithIndex.flatMap {
-          //Reads all lines and keep the index to get the line number
-          case (SentenceContent, SentenceNumber) => {
+          //Reads all sentences and keep the index to get the sentence number
+          case (sentenceContent, sentenceNumber) => {
             //Check for all patterns
             patterns.flatMap(p => {
               searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, SentenceContent, SentenceNumber, f.getName)
