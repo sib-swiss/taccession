@@ -87,7 +87,7 @@ object Taccession {
               searchTokenForPattern(p.patternName, p.pattern, p.mustFindRegexInFile, p.excludeTokens, sentenceContent, sentenceNumber, f.getName)
             })
           }
-        }
+        }.toList
         file.close()
         out
       }
