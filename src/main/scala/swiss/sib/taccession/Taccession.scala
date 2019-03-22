@@ -78,7 +78,7 @@ object Taccession {
   
         val f    = new java.io.File(filePath)
         val file = scala.io.Source.fromFile(filePath)
-        val out : List[ TokenMatch ] = file.mkString.split("""\.(?=\s+|$)""").zipWithIndex.flatMap {
+        val out : List[ TokenMatch ] = file.mkString.plit("""====\sBody|====\sRefs""").lift(1).split("""(?<!\set\sal)\.(?=\s+|$)""").zipWithIndex.flatMap { // ==== Body ==== Refs
           //Reads all sentences and keep the index to get the sentence number
           case (sentenceContent, sentenceNumber) => {
             //Check for all patterns
