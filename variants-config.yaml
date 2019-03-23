@@ -117,16 +117,25 @@ patterns:
 #-   patternName: variant-literature-protein-substitution-1
 #    pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 
--   patternName: variant-literature-protein-1lc-substitution-1
-    pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Za-z])(\d+)(?:([A-Za-z])|(\*))(?:\b|$)
+-   patternName: variant-literature-protein-1lc-substitution-1a
+    pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Z])(\d+)(?:([A-Z])|(\*))(?:\b|$)
 
--   patternName: variant-literature-protein-3lc-substitution-1
-    pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Za-z])([a-z]{2})(\d+)(?:([A-Za-z])([a-z]{2})|(\*))(?:\b|$)
+-   patternName: variant-literature-protein-1lc-substitution-1b
+    pattern: (?<!\.)(?:\b|^|\w{3,8})([a-z])(\d+)(?:([a-z])|(\*))(?:\b|$)
+
+-   patternName: variant-literature-protein-3lc-substitution-2a
+    pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Z])([a-z]{2})(\d+)(?:([A-Z])([a-z]{2})|(\*))(?:\b|$)
+
+-   patternName: variant-literature-protein-3lc-substitution-2b
+    pattern: (?<!\.)(?:\b|^|\w{3,8})([a-z]{3})(\d+)(?:([a-z]{3})|(\*))(?:\b|$)
+
+-   patternName: variant-literature-protein-3lc-substitution-2c
+    pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Z]{3})(\d+)(?:([A-Z]{3})|(\*))(?:\b|$)
     
 #-   patternName: variant-literature-protein-1AA-substitution-2
 #    pattern: (?<!\.)(?:\b|^)(\d+)\s*(?:([BD-FH-SU-Z])\s*[- ]*>\s*(?:([A-Z*]))|([A-Z])\s*[- ]*>\s*([BD-FH-SU-Z*]))(?:\b|$)
 
--   patternName: variant-literature-protein-1lc-substitution-2
+-   patternName: variant-literature-protein-1lc-substitution-1
     pattern: (?<!\.)(\d+)\s*(?:([BD-FH-SU-Z])\s*[- ]*>\s*(?:([A-Z*]))|([A-Z])\s*[- ]*>\s*([BD-FH-SU-Z*]))(?:\b|$)
     
 #-   patternName: variant-literature-protein-3AA-substitution-2
