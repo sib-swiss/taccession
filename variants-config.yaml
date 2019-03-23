@@ -117,7 +117,7 @@ patterns:
 #-   patternName: variant-literature-protein-substitution-1
 #    pattern: (?<!\.)(?:\b|^)([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
 
--   patternName: variant-literature-protein-substitution-1
+-   patternName: variant-literature-protein-substitution-1b
     pattern: (?<!\.)(?:\b|^|\w{3,8})([A-Z])([a-z]{2})?(\d+)(?:([A-Z])([a-z]{2})?|(\*))(?:\b|$)
     
 #-   patternName: variant-literature-protein-1AA-substitution-2
