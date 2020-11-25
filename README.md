@@ -1,8 +1,7 @@
 # Taccession 
 
-**Note:** The TAccession project is partially funded by the Business, Management and Services field of the HES-SO. 
-
 Text Mining of SIB accessions in the literature. 
+
 ## Build
 ```
 sbt package #This creates the following jar file: target/scala-2.11/taccession_2.11-1.0.jar
@@ -58,3 +57,7 @@ Simply add the master option followed by its url at the end of the TACCESSION_CM
 ```
 --master spark://goldorak:7077 
 ```
+
+
+**Note:** The TAccession project is partially funded by the Business, Management and Services field of the HES-SO. 
+
