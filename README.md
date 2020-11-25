@@ -1,6 +1,6 @@
 # Taccession 
 
-**Note:** This project is under **active development**.
+**Note:** The TAccession project is partially funded by the Business, Management and Services field of the HES-SO. 
 
 Text Mining of SIB accessions in the literature. 
 ## Build
